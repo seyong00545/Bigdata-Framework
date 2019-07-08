@@ -1,0 +1,292 @@
+Spark Command: /usr/lib/jvm/java-8-oracle//bin/java -cp /home/ice/spark/conf/:/home/ice/spark/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8083 spark://ice-PMBSB09A-Samsung-DeskTop:7077
+========================================
+2019-06-22 23:59:52 INFO  Worker:2566 - Started daemon with process name: 4282@ice-PMBSB09A-Samsung-DeskTop
+2019-06-22 23:59:52 INFO  SignalUtils:54 - Registered signal handler for TERM
+2019-06-22 23:59:52 INFO  SignalUtils:54 - Registered signal handler for HUP
+2019-06-22 23:59:52 INFO  SignalUtils:54 - Registered signal handler for INT
+2019-06-22 23:59:52 WARN  Utils:66 - Your hostname, ice-PMBSB09A-Samsung-DeskTop resolves to a loopback address: 127.0.1.1; using 192.168.0.76 instead (on interface enp4s0)
+2019-06-22 23:59:52 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2019-06-22 23:59:53 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-22 23:59:53 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-22 23:59:53 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-22 23:59:53 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-22 23:59:53 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-22 23:59:53 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-22 23:59:53 INFO  Utils:54 - Successfully started service 'sparkWorker' on port 35495.
+2019-06-22 23:59:53 INFO  Worker:54 - Starting Spark worker 192.168.0.76:35495 with 1 cores, 1024.0 MB RAM
+2019-06-22 23:59:53 INFO  Worker:54 - Running Spark version 2.4.0
+2019-06-22 23:59:53 INFO  Worker:54 - Spark home: /home/ice/spark
+2019-06-22 23:59:53 INFO  log:192 - Logging initialized @1009ms
+2019-06-22 23:59:53 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-06-22 23:59:53 INFO  Server:419 - Started @1052ms
+2019-06-22 23:59:53 INFO  AbstractConnector:278 - Started ServerConnector@68a0af00{HTTP/1.1,[http/1.1]}{0.0.0.0:8083}
+2019-06-22 23:59:53 INFO  Utils:54 - Successfully started service 'WorkerUI' on port 8083.
+2019-06-22 23:59:53 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@11db72ec{/logPage,null,AVAILABLE,@Spark}
+2019-06-22 23:59:53 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@ed80885{/logPage/json,null,AVAILABLE,@Spark}
+2019-06-22 23:59:53 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@15e3a340{/,null,AVAILABLE,@Spark}
+2019-06-22 23:59:53 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@39ababa6{/json,null,AVAILABLE,@Spark}
+2019-06-22 23:59:53 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77791036{/static,null,AVAILABLE,@Spark}
+2019-06-22 23:59:53 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@582bdbb{/log,null,AVAILABLE,@Spark}
+2019-06-22 23:59:53 INFO  WorkerWebUI:54 - Bound WorkerWebUI to 0.0.0.0, and started at http://192.168.0.76:8083
+2019-06-22 23:59:53 INFO  Worker:54 - Connecting to master ice-PMBSB09A-Samsung-DeskTop:7077...
+2019-06-22 23:59:53 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57cc3b8{/metrics/json,null,AVAILABLE,@Spark}
+2019-06-22 23:59:53 INFO  TransportClientFactory:267 - Successfully created connection to ice-PMBSB09A-Samsung-DeskTop/127.0.1.1:7077 after 21 ms (0 ms spent in bootstraps)
+2019-06-22 23:59:53 INFO  Worker:54 - Successfully registered with master spark://ice-PMBSB09A-Samsung-DeskTop:7077
+2019-06-23 00:00:15 INFO  Worker:54 - Asked to launch executor app-20190623000015-0000/1 for Data Fusion edge side
+2019-06-23 00:00:15 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:00:15 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:00:15 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:00:15 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:00:15 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:00:15 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=35411" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:35411" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623000015-0000" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:00:44 INFO  Worker:54 - Asked to kill executor app-20190623000015-0000/1
+2019-06-23 00:00:44 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623000015-0000/1 interrupted
+2019-06-23 00:00:44 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:00:44 INFO  Worker:54 - Executor app-20190623000015-0000/1 finished with state KILLED exitStatus 143
+2019-06-23 00:00:44 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:00:44 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623000015-0000, execId=1)
+2019-06-23 00:00:44 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623000015-0000 removed, cleanupLocalDirs = true
+2019-06-23 00:00:44 INFO  Worker:54 - Cleaning up local directories for application app-20190623000015-0000
+2019-06-23 00:03:10 INFO  Worker:54 - Asked to launch executor app-20190623000310-0001/1 for Data Fusion edge side
+2019-06-23 00:03:10 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:03:10 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:03:10 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:03:10 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:03:10 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:03:10 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=40793" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:40793" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623000310-0001" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:04:46 INFO  Worker:54 - Asked to kill executor app-20190623000310-0001/1
+2019-06-23 00:04:46 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623000310-0001/1 interrupted
+2019-06-23 00:04:46 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:04:47 INFO  Worker:54 - Executor app-20190623000310-0001/1 finished with state KILLED exitStatus 143
+2019-06-23 00:04:47 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:04:47 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623000310-0001, execId=1)
+2019-06-23 00:04:47 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623000310-0001 removed, cleanupLocalDirs = true
+2019-06-23 00:04:47 INFO  Worker:54 - Cleaning up local directories for application app-20190623000310-0001
+2019-06-23 00:11:01 INFO  Worker:54 - Asked to launch executor app-20190623001101-0002/1 for Data Fusion edge side
+2019-06-23 00:11:01 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:11:01 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:11:01 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:11:01 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:11:01 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:11:01 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=34623" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:34623" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623001101-0002" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:11:08 INFO  Worker:54 - Asked to kill executor app-20190623001101-0002/1
+2019-06-23 00:11:08 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623001101-0002/1 interrupted
+2019-06-23 00:11:08 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:11:09 INFO  Worker:54 - Executor app-20190623001101-0002/1 finished with state KILLED exitStatus 143
+2019-06-23 00:11:09 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:11:09 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623001101-0002, execId=1)
+2019-06-23 00:11:09 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623001101-0002 removed, cleanupLocalDirs = true
+2019-06-23 00:11:09 INFO  Worker:54 - Cleaning up local directories for application app-20190623001101-0002
+2019-06-23 00:12:36 INFO  Worker:54 - Asked to launch executor app-20190623001236-0003/1 for Data Fusion edge side
+2019-06-23 00:12:36 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:12:36 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:12:36 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:12:36 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:12:36 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:12:36 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=45109" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:45109" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623001236-0003" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:12:42 INFO  Worker:54 - Asked to kill executor app-20190623001236-0003/1
+2019-06-23 00:12:42 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623001236-0003/1 interrupted
+2019-06-23 00:12:42 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:12:43 INFO  Worker:54 - Executor app-20190623001236-0003/1 finished with state KILLED exitStatus 143
+2019-06-23 00:12:43 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:12:43 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623001236-0003, execId=1)
+2019-06-23 00:12:43 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623001236-0003 removed, cleanupLocalDirs = true
+2019-06-23 00:12:43 INFO  Worker:54 - Cleaning up local directories for application app-20190623001236-0003
+2019-06-23 00:13:54 INFO  Worker:54 - Asked to launch executor app-20190623001354-0004/1 for Data Fusion edge side
+2019-06-23 00:13:54 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:13:54 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:13:54 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:13:54 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:13:54 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:13:54 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=32815" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:32815" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623001354-0004" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:15:27 INFO  Worker:54 - Asked to kill executor app-20190623001354-0004/1
+2019-06-23 00:15:27 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623001354-0004/1 interrupted
+2019-06-23 00:15:27 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:15:27 INFO  Worker:54 - Executor app-20190623001354-0004/1 finished with state KILLED exitStatus 0
+2019-06-23 00:15:27 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:15:27 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623001354-0004, execId=1)
+2019-06-23 00:15:27 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623001354-0004 removed, cleanupLocalDirs = true
+2019-06-23 00:15:27 INFO  Worker:54 - Cleaning up local directories for application app-20190623001354-0004
+2019-06-23 00:15:31 INFO  Worker:54 - Asked to launch executor app-20190623001531-0005/1 for Data Fusion edge side
+2019-06-23 00:15:31 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:15:31 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:15:31 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:15:31 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:15:31 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:15:31 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=43575" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:43575" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623001531-0005" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:16:06 INFO  Worker:54 - Asked to kill executor app-20190623001531-0005/1
+2019-06-23 00:16:06 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623001531-0005/1 interrupted
+2019-06-23 00:16:06 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:16:06 INFO  Worker:54 - Executor app-20190623001531-0005/1 finished with state KILLED exitStatus 143
+2019-06-23 00:16:06 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:16:06 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623001531-0005, execId=1)
+2019-06-23 00:16:06 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623001531-0005 removed, cleanupLocalDirs = true
+2019-06-23 00:16:06 INFO  Worker:54 - Cleaning up local directories for application app-20190623001531-0005
+2019-06-23 00:26:42 INFO  Worker:54 - Asked to launch executor app-20190623002642-0006/1 for Data Fusion edge side
+2019-06-23 00:26:42 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:26:42 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:26:42 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:26:42 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:26:42 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:26:42 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=45809" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:45809" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623002642-0006" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:26:56 INFO  Worker:54 - Asked to kill executor app-20190623002642-0006/1
+2019-06-23 00:26:56 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623002642-0006/1 interrupted
+2019-06-23 00:26:56 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:26:57 INFO  Worker:54 - Executor app-20190623002642-0006/1 finished with state KILLED exitStatus 143
+2019-06-23 00:26:57 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:26:57 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623002642-0006, execId=1)
+2019-06-23 00:26:57 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623002642-0006 removed, cleanupLocalDirs = true
+2019-06-23 00:26:57 INFO  Worker:54 - Cleaning up local directories for application app-20190623002642-0006
+2019-06-23 00:27:02 INFO  Worker:54 - Asked to launch executor app-20190623002702-0007/1 for Data Fusion edge side
+2019-06-23 00:27:02 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:27:02 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:27:02 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:27:02 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:27:02 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:27:02 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=38741" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:38741" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623002702-0007" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:27:21 INFO  Worker:54 - Asked to kill executor app-20190623002702-0007/1
+2019-06-23 00:27:21 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623002702-0007/1 interrupted
+2019-06-23 00:27:21 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:27:21 INFO  Worker:54 - Executor app-20190623002702-0007/1 finished with state KILLED exitStatus 143
+2019-06-23 00:27:21 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:27:21 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623002702-0007, execId=1)
+2019-06-23 00:27:21 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623002702-0007 removed, cleanupLocalDirs = true
+2019-06-23 00:27:21 INFO  Worker:54 - Cleaning up local directories for application app-20190623002702-0007
+2019-06-23 00:27:25 INFO  Worker:54 - Asked to launch executor app-20190623002725-0008/1 for Data Fusion edge side
+2019-06-23 00:27:25 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:27:25 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:27:25 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:27:25 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:27:25 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:27:25 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=39343" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:39343" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623002725-0008" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:27:46 INFO  Worker:54 - Asked to kill executor app-20190623002725-0008/1
+2019-06-23 00:27:46 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623002725-0008/1 interrupted
+2019-06-23 00:27:46 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:27:46 INFO  Worker:54 - Executor app-20190623002725-0008/1 finished with state KILLED exitStatus 143
+2019-06-23 00:27:46 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:27:46 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623002725-0008, execId=1)
+2019-06-23 00:27:46 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623002725-0008 removed, cleanupLocalDirs = true
+2019-06-23 00:27:46 INFO  Worker:54 - Cleaning up local directories for application app-20190623002725-0008
+2019-06-23 00:27:53 INFO  Worker:54 - Asked to launch executor app-20190623002753-0009/1 for Data Fusion edge side
+2019-06-23 00:27:53 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:27:53 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:27:53 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:27:53 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:27:53 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:27:53 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=33183" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:33183" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623002753-0009" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:28:24 INFO  Worker:54 - Asked to kill executor app-20190623002753-0009/1
+2019-06-23 00:28:24 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623002753-0009/1 interrupted
+2019-06-23 00:28:24 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:28:25 INFO  Worker:54 - Executor app-20190623002753-0009/1 finished with state KILLED exitStatus 143
+2019-06-23 00:28:25 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:28:25 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623002753-0009, execId=1)
+2019-06-23 00:28:25 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623002753-0009 removed, cleanupLocalDirs = true
+2019-06-23 00:28:25 INFO  Worker:54 - Cleaning up local directories for application app-20190623002753-0009
+2019-06-23 00:28:38 INFO  Worker:54 - Asked to launch executor app-20190623002838-0010/1 for Data Fusion edge side
+2019-06-23 00:28:38 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:28:38 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:28:38 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:28:38 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:28:38 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:28:38 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=44185" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:44185" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623002838-0010" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:29:49 INFO  Worker:54 - Asked to kill executor app-20190623002838-0010/1
+2019-06-23 00:29:49 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623002838-0010/1 interrupted
+2019-06-23 00:29:49 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:29:50 INFO  Worker:54 - Executor app-20190623002838-0010/1 finished with state KILLED exitStatus 143
+2019-06-23 00:29:50 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:29:50 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623002838-0010, execId=1)
+2019-06-23 00:29:50 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623002838-0010 removed, cleanupLocalDirs = true
+2019-06-23 00:29:50 INFO  Worker:54 - Cleaning up local directories for application app-20190623002838-0010
+2019-06-23 00:29:55 INFO  Worker:54 - Asked to launch executor app-20190623002955-0011/1 for Data Fusion edge side
+2019-06-23 00:29:55 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:29:55 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:29:55 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:29:55 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:29:55 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:29:55 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=42531" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:42531" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623002955-0011" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:30:49 INFO  Worker:54 - Asked to kill executor app-20190623002955-0011/1
+2019-06-23 00:30:49 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623002955-0011/1 interrupted
+2019-06-23 00:30:49 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:30:50 INFO  Worker:54 - Executor app-20190623002955-0011/1 finished with state KILLED exitStatus 143
+2019-06-23 00:30:50 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:30:50 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623002955-0011, execId=1)
+2019-06-23 00:30:50 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623002955-0011 removed, cleanupLocalDirs = true
+2019-06-23 00:30:50 INFO  Worker:54 - Cleaning up local directories for application app-20190623002955-0011
+2019-06-23 00:30:54 INFO  Worker:54 - Asked to launch executor app-20190623003054-0012/1 for Data Fusion edge side
+2019-06-23 00:30:54 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:30:54 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:30:54 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:30:54 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:30:54 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:30:54 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=36781" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:36781" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623003054-0012" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:35:44 INFO  Worker:54 - Asked to kill executor app-20190623003054-0012/1
+2019-06-23 00:35:44 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623003054-0012/1 interrupted
+2019-06-23 00:35:44 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:35:45 INFO  Worker:54 - Executor app-20190623003054-0012/1 finished with state KILLED exitStatus 143
+2019-06-23 00:35:45 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:35:45 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623003054-0012, execId=1)
+2019-06-23 00:35:45 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623003054-0012 removed, cleanupLocalDirs = true
+2019-06-23 00:35:45 INFO  Worker:54 - Cleaning up local directories for application app-20190623003054-0012
+2019-06-23 00:54:34 INFO  Worker:54 - Asked to launch executor app-20190623005434-0013/1 for Data Fusion edge side
+2019-06-23 00:54:34 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:54:34 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:54:34 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:54:34 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:54:34 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:54:34 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=39877" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:39877" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623005434-0013" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:55:52 INFO  Worker:54 - Asked to kill executor app-20190623005434-0013/1
+2019-06-23 00:55:52 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623005434-0013/1 interrupted
+2019-06-23 00:55:52 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:55:52 INFO  Worker:54 - Executor app-20190623005434-0013/1 finished with state KILLED exitStatus 143
+2019-06-23 00:55:52 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:55:52 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623005434-0013, execId=1)
+2019-06-23 00:55:52 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623005434-0013 removed, cleanupLocalDirs = true
+2019-06-23 00:55:52 INFO  Worker:54 - Cleaning up local directories for application app-20190623005434-0013
+2019-06-23 00:55:57 INFO  Worker:54 - Asked to launch executor app-20190623005557-0014/1 for Data Fusion edge side
+2019-06-23 00:55:57 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:55:57 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:55:57 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:55:57 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:55:57 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:55:57 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=37075" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:37075" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623005557-0014" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:57:18 INFO  Worker:54 - Asked to kill executor app-20190623005557-0014/1
+2019-06-23 00:57:18 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623005557-0014/1 interrupted
+2019-06-23 00:57:18 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:57:18 INFO  Worker:54 - Executor app-20190623005557-0014/1 finished with state KILLED exitStatus 143
+2019-06-23 00:57:18 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:57:18 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623005557-0014, execId=1)
+2019-06-23 00:57:18 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623005557-0014 removed, cleanupLocalDirs = true
+2019-06-23 00:57:18 INFO  Worker:54 - Cleaning up local directories for application app-20190623005557-0014
+2019-06-23 00:57:22 INFO  Worker:54 - Asked to launch executor app-20190623005722-0015/1 for Data Fusion edge side
+2019-06-23 00:57:22 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:57:22 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:57:22 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:57:22 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:57:22 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:57:22 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=46267" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:46267" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623005722-0015" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 00:59:19 INFO  Worker:54 - Asked to kill executor app-20190623005722-0015/1
+2019-06-23 00:59:19 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623005722-0015/1 interrupted
+2019-06-23 00:59:19 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 00:59:19 INFO  Worker:54 - Executor app-20190623005722-0015/1 finished with state KILLED exitStatus 143
+2019-06-23 00:59:19 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 00:59:19 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623005722-0015, execId=1)
+2019-06-23 00:59:19 INFO  Worker:54 - Cleaning up local directories for application app-20190623005722-0015
+2019-06-23 00:59:19 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623005722-0015 removed, cleanupLocalDirs = true
+2019-06-23 00:59:24 INFO  Worker:54 - Asked to launch executor app-20190623005924-0016/1 for Data Fusion edge side
+2019-06-23 00:59:24 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:59:24 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:59:24 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:59:24 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:59:24 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:59:24 INFO  ExecutorRunner:54 - Launch command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=41075" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:41075" "--executor-id" "1" "--hostname" "192.168.0.76" "--cores" "1" "--app-id" "app-20190623005924-0016" "--worker-url" "spark://Worker@192.168.0.76:35495"
+2019-06-23 01:02:11 INFO  Worker:54 - Asked to kill executor app-20190623005924-0016/1
+2019-06-23 01:02:11 INFO  ExecutorRunner:54 - Runner thread for executor app-20190623005924-0016/1 interrupted
+2019-06-23 01:02:11 INFO  ExecutorRunner:54 - Killing process!
+2019-06-23 01:02:11 INFO  Worker:54 - Executor app-20190623005924-0016/1 finished with state KILLED exitStatus 143
+2019-06-23 01:02:11 INFO  ExternalShuffleBlockResolver:224 - Clean up non-shuffle files associated with the finished executor 1
+2019-06-23 01:02:11 INFO  ExternalShuffleBlockResolver:229 - Executor is not registered (appId=app-20190623005924-0016, execId=1)
+2019-06-23 01:02:11 INFO  ExternalShuffleBlockResolver:191 - Application app-20190623005924-0016 removed, cleanupLocalDirs = true
+2019-06-23 01:02:11 INFO  Worker:54 - Cleaning up local directories for application app-20190623005924-0016
+2019-06-23 01:30:13 ERROR Worker:43 - RECEIVED SIGNAL TERM
+2019-06-23 01:30:13 INFO  ShutdownHookManager:54 - Shutdown hook called
+2019-06-23 01:30:13 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-71170536-533a-4c11-8a69-19941578000a

@@ -1,0 +1,5 @@
+[2019-02-19 17:27:46,037] INFO Accepted socket connection from /127.0.0.1:41664 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-02-19 17:27:46,039] INFO Client attempting to establish new session at /127.0.0.1:41664 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-02-19 17:27:46,054] INFO Established session 0x100144809a10008 with negotiated timeout 6000 for client /127.0.0.1:41664 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-02-19 17:28:22,040] INFO Processed session termination for sessionid: 0x100144809a10008 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-02-19 17:28:22,060] INFO Closed socket connection for client /127.0.0.1:41664 which had sessionid 0x100144809a10008 (org.apache.zookeeper.server.NIOServerCnxn)

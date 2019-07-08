@@ -1,0 +1,4 @@
+[2019-06-11 00:15:56,235] INFO The cleaning for partition server-ws-0 is aborted and paused (kafka.log.LogCleaner)
+[2019-06-11 00:15:56,235] INFO The cleaning for partition server-ws-0 is aborted (kafka.log.LogCleaner)
+[2019-06-11 00:16:21,479] INFO The cleaning for partition toCloud22-0 is aborted and paused (kafka.log.LogCleaner)
+[2019-06-11 00:16:21,479] INFO The cleaning for partition toCloud22-0 is aborted (kafka.log.LogCleaner)

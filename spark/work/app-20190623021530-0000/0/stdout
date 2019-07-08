@@ -1,0 +1,1199 @@
+2019-06-23 02:15:30 INFO  CoarseGrainedExecutorBackend:2566 - Started daemon with process name: 979@ice-PMBSB09A-Samsung-DeskTop
+2019-06-23 02:15:30 INFO  SignalUtils:54 - Registered signal handler for TERM
+2019-06-23 02:15:30 INFO  SignalUtils:54 - Registered signal handler for HUP
+2019-06-23 02:15:30 INFO  SignalUtils:54 - Registered signal handler for INT
+2019-06-23 02:15:30 WARN  Utils:66 - Your hostname, ice-PMBSB09A-Samsung-DeskTop resolves to a loopback address: 127.0.1.1; using 192.168.0.76 instead (on interface enp4s0)
+2019-06-23 02:15:30 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2019-06-23 02:15:31 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-23 02:15:31 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 02:15:31 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 02:15:31 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 02:15:31 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 02:15:31 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 02:15:31 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:36203 after 38 ms (0 ms spent in bootstraps)
+2019-06-23 02:15:31 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 02:15:31 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 02:15:31 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 02:15:31 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 02:15:31 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 02:15:31 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:36203 after 0 ms (0 ms spent in bootstraps)
+2019-06-23 02:15:31 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/blockmgr-729fda52-9023-4dd9-9635-622b9d70ac4d
+2019-06-23 02:15:31 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2019-06-23 02:15:31 INFO  CoarseGrainedExecutorBackend:54 - Connecting to driver: spark://CoarseGrainedScheduler@192.168.0.76:36203
+2019-06-23 02:15:31 INFO  WorkerWatcher:54 - Connecting to worker spark://Worker@192.168.0.76:43293
+2019-06-23 02:15:31 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:43293 after 11 ms (0 ms spent in bootstraps)
+2019-06-23 02:15:31 INFO  WorkerWatcher:54 - Successfully connected to spark://Worker@192.168.0.76:43293
+2019-06-23 02:15:31 INFO  CoarseGrainedExecutorBackend:54 - Successfully registered with driver
+2019-06-23 02:15:31 INFO  Executor:54 - Starting executor ID 0 on host 192.168.0.76
+2019-06-23 02:15:31 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39317.
+2019-06-23 02:15:31 INFO  NettyBlockTransferService:54 - Server created on 192.168.0.76:39317
+2019-06-23 02:15:31 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-06-23 02:15:31 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(0, 192.168.0.76, 39317, None)
+2019-06-23 02:15:31 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(0, 192.168.0.76, 39317, None)
+2019-06-23 02:15:31 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(0, 192.168.0.76, 39317, None)
+2019-06-23 02:15:31 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 0
+2019-06-23 02:15:31 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar with timestamp 1561223730082
+2019-06-23 02:15:31 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:36203 after 1 ms (0 ms spent in bootstraps)
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp728932647219126402.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/2745229951561223730082_cache to /home/ice/spark/work/app-20190623021530-0000/0/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/org.apache.kafka_kafka-clients-0.8.2.1.jar with timestamp 1561223730090
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/org.apache.kafka_kafka-clients-0.8.2.1.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp6808824619057147176.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-12833485991561223730090_cache to /home/ice/spark/work/app-20190623021530-0000/0/./org.apache.kafka_kafka-clients-0.8.2.1.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/com.yammer.metrics_metrics-core-2.2.0.jar with timestamp 1561223730084
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/com.yammer.metrics_metrics-core-2.2.0.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp2603781431738888603.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-20240991171561223730084_cache to /home/ice/spark/work/app-20190623021530-0000/0/./com.yammer.metrics_metrics-core-2.2.0.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1561223730092
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp8476058195115611141.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-14650555211561223730092_cache to /home/ice/spark/work/app-20190623021530-0000/0/./org.slf4j_slf4j-api-1.7.16.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar with timestamp 1561223730069
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp8344281783375890438.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/5023942701561223730069_cache to /home/ice/spark/work/app-20190623021530-0000/0/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/org.spark-project.spark_unused-1.0.0.jar with timestamp 1561223730080
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/org.spark-project.spark_unused-1.0.0.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp5587451361711946285.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-18264012941561223730080_cache to /home/ice/spark/work/app-20190623021530-0000/0/./org.spark-project.spark_unused-1.0.0.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/org.apache.kafka_kafka_2.11-0.8.2.1.jar with timestamp 1561223730076
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/org.apache.kafka_kafka_2.11-0.8.2.1.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp8466410610233375320.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/698362391561223730076_cache to /home/ice/spark/work/app-20190623021530-0000/0/./org.apache.kafka_kafka_2.11-0.8.2.1.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar with timestamp 1561223730086
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp2257450182911606592.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/4647043361561223730086_cache to /home/ice/spark/work/app-20190623021530-0000/0/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/org.xerial.snappy_snappy-java-1.1.7.1.jar with timestamp 1561223730097
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/org.xerial.snappy_snappy-java-1.1.7.1.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp5372153784295772719.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/10207868951561223730097_cache to /home/ice/spark/work/app-20190623021530-0000/0/./org.xerial.snappy_snappy-java-1.1.7.1.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/net.jpountz.lz4_lz4-1.2.0.jar with timestamp 1561223730095
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/net.jpountz.lz4_lz4-1.2.0.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp2682650486621851443.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-10848345051561223730095_cache to /home/ice/spark/work/app-20190623021530-0000/0/./net.jpountz.lz4_lz4-1.2.0.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/com.101tec_zkclient-0.3.jar with timestamp 1561223730088
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/com.101tec_zkclient-0.3.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp5063843354484865137.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/15580021571561223730088_cache to /home/ice/spark/work/app-20190623021530-0000/0/./com.101tec_zkclient-0.3.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/files/log4j_log4j-1.2.17.jar with timestamp 1561223730093
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/files/log4j_log4j-1.2.17.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp425820912301560255.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - Copying /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-19794022461561223730093_cache to /home/ice/spark/work/app-20190623021530-0000/0/./log4j_log4j-1.2.17.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar with timestamp 1561223730053
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp1825777600889498281.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-6374257441561223730053_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/com.101tec_zkclient-0.3.jar with timestamp 1561223730054
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/com.101tec_zkclient-0.3.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp1210354120056767732.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-17868557661561223730054_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./com.101tec_zkclient-0.3.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./com.101tec_zkclient-0.3.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/net.jpountz.lz4_lz4-1.2.0.jar with timestamp 1561223730054
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/net.jpountz.lz4_lz4-1.2.0.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp2150190641445671261.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/14372061961561223730054_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./net.jpountz.lz4_lz4-1.2.0.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./net.jpountz.lz4_lz4-1.2.0.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/org.xerial.snappy_snappy-java-1.1.7.1.jar with timestamp 1561223730054
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/org.xerial.snappy_snappy-java-1.1.7.1.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp4577645015737332118.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-10485804041561223730054_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./org.xerial.snappy_snappy-java-1.1.7.1.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./org.xerial.snappy_snappy-java-1.1.7.1.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/log4j_log4j-1.2.17.jar with timestamp 1561223730054
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/log4j_log4j-1.2.17.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp5358817499384234721.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/9316887331561223730054_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./log4j_log4j-1.2.17.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./log4j_log4j-1.2.17.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar with timestamp 1561223730053
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp555619632259308936.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-10203019651561223730053_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/org.apache.kafka_kafka-clients-0.8.2.1.jar with timestamp 1561223730054
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/org.apache.kafka_kafka-clients-0.8.2.1.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp4130654195807800865.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-10092254281561223730054_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./org.apache.kafka_kafka-clients-0.8.2.1.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./org.apache.kafka_kafka-clients-0.8.2.1.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/org.apache.kafka_kafka_2.11-0.8.2.1.jar with timestamp 1561223730053
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/org.apache.kafka_kafka_2.11-0.8.2.1.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp4471438915408552011.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-1110878601561223730053_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./org.apache.kafka_kafka_2.11-0.8.2.1.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./org.apache.kafka_kafka_2.11-0.8.2.1.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/com.yammer.metrics_metrics-core-2.2.0.jar with timestamp 1561223730053
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/com.yammer.metrics_metrics-core-2.2.0.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp7155148289243448504.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/2015008801561223730053_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./com.yammer.metrics_metrics-core-2.2.0.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./com.yammer.metrics_metrics-core-2.2.0.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/org.spark-project.spark_unused-1.0.0.jar with timestamp 1561223730053
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/org.spark-project.spark_unused-1.0.0.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp6069880253575019369.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/11548862291561223730053_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./org.spark-project.spark_unused-1.0.0.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./org.spark-project.spark_unused-1.0.0.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1561223730054
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp568420920150151079.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-5912051181561223730054_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./org.slf4j_slf4j-api-1.7.16.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./org.slf4j_slf4j-api-1.7.16.jar to class loader
+2019-06-23 02:15:31 INFO  Executor:54 - Fetching spark://192.168.0.76:36203/jars/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar with timestamp 1561223730052
+2019-06-23 02:15:31 INFO  Utils:54 - Fetching spark://192.168.0.76:36203/jars/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/fetchFileTemp1508972240441420324.tmp
+2019-06-23 02:15:31 INFO  Utils:54 - /tmp/spark-9fa33351-9e95-4e69-9e05-e0038f7cacb3/executor-9e3d56bb-f80d-4396-be01-a780c1b862c3/spark-ba88039e-0513-4062-bdef-3f1ad3f0b8e3/-11083259891561223730052_cache has been previously copied to /home/ice/spark/work/app-20190623021530-0000/0/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar
+2019-06-23 02:15:31 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623021530-0000/0/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to class loader
+2019-06-23 02:15:31 INFO  TorrentBroadcast:54 - Started reading broadcast variable 0
+2019-06-23 02:15:31 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:43409 after 0 ms (0 ms spent in bootstraps)
+2019-06-23 02:15:31 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 2.0 KB, free 366.3 MB)
+2019-06-23 02:15:32 INFO  TorrentBroadcast:54 - Reading broadcast variable 0 took 70 ms
+2019-06-23 02:15:32 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1081 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 1
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 2
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 2.0 in stage 0.0 (TID 2)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 2.0 in stage 0.0 (TID 2). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 3
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 3.0 in stage 0.0 (TID 3)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 3.0 in stage 0.0 (TID 3). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 4
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 4.0 in stage 0.0 (TID 4)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 4.0 in stage 0.0 (TID 4). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 5
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 5.0 in stage 0.0 (TID 5)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 5.0 in stage 0.0 (TID 5). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 6
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 6.0 in stage 0.0 (TID 6)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 6.0 in stage 0.0 (TID 6). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 7
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 7.0 in stage 0.0 (TID 7)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 7.0 in stage 0.0 (TID 7). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 8
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 8.0 in stage 0.0 (TID 8)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 8.0 in stage 0.0 (TID 8). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 9
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 9.0 in stage 0.0 (TID 9)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 9.0 in stage 0.0 (TID 9). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 10
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 10.0 in stage 0.0 (TID 10)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 10.0 in stage 0.0 (TID 10). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 11
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 11.0 in stage 0.0 (TID 11)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 11.0 in stage 0.0 (TID 11). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 12
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 12.0 in stage 0.0 (TID 12)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 12.0 in stage 0.0 (TID 12). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 13
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 13.0 in stage 0.0 (TID 13)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 13.0 in stage 0.0 (TID 13). 995 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 14
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 14.0 in stage 0.0 (TID 14)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 14.0 in stage 0.0 (TID 14). 995 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 15
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 15.0 in stage 0.0 (TID 15)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 15.0 in stage 0.0 (TID 15). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 16
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 16.0 in stage 0.0 (TID 16)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 16.0 in stage 0.0 (TID 16). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 17
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 17.0 in stage 0.0 (TID 17)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 17.0 in stage 0.0 (TID 17). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 18
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 18.0 in stage 0.0 (TID 18)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 18.0 in stage 0.0 (TID 18). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 19
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 19.0 in stage 0.0 (TID 19)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 19.0 in stage 0.0 (TID 19). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 20
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 20.0 in stage 0.0 (TID 20)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 20.0 in stage 0.0 (TID 20). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 21
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 21.0 in stage 0.0 (TID 21)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 21.0 in stage 0.0 (TID 21). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 22
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 22.0 in stage 0.0 (TID 22)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 22.0 in stage 0.0 (TID 22). 995 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 23
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 23.0 in stage 0.0 (TID 23)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 23.0 in stage 0.0 (TID 23). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 24
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 24.0 in stage 0.0 (TID 24)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 24.0 in stage 0.0 (TID 24). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 25
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 25.0 in stage 0.0 (TID 25)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 25.0 in stage 0.0 (TID 25). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 26
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 26.0 in stage 0.0 (TID 26)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 26.0 in stage 0.0 (TID 26). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 27
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 27.0 in stage 0.0 (TID 27)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 27.0 in stage 0.0 (TID 27). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 28
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 28.0 in stage 0.0 (TID 28)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 28.0 in stage 0.0 (TID 28). 995 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 29
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 29.0 in stage 0.0 (TID 29)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 29.0 in stage 0.0 (TID 29). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 30
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 30.0 in stage 0.0 (TID 30)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 30.0 in stage 0.0 (TID 30). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 31
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 31.0 in stage 0.0 (TID 31)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 31.0 in stage 0.0 (TID 31). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 32
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 32.0 in stage 0.0 (TID 32)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 32.0 in stage 0.0 (TID 32). 995 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 33
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 33.0 in stage 0.0 (TID 33)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 33.0 in stage 0.0 (TID 33). 995 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 34
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 34.0 in stage 0.0 (TID 34)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 34.0 in stage 0.0 (TID 34). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 35
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 35.0 in stage 0.0 (TID 35)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 35.0 in stage 0.0 (TID 35). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 36
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 36.0 in stage 0.0 (TID 36)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 36.0 in stage 0.0 (TID 36). 1081 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 37
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 37.0 in stage 0.0 (TID 37)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 37.0 in stage 0.0 (TID 37). 995 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 38
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 38.0 in stage 0.0 (TID 38)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 38.0 in stage 0.0 (TID 38). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 39
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 39.0 in stage 0.0 (TID 39)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 39.0 in stage 0.0 (TID 39). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 40
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 40.0 in stage 0.0 (TID 40)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 40.0 in stage 0.0 (TID 40). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 41
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 41.0 in stage 0.0 (TID 41)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 41.0 in stage 0.0 (TID 41). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 42
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 42.0 in stage 0.0 (TID 42)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 42.0 in stage 0.0 (TID 42). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 43
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 43.0 in stage 0.0 (TID 43)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 43.0 in stage 0.0 (TID 43). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 44
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 44.0 in stage 0.0 (TID 44)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 44.0 in stage 0.0 (TID 44). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 45
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 45.0 in stage 0.0 (TID 45)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 45.0 in stage 0.0 (TID 45). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 46
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 46.0 in stage 0.0 (TID 46)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 46.0 in stage 0.0 (TID 46). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 47
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 47.0 in stage 0.0 (TID 47)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 47.0 in stage 0.0 (TID 47). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 48
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 48.0 in stage 0.0 (TID 48)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 48.0 in stage 0.0 (TID 48). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 49
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 49.0 in stage 0.0 (TID 49)
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 49.0 in stage 0.0 (TID 49). 1038 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 50
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 50)
+2019-06-23 02:15:32 INFO  MapOutputTrackerWorker:54 - Updating epoch to 1 and clearing cache
+2019-06-23 02:15:32 INFO  TorrentBroadcast:54 - Started reading broadcast variable 1
+2019-06-23 02:15:32 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 2027.0 B, free 366.3 MB)
+2019-06-23 02:15:32 INFO  TorrentBroadcast:54 - Reading broadcast variable 1 took 6 ms
+2019-06-23 02:15:32 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 02:15:32 INFO  MapOutputTrackerWorker:54 - Don't have map outputs for shuffle 0, fetching them
+2019-06-23 02:15:32 INFO  MapOutputTrackerWorker:54 - Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@192.168.0.76:36203)
+2019-06-23 02:15:32 INFO  MapOutputTrackerWorker:54 - Got the output locations
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 7 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 50). 1350 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 51
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 1.0 in stage 1.0 (TID 51)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 3 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 1.0 in stage 1.0 (TID 51). 1323 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 52
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 2.0 in stage 1.0 (TID 52)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 3 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 2.0 in stage 1.0 (TID 52). 1371 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 53
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 3.0 in stage 1.0 (TID 53)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 3 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 3.0 in stage 1.0 (TID 53). 1371 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 54
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 4.0 in stage 1.0 (TID 54)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 3 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 4.0 in stage 1.0 (TID 54). 1328 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 55
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 5.0 in stage 1.0 (TID 55)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 3 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 5.0 in stage 1.0 (TID 55). 1285 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 56
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 6.0 in stage 1.0 (TID 56)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 3 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 6.0 in stage 1.0 (TID 56). 1328 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 57
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 7.0 in stage 1.0 (TID 57)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 3 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 7.0 in stage 1.0 (TID 57). 1285 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 58
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 8.0 in stage 1.0 (TID 58)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 3 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 8.0 in stage 1.0 (TID 58). 1328 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 59
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 9.0 in stage 1.0 (TID 59)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 3 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 9.0 in stage 1.0 (TID 59). 1328 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 60
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 10.0 in stage 1.0 (TID 60)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 3 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 10.0 in stage 1.0 (TID 60). 1328 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 61
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 11.0 in stage 1.0 (TID 61)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 11.0 in stage 1.0 (TID 61). 1307 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 62
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 12.0 in stage 1.0 (TID 62)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 12.0 in stage 1.0 (TID 62). 1264 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 63
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 13.0 in stage 1.0 (TID 63)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 13.0 in stage 1.0 (TID 63). 1307 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 64
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 14.0 in stage 1.0 (TID 64)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 14.0 in stage 1.0 (TID 64). 1307 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 65
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 15.0 in stage 1.0 (TID 65)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 15.0 in stage 1.0 (TID 65). 1307 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 66
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 16.0 in stage 1.0 (TID 66)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 16.0 in stage 1.0 (TID 66). 1264 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 67
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 17.0 in stage 1.0 (TID 67)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 17.0 in stage 1.0 (TID 67). 1307 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 68
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 18.0 in stage 1.0 (TID 68)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 18.0 in stage 1.0 (TID 68). 1264 bytes result sent to driver
+2019-06-23 02:15:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 69
+2019-06-23 02:15:32 INFO  Executor:54 - Running task 19.0 in stage 1.0 (TID 69)
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:15:32 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:15:32 INFO  Executor:54 - Finished task 19.0 in stage 1.0 (TID 69). 1307 bytes result sent to driver
+2019-06-23 02:15:33 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 70
+2019-06-23 02:15:33 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 70)
+2019-06-23 02:15:33 INFO  TorrentBroadcast:54 - Started reading broadcast variable 2
+2019-06-23 02:15:33 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 24.0 KB, free 366.3 MB)
+2019-06-23 02:15:33 INFO  TorrentBroadcast:54 - Reading broadcast variable 2 took 5 ms
+2019-06-23 02:15:33 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 68.7 KB, free 366.2 MB)
+2019-06-23 02:15:33 INFO  RecurringTimer:54 - Started timer for BlockGenerator at time 1561223733200
+2019-06-23 02:15:33 INFO  BlockGenerator:54 - Started BlockGenerator
+2019-06-23 02:15:33 INFO  BlockGenerator:54 - Started block pushing thread
+2019-06-23 02:15:33 INFO  ReceiverSupervisorImpl:54 - Starting receiver 0
+2019-06-23 02:15:33 INFO  KafkaReceiver:54 - Starting Kafka Consumer Stream with group: spark-streaming-consumer1
+2019-06-23 02:15:33 INFO  KafkaReceiver:54 - Connecting to Zookeeper: localhost:2181
+2019-06-23 02:15:33 INFO  VerifiableProperties:68 - Verifying properties
+2019-06-23 02:15:33 INFO  VerifiableProperties:68 - Property group.id is overridden to spark-streaming-consumer1
+2019-06-23 02:15:33 INFO  VerifiableProperties:68 - Property zookeeper.connect is overridden to localhost:2181
+2019-06-23 02:15:33 INFO  VerifiableProperties:68 - Property zookeeper.connection.timeout.ms is overridden to 10000
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], Connecting to zookeeper instance at localhost:2181
+2019-06-23 02:15:33 INFO  ZkEventThread:64 - Starting ZkClient event thread.
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:host.name=ice-PMBSB09A-Samsung-DeskTop
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:java.version=1.8.0_201
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:java.vendor=Oracle Corporation
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:java.class.path=/home/ice/spark/conf/:/home/ice/spark/jars/apache-log4j-extras-1.2.17.jar:/home/ice/spark/jars/hadoop-hdfs-2.7.3.jar:/home/ice/spark/jars/javassist-3.18.1-GA.jar:/home/ice/spark/jars/hadoop-client-2.7.3.jar:/home/ice/spark/jars/hadoop-annotations-2.7.3.jar:/home/ice/spark/jars/spark-tags_2.11-2.4.0.jar:/home/ice/spark/jars/jsr305-1.3.9.jar:/home/ice/spark/jars/antlr-2.7.7.jar:/home/ice/spark/jars/opencsv-2.3.jar:/home/ice/spark/jars/jtransforms-2.4.0.jar:/home/ice/spark/jars/commons-crypto-1.0.0.jar:/home/ice/spark/jars/parquet-column-1.10.0.jar:/home/ice/spark/jars/httpclient-4.5.6.jar:/home/ice/spark/jars/guice-servlet-3.0.jar:/home/ice/spark/jars/commons-cli-1.2.jar:/home/ice/spark/jars/jersey-container-servlet-core-2.22.2.jar:/home/ice/spark/jars/commons-configuration-1.6.jar:/home/ice/spark/jars/calcite-core-1.2.0-incubating.jar:/home/ice/spark/jars/jackson-core-asl-1.9.13.jar:/home/ice/spark/jars/spark-launcher_2.11-2.4.0.jar:/home/ice/spark/jars/avro-1.8.2.jar:/home/ice/spark/jars/jta-1.1.jar:/home/ice/spark/jars/commons-math3-3.4.1.jar:/home/ice/spark/jars/jodd-core-3.5.2.jar:/home/ice/spark/jars/machinist_2.11-0.6.1.jar:/home/ice/spark/jars/calcite-linq4j-1.2.0-incubating.jar:/home/ice/spark/jars/xercesImpl-2.9.1.jar:/home/ice/spark/jars/aopalliance-repackaged-2.4.0-b34.jar:/home/ice/spark/jars/commons-beanutils-core-1.8.0.jar:/home/ice/spark/jars/spark-hive-thriftserver_2.11-2.4.0.jar:/home/ice/spark/jars/avro-mapred-1.8.2-hadoop2.jar:/home/ice/spark/jars/libthrift-0.9.3.jar:/home/ice/spark/jars/stringtemplate-3.2.1.jar:/home/ice/spark/jars/breeze-macros_2.11-0.13.2.jar:/home/ice/spark/jars/jersey-media-jaxb-2.22.2.jar:/home/ice/spark/jars/antlr4-runtime-4.7.jar:/home/ice/spark/jars/avro-ipc-1.8.2.jar:/home/ice/spark/jars/arrow-vector-0.10.0.jar:/home/ice/spark/jars/httpcore-4.4.10.jar:/home/ice/spark/jars/logging-interceptor-3.8.1.jar:/home/ice/spark/jars/core-1.1.2.jar:/home/ice/spark/jars/log4j-1.2.17.jar:/home/ice/spark/jars/snakeyaml-1.15.jar:/home/ice/spark/jars/kryo-shaded-4.0.2.jar:/home/ice/spark/jars/jackson-module-jaxb-annotations-2.6.7.jar:/home/ice/spark/jars/flatbuffers-1.2.0-3f79e055.jar:/home/ice/spark/jars/xmlenc-0.52.jar:/home/ice/spark/jars/jpam-1.1.jar:/home/ice/spark/jars/mesos-1.4.0-shaded-protobuf.jar:/home/ice/spark/jars/spark-yarn_2.11-2.4.0.jar:/home/ice/spark/jars/commons-httpclient-3.1.jar:/home/ice/spark/jars/json4s-jackson_2.11-3.5.3.jar:/home/ice/spark/jars/commons-net-3.1.jar:/home/ice/spark/jars/hadoop-mapreduce-client-jobclient-2.7.3.jar:/home/ice/spark/jars/json4s-core_2.11-3.5.3.jar:/home/ice/spark/jars/zjsonpatch-0.3.0.jar:/home/ice/spark/jars/curator-client-2.7.1.jar:/home/ice/spark/jars/apacheds-i18n-2.0.0-M15.jar:/home/ice/spark/jars/commons-lang3-3.5.jar:/home/ice/spark/jars/joda-time-2.9.3.jar:/home/ice/spark/jars/validation-api-1.1.0.Final.jar:/home/ice/spark/jars/py4j-0.10.7.jar:/home/ice/spark/jars/JavaEWAH-0.3.2.jar:/home/ice/spark/jars/curator-recipes-2.7.1.jar:/home/ice/spark/jars/activation-1.1.1.jar:/home/ice/spark/jars/scala-reflect-2.11.12.jar:/home/ice/spark/jars/pyrolite-4.13.jar:/home/ice/spark/jars/xbean-asm6-shaded-4.8.jar:/home/ice/spark/jars/metrics-jvm-3.1.5.jar:/home/ice/spark/jars/spark-repl_2.11-2.4.0.jar:/home/ice/spark/jars/apacheds-kerberos-codec-2.0.0-M15.jar:/home/ice/spark/jars/hk2-api-2.4.0-b34.jar:/home/ice/spark/jars/commons-io-2.4.jar:/home/ice/spark/jars/metrics-graphite-3.1.5.jar:/home/ice/spark/jars/parquet-hadoop-1.10.0.jar:/home/ice/spark/jars/jcl-over-slf4j-1.7.16.jar:/home/ice/spark/jars/commons-lang-2.6.jar:/home/ice/spark/jars/spark-mllib-local_2.11-2.4.0.jar:/home/ice/spark/jars/scala-library-2.11.12.jar:/home/ice/spark/jars/jackson-annotations-2.6.7.jar:/home/ice/spark/jars/guice-3.0.jar:/home/ice/spark/jars/jackson-xc-1.9.13.jar:/home/ice/spark/jars/jetty-util-6.1.26.jar:/home/ice/spark/jars/scala-xml_2.11-1.0.5.jar:/home/ice/spark/jars/datanucleus-api-jdo-3.2.6.jar:/home/ice/spark/jars/hadoop-mapreduce-client-core-2.7.3.jar:/home/ice/spark/jars/javax.ws.rs-api-2.0.1.jar:/home/ice/spark/jars/gson-2.2.4.jar:/home/ice/spark/jars/kubernetes-client-3.0.0.jar:/home/ice/spark/jars/jackson-mapper-asl-1.9.13.jar:/home/ice/spark/jars/hadoop-yarn-common-2.7.3.jar:/home/ice/spark/jars/zstd-jni-1.3.2-2.jar:/home/ice/spark/jars/htrace-core-3.1.0-incubating.jar:/home/ice/spark/jars/jsp-api-2.1.jar:/home/ice/spark/jars/automaton-1.11-8.jar:/home/ice/spark/jars/spark-network-shuffle_2.11-2.4.0.jar:/home/ice/spark/jars/ST4-4.0.4.jar:/home/ice/spark/jars/parquet-encoding-1.10.0.jar:/home/ice/spark/jars/slf4j-api-1.7.16.jar:/home/ice/spark/jars/stream-2.7.0.jar:/home/ice/spark/jars/minlog-1.3.0.jar:/home/ice/spark/jars/jackson-module-scala_2.11-2.6.7.1.jar:/home/ice/spark/jars/super-csv-2.2.0.jar:/home/ice/spark/jars/leveldbjni-all-1.8.jar:/home/ice/spark/jars/hive-cli-1.2.1.spark2.jar:/home/ice/spark/jars/orc-mapreduce-1.5.2-nohive.jar:/home/ice/spark/jars/jaxb-api-2.2.2.jar:/home/ice/spark/jars/datanucleus-core-3.2.10.jar:/home/ice/spark/jars/spire_2.11-0.13.0.jar:/home/ice/spark/jars/spark-core_2.11-2.4.0.jar:/home/ice/spark/jars/hadoop-auth-2.7.3.jar:/home/ice/spark/jars/libfb303-0.9.3.jar:/home/ice/spark/jars/jackson-databind-2.6.7.1.jar:/home/ice/spark/jars/orc-core-1.5.2-nohive.jar:/home/ice/spark/jars/eigenbase-properties-1.1.5.jar:/home/ice/spark/jars/hadoop-mapreduce-client-shuffle-2.7.3.jar:/home/ice/spark/jars/ivy-2.4.0.jar:/home/ice/spark/jars/commons-compiler-3.0.9.jar:/home/ice/spark/jars/breeze_2.11-0.13.2.jar:/home/ice/spark/jars/jackson-jaxrs-1.9.13.jar:/home/ice/spark/jars/stax-api-1.0.1.jar:/home/ice/spark/jars/hk2-utils-2.4.0-b34.jar:/home/ice/spark/jars/jetty-6.1.26.jar:/home/ice/spark/jars/jline-2.14.6.jar:/home/ice/spark/jars/parquet-jackson-1.10.0.jar:/home/ice/spark/jars/commons-logging-1.1.3.jar:/home/ice/spark/jars/hive-metastore-1.2.1.spark2.jar:/home/ice/spark/jars/jackson-module-paranamer-2.7.9.jar:/home/ice/spark/jars/metrics-core-3.1.5.jar:/home/ice/spark/jars/kubernetes-model-2.0.0.jar:/home/ice/spark/jars/bonecp-0.8.0.RELEASE.jar:/home/ice/spark/jars/arpack_combined_all-0.1.jar:/home/ice/spark/jars/janino-3.0.9.jar:/home/ice/spark/jars/aopalliance-1.0.jar:/home/ice/spark/jars/api-asn1-api-1.0.0-M20.jar:/home/ice/spark/jars/hadoop-common-2.7.3.jar:/home/ice/spark/jars/hk2-locator-2.4.0-b34.jar:/home/ice/spark/jars/generex-1.0.1.jar:/home/ice/spark/jars/spark-streaming_2.11-2.4.0.jar:/home/ice/spark/jars/jersey-container-servlet-2.22.2.jar:/home/ice/spark/jars/netty-all-4.1.17.Final.jar:/home/ice/spark/jars/antlr-runtime-3.4.jar:/home/ice/spark/jars/scala-compiler-2.11.12.jar:/home/ice/spark/jars/spark-kubernetes_2.11-2.4.0.jar:/home/ice/spark/jars/chill_2.11-0.9.3.jar:/home/ice/spark/jars/spark-hive_2.11-2.4.0.jar:/home/ice/spark/jars/javax.inject-2.4.0-b34.jar:/home/ice/spark/jars/hive-jdbc-1.2.1.spark2.jar:/home/ice/spark/jars/slf4j-log4j12-1.7.16.jar:/home/ice/spark/jars/objenesis-2.5.1.jar:/home/ice/spark/jars/netty-3.9.9.Final.jar:/home/ice/spark/jars/spark-network-common_2.11-2.4.0.jar:/home/ice/spark/jars/commons-pool-1.5.4.jar:/home/ice/spark/jars/hadoop-yarn-server-web-proxy-2.7.3.jar:/home/ice/spark/jars/curator-framework-2.7.1.jar:/home/ice/spark/jars/xz-1.5.jar:/home/ice/spark/jars/parquet-hadoop-bundle-1.6.0.jar:/home/ice/spark/jars/spire-macros_2.11-0.13.0.jar:/home/ice/spark/jars/protobuf-java-2.5.0.jar:/home/ice/spark/jars/api-util-1.0.0-M20.jar:/home/ice/spark/jars/shapeless_2.11-2.3.2.jar:/home/ice/spark/jars/scala-parser-combinators_2.11-1.1.0.jar:/home/ice/spark/jars/datanucleus-rdbms-3.2.9.jar:/home/ice/spark/jars/zookeeper-3.4.6.jar:/home/ice/spark/jars/univocity-parsers-2.7.3.jar:/home/ice/spark/jars/spark-tags_2.11-2.4.0-tests.jar:/home/ice/spark/jars/okio-1.13.0.jar:/home/ice/spark/jars/spark-unsafe_2.11-2.4.0.jar:/home/ice/spark/jars/jersey-common-2.22.2.jar:/home/ice/spark/jars/hadoop-mapreduce-client-app-2.7.3.jar:/home/ice/spark/jars/aircompressor-0.10.jar:/home/ice/spark/jars/osgi-resource-locator-1.0.1.jar:/home/ice/spark/jars/spark-graphx_2.11-2.4.0.jar:/home/ice/spark/jars/compress-lzf-1.0.3.jar:/home/ice/spark/jars/okhttp-3.8.1.jar:/home/ice/spark/jars/spark-mesos_2.11-2.4.0.jar:/home/ice/spark/jars/arrow-format-0.10.0.jar:/home/ice/spark/jars/hive-exec-1.2.1.spark2.jar:/home/ice/spark/jars/spark-kvstore_2.11-2.4.0.jar:/home/ice/spark/jars/hadoop-mapreduce-client-common-2.7.3.jar:/home/ice/spark/jars/spark-mllib_2.11-2.4.0.jar:/home/ice/spark/jars/jackson-dataformat-yaml-2.6.7.jar:/home/ice/spark/jars/paranamer-2.8.jar:/home/ice/spark/jars/commons-digester-1.8.jar:/home/ice/spark/jars/stax-api-1.0-2.jar:/home/ice/spark/jars/lz4-java-1.4.0.jar:/home/ice/spark/jars/snappy-java-1.1.7.1.jar:/home/ice/spark/jars/oro-2.0.8.jar:/home/ice/spark/jars/hadoop-yarn-client-2.7.3.jar:/home/ice/spark/jars/calcite-avatica-1.2.0-incubating.jar:/home/ice/spark/jars/snappy-0.2.jar:/home/ice/spark/jars/javax.annotation-api-1.2.jar:/home/ice/spark/jars/RoaringBitmap-0.5.11.jar:/home/ice/spark/jars/metrics-json-3.1.5.jar:/home/ice/spark/jars/commons-compress-1.8.1.jar:/home/ice/spark/jars/javolution-5.5.1.jar:/home/ice/spark/jars/hadoop-yarn-server-common-2.7.3.jar:/home/ice/spark/jars/commons-beanutils-1.7.0.jar:/home/ice/spark/jars/arrow-memory-0.10.0.jar:/home/ice/spark/jars/derby-10.12.1.1.jar:/home/ice/spark/jars/javax.inject-1.jar:/home/ice/spark/jars/chill-java-0.9.3.jar:/home/ice/spark/jars/json4s-ast_2.11-3.5.3.jar:/home/ice/spark/jars/parquet-common-1.10.0.jar:/home/ice/spark/jars/spark-sql_2.11-2.4.0.jar:/home/ice/spark/jars/javax.servlet-api-3.1.0.jar:/home/ice/spark/jars/hppc-0.7.2.jar:/home/ice/spark/jars/jul-to-slf4j-1.7.16.jar:/home/ice/spark/jars/commons-dbcp-1.4.jar:/home/ice/spark/jars/spark-sketch_2.11-2.4.0.jar:/home/ice/spark/jars/parquet-format-2.4.0.jar:/home/ice/spark/jars/jersey-server-2.22.2.jar:/home/ice/spark/jars/jdo-api-3.0.1.jar:/home/ice/spark/jars/json4s-scalap_2.11-3.5.3.jar:/home/ice/spark/jars/guava-14.0.1.jar:/home/ice/spark/jars/commons-codec-1.10.jar:/home/ice/spark/jars/spark-catalyst_2.11-2.4.0.jar:/home/ice/spark/jars/orc-shims-1.5.2.jar:/home/ice/spark/jars/jackson-core-2.6.7.jar:/home/ice/spark/jars/commons-collections-3.2.2.jar:/home/ice/spark/jars/hadoop-yarn-api-2.7.3.jar:/home/ice/spark/jars/jersey-client-2.22.2.jar:/home/ice/spark/jars/macro-compat_2.11-1.1.1.jar:/home/ice/spark/jars/hive-beeline-1.2.1.spark2.jar:/home/ice/spark/jars/jersey-guava-2.22.2.jar
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:java.io.tmpdir=/tmp
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:java.compiler=<NA>
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:os.name=Linux
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:os.arch=amd64
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:os.version=4.15.0-52-generic
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:user.name=ice
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:user.home=/home/ice
+2019-06-23 02:15:33 INFO  ZooKeeper:100 - Client environment:user.dir=/home/ice/spark/work/app-20190623021530-0000/0
+2019-06-23 02:15:33 INFO  ZooKeeper:438 - Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@552116b2
+2019-06-23 02:15:33 INFO  ClientCnxn:975 - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-06-23 02:15:33 INFO  ClientCnxn:852 - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2019-06-23 02:15:33 INFO  ClientCnxn:1235 - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100001cddd10047, negotiated timeout = 6000
+2019-06-23 02:15:33 INFO  ZkClient:449 - zookeeper state changed (SyncConnected)
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], starting auto committer every 60000 ms
+2019-06-23 02:15:33 INFO  KafkaReceiver:54 - Connected to localhost:2181
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], begin registering consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452 in ZK
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], end registering consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452 in ZK
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], starting watcher executor thread for consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], begin rebalancing consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452 try #0
+2019-06-23 02:15:33 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1561223733215] Stopping leader finder thread
+2019-06-23 02:15:33 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1561223733215] Stopping all fetchers
+2019-06-23 02:15:33 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1561223733215] All connections stopped
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], Cleared all relevant queues for this fetcher
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], Cleared the data chunks in all the consumer message iterators
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], Committing all offsets after clearing the fetcher queues
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], Releasing partition ownership
+2019-06-23 02:15:33 INFO  RangeAssignor:68 - Consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452 rebalancing the following partitions: ArrayBuffer(0) for topic WDData with consumers: List(spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452-0, spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452-1)
+2019-06-23 02:15:33 INFO  RangeAssignor:68 - spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452-0 attempting to claim partition 0
+2019-06-23 02:15:33 WARN  RangeAssignor:83 - No broker partitions consumed by consumer thread spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452-1 for topic WDData
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452-0 successfully owned partition 0 for topic WDData
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], Consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452 selected partitions : WDData:0: fetched offset = 783458: consumed offset = 783458
+2019-06-23 02:15:33 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452-leader-finder-thread], Starting 
+2019-06-23 02:15:33 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452], end rebalancing consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452 try #0
+2019-06-23 02:15:33 INFO  KafkaReceiver:54 - Starting MessageHandler.
+2019-06-23 02:15:33 INFO  KafkaReceiver:54 - Starting MessageHandler.
+2019-06-23 02:15:33 INFO  ReceiverSupervisorImpl:54 - Called receiver 0 onStart
+2019-06-23 02:15:33 INFO  ReceiverSupervisorImpl:54 - Waiting for receiver to be stopped
+2019-06-23 02:15:33 INFO  VerifiableProperties:68 - Verifying properties
+2019-06-23 02:15:33 INFO  VerifiableProperties:68 - Property client.id is overridden to spark-streaming-consumer1
+2019-06-23 02:15:33 INFO  VerifiableProperties:68 - Property metadata.broker.list is overridden to 220.67.124.122:9092
+2019-06-23 02:15:33 INFO  VerifiableProperties:68 - Property request.timeout.ms is overridden to 30000
+2019-06-23 02:15:33 INFO  ClientUtils$:68 - Fetching metadata from broker id:0,host:220.67.124.122,port:9092 with correlation id 0 for 1 topic(s) Set(WDData)
+2019-06-23 02:15:33 INFO  SyncProducer:68 - Connected to 220.67.124.122:9092 for producing
+2019-06-23 02:15:33 INFO  SyncProducer:68 - Disconnecting from 220.67.124.122:9092
+2019-06-23 02:15:33 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223733169-90948452-0-0], Starting 
+2019-06-23 02:15:33 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1561223733215] Added fetcher for partitions ArrayBuffer([[WDData,0], initOffset 783458 to broker id:0,host:220.67.124.122,port:9092] )
+2019-06-23 02:15:35 INFO  BlockManager:54 - Removing RDD 5
+2019-06-23 02:15:35 INFO  BlockManager:54 - Removing RDD 4
+2019-06-23 02:15:35 INFO  MemoryStore:54 - Block input-0-1561223735000 stored as values in memory (estimated size 621.0 B, free 366.2 MB)
+2019-06-23 02:15:35 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:35 WARN  BlockManager:66 - Block input-0-1561223735000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:35 INFO  BlockGenerator:54 - Pushed block input-0-1561223735000
+2019-06-23 02:15:35 INFO  MemoryStore:54 - Block input-0-1561223735200 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 02:15:35 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:35 WARN  BlockManager:66 - Block input-0-1561223735200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:35 INFO  BlockGenerator:54 - Pushed block input-0-1561223735200
+2019-06-23 02:15:35 INFO  MemoryStore:54 - Block input-0-1561223735400 stored as values in memory (estimated size 4.6 KB, free 366.2 MB)
+2019-06-23 02:15:35 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:35 WARN  BlockManager:66 - Block input-0-1561223735400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:35 INFO  BlockGenerator:54 - Pushed block input-0-1561223735400
+2019-06-23 02:15:35 INFO  MemoryStore:54 - Block input-0-1561223735600 stored as values in memory (estimated size 4.9 KB, free 366.2 MB)
+2019-06-23 02:15:35 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:35 WARN  BlockManager:66 - Block input-0-1561223735600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:35 INFO  BlockGenerator:54 - Pushed block input-0-1561223735600
+2019-06-23 02:15:36 INFO  MemoryStore:54 - Block input-0-1561223735800 stored as values in memory (estimated size 5.6 KB, free 366.2 MB)
+2019-06-23 02:15:36 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:36 WARN  BlockManager:66 - Block input-0-1561223735800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:36 INFO  BlockGenerator:54 - Pushed block input-0-1561223735800
+2019-06-23 02:15:36 INFO  MemoryStore:54 - Block input-0-1561223736000 stored as values in memory (estimated size 7.2 KB, free 366.2 MB)
+2019-06-23 02:15:36 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:36 WARN  BlockManager:66 - Block input-0-1561223736000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:36 INFO  BlockGenerator:54 - Pushed block input-0-1561223736000
+2019-06-23 02:15:36 INFO  MemoryStore:54 - Block input-0-1561223736200 stored as values in memory (estimated size 7.8 KB, free 366.2 MB)
+2019-06-23 02:15:36 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:36 WARN  BlockManager:66 - Block input-0-1561223736200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:36 INFO  BlockGenerator:54 - Pushed block input-0-1561223736200
+2019-06-23 02:15:36 INFO  MemoryStore:54 - Block input-0-1561223736400 stored as values in memory (estimated size 8.5 KB, free 366.2 MB)
+2019-06-23 02:15:36 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:36 WARN  BlockManager:66 - Block input-0-1561223736400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:36 INFO  BlockGenerator:54 - Pushed block input-0-1561223736400
+2019-06-23 02:15:36 INFO  MemoryStore:54 - Block input-0-1561223736600 stored as values in memory (estimated size 8.8 KB, free 366.2 MB)
+2019-06-23 02:15:36 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:36 WARN  BlockManager:66 - Block input-0-1561223736600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:36 INFO  BlockGenerator:54 - Pushed block input-0-1561223736600
+2019-06-23 02:15:37 INFO  MemoryStore:54 - Block input-0-1561223736800 stored as values in memory (estimated size 8.9 KB, free 366.1 MB)
+2019-06-23 02:15:37 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:37 WARN  BlockManager:66 - Block input-0-1561223736800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:37 INFO  BlockGenerator:54 - Pushed block input-0-1561223736800
+2019-06-23 02:15:37 INFO  MemoryStore:54 - Block input-0-1561223737000 stored as values in memory (estimated size 8.7 KB, free 366.1 MB)
+2019-06-23 02:15:37 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:37 WARN  BlockManager:66 - Block input-0-1561223737000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:37 INFO  BlockGenerator:54 - Pushed block input-0-1561223737000
+2019-06-23 02:15:37 INFO  MemoryStore:54 - Block input-0-1561223737200 stored as values in memory (estimated size 8.7 KB, free 366.1 MB)
+2019-06-23 02:15:37 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:37 WARN  BlockManager:66 - Block input-0-1561223737200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:37 INFO  BlockGenerator:54 - Pushed block input-0-1561223737200
+2019-06-23 02:15:37 INFO  MemoryStore:54 - Block input-0-1561223737400 stored as values in memory (estimated size 9.1 KB, free 366.1 MB)
+2019-06-23 02:15:37 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:37 WARN  BlockManager:66 - Block input-0-1561223737400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:37 INFO  BlockGenerator:54 - Pushed block input-0-1561223737400
+2019-06-23 02:15:37 INFO  MemoryStore:54 - Block input-0-1561223737600 stored as values in memory (estimated size 8.5 KB, free 366.1 MB)
+2019-06-23 02:15:37 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:37 WARN  BlockManager:66 - Block input-0-1561223737600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:37 INFO  BlockGenerator:54 - Pushed block input-0-1561223737600
+2019-06-23 02:15:38 INFO  MemoryStore:54 - Block input-0-1561223737800 stored as values in memory (estimated size 8.6 KB, free 366.1 MB)
+2019-06-23 02:15:38 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:38 WARN  BlockManager:66 - Block input-0-1561223737800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:38 INFO  BlockGenerator:54 - Pushed block input-0-1561223737800
+2019-06-23 02:15:38 INFO  MemoryStore:54 - Block input-0-1561223738000 stored as values in memory (estimated size 8.5 KB, free 366.1 MB)
+2019-06-23 02:15:38 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:38 WARN  BlockManager:66 - Block input-0-1561223738000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:38 INFO  BlockGenerator:54 - Pushed block input-0-1561223738000
+2019-06-23 02:15:38 INFO  MemoryStore:54 - Block input-0-1561223738200 stored as values in memory (estimated size 8.3 KB, free 366.1 MB)
+2019-06-23 02:15:38 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:38 WARN  BlockManager:66 - Block input-0-1561223738200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:38 INFO  BlockGenerator:54 - Pushed block input-0-1561223738200
+2019-06-23 02:15:38 INFO  MemoryStore:54 - Block input-0-1561223738400 stored as values in memory (estimated size 8.7 KB, free 366.1 MB)
+2019-06-23 02:15:38 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:38 WARN  BlockManager:66 - Block input-0-1561223738400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:38 INFO  BlockGenerator:54 - Pushed block input-0-1561223738400
+2019-06-23 02:15:38 INFO  MemoryStore:54 - Block input-0-1561223738600 stored as values in memory (estimated size 8.3 KB, free 366.1 MB)
+2019-06-23 02:15:38 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:38 WARN  BlockManager:66 - Block input-0-1561223738600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:38 INFO  BlockGenerator:54 - Pushed block input-0-1561223738600
+2019-06-23 02:15:39 INFO  MemoryStore:54 - Block input-0-1561223738800 stored as values in memory (estimated size 8.8 KB, free 366.1 MB)
+2019-06-23 02:15:39 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:39 WARN  BlockManager:66 - Block input-0-1561223738800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:39 INFO  BlockGenerator:54 - Pushed block input-0-1561223738800
+2019-06-23 02:15:39 INFO  MemoryStore:54 - Block input-0-1561223739000 stored as values in memory (estimated size 8.1 KB, free 366.1 MB)
+2019-06-23 02:15:39 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:39 WARN  BlockManager:66 - Block input-0-1561223739000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:39 INFO  BlockGenerator:54 - Pushed block input-0-1561223739000
+2019-06-23 02:15:39 INFO  MemoryStore:54 - Block input-0-1561223739200 stored as values in memory (estimated size 8.4 KB, free 366.0 MB)
+2019-06-23 02:15:39 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:39 WARN  BlockManager:66 - Block input-0-1561223739200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:39 INFO  BlockGenerator:54 - Pushed block input-0-1561223739200
+2019-06-23 02:15:39 INFO  MemoryStore:54 - Block input-0-1561223739400 stored as values in memory (estimated size 9.4 KB, free 366.0 MB)
+2019-06-23 02:15:39 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:39 WARN  BlockManager:66 - Block input-0-1561223739400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:39 INFO  BlockGenerator:54 - Pushed block input-0-1561223739400
+2019-06-23 02:15:39 INFO  MemoryStore:54 - Block input-0-1561223739600 stored as values in memory (estimated size 8.9 KB, free 366.0 MB)
+2019-06-23 02:15:39 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:39 WARN  BlockManager:66 - Block input-0-1561223739600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:39 INFO  BlockGenerator:54 - Pushed block input-0-1561223739600
+2019-06-23 02:15:40 INFO  MemoryStore:54 - Block input-0-1561223739800 stored as values in memory (estimated size 8.4 KB, free 366.0 MB)
+2019-06-23 02:15:40 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:40 WARN  BlockManager:66 - Block input-0-1561223739800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:40 INFO  BlockGenerator:54 - Pushed block input-0-1561223739800
+2019-06-23 02:15:40 INFO  MemoryStore:54 - Block input-0-1561223740000 stored as values in memory (estimated size 8.6 KB, free 366.0 MB)
+2019-06-23 02:15:40 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:40 WARN  BlockManager:66 - Block input-0-1561223740000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:40 INFO  BlockGenerator:54 - Pushed block input-0-1561223740000
+2019-06-23 02:15:40 INFO  MemoryStore:54 - Block input-0-1561223740200 stored as values in memory (estimated size 7.3 KB, free 366.0 MB)
+2019-06-23 02:15:40 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:40 WARN  BlockManager:66 - Block input-0-1561223740200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:40 INFO  BlockGenerator:54 - Pushed block input-0-1561223740200
+2019-06-23 02:15:40 INFO  MemoryStore:54 - Block input-0-1561223740400 stored as values in memory (estimated size 9.0 KB, free 366.0 MB)
+2019-06-23 02:15:40 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:40 WARN  BlockManager:66 - Block input-0-1561223740400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:40 INFO  BlockGenerator:54 - Pushed block input-0-1561223740400
+2019-06-23 02:15:40 INFO  MemoryStore:54 - Block input-0-1561223740600 stored as values in memory (estimated size 8.7 KB, free 366.0 MB)
+2019-06-23 02:15:40 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:40 WARN  BlockManager:66 - Block input-0-1561223740600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:40 INFO  BlockGenerator:54 - Pushed block input-0-1561223740600
+2019-06-23 02:15:41 INFO  MemoryStore:54 - Block input-0-1561223740800 stored as values in memory (estimated size 8.9 KB, free 366.0 MB)
+2019-06-23 02:15:41 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:41 WARN  BlockManager:66 - Block input-0-1561223740800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:41 INFO  BlockGenerator:54 - Pushed block input-0-1561223740800
+2019-06-23 02:15:41 INFO  MemoryStore:54 - Block input-0-1561223741000 stored as values in memory (estimated size 8.6 KB, free 366.0 MB)
+2019-06-23 02:15:41 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:41 WARN  BlockManager:66 - Block input-0-1561223741000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:41 INFO  BlockGenerator:54 - Pushed block input-0-1561223741000
+2019-06-23 02:15:41 INFO  MemoryStore:54 - Block input-0-1561223741200 stored as values in memory (estimated size 9.1 KB, free 366.0 MB)
+2019-06-23 02:15:41 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:41 WARN  BlockManager:66 - Block input-0-1561223741200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:41 INFO  BlockGenerator:54 - Pushed block input-0-1561223741200
+2019-06-23 02:15:41 INFO  MemoryStore:54 - Block input-0-1561223741400 stored as values in memory (estimated size 9.2 KB, free 366.0 MB)
+2019-06-23 02:15:41 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:41 WARN  BlockManager:66 - Block input-0-1561223741400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:41 INFO  BlockGenerator:54 - Pushed block input-0-1561223741400
+2019-06-23 02:15:41 INFO  MemoryStore:54 - Block input-0-1561223741600 stored as values in memory (estimated size 9.4 KB, free 365.9 MB)
+2019-06-23 02:15:41 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:41 WARN  BlockManager:66 - Block input-0-1561223741600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:41 INFO  BlockGenerator:54 - Pushed block input-0-1561223741600
+2019-06-23 02:15:42 INFO  MemoryStore:54 - Block input-0-1561223741800 stored as values in memory (estimated size 9.5 KB, free 365.9 MB)
+2019-06-23 02:15:42 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:42 WARN  BlockManager:66 - Block input-0-1561223741800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:42 INFO  BlockGenerator:54 - Pushed block input-0-1561223741800
+2019-06-23 02:15:42 INFO  MemoryStore:54 - Block input-0-1561223742000 stored as values in memory (estimated size 8.8 KB, free 365.9 MB)
+2019-06-23 02:15:42 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:42 WARN  BlockManager:66 - Block input-0-1561223742000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:42 INFO  BlockGenerator:54 - Pushed block input-0-1561223742000
+2019-06-23 02:15:42 INFO  MemoryStore:54 - Block input-0-1561223742200 stored as values in memory (estimated size 9.3 KB, free 365.9 MB)
+2019-06-23 02:15:42 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:42 WARN  BlockManager:66 - Block input-0-1561223742200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:42 INFO  BlockGenerator:54 - Pushed block input-0-1561223742200
+2019-06-23 02:15:42 INFO  MemoryStore:54 - Block input-0-1561223742400 stored as values in memory (estimated size 9.2 KB, free 365.9 MB)
+2019-06-23 02:15:42 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:42 WARN  BlockManager:66 - Block input-0-1561223742400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:42 INFO  BlockGenerator:54 - Pushed block input-0-1561223742400
+2019-06-23 02:15:42 INFO  MemoryStore:54 - Block input-0-1561223742600 stored as values in memory (estimated size 7.5 KB, free 365.9 MB)
+2019-06-23 02:15:42 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:42 WARN  BlockManager:66 - Block input-0-1561223742600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:42 INFO  BlockGenerator:54 - Pushed block input-0-1561223742600
+2019-06-23 02:15:43 INFO  MemoryStore:54 - Block input-0-1561223742800 stored as values in memory (estimated size 6.0 KB, free 365.9 MB)
+2019-06-23 02:15:43 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:43 WARN  BlockManager:66 - Block input-0-1561223742800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:43 INFO  BlockGenerator:54 - Pushed block input-0-1561223742800
+2019-06-23 02:15:43 INFO  MemoryStore:54 - Block input-0-1561223743000 stored as values in memory (estimated size 8.0 KB, free 365.9 MB)
+2019-06-23 02:15:43 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:43 WARN  BlockManager:66 - Block input-0-1561223743000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:43 INFO  BlockGenerator:54 - Pushed block input-0-1561223743000
+2019-06-23 02:15:43 INFO  MemoryStore:54 - Block input-0-1561223743200 stored as values in memory (estimated size 8.8 KB, free 365.9 MB)
+2019-06-23 02:15:43 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:43 WARN  BlockManager:66 - Block input-0-1561223743200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:43 INFO  BlockGenerator:54 - Pushed block input-0-1561223743200
+2019-06-23 02:15:43 INFO  MemoryStore:54 - Block input-0-1561223743400 stored as values in memory (estimated size 4.8 KB, free 365.9 MB)
+2019-06-23 02:15:43 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:43 WARN  BlockManager:66 - Block input-0-1561223743400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:43 INFO  BlockGenerator:54 - Pushed block input-0-1561223743400
+2019-06-23 02:15:43 INFO  MemoryStore:54 - Block input-0-1561223743600 stored as values in memory (estimated size 1816.0 B, free 365.9 MB)
+2019-06-23 02:15:43 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:43 WARN  BlockManager:66 - Block input-0-1561223743600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:43 INFO  BlockGenerator:54 - Pushed block input-0-1561223743600
+2019-06-23 02:15:44 INFO  MemoryStore:54 - Block input-0-1561223743800 stored as values in memory (estimated size 5.9 KB, free 365.9 MB)
+2019-06-23 02:15:44 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:44 WARN  BlockManager:66 - Block input-0-1561223743800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:44 INFO  BlockGenerator:54 - Pushed block input-0-1561223743800
+2019-06-23 02:15:44 INFO  MemoryStore:54 - Block input-0-1561223744000 stored as values in memory (estimated size 7.8 KB, free 365.9 MB)
+2019-06-23 02:15:44 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:44 WARN  BlockManager:66 - Block input-0-1561223744000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:44 INFO  BlockGenerator:54 - Pushed block input-0-1561223744000
+2019-06-23 02:15:44 INFO  MemoryStore:54 - Block input-0-1561223744200 stored as values in memory (estimated size 9.2 KB, free 365.9 MB)
+2019-06-23 02:15:44 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:44 WARN  BlockManager:66 - Block input-0-1561223744200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:44 INFO  BlockGenerator:54 - Pushed block input-0-1561223744200
+2019-06-23 02:15:44 INFO  MemoryStore:54 - Block input-0-1561223744400 stored as values in memory (estimated size 6.7 KB, free 365.8 MB)
+2019-06-23 02:15:44 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:44 WARN  BlockManager:66 - Block input-0-1561223744400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:44 INFO  BlockGenerator:54 - Pushed block input-0-1561223744400
+2019-06-23 02:15:44 INFO  MemoryStore:54 - Block input-0-1561223744600 stored as values in memory (estimated size 3.6 KB, free 365.8 MB)
+2019-06-23 02:15:44 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:44 WARN  BlockManager:66 - Block input-0-1561223744600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:44 INFO  BlockGenerator:54 - Pushed block input-0-1561223744600
+2019-06-23 02:15:45 INFO  MemoryStore:54 - Block input-0-1561223744800 stored as values in memory (estimated size 2.2 KB, free 365.8 MB)
+2019-06-23 02:15:45 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:45 WARN  BlockManager:66 - Block input-0-1561223744800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:45 INFO  BlockGenerator:54 - Pushed block input-0-1561223744800
+2019-06-23 02:15:45 INFO  MemoryStore:54 - Block input-0-1561223745000 stored as values in memory (estimated size 7.8 KB, free 365.8 MB)
+2019-06-23 02:15:45 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:45 WARN  BlockManager:66 - Block input-0-1561223745000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:45 INFO  BlockGenerator:54 - Pushed block input-0-1561223745000
+2019-06-23 02:15:45 INFO  MemoryStore:54 - Block input-0-1561223745200 stored as values in memory (estimated size 5.3 KB, free 365.8 MB)
+2019-06-23 02:15:45 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:45 WARN  BlockManager:66 - Block input-0-1561223745200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:45 INFO  BlockGenerator:54 - Pushed block input-0-1561223745200
+2019-06-23 02:15:45 INFO  MemoryStore:54 - Block input-0-1561223745400 stored as values in memory (estimated size 8.6 KB, free 365.8 MB)
+2019-06-23 02:15:45 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:45 WARN  BlockManager:66 - Block input-0-1561223745400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:45 INFO  BlockGenerator:54 - Pushed block input-0-1561223745400
+2019-06-23 02:15:45 INFO  MemoryStore:54 - Block input-0-1561223745600 stored as values in memory (estimated size 8.6 KB, free 365.8 MB)
+2019-06-23 02:15:45 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:45 WARN  BlockManager:66 - Block input-0-1561223745600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:45 INFO  BlockGenerator:54 - Pushed block input-0-1561223745600
+2019-06-23 02:15:46 INFO  MemoryStore:54 - Block input-0-1561223745800 stored as values in memory (estimated size 8.4 KB, free 365.8 MB)
+2019-06-23 02:15:46 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:46 WARN  BlockManager:66 - Block input-0-1561223745800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:46 INFO  BlockGenerator:54 - Pushed block input-0-1561223745800
+2019-06-23 02:15:46 INFO  MemoryStore:54 - Block input-0-1561223746000 stored as values in memory (estimated size 9.2 KB, free 365.8 MB)
+2019-06-23 02:15:46 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:46 WARN  BlockManager:66 - Block input-0-1561223746000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:46 INFO  BlockGenerator:54 - Pushed block input-0-1561223746000
+2019-06-23 02:15:46 INFO  MemoryStore:54 - Block input-0-1561223746200 stored as values in memory (estimated size 9.3 KB, free 365.8 MB)
+2019-06-23 02:15:46 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:46 WARN  BlockManager:66 - Block input-0-1561223746200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:46 INFO  BlockGenerator:54 - Pushed block input-0-1561223746200
+2019-06-23 02:15:46 INFO  MemoryStore:54 - Block input-0-1561223746400 stored as values in memory (estimated size 9.3 KB, free 365.8 MB)
+2019-06-23 02:15:46 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:46 WARN  BlockManager:66 - Block input-0-1561223746400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:46 INFO  BlockGenerator:54 - Pushed block input-0-1561223746400
+2019-06-23 02:15:46 INFO  MemoryStore:54 - Block input-0-1561223746600 stored as values in memory (estimated size 9.3 KB, free 365.8 MB)
+2019-06-23 02:15:46 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:46 WARN  BlockManager:66 - Block input-0-1561223746600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:46 INFO  BlockGenerator:54 - Pushed block input-0-1561223746600
+2019-06-23 02:15:47 INFO  MemoryStore:54 - Block input-0-1561223746800 stored as values in memory (estimated size 9.6 KB, free 365.8 MB)
+2019-06-23 02:15:47 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:47 WARN  BlockManager:66 - Block input-0-1561223746800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:47 INFO  BlockGenerator:54 - Pushed block input-0-1561223746800
+2019-06-23 02:15:47 INFO  MemoryStore:54 - Block input-0-1561223747000 stored as values in memory (estimated size 9.1 KB, free 365.7 MB)
+2019-06-23 02:15:47 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:47 WARN  BlockManager:66 - Block input-0-1561223747000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:47 INFO  BlockGenerator:54 - Pushed block input-0-1561223747000
+2019-06-23 02:15:47 INFO  MemoryStore:54 - Block input-0-1561223747200 stored as values in memory (estimated size 9.2 KB, free 365.7 MB)
+2019-06-23 02:15:47 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:47 WARN  BlockManager:66 - Block input-0-1561223747200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:47 INFO  BlockGenerator:54 - Pushed block input-0-1561223747200
+2019-06-23 02:15:47 INFO  MemoryStore:54 - Block input-0-1561223747400 stored as values in memory (estimated size 9.3 KB, free 365.7 MB)
+2019-06-23 02:15:47 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:47 WARN  BlockManager:66 - Block input-0-1561223747400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:47 INFO  BlockGenerator:54 - Pushed block input-0-1561223747400
+2019-06-23 02:15:47 INFO  MemoryStore:54 - Block input-0-1561223747600 stored as values in memory (estimated size 9.3 KB, free 365.7 MB)
+2019-06-23 02:15:47 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:47 WARN  BlockManager:66 - Block input-0-1561223747600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:47 INFO  BlockGenerator:54 - Pushed block input-0-1561223747600
+2019-06-23 02:15:48 INFO  MemoryStore:54 - Block input-0-1561223747800 stored as values in memory (estimated size 9.5 KB, free 365.7 MB)
+2019-06-23 02:15:48 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:48 WARN  BlockManager:66 - Block input-0-1561223747800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:48 INFO  BlockGenerator:54 - Pushed block input-0-1561223747800
+2019-06-23 02:15:48 INFO  MemoryStore:54 - Block input-0-1561223748000 stored as values in memory (estimated size 9.4 KB, free 365.7 MB)
+2019-06-23 02:15:48 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:48 WARN  BlockManager:66 - Block input-0-1561223748000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:48 INFO  BlockGenerator:54 - Pushed block input-0-1561223748000
+2019-06-23 02:15:48 INFO  MemoryStore:54 - Block input-0-1561223748200 stored as values in memory (estimated size 8.9 KB, free 365.7 MB)
+2019-06-23 02:15:48 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:48 WARN  BlockManager:66 - Block input-0-1561223748200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:48 INFO  BlockGenerator:54 - Pushed block input-0-1561223748200
+2019-06-23 02:15:48 INFO  MemoryStore:54 - Block input-0-1561223748400 stored as values in memory (estimated size 9.4 KB, free 365.7 MB)
+2019-06-23 02:15:48 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:48 WARN  BlockManager:66 - Block input-0-1561223748400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:48 INFO  BlockGenerator:54 - Pushed block input-0-1561223748400
+2019-06-23 02:15:48 INFO  MemoryStore:54 - Block input-0-1561223748600 stored as values in memory (estimated size 9.3 KB, free 365.7 MB)
+2019-06-23 02:15:48 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:48 WARN  BlockManager:66 - Block input-0-1561223748600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:48 INFO  BlockGenerator:54 - Pushed block input-0-1561223748600
+2019-06-23 02:15:49 INFO  MemoryStore:54 - Block input-0-1561223748800 stored as values in memory (estimated size 9.2 KB, free 365.7 MB)
+2019-06-23 02:15:49 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:49 WARN  BlockManager:66 - Block input-0-1561223748800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:49 INFO  BlockGenerator:54 - Pushed block input-0-1561223748800
+2019-06-23 02:15:49 INFO  MemoryStore:54 - Block input-0-1561223749000 stored as values in memory (estimated size 9.3 KB, free 365.7 MB)
+2019-06-23 02:15:49 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:49 WARN  BlockManager:66 - Block input-0-1561223749000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:49 INFO  BlockGenerator:54 - Pushed block input-0-1561223749000
+2019-06-23 02:15:49 INFO  MemoryStore:54 - Block input-0-1561223749200 stored as values in memory (estimated size 9.1 KB, free 365.6 MB)
+2019-06-23 02:15:49 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:49 WARN  BlockManager:66 - Block input-0-1561223749200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:49 INFO  BlockGenerator:54 - Pushed block input-0-1561223749200
+2019-06-23 02:15:49 INFO  MemoryStore:54 - Block input-0-1561223749400 stored as values in memory (estimated size 9.0 KB, free 365.6 MB)
+2019-06-23 02:15:49 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:49 WARN  BlockManager:66 - Block input-0-1561223749400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:49 INFO  BlockGenerator:54 - Pushed block input-0-1561223749400
+2019-06-23 02:15:49 INFO  MemoryStore:54 - Block input-0-1561223749600 stored as values in memory (estimated size 9.2 KB, free 365.6 MB)
+2019-06-23 02:15:49 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:49 WARN  BlockManager:66 - Block input-0-1561223749600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:49 INFO  BlockGenerator:54 - Pushed block input-0-1561223749600
+2019-06-23 02:15:50 INFO  MemoryStore:54 - Block input-0-1561223749800 stored as values in memory (estimated size 9.2 KB, free 365.6 MB)
+2019-06-23 02:15:50 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:50 WARN  BlockManager:66 - Block input-0-1561223749800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:50 INFO  BlockGenerator:54 - Pushed block input-0-1561223749800
+2019-06-23 02:15:50 INFO  MemoryStore:54 - Block input-0-1561223750000 stored as values in memory (estimated size 9.0 KB, free 365.6 MB)
+2019-06-23 02:15:50 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:50 WARN  BlockManager:66 - Block input-0-1561223750000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:50 INFO  BlockGenerator:54 - Pushed block input-0-1561223750000
+2019-06-23 02:15:50 INFO  MemoryStore:54 - Block input-0-1561223750200 stored as values in memory (estimated size 9.1 KB, free 365.6 MB)
+2019-06-23 02:15:50 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:50 WARN  BlockManager:66 - Block input-0-1561223750200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:50 INFO  BlockGenerator:54 - Pushed block input-0-1561223750200
+2019-06-23 02:15:50 INFO  MemoryStore:54 - Block input-0-1561223750400 stored as values in memory (estimated size 8.6 KB, free 365.6 MB)
+2019-06-23 02:15:50 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:50 WARN  BlockManager:66 - Block input-0-1561223750400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:50 INFO  BlockGenerator:54 - Pushed block input-0-1561223750400
+2019-06-23 02:15:50 INFO  MemoryStore:54 - Block input-0-1561223750600 stored as values in memory (estimated size 7.9 KB, free 365.6 MB)
+2019-06-23 02:15:50 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:50 WARN  BlockManager:66 - Block input-0-1561223750600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:50 INFO  BlockGenerator:54 - Pushed block input-0-1561223750600
+2019-06-23 02:15:51 INFO  MemoryStore:54 - Block input-0-1561223750800 stored as values in memory (estimated size 8.8 KB, free 365.6 MB)
+2019-06-23 02:15:51 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:51 WARN  BlockManager:66 - Block input-0-1561223750800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:51 INFO  BlockGenerator:54 - Pushed block input-0-1561223750800
+2019-06-23 02:15:51 INFO  MemoryStore:54 - Block input-0-1561223751000 stored as values in memory (estimated size 8.7 KB, free 365.6 MB)
+2019-06-23 02:15:51 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:51 WARN  BlockManager:66 - Block input-0-1561223751000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:51 INFO  BlockGenerator:54 - Pushed block input-0-1561223751000
+2019-06-23 02:15:51 INFO  MemoryStore:54 - Block input-0-1561223751200 stored as values in memory (estimated size 8.9 KB, free 365.6 MB)
+2019-06-23 02:15:51 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:51 WARN  BlockManager:66 - Block input-0-1561223751200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:51 INFO  BlockGenerator:54 - Pushed block input-0-1561223751200
+2019-06-23 02:15:51 INFO  MemoryStore:54 - Block input-0-1561223751400 stored as values in memory (estimated size 8.9 KB, free 365.6 MB)
+2019-06-23 02:15:51 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:51 WARN  BlockManager:66 - Block input-0-1561223751400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:51 INFO  BlockGenerator:54 - Pushed block input-0-1561223751400
+2019-06-23 02:15:51 INFO  MemoryStore:54 - Block input-0-1561223751600 stored as values in memory (estimated size 9.1 KB, free 365.5 MB)
+2019-06-23 02:15:51 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:51 WARN  BlockManager:66 - Block input-0-1561223751600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:51 INFO  BlockGenerator:54 - Pushed block input-0-1561223751600
+2019-06-23 02:15:52 INFO  MemoryStore:54 - Block input-0-1561223751800 stored as values in memory (estimated size 9.0 KB, free 365.5 MB)
+2019-06-23 02:15:52 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:52 WARN  BlockManager:66 - Block input-0-1561223751800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:52 INFO  BlockGenerator:54 - Pushed block input-0-1561223751800
+2019-06-23 02:15:52 INFO  MemoryStore:54 - Block input-0-1561223752000 stored as values in memory (estimated size 9.1 KB, free 365.5 MB)
+2019-06-23 02:15:52 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:52 WARN  BlockManager:66 - Block input-0-1561223752000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:52 INFO  BlockGenerator:54 - Pushed block input-0-1561223752000
+2019-06-23 02:15:52 INFO  MemoryStore:54 - Block input-0-1561223752200 stored as values in memory (estimated size 8.7 KB, free 365.5 MB)
+2019-06-23 02:15:52 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:52 WARN  BlockManager:66 - Block input-0-1561223752200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:52 INFO  BlockGenerator:54 - Pushed block input-0-1561223752200
+2019-06-23 02:15:52 INFO  MemoryStore:54 - Block input-0-1561223752400 stored as values in memory (estimated size 9.0 KB, free 365.5 MB)
+2019-06-23 02:15:52 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:52 WARN  BlockManager:66 - Block input-0-1561223752400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:52 INFO  BlockGenerator:54 - Pushed block input-0-1561223752400
+2019-06-23 02:15:52 INFO  MemoryStore:54 - Block input-0-1561223752600 stored as values in memory (estimated size 8.6 KB, free 365.5 MB)
+2019-06-23 02:15:52 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:52 WARN  BlockManager:66 - Block input-0-1561223752600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:52 INFO  BlockGenerator:54 - Pushed block input-0-1561223752600
+2019-06-23 02:15:53 INFO  MemoryStore:54 - Block input-0-1561223752800 stored as values in memory (estimated size 8.9 KB, free 365.5 MB)
+2019-06-23 02:15:53 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:53 WARN  BlockManager:66 - Block input-0-1561223752800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:53 INFO  BlockGenerator:54 - Pushed block input-0-1561223752800
+2019-06-23 02:15:53 INFO  MemoryStore:54 - Block input-0-1561223753000 stored as values in memory (estimated size 9.2 KB, free 365.5 MB)
+2019-06-23 02:15:53 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:53 WARN  BlockManager:66 - Block input-0-1561223753000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:53 INFO  BlockGenerator:54 - Pushed block input-0-1561223753000
+2019-06-23 02:15:53 INFO  MemoryStore:54 - Block input-0-1561223753200 stored as values in memory (estimated size 8.6 KB, free 365.5 MB)
+2019-06-23 02:15:53 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:53 WARN  BlockManager:66 - Block input-0-1561223753200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:53 INFO  BlockGenerator:54 - Pushed block input-0-1561223753200
+2019-06-23 02:15:53 INFO  MemoryStore:54 - Block input-0-1561223753400 stored as values in memory (estimated size 8.9 KB, free 365.5 MB)
+2019-06-23 02:15:53 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:53 WARN  BlockManager:66 - Block input-0-1561223753400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:53 INFO  BlockGenerator:54 - Pushed block input-0-1561223753400
+2019-06-23 02:15:53 INFO  MemoryStore:54 - Block input-0-1561223753600 stored as values in memory (estimated size 8.9 KB, free 365.5 MB)
+2019-06-23 02:15:53 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:53 WARN  BlockManager:66 - Block input-0-1561223753600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:53 INFO  BlockGenerator:54 - Pushed block input-0-1561223753600
+2019-06-23 02:15:54 INFO  MemoryStore:54 - Block input-0-1561223753800 stored as values in memory (estimated size 8.9 KB, free 365.4 MB)
+2019-06-23 02:15:54 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:54 WARN  BlockManager:66 - Block input-0-1561223753800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:54 INFO  BlockGenerator:54 - Pushed block input-0-1561223753800
+2019-06-23 02:15:54 INFO  MemoryStore:54 - Block input-0-1561223754000 stored as values in memory (estimated size 9.0 KB, free 365.4 MB)
+2019-06-23 02:15:54 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:54 WARN  BlockManager:66 - Block input-0-1561223754000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:54 INFO  BlockGenerator:54 - Pushed block input-0-1561223754000
+2019-06-23 02:15:54 INFO  MemoryStore:54 - Block input-0-1561223754200 stored as values in memory (estimated size 8.9 KB, free 365.4 MB)
+2019-06-23 02:15:54 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:54 WARN  BlockManager:66 - Block input-0-1561223754200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:54 INFO  BlockGenerator:54 - Pushed block input-0-1561223754200
+2019-06-23 02:15:54 INFO  MemoryStore:54 - Block input-0-1561223754400 stored as values in memory (estimated size 8.9 KB, free 365.4 MB)
+2019-06-23 02:15:54 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:54 WARN  BlockManager:66 - Block input-0-1561223754400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:54 INFO  BlockGenerator:54 - Pushed block input-0-1561223754400
+2019-06-23 02:15:54 INFO  MemoryStore:54 - Block input-0-1561223754600 stored as values in memory (estimated size 8.2 KB, free 365.4 MB)
+2019-06-23 02:15:54 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:54 WARN  BlockManager:66 - Block input-0-1561223754600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:54 INFO  BlockGenerator:54 - Pushed block input-0-1561223754600
+2019-06-23 02:15:55 INFO  MemoryStore:54 - Block input-0-1561223754800 stored as values in memory (estimated size 8.7 KB, free 365.4 MB)
+2019-06-23 02:15:55 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:55 WARN  BlockManager:66 - Block input-0-1561223754800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:55 INFO  BlockGenerator:54 - Pushed block input-0-1561223754800
+2019-06-23 02:15:55 INFO  MemoryStore:54 - Block input-0-1561223755000 stored as values in memory (estimated size 8.8 KB, free 365.4 MB)
+2019-06-23 02:15:55 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:55 WARN  BlockManager:66 - Block input-0-1561223755000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:55 INFO  BlockGenerator:54 - Pushed block input-0-1561223755000
+2019-06-23 02:15:55 INFO  MemoryStore:54 - Block input-0-1561223755200 stored as values in memory (estimated size 8.8 KB, free 365.4 MB)
+2019-06-23 02:15:55 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:55 WARN  BlockManager:66 - Block input-0-1561223755200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:55 INFO  BlockGenerator:54 - Pushed block input-0-1561223755200
+2019-06-23 02:15:55 INFO  MemoryStore:54 - Block input-0-1561223755400 stored as values in memory (estimated size 8.8 KB, free 365.4 MB)
+2019-06-23 02:15:55 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:55 WARN  BlockManager:66 - Block input-0-1561223755400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:55 INFO  BlockGenerator:54 - Pushed block input-0-1561223755400
+2019-06-23 02:15:55 INFO  MemoryStore:54 - Block input-0-1561223755600 stored as values in memory (estimated size 7.0 KB, free 365.4 MB)
+2019-06-23 02:15:55 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:55 WARN  BlockManager:66 - Block input-0-1561223755600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:55 INFO  BlockGenerator:54 - Pushed block input-0-1561223755600
+2019-06-23 02:15:56 INFO  MemoryStore:54 - Block input-0-1561223755800 stored as values in memory (estimated size 6.6 KB, free 365.4 MB)
+2019-06-23 02:15:56 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:56 WARN  BlockManager:66 - Block input-0-1561223755800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:56 INFO  BlockGenerator:54 - Pushed block input-0-1561223755800
+2019-06-23 02:15:56 INFO  MemoryStore:54 - Block input-0-1561223756000 stored as values in memory (estimated size 7.8 KB, free 365.4 MB)
+2019-06-23 02:15:56 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:56 WARN  BlockManager:66 - Block input-0-1561223756000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:56 INFO  BlockGenerator:54 - Pushed block input-0-1561223756000
+2019-06-23 02:15:56 INFO  MemoryStore:54 - Block input-0-1561223756200 stored as values in memory (estimated size 4.6 KB, free 365.4 MB)
+2019-06-23 02:15:56 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:56 WARN  BlockManager:66 - Block input-0-1561223756200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:56 INFO  BlockGenerator:54 - Pushed block input-0-1561223756200
+2019-06-23 02:15:56 INFO  MemoryStore:54 - Block input-0-1561223756400 stored as values in memory (estimated size 7.8 KB, free 365.3 MB)
+2019-06-23 02:15:56 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:56 WARN  BlockManager:66 - Block input-0-1561223756400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:56 INFO  BlockGenerator:54 - Pushed block input-0-1561223756400
+2019-06-23 02:15:56 INFO  MemoryStore:54 - Block input-0-1561223756600 stored as values in memory (estimated size 9.3 KB, free 365.3 MB)
+2019-06-23 02:15:56 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:56 WARN  BlockManager:66 - Block input-0-1561223756600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:56 INFO  BlockGenerator:54 - Pushed block input-0-1561223756600
+2019-06-23 02:15:57 INFO  MemoryStore:54 - Block input-0-1561223756800 stored as values in memory (estimated size 4.7 KB, free 365.3 MB)
+2019-06-23 02:15:57 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:57 WARN  BlockManager:66 - Block input-0-1561223756800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:57 INFO  BlockGenerator:54 - Pushed block input-0-1561223756800
+2019-06-23 02:15:57 INFO  MemoryStore:54 - Block input-0-1561223757000 stored as values in memory (estimated size 3.0 KB, free 365.3 MB)
+2019-06-23 02:15:57 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:57 WARN  BlockManager:66 - Block input-0-1561223757000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:57 INFO  BlockGenerator:54 - Pushed block input-0-1561223757000
+2019-06-23 02:15:57 INFO  MemoryStore:54 - Block input-0-1561223757200 stored as values in memory (estimated size 6.0 KB, free 365.3 MB)
+2019-06-23 02:15:57 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:57 WARN  BlockManager:66 - Block input-0-1561223757200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:57 INFO  BlockGenerator:54 - Pushed block input-0-1561223757200
+2019-06-23 02:15:57 INFO  MemoryStore:54 - Block input-0-1561223757400 stored as values in memory (estimated size 7.2 KB, free 365.3 MB)
+2019-06-23 02:15:57 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:57 WARN  BlockManager:66 - Block input-0-1561223757400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:57 INFO  BlockGenerator:54 - Pushed block input-0-1561223757400
+2019-06-23 02:15:57 INFO  MemoryStore:54 - Block input-0-1561223757600 stored as values in memory (estimated size 8.4 KB, free 365.3 MB)
+2019-06-23 02:15:57 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:57 WARN  BlockManager:66 - Block input-0-1561223757600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:57 INFO  BlockGenerator:54 - Pushed block input-0-1561223757600
+2019-06-23 02:15:58 INFO  MemoryStore:54 - Block input-0-1561223757800 stored as values in memory (estimated size 8.8 KB, free 365.3 MB)
+2019-06-23 02:15:58 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:58 WARN  BlockManager:66 - Block input-0-1561223757800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:58 INFO  BlockGenerator:54 - Pushed block input-0-1561223757800
+2019-06-23 02:15:58 INFO  MemoryStore:54 - Block input-0-1561223758000 stored as values in memory (estimated size 5.5 KB, free 365.3 MB)
+2019-06-23 02:15:58 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:58 WARN  BlockManager:66 - Block input-0-1561223758000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:58 INFO  BlockGenerator:54 - Pushed block input-0-1561223758000
+2019-06-23 02:15:58 INFO  MemoryStore:54 - Block input-0-1561223758200 stored as values in memory (estimated size 2.7 KB, free 365.3 MB)
+2019-06-23 02:15:58 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:58 WARN  BlockManager:66 - Block input-0-1561223758200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:58 INFO  BlockGenerator:54 - Pushed block input-0-1561223758200
+2019-06-23 02:15:58 INFO  MemoryStore:54 - Block input-0-1561223758400 stored as values in memory (estimated size 5.5 KB, free 365.3 MB)
+2019-06-23 02:15:58 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:58 WARN  BlockManager:66 - Block input-0-1561223758400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:58 INFO  BlockGenerator:54 - Pushed block input-0-1561223758400
+2019-06-23 02:15:58 INFO  MemoryStore:54 - Block input-0-1561223758600 stored as values in memory (estimated size 9.6 KB, free 365.3 MB)
+2019-06-23 02:15:58 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:58 WARN  BlockManager:66 - Block input-0-1561223758600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:58 INFO  BlockGenerator:54 - Pushed block input-0-1561223758600
+2019-06-23 02:15:59 INFO  MemoryStore:54 - Block input-0-1561223758800 stored as values in memory (estimated size 9.3 KB, free 365.3 MB)
+2019-06-23 02:15:59 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:59 WARN  BlockManager:66 - Block input-0-1561223758800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:59 INFO  BlockGenerator:54 - Pushed block input-0-1561223758800
+2019-06-23 02:15:59 INFO  MemoryStore:54 - Block input-0-1561223759000 stored as values in memory (estimated size 9.2 KB, free 365.3 MB)
+2019-06-23 02:15:59 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:59 WARN  BlockManager:66 - Block input-0-1561223759000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:59 INFO  BlockGenerator:54 - Pushed block input-0-1561223759000
+2019-06-23 02:15:59 INFO  MemoryStore:54 - Block input-0-1561223759200 stored as values in memory (estimated size 9.1 KB, free 365.3 MB)
+2019-06-23 02:15:59 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:59 WARN  BlockManager:66 - Block input-0-1561223759200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:59 INFO  BlockGenerator:54 - Pushed block input-0-1561223759200
+2019-06-23 02:15:59 INFO  MemoryStore:54 - Block input-0-1561223759400 stored as values in memory (estimated size 8.9 KB, free 365.2 MB)
+2019-06-23 02:15:59 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:59 WARN  BlockManager:66 - Block input-0-1561223759400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:59 INFO  BlockGenerator:54 - Pushed block input-0-1561223759400
+2019-06-23 02:15:59 INFO  MemoryStore:54 - Block input-0-1561223759600 stored as values in memory (estimated size 9.2 KB, free 365.2 MB)
+2019-06-23 02:15:59 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:15:59 WARN  BlockManager:66 - Block input-0-1561223759600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:15:59 INFO  BlockGenerator:54 - Pushed block input-0-1561223759600
+2019-06-23 02:16:00 INFO  MemoryStore:54 - Block input-0-1561223759800 stored as values in memory (estimated size 8.3 KB, free 365.2 MB)
+2019-06-23 02:16:00 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:00 WARN  BlockManager:66 - Block input-0-1561223759800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:00 INFO  BlockGenerator:54 - Pushed block input-0-1561223759800
+2019-06-23 02:16:00 INFO  MemoryStore:54 - Block input-0-1561223760000 stored as values in memory (estimated size 8.2 KB, free 365.2 MB)
+2019-06-23 02:16:00 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:00 WARN  BlockManager:66 - Block input-0-1561223760000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:00 INFO  BlockGenerator:54 - Pushed block input-0-1561223760000
+2019-06-23 02:16:00 INFO  MemoryStore:54 - Block input-0-1561223760200 stored as values in memory (estimated size 8.4 KB, free 365.2 MB)
+2019-06-23 02:16:00 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:00 WARN  BlockManager:66 - Block input-0-1561223760200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:00 INFO  BlockGenerator:54 - Pushed block input-0-1561223760200
+2019-06-23 02:16:00 INFO  MemoryStore:54 - Block input-0-1561223760400 stored as values in memory (estimated size 7.8 KB, free 365.2 MB)
+2019-06-23 02:16:00 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:00 WARN  BlockManager:66 - Block input-0-1561223760400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:00 INFO  BlockGenerator:54 - Pushed block input-0-1561223760400
+2019-06-23 02:16:00 INFO  MemoryStore:54 - Block input-0-1561223760600 stored as values in memory (estimated size 8.7 KB, free 365.2 MB)
+2019-06-23 02:16:00 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:00 WARN  BlockManager:66 - Block input-0-1561223760600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:00 INFO  BlockGenerator:54 - Pushed block input-0-1561223760600
+2019-06-23 02:16:01 INFO  MemoryStore:54 - Block input-0-1561223760800 stored as values in memory (estimated size 8.2 KB, free 365.2 MB)
+2019-06-23 02:16:01 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:01 WARN  BlockManager:66 - Block input-0-1561223760800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:01 INFO  BlockGenerator:54 - Pushed block input-0-1561223760800
+2019-06-23 02:16:01 INFO  MemoryStore:54 - Block input-0-1561223761000 stored as values in memory (estimated size 9.6 KB, free 365.2 MB)
+2019-06-23 02:16:01 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:01 WARN  BlockManager:66 - Block input-0-1561223761000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:01 INFO  BlockGenerator:54 - Pushed block input-0-1561223761000
+2019-06-23 02:16:01 INFO  MemoryStore:54 - Block input-0-1561223761200 stored as values in memory (estimated size 9.5 KB, free 365.2 MB)
+2019-06-23 02:16:01 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:01 WARN  BlockManager:66 - Block input-0-1561223761200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:01 INFO  BlockGenerator:54 - Pushed block input-0-1561223761200
+2019-06-23 02:16:01 INFO  MemoryStore:54 - Block input-0-1561223761400 stored as values in memory (estimated size 8.8 KB, free 365.2 MB)
+2019-06-23 02:16:01 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:01 WARN  BlockManager:66 - Block input-0-1561223761400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:01 INFO  BlockGenerator:54 - Pushed block input-0-1561223761400
+2019-06-23 02:16:01 INFO  MemoryStore:54 - Block input-0-1561223761600 stored as values in memory (estimated size 8.4 KB, free 365.1 MB)
+2019-06-23 02:16:01 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:01 WARN  BlockManager:66 - Block input-0-1561223761600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:01 INFO  BlockGenerator:54 - Pushed block input-0-1561223761600
+2019-06-23 02:16:02 INFO  MemoryStore:54 - Block input-0-1561223761800 stored as values in memory (estimated size 8.0 KB, free 365.1 MB)
+2019-06-23 02:16:02 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:02 WARN  BlockManager:66 - Block input-0-1561223761800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:02 INFO  BlockGenerator:54 - Pushed block input-0-1561223761800
+2019-06-23 02:16:02 INFO  MemoryStore:54 - Block input-0-1561223762000 stored as values in memory (estimated size 8.8 KB, free 365.1 MB)
+2019-06-23 02:16:02 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:02 WARN  BlockManager:66 - Block input-0-1561223762000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:02 INFO  BlockGenerator:54 - Pushed block input-0-1561223762000
+2019-06-23 02:16:02 INFO  MemoryStore:54 - Block input-0-1561223762200 stored as values in memory (estimated size 9.2 KB, free 365.1 MB)
+2019-06-23 02:16:02 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:02 WARN  BlockManager:66 - Block input-0-1561223762200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:02 INFO  BlockGenerator:54 - Pushed block input-0-1561223762200
+2019-06-23 02:16:02 INFO  MemoryStore:54 - Block input-0-1561223762400 stored as values in memory (estimated size 8.1 KB, free 365.1 MB)
+2019-06-23 02:16:02 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:02 WARN  BlockManager:66 - Block input-0-1561223762400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:02 INFO  BlockGenerator:54 - Pushed block input-0-1561223762400
+2019-06-23 02:16:02 INFO  MemoryStore:54 - Block input-0-1561223762600 stored as values in memory (estimated size 8.3 KB, free 365.1 MB)
+2019-06-23 02:16:02 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:02 WARN  BlockManager:66 - Block input-0-1561223762600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:02 INFO  BlockGenerator:54 - Pushed block input-0-1561223762600
+2019-06-23 02:16:03 INFO  MemoryStore:54 - Block input-0-1561223762800 stored as values in memory (estimated size 8.9 KB, free 365.1 MB)
+2019-06-23 02:16:03 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:03 WARN  BlockManager:66 - Block input-0-1561223762800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:03 INFO  BlockGenerator:54 - Pushed block input-0-1561223762800
+2019-06-23 02:16:03 INFO  MemoryStore:54 - Block input-0-1561223763000 stored as values in memory (estimated size 8.7 KB, free 365.1 MB)
+2019-06-23 02:16:03 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:03 WARN  BlockManager:66 - Block input-0-1561223763000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:03 INFO  BlockGenerator:54 - Pushed block input-0-1561223763000
+2019-06-23 02:16:03 INFO  MemoryStore:54 - Block input-0-1561223763200 stored as values in memory (estimated size 9.3 KB, free 365.1 MB)
+2019-06-23 02:16:03 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:03 WARN  BlockManager:66 - Block input-0-1561223763200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:03 INFO  BlockGenerator:54 - Pushed block input-0-1561223763200
+2019-06-23 02:16:03 INFO  MemoryStore:54 - Block input-0-1561223763400 stored as values in memory (estimated size 9.2 KB, free 365.1 MB)
+2019-06-23 02:16:03 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:03 WARN  BlockManager:66 - Block input-0-1561223763400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:03 INFO  BlockGenerator:54 - Pushed block input-0-1561223763400
+2019-06-23 02:16:03 INFO  MemoryStore:54 - Block input-0-1561223763600 stored as values in memory (estimated size 9.2 KB, free 365.1 MB)
+2019-06-23 02:16:03 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:03 WARN  BlockManager:66 - Block input-0-1561223763600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:03 INFO  BlockGenerator:54 - Pushed block input-0-1561223763600
+2019-06-23 02:16:04 INFO  MemoryStore:54 - Block input-0-1561223763800 stored as values in memory (estimated size 8.8 KB, free 365.1 MB)
+2019-06-23 02:16:04 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:04 WARN  BlockManager:66 - Block input-0-1561223763800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:04 INFO  BlockGenerator:54 - Pushed block input-0-1561223763800
+2019-06-23 02:16:04 INFO  MemoryStore:54 - Block input-0-1561223764000 stored as values in memory (estimated size 8.6 KB, free 365.0 MB)
+2019-06-23 02:16:04 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:04 WARN  BlockManager:66 - Block input-0-1561223764000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:04 INFO  BlockGenerator:54 - Pushed block input-0-1561223764000
+2019-06-23 02:16:04 INFO  MemoryStore:54 - Block input-0-1561223764200 stored as values in memory (estimated size 8.5 KB, free 365.0 MB)
+2019-06-23 02:16:04 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:04 WARN  BlockManager:66 - Block input-0-1561223764200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:04 INFO  BlockGenerator:54 - Pushed block input-0-1561223764200
+2019-06-23 02:16:04 INFO  MemoryStore:54 - Block input-0-1561223764400 stored as values in memory (estimated size 8.5 KB, free 365.0 MB)
+2019-06-23 02:16:04 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:04 WARN  BlockManager:66 - Block input-0-1561223764400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:04 INFO  BlockGenerator:54 - Pushed block input-0-1561223764400
+2019-06-23 02:16:04 INFO  MemoryStore:54 - Block input-0-1561223764600 stored as values in memory (estimated size 9.5 KB, free 365.0 MB)
+2019-06-23 02:16:04 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:04 WARN  BlockManager:66 - Block input-0-1561223764600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:04 INFO  BlockGenerator:54 - Pushed block input-0-1561223764600
+2019-06-23 02:16:05 INFO  MemoryStore:54 - Block input-0-1561223764800 stored as values in memory (estimated size 9.4 KB, free 365.0 MB)
+2019-06-23 02:16:05 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:05 WARN  BlockManager:66 - Block input-0-1561223764800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:05 INFO  BlockGenerator:54 - Pushed block input-0-1561223764800
+2019-06-23 02:16:05 INFO  MemoryStore:54 - Block input-0-1561223765000 stored as values in memory (estimated size 8.4 KB, free 365.0 MB)
+2019-06-23 02:16:05 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:05 WARN  BlockManager:66 - Block input-0-1561223765000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:05 INFO  BlockGenerator:54 - Pushed block input-0-1561223765000
+2019-06-23 02:16:05 INFO  MemoryStore:54 - Block input-0-1561223765200 stored as values in memory (estimated size 7.9 KB, free 365.0 MB)
+2019-06-23 02:16:05 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:05 WARN  BlockManager:66 - Block input-0-1561223765200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:05 INFO  BlockGenerator:54 - Pushed block input-0-1561223765200
+2019-06-23 02:16:05 INFO  MemoryStore:54 - Block input-0-1561223765400 stored as values in memory (estimated size 9.0 KB, free 365.0 MB)
+2019-06-23 02:16:05 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:05 WARN  BlockManager:66 - Block input-0-1561223765400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:05 INFO  BlockGenerator:54 - Pushed block input-0-1561223765400
+2019-06-23 02:16:05 INFO  MemoryStore:54 - Block input-0-1561223765600 stored as values in memory (estimated size 9.1 KB, free 365.0 MB)
+2019-06-23 02:16:05 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:05 WARN  BlockManager:66 - Block input-0-1561223765600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:05 INFO  BlockGenerator:54 - Pushed block input-0-1561223765600
+2019-06-23 02:16:06 INFO  MemoryStore:54 - Block input-0-1561223765800 stored as values in memory (estimated size 8.8 KB, free 365.0 MB)
+2019-06-23 02:16:06 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:06 WARN  BlockManager:66 - Block input-0-1561223765800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:06 INFO  BlockGenerator:54 - Pushed block input-0-1561223765800
+2019-06-23 02:16:06 INFO  MemoryStore:54 - Block input-0-1561223766000 stored as values in memory (estimated size 8.8 KB, free 365.0 MB)
+2019-06-23 02:16:06 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:06 WARN  BlockManager:66 - Block input-0-1561223766000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:06 INFO  BlockGenerator:54 - Pushed block input-0-1561223766000
+2019-06-23 02:16:06 INFO  MemoryStore:54 - Block input-0-1561223766200 stored as values in memory (estimated size 9.1 KB, free 365.0 MB)
+2019-06-23 02:16:06 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:06 WARN  BlockManager:66 - Block input-0-1561223766200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:06 INFO  BlockGenerator:54 - Pushed block input-0-1561223766200
+2019-06-23 02:16:06 INFO  MemoryStore:54 - Block input-0-1561223766400 stored as values in memory (estimated size 8.9 KB, free 364.9 MB)
+2019-06-23 02:16:06 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:06 WARN  BlockManager:66 - Block input-0-1561223766400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:06 INFO  BlockGenerator:54 - Pushed block input-0-1561223766400
+2019-06-23 02:16:06 INFO  MemoryStore:54 - Block input-0-1561223766600 stored as values in memory (estimated size 9.1 KB, free 364.9 MB)
+2019-06-23 02:16:06 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:06 WARN  BlockManager:66 - Block input-0-1561223766600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:06 INFO  BlockGenerator:54 - Pushed block input-0-1561223766600
+2019-06-23 02:16:07 INFO  MemoryStore:54 - Block input-0-1561223766800 stored as values in memory (estimated size 6.7 KB, free 364.9 MB)
+2019-06-23 02:16:07 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:07 WARN  BlockManager:66 - Block input-0-1561223766800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:07 INFO  BlockGenerator:54 - Pushed block input-0-1561223766800
+2019-06-23 02:16:07 INFO  MemoryStore:54 - Block input-0-1561223767000 stored as values in memory (estimated size 7.5 KB, free 364.9 MB)
+2019-06-23 02:16:07 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:07 WARN  BlockManager:66 - Block input-0-1561223767000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:07 INFO  BlockGenerator:54 - Pushed block input-0-1561223767000
+2019-06-23 02:16:07 INFO  MemoryStore:54 - Block input-0-1561223767200 stored as values in memory (estimated size 5.6 KB, free 364.9 MB)
+2019-06-23 02:16:07 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:07 WARN  BlockManager:66 - Block input-0-1561223767200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:07 INFO  BlockGenerator:54 - Pushed block input-0-1561223767200
+2019-06-23 02:16:07 INFO  MemoryStore:54 - Block input-0-1561223767400 stored as values in memory (estimated size 8.1 KB, free 364.9 MB)
+2019-06-23 02:16:07 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:07 WARN  BlockManager:66 - Block input-0-1561223767400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:07 INFO  BlockGenerator:54 - Pushed block input-0-1561223767400
+2019-06-23 02:16:07 INFO  MemoryStore:54 - Block input-0-1561223767600 stored as values in memory (estimated size 8.4 KB, free 364.9 MB)
+2019-06-23 02:16:07 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:07 WARN  BlockManager:66 - Block input-0-1561223767600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:07 INFO  BlockGenerator:54 - Pushed block input-0-1561223767600
+2019-06-23 02:16:08 INFO  MemoryStore:54 - Block input-0-1561223767800 stored as values in memory (estimated size 8.7 KB, free 364.9 MB)
+2019-06-23 02:16:08 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:08 WARN  BlockManager:66 - Block input-0-1561223767800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:08 INFO  BlockGenerator:54 - Pushed block input-0-1561223767800
+2019-06-23 02:16:08 INFO  MemoryStore:54 - Block input-0-1561223768000 stored as values in memory (estimated size 8.9 KB, free 364.9 MB)
+2019-06-23 02:16:08 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:08 WARN  BlockManager:66 - Block input-0-1561223768000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:08 INFO  BlockGenerator:54 - Pushed block input-0-1561223768000
+2019-06-23 02:16:08 INFO  MemoryStore:54 - Block input-0-1561223768200 stored as values in memory (estimated size 8.6 KB, free 364.9 MB)
+2019-06-23 02:16:08 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:08 WARN  BlockManager:66 - Block input-0-1561223768200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:08 INFO  BlockGenerator:54 - Pushed block input-0-1561223768200
+2019-06-23 02:16:08 INFO  MemoryStore:54 - Block input-0-1561223768400 stored as values in memory (estimated size 8.9 KB, free 364.9 MB)
+2019-06-23 02:16:08 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:08 WARN  BlockManager:66 - Block input-0-1561223768400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:08 INFO  BlockGenerator:54 - Pushed block input-0-1561223768400
+2019-06-23 02:16:08 INFO  MemoryStore:54 - Block input-0-1561223768600 stored as values in memory (estimated size 8.8 KB, free 364.9 MB)
+2019-06-23 02:16:08 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:08 WARN  BlockManager:66 - Block input-0-1561223768600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:08 INFO  BlockGenerator:54 - Pushed block input-0-1561223768600
+2019-06-23 02:16:09 INFO  MemoryStore:54 - Block input-0-1561223768800 stored as values in memory (estimated size 9.1 KB, free 364.8 MB)
+2019-06-23 02:16:09 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:09 WARN  BlockManager:66 - Block input-0-1561223768800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:09 INFO  BlockGenerator:54 - Pushed block input-0-1561223768800
+2019-06-23 02:16:09 INFO  MemoryStore:54 - Block input-0-1561223769000 stored as values in memory (estimated size 8.7 KB, free 364.8 MB)
+2019-06-23 02:16:09 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:09 WARN  BlockManager:66 - Block input-0-1561223769000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:09 INFO  BlockGenerator:54 - Pushed block input-0-1561223769000
+2019-06-23 02:16:09 INFO  MemoryStore:54 - Block input-0-1561223769200 stored as values in memory (estimated size 8.4 KB, free 364.8 MB)
+2019-06-23 02:16:09 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:09 WARN  BlockManager:66 - Block input-0-1561223769200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:09 INFO  BlockGenerator:54 - Pushed block input-0-1561223769200
+2019-06-23 02:16:09 INFO  MemoryStore:54 - Block input-0-1561223769400 stored as values in memory (estimated size 9.0 KB, free 364.8 MB)
+2019-06-23 02:16:09 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:09 WARN  BlockManager:66 - Block input-0-1561223769400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:09 INFO  BlockGenerator:54 - Pushed block input-0-1561223769400
+2019-06-23 02:16:09 INFO  MemoryStore:54 - Block input-0-1561223769600 stored as values in memory (estimated size 8.7 KB, free 364.8 MB)
+2019-06-23 02:16:09 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:09 WARN  BlockManager:66 - Block input-0-1561223769600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:09 INFO  BlockGenerator:54 - Pushed block input-0-1561223769600
+2019-06-23 02:16:10 INFO  MemoryStore:54 - Block input-0-1561223769800 stored as values in memory (estimated size 8.2 KB, free 364.8 MB)
+2019-06-23 02:16:10 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:10 WARN  BlockManager:66 - Block input-0-1561223769800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:10 INFO  BlockGenerator:54 - Pushed block input-0-1561223769800
+2019-06-23 02:16:10 INFO  MemoryStore:54 - Block input-0-1561223770000 stored as values in memory (estimated size 4.2 KB, free 364.8 MB)
+2019-06-23 02:16:10 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:10 WARN  BlockManager:66 - Block input-0-1561223770000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:10 INFO  BlockGenerator:54 - Pushed block input-0-1561223770000
+2019-06-23 02:16:10 INFO  MemoryStore:54 - Block input-0-1561223770200 stored as values in memory (estimated size 6.7 KB, free 364.8 MB)
+2019-06-23 02:16:10 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:10 WARN  BlockManager:66 - Block input-0-1561223770200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:10 INFO  BlockGenerator:54 - Pushed block input-0-1561223770200
+2019-06-23 02:16:10 INFO  MemoryStore:54 - Block input-0-1561223770400 stored as values in memory (estimated size 7.9 KB, free 364.8 MB)
+2019-06-23 02:16:10 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:10 WARN  BlockManager:66 - Block input-0-1561223770400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:10 INFO  BlockGenerator:54 - Pushed block input-0-1561223770400
+2019-06-23 02:16:10 INFO  MemoryStore:54 - Block input-0-1561223770600 stored as values in memory (estimated size 7.9 KB, free 364.8 MB)
+2019-06-23 02:16:10 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:10 WARN  BlockManager:66 - Block input-0-1561223770600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:10 INFO  BlockGenerator:54 - Pushed block input-0-1561223770600
+2019-06-23 02:16:11 INFO  MemoryStore:54 - Block input-0-1561223770800 stored as values in memory (estimated size 2.5 KB, free 364.8 MB)
+2019-06-23 02:16:11 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:11 WARN  BlockManager:66 - Block input-0-1561223770800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:11 INFO  BlockGenerator:54 - Pushed block input-0-1561223770800
+2019-06-23 02:16:11 INFO  MemoryStore:54 - Block input-0-1561223771000 stored as values in memory (estimated size 986.0 B, free 364.8 MB)
+2019-06-23 02:16:11 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:11 WARN  BlockManager:66 - Block input-0-1561223771000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:11 INFO  BlockGenerator:54 - Pushed block input-0-1561223771000
+2019-06-23 02:16:11 INFO  MemoryStore:54 - Block input-0-1561223771200 stored as values in memory (estimated size 356.0 B, free 364.8 MB)
+2019-06-23 02:16:11 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:11 WARN  BlockManager:66 - Block input-0-1561223771200 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:11 INFO  BlockGenerator:54 - Pushed block input-0-1561223771200
+2019-06-23 02:16:11 INFO  MemoryStore:54 - Block input-0-1561223771400 stored as values in memory (estimated size 2.8 KB, free 364.8 MB)
+2019-06-23 02:16:11 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:11 WARN  BlockManager:66 - Block input-0-1561223771400 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:11 INFO  BlockGenerator:54 - Pushed block input-0-1561223771400
+2019-06-23 02:16:11 INFO  MemoryStore:54 - Block input-0-1561223771600 stored as values in memory (estimated size 3.7 KB, free 364.8 MB)
+2019-06-23 02:16:11 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:11 WARN  BlockManager:66 - Block input-0-1561223771600 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:11 INFO  BlockGenerator:54 - Pushed block input-0-1561223771600
+2019-06-23 02:16:12 INFO  MemoryStore:54 - Block input-0-1561223771800 stored as values in memory (estimated size 3.7 KB, free 364.8 MB)
+2019-06-23 02:16:12 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:12 WARN  BlockManager:66 - Block input-0-1561223771800 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:12 INFO  BlockGenerator:54 - Pushed block input-0-1561223771800
+2019-06-23 02:16:12 INFO  MemoryStore:54 - Block input-0-1561223772000 stored as values in memory (estimated size 986.0 B, free 364.8 MB)
+2019-06-23 02:16:12 WARN  RandomBlockReplicationPolicy:66 - Expecting 1 replicas with only 0 peer/s.
+2019-06-23 02:16:12 WARN  BlockManager:66 - Block input-0-1561223772000 replicated to only 0 peer(s) instead of 1 peers
+2019-06-23 02:16:12 INFO  BlockGenerator:54 - Pushed block input-0-1561223772000
+2019-06-23 02:16:46 ERROR CoarseGrainedExecutorBackend:43 - RECEIVED SIGNAL TERM

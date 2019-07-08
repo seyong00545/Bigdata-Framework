@@ -1,0 +1,17 @@
+[2019-07-08 16:33:39,504] INFO Cleaner 0: Beginning cleaning of log __consumer_offsets-9. (kafka.log.LogCleaner)
+[2019-07-08 16:33:39,505] INFO Cleaner 0: Building offset map for __consumer_offsets-9... (kafka.log.LogCleaner)
+[2019-07-08 16:33:39,522] INFO Cleaner 0: Building offset map for log __consumer_offsets-9 for 1 segments in offset range [0, 1). (kafka.log.LogCleaner)
+[2019-07-08 16:33:39,568] INFO Cleaner 0: Offset map for log __consumer_offsets-9 complete. (kafka.log.LogCleaner)
+[2019-07-08 16:33:39,572] INFO Cleaner 0: Cleaning log __consumer_offsets-9 (cleaning prior to Mon Jun 24 02:59:52 KST 2019, discarding tombstones prior to Thu Jan 01 09:00:00 KST 1970)... (kafka.log.LogCleaner)
+[2019-07-08 16:33:39,576] INFO Cleaner 0: Cleaning segment 0 in log __consumer_offsets-9 (largest timestamp Mon Jun 24 02:59:52 KST 2019) into 0, retaining deletes. (kafka.log.LogCleaner)
+[2019-07-08 16:33:39,646] INFO Cleaner 0: Swapping in cleaned segment LogSegment(baseOffset=0, size=315) for segment(s) List(LogSegment(baseOffset=0, size=315)) in log Log(/tmp/kafka-logs/__consumer_offsets-9) (kafka.log.LogCleaner)
+[2019-07-08 16:33:39,649] INFO [kafka-log-cleaner-thread-0]: 
+	Log cleaner thread 0 cleaned log __consumer_offsets-9 (dirty section = [0, 0])
+	0.0 MB of log processed in 0.1 seconds (0.0 MB/sec).
+	Indexed 0.0 MB in 0.1 seconds (0.0 Mb/sec, 44.8% of total time)
+	Buffer utilization: 0.0%
+	Cleaned 0.0 MB in 0.1 seconds (0.0 Mb/sec, 55.2% of total time)
+	Start size: 0.0 MB (1 messages)
+	End size: 0.0 MB (1 messages)
+	0.0% size reduction (0.0% fewer messages)
+ (kafka.log.LogCleaner)

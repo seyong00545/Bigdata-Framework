@@ -1,0 +1,4 @@
+Main-Class: jythonTest.interpreterPython
+Class-Path: jython-standalone-2.7.0.jar
+
+

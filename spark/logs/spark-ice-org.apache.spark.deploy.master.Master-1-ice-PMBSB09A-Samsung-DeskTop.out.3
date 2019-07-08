@@ -1,0 +1,38 @@
+Spark Command: /usr/lib/jvm/java-8-oracle//bin/java -cp /home/ice/spark/conf/:/home/ice/spark/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host ice-PMBSB09A-Samsung-DeskTop --port 7077 --webui-port 8080
+========================================
+2019-06-23 02:15:05 INFO  Master:2566 - Started daemon with process name: 659@ice-PMBSB09A-Samsung-DeskTop
+2019-06-23 02:15:05 INFO  SignalUtils:54 - Registered signal handler for TERM
+2019-06-23 02:15:05 INFO  SignalUtils:54 - Registered signal handler for HUP
+2019-06-23 02:15:05 INFO  SignalUtils:54 - Registered signal handler for INT
+2019-06-23 02:15:05 WARN  Utils:66 - Your hostname, ice-PMBSB09A-Samsung-DeskTop resolves to a loopback address: 127.0.1.1; using 192.168.0.76 instead (on interface enp4s0)
+2019-06-23 02:15:05 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2019-06-23 02:15:05 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-23 02:15:05 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 02:15:05 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 02:15:05 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 02:15:05 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 02:15:05 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 02:15:05 INFO  Utils:54 - Successfully started service 'sparkMaster' on port 7077.
+2019-06-23 02:15:05 INFO  Master:54 - Starting Spark master at spark://ice-PMBSB09A-Samsung-DeskTop:7077
+2019-06-23 02:15:05 INFO  Master:54 - Running Spark version 2.4.0
+2019-06-23 02:15:05 INFO  log:192 - Logging initialized @907ms
+2019-06-23 02:15:05 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-06-23 02:15:05 INFO  Server:419 - Started @942ms
+2019-06-23 02:15:05 INFO  AbstractConnector:278 - Started ServerConnector@3430f0f9{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-06-23 02:15:05 INFO  Utils:54 - Successfully started service 'MasterUI' on port 8080.
+2019-06-23 02:15:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5860ff72{/app,null,AVAILABLE,@Spark}
+2019-06-23 02:15:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@762302e{/app/json,null,AVAILABLE,@Spark}
+2019-06-23 02:15:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@303006fc{/,null,AVAILABLE,@Spark}
+2019-06-23 02:15:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@614f3333{/json,null,AVAILABLE,@Spark}
+2019-06-23 02:15:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77ba9c74{/static,null,AVAILABLE,@Spark}
+2019-06-23 02:15:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@441fc3dd{/app/kill,null,AVAILABLE,@Spark}
+2019-06-23 02:15:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@c3ff943{/driver/kill,null,AVAILABLE,@Spark}
+2019-06-23 02:15:05 INFO  MasterWebUI:54 - Bound MasterWebUI to 0.0.0.0, and started at http://192.168.0.76:8080
+2019-06-23 02:15:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6c59ba46{/metrics/master/json,null,AVAILABLE,@Spark}
+2019-06-23 02:15:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@50a07eff{/metrics/applications/json,null,AVAILABLE,@Spark}
+2019-06-23 02:15:05 INFO  Master:54 - I have been elected leader! New state: ALIVE
+2019-06-23 02:15:14 INFO  Master:54 - Registering worker 192.168.0.76:43293 with 1 cores, 1024.0 MB RAM
+2019-06-23 02:15:30 INFO  Master:54 - Registering app Data Fusion edge side
+2019-06-23 02:15:30 INFO  Master:54 - Registered app Data Fusion edge side with ID app-20190623021530-0000
+2019-06-23 02:15:30 INFO  Master:54 - Launching executor app-20190623021530-0000/0 on worker worker-20190623021514-192.168.0.76-43293
+2019-06-23 02:16:46 ERROR Master:43 - RECEIVED SIGNAL TERM

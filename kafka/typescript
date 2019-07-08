@@ -1,0 +1,297 @@
+Script started on 2019년 02월 20일 (수) 오전 06시 27분 40초
+]0;ice@ice-PMBSB09A-Samsung-DeskTop: ~/kafkaice@ice-PMBSB09A-Samsung-DeskTop:~/kafka$ bin/kafka-server-start.sh config/serverr.properties [A]0;ice@ice-PMBSB09A-Samsung-DeskTop: ~/kafkaice@ice-PMBSB09A-Samsung-DeskTop:~/kafka$ clear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbin/kafka-server-start.sh config/serverr.properties [A]0;ice@ice-PMBSB09A-Samsung-DeskTop: ~/kafkaice@ice-PMBSB09A-Samsung-DeskTop:~/kafka$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -efc
+UID        PID  PPID CLS PRI STIME TTY          TIME CMD
+root         1     0 TS   19  2월12 ?      00:00:09 /sbin/init splash
+root         2     0 TS   19  2월12 ?      00:00:00 [kthreadd]
+root         4     2 TS   39  2월12 ?      00:00:00 [kworker/0:0H]
+root         6     2 TS   39  2월12 ?      00:00:00 [mm_percpu_wq]
+root         7     2 TS   19  2월12 ?      00:00:14 [ksoftirqd/0]
+root         8     2 TS   19  2월12 ?      00:06:36 [rcu_sched]
+root         9     2 TS   19  2월12 ?      00:00:00 [rcu_bh]
+root        10     2 FF  139  2월12 ?      00:00:00 [migration/0]
+root        11     2 FF  139  2월12 ?      00:00:01 [watchdog/0]
+root        12     2 TS   19  2월12 ?      00:00:00 [cpuhp/0]
+root        13     2 TS   19  2월12 ?      00:00:00 [cpuhp/1]
+root        14     2 FF  139  2월12 ?      00:00:01 [watchdog/1]
+root        15     2 FF  139  2월12 ?      00:00:00 [migration/1]
+root        16     2 TS   19  2월12 ?      00:00:14 [ksoftirqd/1]
+root        18     2 TS   39  2월12 ?      00:00:00 [kworker/1:0H]
+root        19     2 TS   19  2월12 ?      00:00:00 [cpuhp/2]
+root        20     2 FF  139  2월12 ?      00:00:01 [watchdog/2]
+root        21     2 FF  139  2월12 ?      00:00:00 [migration/2]
+root        22     2 TS   19  2월12 ?      00:00:14 [ksoftirqd/2]
+root        24     2 TS   39  2월12 ?      00:00:00 [kworker/2:0H]
+root        25     2 TS   19  2월12 ?      00:00:00 [cpuhp/3]
+root        26     2 FF  139  2월12 ?      00:00:01 [watchdog/3]
+root        27     2 FF  139  2월12 ?      00:00:00 [migration/3]
+root        28     2 TS   19  2월12 ?      00:00:14 [ksoftirqd/3]
+root        30     2 TS   39  2월12 ?      00:00:00 [kworker/3:0H]
+root        31     2 TS   19  2월12 ?      00:00:00 [cpuhp/4]
+root        32     2 FF  139  2월12 ?      00:00:01 [watchdog/4]
+root        33     2 FF  139  2월12 ?      00:00:00 [migration/4]
+root        34     2 TS   19  2월12 ?      00:00:14 [ksoftirqd/4]
+root        36     2 TS   39  2월12 ?      00:00:00 [kworker/4:0H]
+root        37     2 TS   19  2월12 ?      00:00:00 [cpuhp/5]
+root        38     2 FF  139  2월12 ?      00:00:01 [watchdog/5]
+root        39     2 FF  139  2월12 ?      00:00:00 [migration/5]
+root        40     2 TS   19  2월12 ?      00:00:14 [ksoftirqd/5]
+root        42     2 TS   39  2월12 ?      00:00:00 [kworker/5:0H]
+root        43     2 TS   19  2월12 ?      00:00:00 [cpuhp/6]
+root        44     2 FF  139  2월12 ?      00:00:01 [watchdog/6]
+root        45     2 FF  139  2월12 ?      00:00:00 [migration/6]
+root        46     2 TS   19  2월12 ?      00:00:14 [ksoftirqd/6]
+root        48     2 TS   39  2월12 ?      00:00:00 [kworker/6:0H]
+root        49     2 TS   19  2월12 ?      00:00:00 [cpuhp/7]
+root        50     2 FF  139  2월12 ?      00:00:01 [watchdog/7]
+root        51     2 FF  139  2월12 ?      00:00:00 [migration/7]
+root        52     2 TS   19  2월12 ?      00:00:15 [ksoftirqd/7]
+root        54     2 TS   39  2월12 ?      00:00:00 [kworker/7:0H]
+root        55     2 TS   19  2월12 ?      00:00:00 [kdevtmpfs]
+root        56     2 TS   39  2월12 ?      00:00:00 [netns]
+root        57     2 TS   19  2월12 ?      00:00:00 [rcu_tasks_kthre]
+root        58     2 TS   19  2월12 ?      00:00:00 [kauditd]
+root        61     2 TS   19  2월12 ?      00:00:00 [khungtaskd]
+root        62     2 TS   19  2월12 ?      00:00:00 [oom_reaper]
+root        63     2 TS   39  2월12 ?      00:00:00 [writeback]
+root        64     2 TS   19  2월12 ?      00:00:00 [kcompactd0]
+root        65     2 TS   14  2월12 ?      00:00:00 [ksmd]
+root        66     2 TS    0  2월12 ?      00:00:00 [khugepaged]
+root        67     2 TS   39  2월12 ?      00:00:00 [crypto]
+root        68     2 TS   39  2월12 ?      00:00:00 [kintegrityd]
+root        69     2 TS   39  2월12 ?      00:00:00 [kblockd]
+root        76     2 TS   39  2월12 ?      00:00:00 [ata_sff]
+root        77     2 TS   39  2월12 ?      00:00:00 [md]
+root        78     2 TS   39  2월12 ?      00:00:00 [edac-poller]
+root        79     2 TS   39  2월12 ?      00:00:00 [devfreq_wq]
+root        80     2 TS   39  2월12 ?      00:00:00 [watchdogd]
+root        83     2 TS   19  2월12 ?      00:00:00 [kswapd0]
+root        84     2 TS   19  2월12 ?      00:00:00 [ecryptfs-kthrea]
+root       126     2 TS   39  2월12 ?      00:00:00 [kthrotld]
+root       127     2 TS   39  2월12 ?      00:00:00 [acpi_thermal_pm]
+root       131     2 TS   39  2월12 ?      00:00:00 [ipv6_addrconf]
+root       141     2 TS   39  2월12 ?      00:00:00 [kstrp]
+root       158     2 TS   39  2월12 ?      00:00:00 [charger_manager]
+root       213     2 TS   19  2월12 ?      00:00:00 [scsi_eh_0]
+root       214     2 TS   39  2월12 ?      00:00:00 [scsi_tmf_0]
+root       215     2 TS   19  2월12 ?      00:00:00 [scsi_eh_1]
+root       216     2 TS   39  2월12 ?      00:00:00 [scsi_tmf_1]
+root       217     2 TS   19  2월12 ?      00:00:00 [scsi_eh_2]
+root       218     2 TS   39  2월12 ?      00:00:00 [scsi_tmf_2]
+root       219     2 TS   19  2월12 ?      00:00:00 [scsi_eh_3]
+root       220     2 TS   39  2월12 ?      00:00:00 [scsi_tmf_3]
+root       223     2 TS   39  2월12 ?      00:00:00 [nvkm-disp]
+root       224     2 TS   19  2월12 ?      00:00:00 [scsi_eh_4]
+root       225     2 TS   39  2월12 ?      00:00:00 [scsi_tmf_4]
+root       226     2 TS   19  2월12 ?      00:05:30 [usb-storage]
+root       231     2 TS   39  2월12 ?      00:01:19 [kworker/6:1H]
+root       237     2 TS   39  2월12 ?      00:01:02 [kworker/2:1H]
+root       239     2 TS   39  2월12 ?      00:00:59 [kworker/5:1H]
+root       240     2 TS   39  2월12 ?      00:01:01 [kworker/1:1H]
+root       241     2 TS   39  2월12 ?      00:01:03 [kworker/3:1H]
+root       242     2 TS   39  2월12 ?      00:00:00 [ttm_swap]
+root       264     2 TS   39  2월12 ?      00:00:57 [kworker/0:1H]
+root       266     2 TS   19  2월12 ?      00:00:33 [jbd2/sdb2-8]
+root       267     2 TS   39  2월12 ?      00:00:00 [ext4-rsv-conver]
+root       300     1 TS   19  2월12 ?      00:00:02 /lib/systemd/systemd-journa
+root       324     2 TS   19 03:56 ?        00:00:00 [kworker/3:0]
+root       337     2 TS   39  2월12 ?      00:01:03 [kworker/7:1H]
+root       342     1 TS   19  2월12 ?      00:00:01 /lib/systemd/systemd-udevd
+root       375     2 FF   90  2월12 ?      00:00:00 [irq/125-mei_me]
+root       457     2 TS   39  2월12 ?      00:00:58 [kworker/4:1H]
+systemd+   665     1 TS   19  2월12 ?      00:00:01 /lib/systemd/systemd-timesy
+avahi      807     1 TS   19  2월12 ?      00:00:00 avahi-daemon: running [ice-
+root       810     1 TS   19  2월12 ?      00:00:12 /usr/lib/accountsservice/ac
+message+   817     1 TS   19  2월12 ?      00:00:11 /usr/bin/dbus-daemon --syst
+avahi      823   807 TS   19  2월12 ?      00:00:00 avahi-daemon: chroot helper
+root       856     1 TS   19  2월12 ?      00:00:00 /usr/sbin/ModemManager
+root       857     1 TS   19  2월12 ?      00:00:02 /lib/systemd/systemd-logind
+root       859     1 TS   19  2월12 ?      00:01:00 /usr/sbin/thermald --no-dae
+syslog     862     1 TS   19  2월12 ?      00:00:01 /usr/sbin/rsyslogd -n
+root       864     1 TS   19  2월12 ?      00:00:02 /usr/sbin/NetworkManager --
+root       875     1 TS   19  2월12 ?      00:00:00 /usr/sbin/acpid
+root       876     1 TS   19  2월12 ?      00:00:01 /usr/sbin/cron -f
+root       957     1 TS   19  2월12 ?      00:01:16 /usr/sbin/irqbalance --pid=
+root       967     1 TS   19  2월12 ?      00:00:01 /usr/lib/policykit-1/polkit
+root       986     1 TS   19  2월12 ?      00:00:00 /usr/sbin/lightdm
+root       997     2 TS   19 04:04 ?        00:00:00 [kworker/7:0]
+root      1004     1 TS   19  2월12 ?      00:00:00 /usr/sbin/sshd -D
+root      1018   986 TS   19  2월12 tty7   00:10:00 /usr/lib/xorg/Xorg -core :0
+root      1099   864 TS   19  2월12 ?      00:00:00 /sbin/dhclient -d -q -sf /u
+nobody    1111   864 TS   19  2월12 ?      00:00:00 /usr/sbin/dnsmasq --no-reso
+rtkit     1338     1 TS   18  2월12 ?      00:00:08 /usr/lib/rtkit/rtkit-daemon
+whoopsie  1343     1 TS   19  2월12 ?      00:00:00 /usr/bin/whoopsie -f
+root      1352     1 TS   19  2월12 tty1   00:00:00 /sbin/agetty --noclear tty1
+root      1368     1 TS   19  2월12 ?      00:13:20 /opt/teamviewer/tv_bin/team
+root      1409     1 TS   19  2월12 ?      00:00:00 /usr/lib/upower/upowerd
+colord    1422     1 TS   19  2월12 ?      00:00:00 /usr/lib/colord/colord
+root      1922   986 TS   19  2월12 ?      00:00:00 lightdm --session-child 12 
+ice       1992     1 TS   19  2월12 ?      00:00:00 /lib/systemd/systemd --user
+ice       1995  1992 TS   19  2월12 ?      00:00:00 (sd-pam)
+ice       2001     1 TS   19  2월12 ?      00:00:00 /usr/bin/gnome-keyring-daem
+ice       2004  1922 TS   19  2월12 ?      00:00:00 /sbin/upstart --user
+ice       2091  2004 TS   19  2월12 ?      00:00:00 upstart-udev-bridge --daemo
+ice       2092  2004 TS   19  2월12 ?      00:00:14 dbus-daemon --fork --sessio
+ice       2104  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/h
+ice       2127  2004 TS   19  2월12 ?      00:00:03 upstart-dbus-bridge --daemo
+ice       2128  2004 TS   19  2월12 ?      00:00:04 upstart-dbus-bridge --daemo
+ice       2143  2004 TS   19  2월12 ?      00:00:00 upstart-file-bridge --daemo
+ice       2145  2004 TS   19  2월12 ?      00:00:01 /usr/bin/fcitx
+ice       2160  2004 TS   19  2월12 ?      00:00:01 /usr/bin/dbus-daemon --fork
+ice       2164  2004 TS    0  2월12 ?      00:00:00 /usr/bin/fcitx-dbus-watcher
+ice       2171  2004 TS   19  2월12 ?      00:00:01 /usr/lib/x86_64-linux-gnu/b
+ice       2179  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfsd
+ice       2184  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfsd-fuse /r
+ice       2193  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/n
+ice       2199  2004 TS   19  2월12 ?      00:00:24 gpg-agent --homedir /home/i
+ice       2209  2004 TS   19  2월12 ?      00:00:01 /usr/lib/x86_64-linux-gnu/h
+ice       2211  2004 TS   19  2월12 ?      00:00:15 /usr/lib/unity-settings-dae
+ice       2227  2004 TS   19  2월12 ?      00:00:00 /usr/lib/at-spi2-core/at-sp
+ice       2228  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gnome-session/gnom
+ice       2234  2227 TS   19  2월12 ?      00:00:00 /usr/bin/dbus-daemon --conf
+ice       2247  2004 TS   19  2월12 ?      00:00:30 /usr/lib/x86_64-linux-gnu/u
+ice       2252  2004 TS   19  2월12 ?      00:00:00 /usr/lib/at-spi2-core/at-sp
+ice       2278  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/i
+ice       2279  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/i
+ice       2280  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/i
+ice       2281  2004 TS   19  2월12 ?      00:00:11 /usr/lib/x86_64-linux-gnu/i
+ice       2284  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/i
+ice       2288  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/i
+ice       2291  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/i
+ice       2293  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/i
+ice       2321  2004 TS   30  2월12 ?      00:00:00 /usr/bin/pulseaudio --start
+ice       2328  2004 TS   19  2월12 ?      00:00:00 /usr/lib/evolution/evolutio
+ice       2335  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/i
+ice       2363  2004 TS   19  2월12 ?      00:00:00 /usr/lib/dconf/dconf-servic
+ice       2407  2228 TS   19  2월12 ?      00:00:00 nm-applet
+ice       2408  2228 TS   19  2월12 ?      00:00:07 nautilus -n
+ice       2417  2004 TS   19  2월12 ?      00:00:00 /usr/lib/evolution/evolutio
+ice       2419  2228 TS   19  2월12 ?      00:00:00 /usr/lib/policykit-1-gnome/
+ice       2420  2228 TS   19  2월12 ?      00:00:00 /usr/lib/unity-settings-dae
+ice       2429  2228 TS   19  2월12 ?      00:00:15 /usr/bin/gnome-software --g
+ice       2434  2004 TS   19  2월12 ?      01:13:08 compiz
+ice       2439  2004 TS   19  2월12 ?      00:00:02 /usr/lib/gvfs/gvfs-udisks2-
+root      2449     1 TS   19  2월12 ?      00:01:49 /usr/lib/udisks2/udisksd --
+root      2462     1 TS   19  2월12 ?      00:00:01 /usr/lib/x86_64-linux-gnu/f
+ice       2467  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfs-goa-volu
+ice       2472  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfs-gphoto2-
+ice       2477  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfs-afc-volu
+ice       2483  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfs-mtp-volu
+ice       2498  2417 TS   19  2월12 ?      00:00:00 /usr/lib/evolution/evolutio
+ice       2507  2417 TS   19  2월12 ?      00:00:00 /usr/lib/evolution/evolutio
+ice       2517  2004 TS   19  2월12 ?      00:00:00 /usr/lib/evolution/evolutio
+ice       2529  2517 TS   19  2월12 ?      00:00:00 /usr/lib/evolution/evolutio
+ice       2532  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfsd-trash -
+ice       2564  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfsd-metadat
+ice       3135  2228 TS   19  2월12 ?      00:00:12 zeitgeist-datahub
+ice       3142  2004 TS   19  2월12 ?      00:00:00 /bin/sh -c /usr/lib/x86_64-
+ice       3149  3142 TS   19  2월12 ?      00:00:00 /usr/bin/zeitgeist-daemon
+ice       3156  2004 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/z
+ice       3243  2228 TS   19  2월12 ?      00:00:11 update-notifier
+ice       3765  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfsd-network
+ice       3796  2004 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfsd-dnssd -
+ice       3806  2228 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/d
+root      4297     2 TS   19 05:03 ?        00:00:00 [kworker/0:0]
+root      4298     2 TS   19 05:03 ?        00:00:00 [kworker/1:1]
+root      6632     2 TS   19 05:33 ?        00:00:00 [kworker/u16:4]
+root      6687     2 TS   19 05:38 ?        00:00:00 [kworker/u16:3]
+ice       6916 11235 TS   19 05:50 pts/23   00:00:00 bash
+root      7028     2 TS   19 05:57 ?        00:00:00 [kworker/u16:2]
+xrdp      7827     1 TS   19  2월12 ?      00:11:25 /usr/sbin/xrdp
+root      7829     1 TS   19  2월12 ?      00:00:00 /usr/sbin/xrdp-sesman
+root      7880     2 TS   19 06:02 ?        00:00:00 [kworker/0:1]
+ice       9149 11235 TS   19 06:12 pts/25   00:00:00 bash
+ice       9249  9149 TS   19 06:12 pts/25   00:00:02 python /home/ice/apache-cas
+root      9999     2 TS   19 06:15 ?        00:00:00 [kworker/u16:5]
+root     10971  7829 TS   19  2월12 ?      00:00:00 /usr/sbin/xrdp-sessvc 10973
+ice      10972 10971 TS   19  2월12 ?      00:00:00 /bin/sh /etc/xrdp/startwm.s
+ice      10973 10971 TS   19  2월12 ?      00:21:53 Xvnc :10 -geometry 1920x108
+ice      10974 10972 TS   19  2월12 ?      00:00:00 mate-session
+ice      10977     1 TS   19  2월12 ?      00:00:00 dbus-launch --exit-with-ses
+ice      10978     1 TS   19  2월12 ?      00:00:02 /usr/bin/dbus-daemon --fork
+root     10979 10971 TS   19  2월12 ?      00:00:00 xrdp-chansrv
+ice      10985     1 TS   19  2월12 ?      00:00:00 /usr/lib/dconf/dconf-servic
+ice      10990 10974 TS   19  2월12 ?      00:00:20 /usr/bin/mate-settings-daem
+ice      10994 10974 TS   19  2월12 ?      00:00:43 marco
+ice      10999     1 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfsd
+ice      11008 10974 TS   19  2월12 ?      00:00:25 mate-panel
+ice      11023     1 TS   19  2월12 ?      00:00:02 /usr/lib/gvfs/gvfs-udisks2-
+ice      11026 10974 TS   19  2월12 ?      00:01:47 caja
+ice      11029     1 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfs-goa-volu
+ice      11032     1 TS   19  2월12 ?      00:00:37 /usr/lib/mate-panel/wnck-ap
+ice      11034     1 TS   19  2월12 ?      00:00:00 /usr/lib/mate-applets/trash
+ice      11040     1 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfs-gphoto2-
+ice      11041 10974 TS   19  2월12 ?      00:00:00 mate-screensaver
+ice      11053 10974 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/d
+ice      11057 10974 TS   19  2월12 ?      00:00:02 /usr/bin/python3 /usr/share
+ice      11062     1 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfs-afc-volu
+ice      11074     1 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfs-mtp-volu
+ice      11079     1 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfsd-trash -
+ice      11086 10974 TS   19  2월12 ?      00:00:00 /usr/lib/x86_64-linux-gnu/p
+ice      11089 10974 TS   19  2월12 ?      00:00:00 /usr/lib/at-spi2-core/at-sp
+ice      11090 10974 TS   19  2월12 ?      00:00:00 mate-volume-control-applet
+ice      11101 10974 TS   19  2월12 ?      00:00:00 nm-applet
+ice      11104 10974 TS   19  2월12 ?      00:00:11 update-notifier
+ice      11106 11089 TS   19  2월12 ?      00:00:00 /usr/bin/dbus-daemon --conf
+ice      11107 10974 TS   19  2월12 ?      00:00:11 zeitgeist-datahub
+ice      11129     1 TS   19  2월12 ?      00:00:00 /bin/sh -c /usr/lib/x86_64-
+ice      11139 11129 TS   19  2월12 ?      00:00:00 /usr/bin/zeitgeist-daemon
+ice      11164     1 TS   19  2월12 ?      00:00:01 /usr/lib/at-spi2-core/at-sp
+ice      11187     1 TS   19  2월12 ?      00:00:24 /usr/lib/mate-panel/clock-a
+ice      11189     1 TS   19  2월12 ?      00:00:00 /usr/lib/mate-panel/notific
+ice      11213     1 TS   19  2월12 ?      00:00:00 /usr/lib/gvfs/gvfsd-metadat
+ice      11235 11008 TS   19  2월12 ?      00:18:06 mate-terminal
+ice      11243 11235 TS   19  2월12 ?      00:00:00 gnome-pty-helper
+root     13415     1 TS   19  2월19 ?      00:00:00 /usr/sbin/cupsd -l
+root     13416     1 TS   19  2월19 ?      00:00:00 /usr/sbin/cups-browsed
+lp       13418 13415 TS   19  2월19 ?      00:00:00 /usr/lib/cups/notifier/dbus
+root     14027     2 TS   19 06:23 ?        00:00:00 [kworker/u16:0]
+root     14028     2 TS   19 06:23 ?        00:00:00 [kworker/u16:1]
+ice      15715 26637 TS   19 06:26 pts/20   00:00:00 top
+root     15754     1 TS   19 06:27 ?        00:00:00 /bin/sh /usr/lib/apt/apt.sy
+root     15758 15754 TS   19 06:27 ?        00:00:00 /bin/sh /usr/lib/apt/apt.sy
+root     15789 15758 TS   19 06:27 ?        00:00:05 /usr/bin/python3 /usr/bin/u
+ice      15796 26637 TS   19 06:27 pts/20   00:00:00 script
+ice      15797 15796 TS   19 06:27 pts/21   00:00:00 bash -i
+root     15807 15789 TS   19 06:27 ?        00:00:00 /usr/bin/python3 /usr/bin/u
+root     16861 15807 TS   19 06:27 pts/22   00:00:00 /usr/bin/dpkg --status-fd 1
+root     16939 16861 TS   19 06:27 pts/22   00:00:00 /bin/sh /var/lib/dpkg/info/
+man      16940 16939 TS   19 06:27 pts/22   00:00:00 /usr/bin/mandb -pq
+ice      17500  2004 TS   19  2월19 ?      00:00:01 /usr/lib/x86_64-linux-gnu/u
+ice      17791 15797 TS   19 06:27 pts/21   00:00:00 ps -efc
+ice      19612 11008 TS   19  2월16 ?      00:32:28 /usr/lib/firefox/firefox
+ice      19751 19612 TS   19  2월16 ?      00:11:52 /usr/lib/firefox/firefox -c
+ice      19950 19612 TS   19  2월16 ?      00:02:03 /usr/lib/firefox/firefox -c
+ice      19999 19612 TS   19  2월19 ?      00:00:17 /usr/lib/firefox/firefox -c
+ice      20063 19612 TS   19  2월19 ?      00:00:42 /usr/lib/firefox/firefox -c
+ice      20084 19612 TS   19  2월16 ?      00:00:53 /usr/lib/firefox/firefox -c
+ice      20248     1 TS   19  2월19 ?      00:00:00 /usr/lib/gvfs/gvfsd-network
+ice      20273     1 TS   19  2월19 ?      00:00:00 /usr/lib/gvfs/gvfsd-dnssd -
+root     20650     2 TS   19  2월19 ?      00:00:00 [kworker/4:2]
+ice      21590 11235 TS   19  2월19 pts/27 00:00:00 bash
+ice      21835     1 TS   19  2월19 ?      00:01:21 /usr/lib/jvm/java-8-oracle/
+ice      21987     1 TS   19  2월19 ?      00:01:25 /usr/lib/jvm/java-8-oracle/
+ice      22259     1 TS   19  2월19 ?      00:00:41 /usr/lib/jvm/java-8-oracle/
+ice      22528     1 TS   19  2월19 pts/27 00:05:35 /usr/lib/jvm/java-8-oracle/
+ice      22684     1 TS   19  2월19 ?      00:02:54 /usr/lib/jvm/java-8-oracle/
+root     23072     2 TS   19  2월19 ?      00:00:01 [kworker/5:0]
+root     24533     2 TS   19  2월19 ?      00:00:01 [kworker/3:2]
+root     24895     2 TS   19  2월19 ?      00:00:00 [kworker/6:1]
+root     25276     2 TS   19  2월19 ?      00:00:00 [kworker/5:2]
+root     25689     2 TS   19  2월19 ?      00:00:00 [kworker/2:0]
+root     26107     2 TS   19 00:19 ?        00:00:00 [kworker/2:2]
+ice      26602 11235 TS   19 01:14 pts/19   00:00:00 bash
+ice      26637 11235 TS   19 01:14 pts/20   00:00:00 bash
+root     26877     1 TS   19  2월14 ?      00:00:57 /usr/lib/snapd/snapd
+root     27461     2 TS   19 01:19 ?        00:00:00 [kworker/7:2]
+root     28118     2 TS   19 02:01 ?        00:00:00 [kworker/4:1]
+root     28575     2 TS   19 02:13 ?        00:00:01 [kworker/1:0]
+root     28642     2 TS   19 02:16 ?        00:00:00 [kworker/6:0]
+ntp      29457     1 TS   19  2월16 ?      00:00:21 /usr/sbin/ntpd -p /var/run/
+ice      30874 11026 TS   19 02:56 ?        00:00:05 pluma /home/ice/바탕화�
+ice      31340 11026 TS   19 03:36 ?        00:01:20 gedit /home/ice/ex/writeCas
+]0;ice@ice-PMBSB09A-Samsung-DeskTop: ~/kafkaice@ice-PMBSB09A-Samsung-DeskTop:~/kafka$ exit
+exit
+
+Script done on 2019년 02월 20일 (수) 오전 06시 27분 54초

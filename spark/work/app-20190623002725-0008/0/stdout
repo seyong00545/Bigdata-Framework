@@ -1,0 +1,296 @@
+2019-06-23 00:27:26 INFO  CoarseGrainedExecutorBackend:2566 - Started daemon with process name: 17827@ice-PMBSB09A-Samsung-DeskTop
+2019-06-23 00:27:26 INFO  SignalUtils:54 - Registered signal handler for TERM
+2019-06-23 00:27:26 INFO  SignalUtils:54 - Registered signal handler for HUP
+2019-06-23 00:27:26 INFO  SignalUtils:54 - Registered signal handler for INT
+2019-06-23 00:27:26 WARN  Utils:66 - Your hostname, ice-PMBSB09A-Samsung-DeskTop resolves to a loopback address: 127.0.1.1; using 192.168.0.76 instead (on interface enp4s0)
+2019-06-23 00:27:26 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2019-06-23 00:27:26 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-23 00:27:26 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:27:26 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:27:26 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:27:26 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:27:26 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:27:27 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:39343 after 62 ms (0 ms spent in bootstraps)
+2019-06-23 00:27:27 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:27:27 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:27:27 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:27:27 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:27:27 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:27:27 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:39343 after 4 ms (0 ms spent in bootstraps)
+2019-06-23 00:27:27 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/blockmgr-b163c7d4-3338-446b-89fa-c76628105d55
+2019-06-23 00:27:27 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2019-06-23 00:27:27 INFO  CoarseGrainedExecutorBackend:54 - Connecting to driver: spark://CoarseGrainedScheduler@192.168.0.76:39343
+2019-06-23 00:27:27 INFO  WorkerWatcher:54 - Connecting to worker spark://Worker@192.168.0.76:35169
+2019-06-23 00:27:27 INFO  WorkerWatcher:54 - Successfully connected to spark://Worker@192.168.0.76:35169
+2019-06-23 00:27:27 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:35169 after 7 ms (0 ms spent in bootstraps)
+2019-06-23 00:27:27 INFO  CoarseGrainedExecutorBackend:54 - Successfully registered with driver
+2019-06-23 00:27:27 INFO  Executor:54 - Starting executor ID 0 on host 192.168.0.76
+2019-06-23 00:27:27 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44603.
+2019-06-23 00:27:27 INFO  NettyBlockTransferService:54 - Server created on 192.168.0.76:44603
+2019-06-23 00:27:27 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-06-23 00:27:27 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(0, 192.168.0.76, 44603, None)
+2019-06-23 00:27:27 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(0, 192.168.0.76, 44603, None)
+2019-06-23 00:27:27 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(0, 192.168.0.76, 44603, None)
+2019-06-23 00:27:27 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 1
+2019-06-23 00:27:27 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
+2019-06-23 00:27:27 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1561217245716
+2019-06-23 00:27:27 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:39343 after 5 ms (0 ms spent in bootstraps)
+2019-06-23 00:27:27 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp8329789318301810626.tmp
+2019-06-23 00:27:27 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-9112561231561217245716_cache to /home/ice/spark/work/app-20190623002725-0008/0/./org.slf4j_slf4j-api-1.7.16.jar
+2019-06-23 00:27:27 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar with timestamp 1561217245706
+2019-06-23 00:27:27 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp2264729391463968004.tmp
+2019-06-23 00:27:27 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-5105588991561217245706_cache to /home/ice/spark/work/app-20190623002725-0008/0/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar
+2019-06-23 00:27:27 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/log4j_log4j-1.2.17.jar with timestamp 1561217245718
+2019-06-23 00:27:27 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/log4j_log4j-1.2.17.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp5868110442166897414.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-5474025281561217245718_cache to /home/ice/spark/work/app-20190623002725-0008/0/./log4j_log4j-1.2.17.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/org.apache.kafka_kafka-clients-0.8.2.1.jar with timestamp 1561217245714
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/org.apache.kafka_kafka-clients-0.8.2.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp1790296130601489129.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-17580161451561217245714_cache to /home/ice/spark/work/app-20190623002725-0008/0/./org.apache.kafka_kafka-clients-0.8.2.1.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/org.xerial.snappy_snappy-java-1.1.7.1.jar with timestamp 1561217245722
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/org.xerial.snappy_snappy-java-1.1.7.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp5047925817780693891.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-7956402791561217245722_cache to /home/ice/spark/work/app-20190623002725-0008/0/./org.xerial.snappy_snappy-java-1.1.7.1.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/com.101tec_zkclient-0.3.jar with timestamp 1561217245712
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/com.101tec_zkclient-0.3.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp5175526384572158607.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/17024790471561217245712_cache to /home/ice/spark/work/app-20190623002725-0008/0/./com.101tec_zkclient-0.3.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/net.jpountz.lz4_lz4-1.2.0.jar with timestamp 1561217245720
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/net.jpountz.lz4_lz4-1.2.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp2055563653703786439.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/3185033131561217245720_cache to /home/ice/spark/work/app-20190623002725-0008/0/./net.jpountz.lz4_lz4-1.2.0.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar with timestamp 1561217245710
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp6377860645663777804.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/21443405341561217245710_cache to /home/ice/spark/work/app-20190623002725-0008/0/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/org.apache.kafka_kafka_2.11-0.8.2.1.jar with timestamp 1561217245699
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/org.apache.kafka_kafka_2.11-0.8.2.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp5859409084917494848.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-10761867111561217245699_cache to /home/ice/spark/work/app-20190623002725-0008/0/./org.apache.kafka_kafka_2.11-0.8.2.1.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar with timestamp 1561217245688
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp4260529180615909695.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/20087764401561217245688_cache to /home/ice/spark/work/app-20190623002725-0008/0/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/org.spark-project.spark_unused-1.0.0.jar with timestamp 1561217245704
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/org.spark-project.spark_unused-1.0.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp612289906154113749.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/13015929201561217245704_cache to /home/ice/spark/work/app-20190623002725-0008/0/./org.spark-project.spark_unused-1.0.0.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/files/com.yammer.metrics_metrics-core-2.2.0.jar with timestamp 1561217245708
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/files/com.yammer.metrics_metrics-core-2.2.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp6188091076265748836.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/4544410051561217245708_cache to /home/ice/spark/work/app-20190623002725-0008/0/./com.yammer.metrics_metrics-core-2.2.0.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/org.apache.kafka_kafka_2.11-0.8.2.1.jar with timestamp 1561217245668
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/org.apache.kafka_kafka_2.11-0.8.2.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp1610530849649030286.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/1290383221561217245668_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./org.apache.kafka_kafka_2.11-0.8.2.1.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./org.apache.kafka_kafka_2.11-0.8.2.1.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/org.apache.kafka_kafka-clients-0.8.2.1.jar with timestamp 1561217245669
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/org.apache.kafka_kafka-clients-0.8.2.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp8107657724620456979.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/14693146941561217245669_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./org.apache.kafka_kafka-clients-0.8.2.1.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./org.apache.kafka_kafka-clients-0.8.2.1.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/org.xerial.snappy_snappy-java-1.1.7.1.jar with timestamp 1561217245670
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/org.xerial.snappy_snappy-java-1.1.7.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp1098682747650337783.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/20794138101561217245670_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./org.xerial.snappy_snappy-java-1.1.7.1.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./org.xerial.snappy_snappy-java-1.1.7.1.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/com.101tec_zkclient-0.3.jar with timestamp 1561217245669
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/com.101tec_zkclient-0.3.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp4594453619907633095.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-5352692321561217245669_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./com.101tec_zkclient-0.3.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./com.101tec_zkclient-0.3.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/log4j_log4j-1.2.17.jar with timestamp 1561217245669
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/log4j_log4j-1.2.17.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp1368901830339457176.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-4075910491561217245669_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./log4j_log4j-1.2.17.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./log4j_log4j-1.2.17.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar with timestamp 1561217245668
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp6234127154406283394.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-2471089701561217245668_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/org.spark-project.spark_unused-1.0.0.jar with timestamp 1561217245668
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/org.spark-project.spark_unused-1.0.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp8253409396846126123.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/88632791561217245668_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./org.spark-project.spark_unused-1.0.0.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./org.spark-project.spark_unused-1.0.0.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1561217245669
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp9054276484398110267.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/8121327001561217245669_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./org.slf4j_slf4j-api-1.7.16.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./org.slf4j_slf4j-api-1.7.16.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar with timestamp 1561217245667
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp8619394489509586701.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-2284490231561217245667_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar with timestamp 1561217245669
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp8793002545959290514.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/2808058371561217245669_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/net.jpountz.lz4_lz4-1.2.0.jar with timestamp 1561217245669
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/net.jpountz.lz4_lz4-1.2.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp984214167023842351.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/16210224901561217245669_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./net.jpountz.lz4_lz4-1.2.0.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./net.jpountz.lz4_lz4-1.2.0.jar to class loader
+2019-06-23 00:27:28 INFO  Executor:54 - Fetching spark://192.168.0.76:39343/jars/com.yammer.metrics_metrics-core-2.2.0.jar with timestamp 1561217245668
+2019-06-23 00:27:28 INFO  Utils:54 - Fetching spark://192.168.0.76:39343/jars/com.yammer.metrics_metrics-core-2.2.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/fetchFileTemp5432522404186752881.tmp
+2019-06-23 00:27:28 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-5969e067-c443-4fc3-ad13-513250875ffb/spark-dccc2bef-4265-4cea-8449-d59d26d88bd5/-9654722021561217245668_cache has been previously copied to /home/ice/spark/work/app-20190623002725-0008/0/./com.yammer.metrics_metrics-core-2.2.0.jar
+2019-06-23 00:27:28 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623002725-0008/0/./com.yammer.metrics_metrics-core-2.2.0.jar to class loader
+2019-06-23 00:27:28 INFO  TorrentBroadcast:54 - Started reading broadcast variable 0
+2019-06-23 00:27:28 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:42057 after 6 ms (0 ms spent in bootstraps)
+2019-06-23 00:27:28 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 2.0 KB, free 366.3 MB)
+2019-06-23 00:27:28 INFO  TorrentBroadcast:54 - Reading broadcast variable 0 took 161 ms
+2019-06-23 00:27:28 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:27:28 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1124 bytes result sent to driver
+2019-06-23 00:27:28 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 3
+2019-06-23 00:27:28 INFO  Executor:54 - Running task 3.0 in stage 0.0 (TID 3)
+2019-06-23 00:27:28 INFO  Executor:54 - Finished task 3.0 in stage 0.0 (TID 3). 1038 bytes result sent to driver
+2019-06-23 00:27:28 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 5
+2019-06-23 00:27:28 INFO  Executor:54 - Running task 5.0 in stage 0.0 (TID 5)
+2019-06-23 00:27:28 INFO  Executor:54 - Finished task 5.0 in stage 0.0 (TID 5). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 7
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 7.0 in stage 0.0 (TID 7)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 7.0 in stage 0.0 (TID 7). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 11
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 11.0 in stage 0.0 (TID 11)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 11.0 in stage 0.0 (TID 11). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 13
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 13.0 in stage 0.0 (TID 13)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 13.0 in stage 0.0 (TID 13). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 16
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 16.0 in stage 0.0 (TID 16)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 16.0 in stage 0.0 (TID 16). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 18
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 18.0 in stage 0.0 (TID 18)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 18.0 in stage 0.0 (TID 18). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 20
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 20.0 in stage 0.0 (TID 20)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 20.0 in stage 0.0 (TID 20). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 22
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 22.0 in stage 0.0 (TID 22)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 22.0 in stage 0.0 (TID 22). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 24
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 24.0 in stage 0.0 (TID 24)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 24.0 in stage 0.0 (TID 24). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 27
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 27.0 in stage 0.0 (TID 27)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 27.0 in stage 0.0 (TID 27). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 29
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 29.0 in stage 0.0 (TID 29)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 29.0 in stage 0.0 (TID 29). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 31
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 31.0 in stage 0.0 (TID 31)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 31.0 in stage 0.0 (TID 31). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 33
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 33.0 in stage 0.0 (TID 33)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 33.0 in stage 0.0 (TID 33). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 35
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 35.0 in stage 0.0 (TID 35)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 35.0 in stage 0.0 (TID 35). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 39
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 39.0 in stage 0.0 (TID 39)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 39.0 in stage 0.0 (TID 39). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 44
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 44.0 in stage 0.0 (TID 44)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 44.0 in stage 0.0 (TID 44). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 46
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 46.0 in stage 0.0 (TID 46)
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 46.0 in stage 0.0 (TID 46). 1038 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 51
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 1.0 in stage 1.0 (TID 51)
+2019-06-23 00:27:29 INFO  MapOutputTrackerWorker:54 - Updating epoch to 1 and clearing cache
+2019-06-23 00:27:29 INFO  TorrentBroadcast:54 - Started reading broadcast variable 1
+2019-06-23 00:27:29 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 2027.0 B, free 366.3 MB)
+2019-06-23 00:27:29 INFO  TorrentBroadcast:54 - Reading broadcast variable 1 took 11 ms
+2019-06-23 00:27:29 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:27:29 INFO  MapOutputTrackerWorker:54 - Don't have map outputs for shuffle 0, fetching them
+2019-06-23 00:27:29 INFO  MapOutputTrackerWorker:54 - Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@192.168.0.76:39343)
+2019-06-23 00:27:29 INFO  MapOutputTrackerWorker:54 - Got the output locations
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 1 local blocks and 2 remote blocks
+2019-06-23 00:27:29 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:44681 after 0 ms (0 ms spent in bootstraps)
+2019-06-23 00:27:29 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:45841 after 5 ms (0 ms spent in bootstraps)
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Started 2 remote fetches in 19 ms
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 1.0 in stage 1.0 (TID 51). 1366 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 55
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 5.0 in stage 1.0 (TID 55)
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 2 local blocks and 1 remote blocks
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 1 ms
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 5.0 in stage 1.0 (TID 55). 1371 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 57
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 7.0 in stage 1.0 (TID 57)
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 1 local blocks and 2 remote blocks
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Started 2 remote fetches in 5 ms
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 7.0 in stage 1.0 (TID 57). 1328 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 59
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 9.0 in stage 1.0 (TID 59)
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 0 local blocks and 3 remote blocks
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Started 2 remote fetches in 1 ms
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 9.0 in stage 1.0 (TID 59). 1328 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 61
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 11.0 in stage 1.0 (TID 61)
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 0 local blocks and 2 remote blocks
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 1 ms
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 11.0 in stage 1.0 (TID 61). 1307 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 63
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 13.0 in stage 1.0 (TID 63)
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 0 local blocks and 2 remote blocks
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 1 ms
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 13.0 in stage 1.0 (TID 63). 1307 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 65
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 15.0 in stage 1.0 (TID 65)
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 0 local blocks and 2 remote blocks
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 4 ms
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 15.0 in stage 1.0 (TID 65). 1307 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 67
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 17.0 in stage 1.0 (TID 67)
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 1 local blocks and 1 remote blocks
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 11 ms
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 17.0 in stage 1.0 (TID 67). 1307 bytes result sent to driver
+2019-06-23 00:27:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 69
+2019-06-23 00:27:29 INFO  Executor:54 - Running task 19.0 in stage 1.0 (TID 69)
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 1 local blocks and 1 remote blocks
+2019-06-23 00:27:29 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 2 ms
+2019-06-23 00:27:29 INFO  Executor:54 - Finished task 19.0 in stage 1.0 (TID 69). 1307 bytes result sent to driver
+2019-06-23 00:27:30 INFO  MemoryStore:54 - Block input-0-1561217250400 stored as bytes in memory (estimated size 10.4 KB, free 366.3 MB)
+2019-06-23 00:27:31 INFO  MemoryStore:54 - Block input-0-1561217250800 stored as bytes in memory (estimated size 1004.0 B, free 366.3 MB)
+2019-06-23 00:27:31 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 72
+2019-06-23 00:27:31 INFO  Executor:54 - Running task 0.0 in stage 3.0 (TID 72)
+2019-06-23 00:27:31 INFO  TorrentBroadcast:54 - Started reading broadcast variable 3
+2019-06-23 00:27:31 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:27:31 INFO  TorrentBroadcast:54 - Reading broadcast variable 3 took 7 ms
+2019-06-23 00:27:31 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 4.7 KB, free 366.3 MB)
+2019-06-23 00:27:31 INFO  BlockManager:54 - Found block input-0-1561217250400 locally
+2019-06-23 00:27:31 INFO  MemoryStore:54 - Block input-0-1561217251000 stored as bytes in memory (estimated size 1058.0 B, free 366.3 MB)
+2019-06-23 00:27:31 INFO  PythonRunner:54 - Times: total = 204, boot = 143, init = 59, finish = 2
+2019-06-23 00:27:31 INFO  Executor:54 - Finished task 0.0 in stage 3.0 (TID 72). 9828 bytes result sent to driver
+2019-06-23 00:27:32 INFO  BlockManager:54 - Removing RDD 5
+2019-06-23 00:27:32 INFO  BlockManager:54 - Removing RDD 4
+2019-06-23 00:27:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 73
+2019-06-23 00:27:32 INFO  Executor:54 - Running task 0.0 in stage 4.0 (TID 73)
+2019-06-23 00:27:32 INFO  TorrentBroadcast:54 - Started reading broadcast variable 4
+2019-06-23 00:27:32 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:27:32 INFO  TorrentBroadcast:54 - Reading broadcast variable 4 took 13 ms
+2019-06-23 00:27:32 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 4.7 KB, free 366.3 MB)
+2019-06-23 00:27:32 INFO  BlockManager:54 - Found block input-0-1561217250800 locally
+2019-06-23 00:27:32 INFO  PythonRunner:54 - Times: total = 45, boot = -933, init = 978, finish = 0
+2019-06-23 00:27:32 INFO  Executor:54 - Finished task 0.0 in stage 4.0 (TID 73). 2219 bytes result sent to driver
+2019-06-23 00:27:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 76
+2019-06-23 00:27:32 INFO  Executor:54 - Running task 1.0 in stage 4.0 (TID 76)
+2019-06-23 00:27:32 INFO  BlockManager:54 - Found block input-0-1561217251000 locally
+2019-06-23 00:27:32 INFO  PythonRunner:54 - Times: total = 47, boot = -4, init = 51, finish = 0
+2019-06-23 00:27:32 INFO  Executor:54 - Finished task 1.0 in stage 4.0 (TID 76). 2214 bytes result sent to driver
+2019-06-23 00:27:32 INFO  BlockManager:54 - Removing RDD 7
+2019-06-23 00:27:32 INFO  BlockManager:54 - Removing RDD 6
+2019-06-23 00:27:33 INFO  BlockManager:54 - Removing RDD 9
+2019-06-23 00:27:33 INFO  BlockManager:54 - Removing RDD 8
+2019-06-23 00:27:34 INFO  BlockManager:54 - Removing RDD 11
+2019-06-23 00:27:34 INFO  BlockManager:54 - Removing RDD 10
+2019-06-23 00:27:35 INFO  BlockManager:54 - Removing RDD 13
+2019-06-23 00:27:35 INFO  BlockManager:54 - Removing RDD 12
+2019-06-23 00:27:36 INFO  BlockManager:54 - Removing RDD 15
+2019-06-23 00:27:36 INFO  BlockManager:54 - Removing RDD 14
+2019-06-23 00:27:37 INFO  BlockManager:54 - Removing RDD 17
+2019-06-23 00:27:37 INFO  BlockManager:54 - Removing RDD 16
+2019-06-23 00:27:38 INFO  BlockManager:54 - Removing RDD 19
+2019-06-23 00:27:38 INFO  BlockManager:54 - Removing RDD 18
+2019-06-23 00:27:39 INFO  BlockManager:54 - Removing RDD 21
+2019-06-23 00:27:39 INFO  BlockManager:54 - Removing RDD 20
+2019-06-23 00:27:40 INFO  BlockManager:54 - Removing RDD 23
+2019-06-23 00:27:40 INFO  BlockManager:54 - Removing RDD 22
+2019-06-23 00:27:41 INFO  BlockManager:54 - Removing RDD 25
+2019-06-23 00:27:41 INFO  BlockManager:54 - Removing RDD 24
+2019-06-23 00:27:42 INFO  BlockManager:54 - Removing RDD 27
+2019-06-23 00:27:42 INFO  BlockManager:54 - Removing RDD 26
+2019-06-23 00:27:43 INFO  BlockManager:54 - Removing RDD 28
+2019-06-23 00:27:43 INFO  BlockManager:54 - Removing RDD 29
+2019-06-23 00:27:44 INFO  BlockManager:54 - Removing RDD 30
+2019-06-23 00:27:44 INFO  BlockManager:54 - Removing RDD 31
+2019-06-23 00:27:45 INFO  BlockManager:54 - Removing RDD 33
+2019-06-23 00:27:45 INFO  BlockManager:54 - Removing RDD 32
+2019-06-23 00:27:46 INFO  BlockManager:54 - Removing RDD 35
+2019-06-23 00:27:46 INFO  BlockManager:54 - Removing RDD 34
+2019-06-23 00:27:46 INFO  CoarseGrainedExecutorBackend:54 - Driver commanded a shutdown
+2019-06-23 00:27:46 ERROR CoarseGrainedExecutorBackend:43 - RECEIVED SIGNAL TERM
+utdown

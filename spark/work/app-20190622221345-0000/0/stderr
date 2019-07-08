@@ -1,0 +1,3 @@
+Spark Executor Command: "/usr/lib/jvm/java-8-oracle//bin/java" "-cp" "/home/ice/spark/conf/:/home/ice/spark/jars/*" "-Xmx1024M" "-Dspark.driver.port=36901" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.76:36901" "--executor-id" "0" "--hostname" "192.168.0.76" "--cores" "8" "--app-id" "app-20190622221345-0000" "--worker-url" "spark://Worker@192.168.0.76:44195"
+========================================
+

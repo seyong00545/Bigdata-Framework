@@ -1,0 +1,1379 @@
+2019-06-23 00:54:34 INFO  CoarseGrainedExecutorBackend:2566 - Started daemon with process name: 32225@ice-PMBSB09A-Samsung-DeskTop
+2019-06-23 00:54:34 INFO  SignalUtils:54 - Registered signal handler for TERM
+2019-06-23 00:54:34 INFO  SignalUtils:54 - Registered signal handler for HUP
+2019-06-23 00:54:34 INFO  SignalUtils:54 - Registered signal handler for INT
+2019-06-23 00:54:34 WARN  Utils:66 - Your hostname, ice-PMBSB09A-Samsung-DeskTop resolves to a loopback address: 127.0.1.1; using 192.168.0.76 instead (on interface enp4s0)
+2019-06-23 00:54:34 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2019-06-23 00:54:35 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-23 00:54:35 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:54:35 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:54:35 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:54:35 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:54:35 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:54:35 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:39877 after 56 ms (0 ms spent in bootstraps)
+2019-06-23 00:54:35 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 00:54:35 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 00:54:35 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 00:54:35 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 00:54:35 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 00:54:35 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:39877 after 3 ms (0 ms spent in bootstraps)
+2019-06-23 00:54:35 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/blockmgr-b873eb5b-6c61-4acd-b730-76c128fca372
+2019-06-23 00:54:35 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2019-06-23 00:54:35 INFO  CoarseGrainedExecutorBackend:54 - Connecting to driver: spark://CoarseGrainedScheduler@192.168.0.76:39877
+2019-06-23 00:54:35 INFO  WorkerWatcher:54 - Connecting to worker spark://Worker@192.168.0.76:35169
+2019-06-23 00:54:35 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:35169 after 2 ms (0 ms spent in bootstraps)
+2019-06-23 00:54:35 INFO  WorkerWatcher:54 - Successfully connected to spark://Worker@192.168.0.76:35169
+2019-06-23 00:54:35 INFO  CoarseGrainedExecutorBackend:54 - Successfully registered with driver
+2019-06-23 00:54:35 INFO  Executor:54 - Starting executor ID 0 on host 192.168.0.76
+2019-06-23 00:54:36 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36955.
+2019-06-23 00:54:36 INFO  NettyBlockTransferService:54 - Server created on 192.168.0.76:36955
+2019-06-23 00:54:36 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-06-23 00:54:36 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(0, 192.168.0.76, 36955, None)
+2019-06-23 00:54:36 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(0, 192.168.0.76, 36955, None)
+2019-06-23 00:54:36 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(0, 192.168.0.76, 36955, None)
+2019-06-23 00:54:36 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 2
+2019-06-23 00:54:36 INFO  Executor:54 - Running task 2.0 in stage 0.0 (TID 2)
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/org.spark-project.spark_unused-1.0.0.jar with timestamp 1561218873913
+2019-06-23 00:54:36 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:39877 after 3 ms (0 ms spent in bootstraps)
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/org.spark-project.spark_unused-1.0.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp6548291013017088658.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-3410290061561218873913_cache to /home/ice/spark/work/app-20190623005434-0013/0/./org.spark-project.spark_unused-1.0.0.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/log4j_log4j-1.2.17.jar with timestamp 1561218873926
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/log4j_log4j-1.2.17.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp2650644666869699210.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-9103228221561218873926_cache to /home/ice/spark/work/app-20190623005434-0013/0/./log4j_log4j-1.2.17.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/com.yammer.metrics_metrics-core-2.2.0.jar with timestamp 1561218873917
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/com.yammer.metrics_metrics-core-2.2.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp7507497577420607160.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/10727688511561218873917_cache to /home/ice/spark/work/app-20190623005434-0013/0/./com.yammer.metrics_metrics-core-2.2.0.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/com.101tec_zkclient-0.3.jar with timestamp 1561218873921
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/com.101tec_zkclient-0.3.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp8394858913566359587.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-10757369791561218873921_cache to /home/ice/spark/work/app-20190623005434-0013/0/./com.101tec_zkclient-0.3.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/org.apache.kafka_kafka-clients-0.8.2.1.jar with timestamp 1561218873923
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/org.apache.kafka_kafka-clients-0.8.2.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp8464301495955192952.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/2302778971561218873923_cache to /home/ice/spark/work/app-20190623005434-0013/0/./org.apache.kafka_kafka-clients-0.8.2.1.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1561218873924
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp6993393035357821431.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/15698745271561218873924_cache to /home/ice/spark/work/app-20190623005434-0013/0/./org.slf4j_slf4j-api-1.7.16.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar with timestamp 1561218873919
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp5574608844476619075.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-17399688161561218873919_cache to /home/ice/spark/work/app-20190623005434-0013/0/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar with timestamp 1561218873899
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp2675353537223713264.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/9405322541561218873899_cache to /home/ice/spark/work/app-20190623005434-0013/0/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/org.xerial.snappy_snappy-java-1.1.7.1.jar with timestamp 1561218873930
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/org.xerial.snappy_snappy-java-1.1.7.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp2947473933541448964.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-1773124331561218873930_cache to /home/ice/spark/work/app-20190623005434-0013/0/./org.xerial.snappy_snappy-java-1.1.7.1.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/net.jpountz.lz4_lz4-1.2.0.jar with timestamp 1561218873928
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/net.jpountz.lz4_lz4-1.2.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp2967794547221774491.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/19225604391561218873928_cache to /home/ice/spark/work/app-20190623005434-0013/0/./net.jpountz.lz4_lz4-1.2.0.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar with timestamp 1561218873915
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp3488543844034960585.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/11813498751561218873915_cache to /home/ice/spark/work/app-20190623005434-0013/0/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/files/org.apache.kafka_kafka_2.11-0.8.2.1.jar with timestamp 1561218873909
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/files/org.apache.kafka_kafka_2.11-0.8.2.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp3968006056527838387.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - Copying /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/10875827991561218873909_cache to /home/ice/spark/work/app-20190623005434-0013/0/./org.apache.kafka_kafka_2.11-0.8.2.1.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/org.spark-project.spark_unused-1.0.0.jar with timestamp 1561218873880
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/org.spark-project.spark_unused-1.0.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp5560595757469186266.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-21223345071561218873880_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./org.spark-project.spark_unused-1.0.0.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./org.spark-project.spark_unused-1.0.0.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/org.apache.kafka_kafka_2.11-0.8.2.1.jar with timestamp 1561218873880
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/org.apache.kafka_kafka_2.11-0.8.2.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp7590521046353928072.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/18614053241561218873880_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./org.apache.kafka_kafka_2.11-0.8.2.1.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./org.apache.kafka_kafka_2.11-0.8.2.1.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/net.jpountz.lz4_lz4-1.2.0.jar with timestamp 1561218873881
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/net.jpountz.lz4_lz4-1.2.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp4415686638690716216.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/13956716041561218873881_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./net.jpountz.lz4_lz4-1.2.0.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./net.jpountz.lz4_lz4-1.2.0.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/org.apache.kafka_kafka-clients-0.8.2.1.jar with timestamp 1561218873881
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/org.apache.kafka_kafka-clients-0.8.2.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp5478654510391772402.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/20876425401561218873881_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./org.apache.kafka_kafka-clients-0.8.2.1.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./org.apache.kafka_kafka-clients-0.8.2.1.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar with timestamp 1561218873879
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp5112363896549270570.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-4014558451561218873879_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/com.yammer.metrics_metrics-core-2.2.0.jar with timestamp 1561218873880
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/com.yammer.metrics_metrics-core-2.2.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp4136313747445942631.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/16868731681561218873880_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./com.yammer.metrics_metrics-core-2.2.0.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./com.yammer.metrics_metrics-core-2.2.0.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar with timestamp 1561218873880
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp4354942988641618956.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-6081732641561218873880_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/org.xerial.snappy_snappy-java-1.1.7.1.jar with timestamp 1561218873882
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/org.xerial.snappy_snappy-java-1.1.7.1.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp4364938496559650143.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/4367918841561218873882_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./org.xerial.snappy_snappy-java-1.1.7.1.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./org.xerial.snappy_snappy-java-1.1.7.1.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar with timestamp 1561218873881
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp946890736233456836.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-2601364611561218873881_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1561218873881
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp4603945271549952852.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-18787774701561218873881_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./org.slf4j_slf4j-api-1.7.16.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./org.slf4j_slf4j-api-1.7.16.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/com.101tec_zkclient-0.3.jar with timestamp 1561218873881
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/com.101tec_zkclient-0.3.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp6052793827264786411.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/13147735461561218873881_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./com.101tec_zkclient-0.3.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./com.101tec_zkclient-0.3.jar to class loader
+2019-06-23 00:54:36 INFO  Executor:54 - Fetching spark://192.168.0.76:39877/jars/log4j_log4j-1.2.17.jar with timestamp 1561218873881
+2019-06-23 00:54:36 INFO  Utils:54 - Fetching spark://192.168.0.76:39877/jars/log4j_log4j-1.2.17.jar to /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/fetchFileTemp3593455134553445398.tmp
+2019-06-23 00:54:36 INFO  Utils:54 - /tmp/spark-8f384631-dd7c-4bf9-b067-92cfadb55cf1/executor-c5f791f6-7873-4b05-8999-c2ddf10ecf48/spark-e0e566f0-ec74-44f6-88ee-65abad0baf34/-1422034911561218873881_cache has been previously copied to /home/ice/spark/work/app-20190623005434-0013/0/./log4j_log4j-1.2.17.jar
+2019-06-23 00:54:36 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623005434-0013/0/./log4j_log4j-1.2.17.jar to class loader
+2019-06-23 00:54:36 INFO  TorrentBroadcast:54 - Started reading broadcast variable 0
+2019-06-23 00:54:36 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:36421 after 2 ms (0 ms spent in bootstraps)
+2019-06-23 00:54:36 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 2.0 KB, free 366.3 MB)
+2019-06-23 00:54:36 INFO  TorrentBroadcast:54 - Reading broadcast variable 0 took 98 ms
+2019-06-23 00:54:36 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 2.0 in stage 0.0 (TID 2). 1124 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 6
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 6.0 in stage 0.0 (TID 6)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 6.0 in stage 0.0 (TID 6). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 8
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 8.0 in stage 0.0 (TID 8)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 8.0 in stage 0.0 (TID 8). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 11
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 11.0 in stage 0.0 (TID 11)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 11.0 in stage 0.0 (TID 11). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 14
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 14.0 in stage 0.0 (TID 14)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 14.0 in stage 0.0 (TID 14). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 17
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 17.0 in stage 0.0 (TID 17)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 17.0 in stage 0.0 (TID 17). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 20
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 20.0 in stage 0.0 (TID 20)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 20.0 in stage 0.0 (TID 20). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 23
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 23.0 in stage 0.0 (TID 23)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 23.0 in stage 0.0 (TID 23). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 26
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 26.0 in stage 0.0 (TID 26)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 26.0 in stage 0.0 (TID 26). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 29
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 29.0 in stage 0.0 (TID 29)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 29.0 in stage 0.0 (TID 29). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 33
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 33.0 in stage 0.0 (TID 33)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 33.0 in stage 0.0 (TID 33). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 36
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 36.0 in stage 0.0 (TID 36)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 36.0 in stage 0.0 (TID 36). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 38
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 38.0 in stage 0.0 (TID 38)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 38.0 in stage 0.0 (TID 38). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 41
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 41.0 in stage 0.0 (TID 41)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 41.0 in stage 0.0 (TID 41). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 45
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 45.0 in stage 0.0 (TID 45)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 45.0 in stage 0.0 (TID 45). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 49
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 49.0 in stage 0.0 (TID 49)
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 49.0 in stage 0.0 (TID 49). 1038 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 50
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 50)
+2019-06-23 00:54:37 INFO  MapOutputTrackerWorker:54 - Updating epoch to 1 and clearing cache
+2019-06-23 00:54:37 INFO  TorrentBroadcast:54 - Started reading broadcast variable 1
+2019-06-23 00:54:37 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 2027.0 B, free 366.3 MB)
+2019-06-23 00:54:37 INFO  TorrentBroadcast:54 - Reading broadcast variable 1 took 9 ms
+2019-06-23 00:54:37 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:54:37 INFO  MapOutputTrackerWorker:54 - Don't have map outputs for shuffle 0, fetching them
+2019-06-23 00:54:37 INFO  MapOutputTrackerWorker:54 - Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@192.168.0.76:39877)
+2019-06-23 00:54:37 INFO  MapOutputTrackerWorker:54 - Got the output locations
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 0 local blocks and 2 remote blocks
+2019-06-23 00:54:37 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:46765 after 3 ms (0 ms spent in bootstraps)
+2019-06-23 00:54:37 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:41965 after 0 ms (0 ms spent in bootstraps)
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Started 2 remote fetches in 144 ms
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 50). 1393 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 54
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 4.0 in stage 1.0 (TID 54)
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 1 local blocks and 2 remote blocks
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 3 ms
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 4.0 in stage 1.0 (TID 54). 1328 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 57
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 7.0 in stage 1.0 (TID 57)
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 2 local blocks and 1 remote blocks
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 1 ms
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 7.0 in stage 1.0 (TID 57). 1328 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 61
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 11.0 in stage 1.0 (TID 61)
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 0 local blocks and 2 remote blocks
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Started 2 remote fetches in 1 ms
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 11.0 in stage 1.0 (TID 61). 1264 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 63
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 13.0 in stage 1.0 (TID 63)
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 0 local blocks and 2 remote blocks
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Started 2 remote fetches in 3 ms
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 13.0 in stage 1.0 (TID 63). 1307 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 66
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 16.0 in stage 1.0 (TID 66)
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 0 local blocks and 2 remote blocks
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Started 2 remote fetches in 1 ms
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 16.0 in stage 1.0 (TID 66). 1307 bytes result sent to driver
+2019-06-23 00:54:37 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 68
+2019-06-23 00:54:37 INFO  Executor:54 - Running task 18.0 in stage 1.0 (TID 68)
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 1 local blocks and 1 remote blocks
+2019-06-23 00:54:37 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 1 ms
+2019-06-23 00:54:37 INFO  Executor:54 - Finished task 18.0 in stage 1.0 (TID 68). 1307 bytes result sent to driver
+2019-06-23 00:54:39 INFO  BlockManager:54 - Removing RDD 5
+2019-06-23 00:54:39 INFO  BlockManager:54 - Removing RDD 4
+2019-06-23 00:54:40 INFO  BlockManager:54 - Removing RDD 7
+2019-06-23 00:54:40 INFO  BlockManager:54 - Removing RDD 6
+2019-06-23 00:54:41 INFO  BlockManager:54 - Removing RDD 9
+2019-06-23 00:54:41 INFO  BlockManager:54 - Removing RDD 8
+2019-06-23 00:54:42 INFO  BlockManager:54 - Removing RDD 11
+2019-06-23 00:54:42 INFO  BlockManager:54 - Removing RDD 10
+2019-06-23 00:54:42 INFO  MemoryStore:54 - Block input-0-1561218882200 stored as bytes in memory (estimated size 4.6 KB, free 366.3 MB)
+2019-06-23 00:54:42 INFO  MemoryStore:54 - Block input-0-1561218882400 stored as bytes in memory (estimated size 8.0 KB, free 366.3 MB)
+2019-06-23 00:54:43 INFO  MemoryStore:54 - Block input-0-1561218882800 stored as bytes in memory (estimated size 8.5 KB, free 366.3 MB)
+2019-06-23 00:54:43 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 71
+2019-06-23 00:54:43 INFO  Executor:54 - Running task 1.0 in stage 3.0 (TID 71)
+2019-06-23 00:54:43 INFO  TorrentBroadcast:54 - Started reading broadcast variable 3
+2019-06-23 00:54:43 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:54:43 INFO  TorrentBroadcast:54 - Reading broadcast variable 3 took 12 ms
+2019-06-23 00:54:43 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 4.7 KB, free 366.3 MB)
+2019-06-23 00:54:43 INFO  BlockManager:54 - Found block input-0-1561218882200 locally
+2019-06-23 00:54:43 INFO  MemoryStore:54 - Block input-0-1561218883000 stored as bytes in memory (estimated size 6.2 KB, free 366.3 MB)
+2019-06-23 00:54:43 INFO  PythonRunner:54 - Times: total = 257, boot = 193, init = 64, finish = 0
+2019-06-23 00:54:43 INFO  Executor:54 - Finished task 1.0 in stage 3.0 (TID 71). 5157 bytes result sent to driver
+2019-06-23 00:54:43 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 73
+2019-06-23 00:54:43 INFO  Executor:54 - Running task 2.0 in stage 3.0 (TID 73)
+2019-06-23 00:54:43 INFO  BlockManager:54 - Found block input-0-1561218882400 locally
+2019-06-23 00:54:43 INFO  PythonRunner:54 - Times: total = 45, boot = -2, init = 45, finish = 2
+2019-06-23 00:54:43 INFO  Executor:54 - Finished task 2.0 in stage 3.0 (TID 73). 7790 bytes result sent to driver
+2019-06-23 00:54:43 INFO  BlockManager:54 - Removing RDD 13
+2019-06-23 00:54:43 INFO  BlockManager:54 - Removing RDD 12
+2019-06-23 00:54:44 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 75
+2019-06-23 00:54:44 INFO  Executor:54 - Running task 0.0 in stage 4.0 (TID 75)
+2019-06-23 00:54:44 INFO  TorrentBroadcast:54 - Started reading broadcast variable 4
+2019-06-23 00:54:44 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:54:44 INFO  TorrentBroadcast:54 - Reading broadcast variable 4 took 10 ms
+2019-06-23 00:54:44 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 4.7 KB, free 366.3 MB)
+2019-06-23 00:54:44 INFO  BlockManager:54 - Found block input-0-1561218882800 locally
+2019-06-23 00:54:44 INFO  PythonRunner:54 - Times: total = 44, boot = -639, init = 681, finish = 2
+2019-06-23 00:54:44 INFO  Executor:54 - Finished task 0.0 in stage 4.0 (TID 75). 8205 bytes result sent to driver
+2019-06-23 00:54:44 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 77
+2019-06-23 00:54:44 INFO  Executor:54 - Running task 1.0 in stage 4.0 (TID 77)
+2019-06-23 00:54:44 INFO  BlockManager:54 - Found block input-0-1561218883000 locally
+2019-06-23 00:54:44 INFO  PythonRunner:54 - Times: total = 49, boot = -11, init = 58, finish = 2
+2019-06-23 00:54:44 INFO  Executor:54 - Finished task 1.0 in stage 4.0 (TID 77). 6435 bytes result sent to driver
+2019-06-23 00:54:44 INFO  MemoryStore:54 - Block input-0-1561218884200 stored as bytes in memory (estimated size 4.7 KB, free 366.3 MB)
+2019-06-23 00:54:44 INFO  MemoryStore:54 - Block input-0-1561218884600 stored as bytes in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:44 INFO  BlockManager:54 - Removing RDD 15
+2019-06-23 00:54:44 INFO  BlockManager:54 - Removing RDD 14
+2019-06-23 00:54:45 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 81
+2019-06-23 00:54:45 INFO  Executor:54 - Running task 2.0 in stage 5.0 (TID 81)
+2019-06-23 00:54:45 INFO  TorrentBroadcast:54 - Started reading broadcast variable 5
+2019-06-23 00:54:45 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:54:45 INFO  TorrentBroadcast:54 - Reading broadcast variable 5 took 17 ms
+2019-06-23 00:54:45 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 4.7 KB, free 366.3 MB)
+2019-06-23 00:54:45 INFO  BlockManager:54 - Found block input-0-1561218884200 locally
+2019-06-23 00:54:45 INFO  PythonRunner:54 - Times: total = 46, boot = -912, init = 957, finish = 1
+2019-06-23 00:54:45 INFO  Executor:54 - Finished task 2.0 in stage 5.0 (TID 81). 5226 bytes result sent to driver
+2019-06-23 00:54:45 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 83
+2019-06-23 00:54:45 INFO  Executor:54 - Running task 4.0 in stage 5.0 (TID 83)
+2019-06-23 00:54:45 INFO  BlockManager:54 - Found block input-0-1561218884600 locally
+2019-06-23 00:54:45 INFO  PythonRunner:54 - Times: total = 42, boot = -5, init = 46, finish = 1
+2019-06-23 00:54:45 INFO  Executor:54 - Finished task 4.0 in stage 5.0 (TID 83). 5210 bytes result sent to driver
+2019-06-23 00:54:45 INFO  MemoryStore:54 - Block input-0-1561218885000 stored as bytes in memory (estimated size 6.5 KB, free 366.2 MB)
+2019-06-23 00:54:45 INFO  MemoryStore:54 - Block input-0-1561218885400 stored as bytes in memory (estimated size 4.5 KB, free 366.2 MB)
+2019-06-23 00:54:45 INFO  BlockManager:54 - Removing RDD 17
+2019-06-23 00:54:45 INFO  BlockManager:54 - Removing RDD 16
+2019-06-23 00:54:45 INFO  MemoryStore:54 - Block input-0-1561218885600 stored as bytes in memory (estimated size 4.4 KB, free 366.3 MB)
+2019-06-23 00:54:46 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 86
+2019-06-23 00:54:46 INFO  Executor:54 - Running task 1.0 in stage 6.0 (TID 86)
+2019-06-23 00:54:46 INFO  TorrentBroadcast:54 - Started reading broadcast variable 6
+2019-06-23 00:54:46 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:46 INFO  TorrentBroadcast:54 - Reading broadcast variable 6 took 7 ms
+2019-06-23 00:54:46 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:46 INFO  BlockManager:54 - Found block input-0-1561218885000 locally
+2019-06-23 00:54:46 INFO  PythonRunner:54 - Times: total = 47, boot = -866, init = 911, finish = 2
+2019-06-23 00:54:46 INFO  Executor:54 - Finished task 1.0 in stage 6.0 (TID 86). 6665 bytes result sent to driver
+2019-06-23 00:54:46 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 87
+2019-06-23 00:54:46 INFO  Executor:54 - Running task 3.0 in stage 6.0 (TID 87)
+2019-06-23 00:54:46 INFO  BlockManager:54 - Found block input-0-1561218885400 locally
+2019-06-23 00:54:46 INFO  PythonRunner:54 - Times: total = 43, boot = -8, init = 50, finish = 1
+2019-06-23 00:54:46 INFO  Executor:54 - Finished task 3.0 in stage 6.0 (TID 87). 5043 bytes result sent to driver
+2019-06-23 00:54:46 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 89
+2019-06-23 00:54:46 INFO  Executor:54 - Running task 4.0 in stage 6.0 (TID 89)
+2019-06-23 00:54:46 INFO  BlockManager:54 - Found block input-0-1561218885600 locally
+2019-06-23 00:54:46 INFO  PythonRunner:54 - Times: total = 43, boot = -3, init = 45, finish = 1
+2019-06-23 00:54:46 INFO  Executor:54 - Finished task 4.0 in stage 6.0 (TID 89). 4954 bytes result sent to driver
+2019-06-23 00:54:46 INFO  MemoryStore:54 - Block input-0-1561218886400 stored as bytes in memory (estimated size 4.8 KB, free 366.2 MB)
+2019-06-23 00:54:46 INFO  BlockManager:54 - Removing RDD 19
+2019-06-23 00:54:46 INFO  BlockManager:54 - Removing RDD 18
+2019-06-23 00:54:47 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 91
+2019-06-23 00:54:47 INFO  Executor:54 - Running task 3.0 in stage 7.0 (TID 91)
+2019-06-23 00:54:47 INFO  TorrentBroadcast:54 - Started reading broadcast variable 7
+2019-06-23 00:54:47 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:47 INFO  TorrentBroadcast:54 - Reading broadcast variable 7 took 8 ms
+2019-06-23 00:54:47 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:47 INFO  BlockManager:54 - Found block input-0-1561218886400 locally
+2019-06-23 00:54:47 INFO  PythonRunner:54 - Times: total = 44, boot = -837, init = 880, finish = 1
+2019-06-23 00:54:47 INFO  Executor:54 - Finished task 3.0 in stage 7.0 (TID 91). 5260 bytes result sent to driver
+2019-06-23 00:54:47 INFO  MemoryStore:54 - Block input-0-1561218887200 stored as bytes in memory (estimated size 5.3 KB, free 366.2 MB)
+2019-06-23 00:54:47 INFO  MemoryStore:54 - Block input-0-1561218887600 stored as bytes in memory (estimated size 4.3 KB, free 366.2 MB)
+2019-06-23 00:54:47 INFO  BlockManager:54 - Removing RDD 21
+2019-06-23 00:54:47 INFO  BlockManager:54 - Removing RDD 20
+2019-06-23 00:54:48 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 95
+2019-06-23 00:54:48 INFO  Executor:54 - Running task 2.0 in stage 8.0 (TID 95)
+2019-06-23 00:54:48 INFO  TorrentBroadcast:54 - Started reading broadcast variable 8
+2019-06-23 00:54:48 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:48 INFO  TorrentBroadcast:54 - Reading broadcast variable 8 took 9 ms
+2019-06-23 00:54:48 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:48 INFO  BlockManager:54 - Found block input-0-1561218887200 locally
+2019-06-23 00:54:48 INFO  PythonRunner:54 - Times: total = 50, boot = -960, init = 1009, finish = 1
+2019-06-23 00:54:48 INFO  Executor:54 - Finished task 2.0 in stage 8.0 (TID 95). 5735 bytes result sent to driver
+2019-06-23 00:54:48 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 97
+2019-06-23 00:54:48 INFO  Executor:54 - Running task 4.0 in stage 8.0 (TID 97)
+2019-06-23 00:54:48 INFO  BlockManager:54 - Found block input-0-1561218887600 locally
+2019-06-23 00:54:48 INFO  PythonRunner:54 - Times: total = 54, boot = -4, init = 57, finish = 1
+2019-06-23 00:54:48 INFO  Executor:54 - Finished task 4.0 in stage 8.0 (TID 97). 4906 bytes result sent to driver
+2019-06-23 00:54:48 INFO  MemoryStore:54 - Block input-0-1561218888200 stored as bytes in memory (estimated size 4.9 KB, free 366.2 MB)
+2019-06-23 00:54:48 INFO  BlockManager:54 - Removing RDD 23
+2019-06-23 00:54:48 INFO  BlockManager:54 - Removing RDD 22
+2019-06-23 00:54:48 INFO  MemoryStore:54 - Block input-0-1561218888600 stored as bytes in memory (estimated size 5.9 KB, free 366.2 MB)
+2019-06-23 00:54:49 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 101
+2019-06-23 00:54:49 INFO  Executor:54 - Running task 2.0 in stage 9.0 (TID 101)
+2019-06-23 00:54:49 INFO  TorrentBroadcast:54 - Started reading broadcast variable 9
+2019-06-23 00:54:49 INFO  MemoryStore:54 - Block broadcast_9_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:49 INFO  TorrentBroadcast:54 - Reading broadcast variable 9 took 5 ms
+2019-06-23 00:54:49 INFO  MemoryStore:54 - Block broadcast_9 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:49 INFO  BlockManager:54 - Found block input-0-1561218888200 locally
+2019-06-23 00:54:49 INFO  PythonRunner:54 - Times: total = 44, boot = -879, init = 922, finish = 1
+2019-06-23 00:54:49 INFO  Executor:54 - Finished task 2.0 in stage 9.0 (TID 101). 5358 bytes result sent to driver
+2019-06-23 00:54:49 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 102
+2019-06-23 00:54:49 INFO  Executor:54 - Running task 4.0 in stage 9.0 (TID 102)
+2019-06-23 00:54:49 INFO  BlockManager:54 - Found block input-0-1561218888600 locally
+2019-06-23 00:54:49 INFO  PythonRunner:54 - Times: total = 43, boot = -3, init = 45, finish = 1
+2019-06-23 00:54:49 INFO  Executor:54 - Finished task 4.0 in stage 9.0 (TID 102). 6170 bytes result sent to driver
+2019-06-23 00:54:49 INFO  MemoryStore:54 - Block input-0-1561218889200 stored as bytes in memory (estimated size 5.1 KB, free 366.2 MB)
+2019-06-23 00:54:49 INFO  BlockManager:54 - Removing RDD 24
+2019-06-23 00:54:49 INFO  BlockManager:54 - Removing RDD 25
+2019-06-23 00:54:50 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 106
+2019-06-23 00:54:50 INFO  Executor:54 - Running task 2.0 in stage 10.0 (TID 106)
+2019-06-23 00:54:50 INFO  TorrentBroadcast:54 - Started reading broadcast variable 10
+2019-06-23 00:54:50 INFO  MemoryStore:54 - Block broadcast_10_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:50 INFO  TorrentBroadcast:54 - Reading broadcast variable 10 took 7 ms
+2019-06-23 00:54:50 INFO  MemoryStore:54 - Block broadcast_10 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:50 INFO  BlockManager:54 - Found block input-0-1561218889200 locally
+2019-06-23 00:54:50 INFO  PythonRunner:54 - Times: total = 43, boot = -891, init = 933, finish = 1
+2019-06-23 00:54:50 INFO  Executor:54 - Finished task 2.0 in stage 10.0 (TID 106). 5500 bytes result sent to driver
+2019-06-23 00:54:50 INFO  MemoryStore:54 - Block input-0-1561218890000 stored as bytes in memory (estimated size 6.9 KB, free 366.2 MB)
+2019-06-23 00:54:50 INFO  MemoryStore:54 - Block input-0-1561218890200 stored as bytes in memory (estimated size 5.7 KB, free 366.2 MB)
+2019-06-23 00:54:50 INFO  MemoryStore:54 - Block input-0-1561218890400 stored as bytes in memory (estimated size 4.4 KB, free 366.2 MB)
+2019-06-23 00:54:50 INFO  MemoryStore:54 - Block input-0-1561218890600 stored as bytes in memory (estimated size 4.6 KB, free 366.2 MB)
+2019-06-23 00:54:50 INFO  BlockManager:54 - Removing RDD 27
+2019-06-23 00:54:50 INFO  BlockManager:54 - Removing RDD 26
+2019-06-23 00:54:51 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 111
+2019-06-23 00:54:51 INFO  Executor:54 - Running task 1.0 in stage 11.0 (TID 111)
+2019-06-23 00:54:51 INFO  TorrentBroadcast:54 - Started reading broadcast variable 11
+2019-06-23 00:54:51 INFO  MemoryStore:54 - Block broadcast_11_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:51 INFO  TorrentBroadcast:54 - Reading broadcast variable 11 took 9 ms
+2019-06-23 00:54:51 INFO  MemoryStore:54 - Block broadcast_11 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:51 INFO  BlockManager:54 - Found block input-0-1561218890000 locally
+2019-06-23 00:54:51 INFO  PythonRunner:54 - Times: total = 46, boot = -955, init = 1000, finish = 1
+2019-06-23 00:54:51 INFO  Executor:54 - Finished task 1.0 in stage 11.0 (TID 111). 7023 bytes result sent to driver
+2019-06-23 00:54:51 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 112
+2019-06-23 00:54:51 INFO  Executor:54 - Running task 2.0 in stage 11.0 (TID 112)
+2019-06-23 00:54:51 INFO  BlockManager:54 - Found block input-0-1561218890200 locally
+2019-06-23 00:54:51 INFO  PythonRunner:54 - Times: total = 52, boot = -7, init = 58, finish = 1
+2019-06-23 00:54:51 INFO  Executor:54 - Finished task 2.0 in stage 11.0 (TID 112). 6010 bytes result sent to driver
+2019-06-23 00:54:51 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 113
+2019-06-23 00:54:51 INFO  Executor:54 - Running task 3.0 in stage 11.0 (TID 113)
+2019-06-23 00:54:51 INFO  BlockManager:54 - Found block input-0-1561218890400 locally
+2019-06-23 00:54:51 INFO  MemoryStore:54 - Block input-0-1561218891000 stored as bytes in memory (estimated size 6.7 KB, free 366.2 MB)
+2019-06-23 00:54:51 INFO  PythonRunner:54 - Times: total = 52, boot = -3, init = 54, finish = 1
+2019-06-23 00:54:51 INFO  Executor:54 - Finished task 3.0 in stage 11.0 (TID 113). 4981 bytes result sent to driver
+2019-06-23 00:54:51 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 114
+2019-06-23 00:54:51 INFO  Executor:54 - Running task 4.0 in stage 11.0 (TID 114)
+2019-06-23 00:54:51 INFO  BlockManager:54 - Found block input-0-1561218890600 locally
+2019-06-23 00:54:51 INFO  PythonRunner:54 - Times: total = 45, boot = -2, init = 46, finish = 1
+2019-06-23 00:54:51 INFO  Executor:54 - Finished task 4.0 in stage 11.0 (TID 114). 5107 bytes result sent to driver
+2019-06-23 00:54:51 INFO  BlockManager:54 - Removing RDD 29
+2019-06-23 00:54:51 INFO  BlockManager:54 - Removing RDD 28
+2019-06-23 00:54:52 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 116
+2019-06-23 00:54:52 INFO  Executor:54 - Running task 1.0 in stage 12.0 (TID 116)
+2019-06-23 00:54:52 INFO  TorrentBroadcast:54 - Started reading broadcast variable 12
+2019-06-23 00:54:52 INFO  MemoryStore:54 - Block broadcast_12_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:52 INFO  TorrentBroadcast:54 - Reading broadcast variable 12 took 5 ms
+2019-06-23 00:54:52 INFO  MemoryStore:54 - Block broadcast_12 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:52 INFO  BlockManager:54 - Found block input-0-1561218891000 locally
+2019-06-23 00:54:52 INFO  PythonRunner:54 - Times: total = 45, boot = -763, init = 806, finish = 2
+2019-06-23 00:54:52 INFO  Executor:54 - Finished task 1.0 in stage 12.0 (TID 116). 6822 bytes result sent to driver
+2019-06-23 00:54:52 INFO  MemoryStore:54 - Block input-0-1561218892200 stored as bytes in memory (estimated size 5.4 KB, free 366.2 MB)
+2019-06-23 00:54:52 INFO  BlockManager:54 - Removing RDD 31
+2019-06-23 00:54:52 INFO  BlockManager:54 - Removing RDD 30
+2019-06-23 00:54:52 INFO  MemoryStore:54 - Block input-0-1561218892600 stored as bytes in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:53 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 120
+2019-06-23 00:54:53 INFO  Executor:54 - Running task 2.0 in stage 13.0 (TID 120)
+2019-06-23 00:54:53 INFO  TorrentBroadcast:54 - Started reading broadcast variable 13
+2019-06-23 00:54:53 INFO  MemoryStore:54 - Block broadcast_13_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:53 INFO  TorrentBroadcast:54 - Reading broadcast variable 13 took 5 ms
+2019-06-23 00:54:53 INFO  MemoryStore:54 - Block broadcast_13 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:53 INFO  BlockManager:54 - Found block input-0-1561218892200 locally
+2019-06-23 00:54:53 INFO  PythonRunner:54 - Times: total = 49, boot = -947, init = 995, finish = 1
+2019-06-23 00:54:53 INFO  Executor:54 - Finished task 2.0 in stage 13.0 (TID 120). 5795 bytes result sent to driver
+2019-06-23 00:54:53 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 123
+2019-06-23 00:54:53 INFO  Executor:54 - Running task 4.0 in stage 13.0 (TID 123)
+2019-06-23 00:54:53 INFO  BlockManager:54 - Found block input-0-1561218892600 locally
+2019-06-23 00:54:53 INFO  PythonRunner:54 - Times: total = 48, boot = -6, init = 50, finish = 4
+2019-06-23 00:54:53 INFO  Executor:54 - Finished task 4.0 in stage 13.0 (TID 123). 5215 bytes result sent to driver
+2019-06-23 00:54:53 INFO  MemoryStore:54 - Block input-0-1561218893000 stored as bytes in memory (estimated size 7.0 KB, free 366.2 MB)
+2019-06-23 00:54:53 INFO  MemoryStore:54 - Block input-0-1561218893400 stored as bytes in memory (estimated size 4.5 KB, free 366.2 MB)
+2019-06-23 00:54:53 INFO  BlockManager:54 - Removing RDD 33
+2019-06-23 00:54:53 INFO  BlockManager:54 - Removing RDD 32
+2019-06-23 00:54:53 INFO  MemoryStore:54 - Block input-0-1561218893600 stored as bytes in memory (estimated size 6.0 KB, free 366.2 MB)
+2019-06-23 00:54:54 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 125
+2019-06-23 00:54:54 INFO  Executor:54 - Running task 1.0 in stage 14.0 (TID 125)
+2019-06-23 00:54:54 INFO  TorrentBroadcast:54 - Started reading broadcast variable 14
+2019-06-23 00:54:54 INFO  MemoryStore:54 - Block broadcast_14_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:54 INFO  TorrentBroadcast:54 - Reading broadcast variable 14 took 5 ms
+2019-06-23 00:54:54 INFO  MemoryStore:54 - Block broadcast_14 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:54 INFO  BlockManager:54 - Found block input-0-1561218893000 locally
+2019-06-23 00:54:54 INFO  PythonRunner:54 - Times: total = 57, boot = -888, init = 944, finish = 1
+2019-06-23 00:54:54 INFO  Executor:54 - Finished task 1.0 in stage 14.0 (TID 125). 7039 bytes result sent to driver
+2019-06-23 00:54:54 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 128
+2019-06-23 00:54:54 INFO  Executor:54 - Running task 3.0 in stage 14.0 (TID 128)
+2019-06-23 00:54:54 INFO  BlockManager:54 - Found block input-0-1561218893400 locally
+2019-06-23 00:54:54 INFO  PythonRunner:54 - Times: total = 45, boot = -3, init = 47, finish = 1
+2019-06-23 00:54:54 INFO  Executor:54 - Finished task 3.0 in stage 14.0 (TID 128). 5045 bytes result sent to driver
+2019-06-23 00:54:54 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 129
+2019-06-23 00:54:54 INFO  Executor:54 - Running task 4.0 in stage 14.0 (TID 129)
+2019-06-23 00:54:54 INFO  BlockManager:54 - Found block input-0-1561218893600 locally
+2019-06-23 00:54:54 INFO  PythonRunner:54 - Times: total = 42, boot = -2, init = 43, finish = 1
+2019-06-23 00:54:54 INFO  Executor:54 - Finished task 4.0 in stage 14.0 (TID 129). 6232 bytes result sent to driver
+2019-06-23 00:54:54 INFO  MemoryStore:54 - Block input-0-1561218894000 stored as bytes in memory (estimated size 6.6 KB, free 366.2 MB)
+2019-06-23 00:54:54 INFO  MemoryStore:54 - Block input-0-1561218894200 stored as bytes in memory (estimated size 4.8 KB, free 366.2 MB)
+2019-06-23 00:54:54 INFO  BlockManager:54 - Removing RDD 35
+2019-06-23 00:54:54 INFO  BlockManager:54 - Removing RDD 34
+2019-06-23 00:54:55 INFO  MemoryStore:54 - Block input-0-1561218894800 stored as bytes in memory (estimated size 6.1 KB, free 366.2 MB)
+2019-06-23 00:54:55 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 130
+2019-06-23 00:54:55 INFO  Executor:54 - Running task 1.0 in stage 15.0 (TID 130)
+2019-06-23 00:54:55 INFO  TorrentBroadcast:54 - Started reading broadcast variable 15
+2019-06-23 00:54:55 INFO  MemoryStore:54 - Block broadcast_15_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:55 INFO  TorrentBroadcast:54 - Reading broadcast variable 15 took 5 ms
+2019-06-23 00:54:55 INFO  MemoryStore:54 - Block broadcast_15 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:55 INFO  BlockManager:54 - Found block input-0-1561218894000 locally
+2019-06-23 00:54:55 INFO  PythonRunner:54 - Times: total = 42, boot = -833, init = 874, finish = 1
+2019-06-23 00:54:55 INFO  Executor:54 - Finished task 1.0 in stage 15.0 (TID 130). 6782 bytes result sent to driver
+2019-06-23 00:54:55 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 132
+2019-06-23 00:54:55 INFO  Executor:54 - Running task 2.0 in stage 15.0 (TID 132)
+2019-06-23 00:54:55 INFO  BlockManager:54 - Found block input-0-1561218894200 locally
+2019-06-23 00:54:55 INFO  PythonRunner:54 - Times: total = 45, boot = -2, init = 46, finish = 1
+2019-06-23 00:54:55 INFO  Executor:54 - Finished task 2.0 in stage 15.0 (TID 132). 5277 bytes result sent to driver
+2019-06-23 00:54:55 INFO  MemoryStore:54 - Block input-0-1561218895000 stored as bytes in memory (estimated size 7.0 KB, free 366.2 MB)
+2019-06-23 00:54:55 INFO  MemoryStore:54 - Block input-0-1561218895200 stored as bytes in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:55 INFO  MemoryStore:54 - Block input-0-1561218895400 stored as bytes in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:55 INFO  BlockManager:54 - Removing RDD 37
+2019-06-23 00:54:55 INFO  BlockManager:54 - Removing RDD 36
+2019-06-23 00:54:56 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 136
+2019-06-23 00:54:56 INFO  Executor:54 - Running task 0.0 in stage 16.0 (TID 136)
+2019-06-23 00:54:56 INFO  TorrentBroadcast:54 - Started reading broadcast variable 16
+2019-06-23 00:54:56 INFO  MemoryStore:54 - Block broadcast_16_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:56 INFO  TorrentBroadcast:54 - Reading broadcast variable 16 took 5 ms
+2019-06-23 00:54:56 INFO  MemoryStore:54 - Block broadcast_16 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:56 INFO  BlockManager:54 - Found block input-0-1561218894800 locally
+2019-06-23 00:54:56 INFO  PythonRunner:54 - Times: total = 43, boot = -909, init = 951, finish = 1
+2019-06-23 00:54:56 INFO  Executor:54 - Finished task 0.0 in stage 16.0 (TID 136). 6363 bytes result sent to driver
+2019-06-23 00:54:56 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 137
+2019-06-23 00:54:56 INFO  Executor:54 - Running task 1.0 in stage 16.0 (TID 137)
+2019-06-23 00:54:56 INFO  BlockManager:54 - Found block input-0-1561218895000 locally
+2019-06-23 00:54:56 INFO  PythonRunner:54 - Times: total = 44, boot = -3, init = 46, finish = 1
+2019-06-23 00:54:56 INFO  Executor:54 - Finished task 1.0 in stage 16.0 (TID 137). 7103 bytes result sent to driver
+2019-06-23 00:54:56 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 138
+2019-06-23 00:54:56 INFO  Executor:54 - Running task 2.0 in stage 16.0 (TID 138)
+2019-06-23 00:54:56 INFO  BlockManager:54 - Found block input-0-1561218895200 locally
+2019-06-23 00:54:56 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:54:56 INFO  Executor:54 - Finished task 2.0 in stage 16.0 (TID 138). 5120 bytes result sent to driver
+2019-06-23 00:54:56 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 139
+2019-06-23 00:54:56 INFO  Executor:54 - Running task 3.0 in stage 16.0 (TID 139)
+2019-06-23 00:54:56 INFO  BlockManager:54 - Found block input-0-1561218895400 locally
+2019-06-23 00:54:56 INFO  PythonRunner:54 - Times: total = 42, boot = -1, init = 42, finish = 1
+2019-06-23 00:54:56 INFO  Executor:54 - Finished task 3.0 in stage 16.0 (TID 139). 5161 bytes result sent to driver
+2019-06-23 00:54:56 INFO  MemoryStore:54 - Block input-0-1561218896200 stored as bytes in memory (estimated size 5.3 KB, free 366.2 MB)
+2019-06-23 00:54:56 INFO  MemoryStore:54 - Block input-0-1561218896400 stored as bytes in memory (estimated size 3.9 KB, free 366.2 MB)
+2019-06-23 00:54:56 INFO  BlockManager:54 - Removing RDD 39
+2019-06-23 00:54:56 INFO  BlockManager:54 - Removing RDD 38
+2019-06-23 00:54:57 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 141
+2019-06-23 00:54:57 INFO  Executor:54 - Running task 2.0 in stage 17.0 (TID 141)
+2019-06-23 00:54:57 INFO  TorrentBroadcast:54 - Started reading broadcast variable 17
+2019-06-23 00:54:57 INFO  MemoryStore:54 - Block broadcast_17_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:57 INFO  TorrentBroadcast:54 - Reading broadcast variable 17 took 5 ms
+2019-06-23 00:54:57 INFO  MemoryStore:54 - Block broadcast_17 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:57 INFO  BlockManager:54 - Found block input-0-1561218896200 locally
+2019-06-23 00:54:57 INFO  PythonRunner:54 - Times: total = 45, boot = -814, init = 858, finish = 1
+2019-06-23 00:54:57 INFO  Executor:54 - Finished task 2.0 in stage 17.0 (TID 141). 5710 bytes result sent to driver
+2019-06-23 00:54:57 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 142
+2019-06-23 00:54:57 INFO  Executor:54 - Running task 3.0 in stage 17.0 (TID 142)
+2019-06-23 00:54:57 INFO  BlockManager:54 - Found block input-0-1561218896400 locally
+2019-06-23 00:54:57 INFO  PythonRunner:54 - Times: total = 43, boot = -1, init = 43, finish = 1
+2019-06-23 00:54:57 INFO  Executor:54 - Finished task 3.0 in stage 17.0 (TID 142). 4477 bytes result sent to driver
+2019-06-23 00:54:57 INFO  MemoryStore:54 - Block input-0-1561218897200 stored as bytes in memory (estimated size 5.2 KB, free 366.1 MB)
+2019-06-23 00:54:57 INFO  MemoryStore:54 - Block input-0-1561218897600 stored as bytes in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 00:54:57 INFO  BlockManager:54 - Removing RDD 41
+2019-06-23 00:54:57 INFO  BlockManager:54 - Removing RDD 40
+2019-06-23 00:54:58 INFO  MemoryStore:54 - Block input-0-1561218897800 stored as bytes in memory (estimated size 6.3 KB, free 366.2 MB)
+2019-06-23 00:54:58 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 145
+2019-06-23 00:54:58 INFO  Executor:54 - Running task 2.0 in stage 18.0 (TID 145)
+2019-06-23 00:54:58 INFO  TorrentBroadcast:54 - Started reading broadcast variable 18
+2019-06-23 00:54:58 INFO  MemoryStore:54 - Block broadcast_18_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:54:58 INFO  TorrentBroadcast:54 - Reading broadcast variable 18 took 5 ms
+2019-06-23 00:54:58 INFO  MemoryStore:54 - Block broadcast_18 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:54:58 INFO  BlockManager:54 - Found block input-0-1561218897200 locally
+2019-06-23 00:54:58 INFO  PythonRunner:54 - Times: total = 43, boot = -905, init = 947, finish = 1
+2019-06-23 00:54:58 INFO  Executor:54 - Finished task 2.0 in stage 18.0 (TID 145). 5590 bytes result sent to driver
+2019-06-23 00:54:58 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 148
+2019-06-23 00:54:58 INFO  Executor:54 - Running task 4.0 in stage 18.0 (TID 148)
+2019-06-23 00:54:58 INFO  BlockManager:54 - Found block input-0-1561218897600 locally
+2019-06-23 00:54:58 INFO  PythonRunner:54 - Times: total = 46, boot = -1, init = 46, finish = 1
+2019-06-23 00:54:58 INFO  Executor:54 - Finished task 4.0 in stage 18.0 (TID 148). 4946 bytes result sent to driver
+2019-06-23 00:54:58 INFO  MemoryStore:54 - Block input-0-1561218898000 stored as bytes in memory (estimated size 6.8 KB, free 366.1 MB)
+2019-06-23 00:54:58 INFO  MemoryStore:54 - Block input-0-1561218898200 stored as bytes in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 00:54:58 INFO  MemoryStore:54 - Block input-0-1561218898400 stored as bytes in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 00:54:58 INFO  BlockManager:54 - Removing RDD 43
+2019-06-23 00:54:58 INFO  BlockManager:54 - Removing RDD 42
+2019-06-23 00:54:59 INFO  MemoryStore:54 - Block input-0-1561218898800 stored as bytes in memory (estimated size 8.2 KB, free 366.1 MB)
+2019-06-23 00:54:59 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 151
+2019-06-23 00:54:59 INFO  Executor:54 - Running task 0.0 in stage 19.0 (TID 151)
+2019-06-23 00:54:59 INFO  TorrentBroadcast:54 - Started reading broadcast variable 19
+2019-06-23 00:54:59 INFO  MemoryStore:54 - Block broadcast_19_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.1 MB)
+2019-06-23 00:54:59 INFO  TorrentBroadcast:54 - Reading broadcast variable 19 took 5 ms
+2019-06-23 00:54:59 INFO  MemoryStore:54 - Block broadcast_19 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 00:54:59 INFO  BlockManager:54 - Found block input-0-1561218897800 locally
+2019-06-23 00:54:59 INFO  PythonRunner:54 - Times: total = 43, boot = -881, init = 923, finish = 1
+2019-06-23 00:54:59 INFO  Executor:54 - Finished task 0.0 in stage 19.0 (TID 151). 6514 bytes result sent to driver
+2019-06-23 00:54:59 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 152
+2019-06-23 00:54:59 INFO  Executor:54 - Running task 1.0 in stage 19.0 (TID 152)
+2019-06-23 00:54:59 INFO  BlockManager:54 - Found block input-0-1561218898000 locally
+2019-06-23 00:54:59 INFO  PythonRunner:54 - Times: total = 46, boot = -1, init = 46, finish = 1
+2019-06-23 00:54:59 INFO  Executor:54 - Finished task 1.0 in stage 19.0 (TID 152). 6923 bytes result sent to driver
+2019-06-23 00:54:59 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 153
+2019-06-23 00:54:59 INFO  Executor:54 - Running task 2.0 in stage 19.0 (TID 153)
+2019-06-23 00:54:59 INFO  BlockManager:54 - Found block input-0-1561218898200 locally
+2019-06-23 00:54:59 INFO  PythonRunner:54 - Times: total = 47, boot = 0, init = 46, finish = 1
+2019-06-23 00:54:59 INFO  Executor:54 - Finished task 2.0 in stage 19.0 (TID 153). 5085 bytes result sent to driver
+2019-06-23 00:54:59 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 154
+2019-06-23 00:54:59 INFO  Executor:54 - Running task 3.0 in stage 19.0 (TID 154)
+2019-06-23 00:54:59 INFO  BlockManager:54 - Found block input-0-1561218898400 locally
+2019-06-23 00:54:59 INFO  MemoryStore:54 - Block input-0-1561218899000 stored as bytes in memory (estimated size 7.7 KB, free 366.1 MB)
+2019-06-23 00:54:59 INFO  PythonRunner:54 - Times: total = 43, boot = -1, init = 43, finish = 1
+2019-06-23 00:54:59 INFO  Executor:54 - Finished task 3.0 in stage 19.0 (TID 154). 5195 bytes result sent to driver
+2019-06-23 00:54:59 INFO  MemoryStore:54 - Block input-0-1561218899400 stored as bytes in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 00:54:59 INFO  MemoryStore:54 - Block input-0-1561218899600 stored as bytes in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 00:54:59 INFO  BlockManager:54 - Removing RDD 45
+2019-06-23 00:54:59 INFO  BlockManager:54 - Removing RDD 44
+2019-06-23 00:55:00 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 156
+2019-06-23 00:55:00 INFO  Executor:54 - Running task 0.0 in stage 20.0 (TID 156)
+2019-06-23 00:55:00 INFO  TorrentBroadcast:54 - Started reading broadcast variable 20
+2019-06-23 00:55:00 INFO  MemoryStore:54 - Block broadcast_20_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.1 MB)
+2019-06-23 00:55:00 INFO  TorrentBroadcast:54 - Reading broadcast variable 20 took 7 ms
+2019-06-23 00:55:00 INFO  MemoryStore:54 - Block broadcast_20 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 00:55:00 INFO  BlockManager:54 - Found block input-0-1561218898800 locally
+2019-06-23 00:55:00 INFO  PythonRunner:54 - Times: total = 47, boot = -806, init = 851, finish = 2
+2019-06-23 00:55:00 INFO  Executor:54 - Finished task 0.0 in stage 20.0 (TID 156). 7993 bytes result sent to driver
+2019-06-23 00:55:00 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 157
+2019-06-23 00:55:00 INFO  Executor:54 - Running task 1.0 in stage 20.0 (TID 157)
+2019-06-23 00:55:00 INFO  BlockManager:54 - Found block input-0-1561218899000 locally
+2019-06-23 00:55:00 INFO  PythonRunner:54 - Times: total = 45, boot = -2, init = 46, finish = 1
+2019-06-23 00:55:00 INFO  Executor:54 - Finished task 1.0 in stage 20.0 (TID 157). 7537 bytes result sent to driver
+2019-06-23 00:55:00 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 158
+2019-06-23 00:55:00 INFO  Executor:54 - Running task 3.0 in stage 20.0 (TID 158)
+2019-06-23 00:55:00 INFO  BlockManager:54 - Found block input-0-1561218899400 locally
+2019-06-23 00:55:00 INFO  PythonRunner:54 - Times: total = 43, boot = -1, init = 43, finish = 1
+2019-06-23 00:55:00 INFO  Executor:54 - Finished task 3.0 in stage 20.0 (TID 158). 4933 bytes result sent to driver
+2019-06-23 00:55:00 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 159
+2019-06-23 00:55:00 INFO  Executor:54 - Running task 4.0 in stage 20.0 (TID 159)
+2019-06-23 00:55:00 INFO  BlockManager:54 - Found block input-0-1561218899600 locally
+2019-06-23 00:55:00 INFO  MemoryStore:54 - Block input-0-1561218900000 stored as bytes in memory (estimated size 7.5 KB, free 366.1 MB)
+2019-06-23 00:55:00 INFO  PythonRunner:54 - Times: total = 43, boot = -1, init = 43, finish = 1
+2019-06-23 00:55:00 INFO  Executor:54 - Finished task 4.0 in stage 20.0 (TID 159). 5134 bytes result sent to driver
+2019-06-23 00:55:00 INFO  MemoryStore:54 - Block input-0-1561218900400 stored as bytes in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 00:55:00 INFO  BlockManager:54 - Removing RDD 47
+2019-06-23 00:55:00 INFO  BlockManager:54 - Removing RDD 46
+2019-06-23 00:55:01 INFO  MemoryStore:54 - Block input-0-1561218900800 stored as bytes in memory (estimated size 6.9 KB, free 366.1 MB)
+2019-06-23 00:55:01 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 160
+2019-06-23 00:55:01 INFO  Executor:54 - Running task 1.0 in stage 21.0 (TID 160)
+2019-06-23 00:55:01 INFO  TorrentBroadcast:54 - Started reading broadcast variable 21
+2019-06-23 00:55:01 INFO  MemoryStore:54 - Block broadcast_21_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.1 MB)
+2019-06-23 00:55:01 INFO  TorrentBroadcast:54 - Reading broadcast variable 21 took 4 ms
+2019-06-23 00:55:01 INFO  MemoryStore:54 - Block broadcast_21 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 00:55:01 INFO  BlockManager:54 - Found block input-0-1561218900000 locally
+2019-06-23 00:55:01 INFO  PythonRunner:54 - Times: total = 46, boot = -798, init = 843, finish = 1
+2019-06-23 00:55:01 INFO  Executor:54 - Finished task 1.0 in stage 21.0 (TID 160). 7424 bytes result sent to driver
+2019-06-23 00:55:01 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 163
+2019-06-23 00:55:01 INFO  Executor:54 - Running task 3.0 in stage 21.0 (TID 163)
+2019-06-23 00:55:01 INFO  BlockManager:54 - Found block input-0-1561218900400 locally
+2019-06-23 00:55:01 INFO  PythonRunner:54 - Times: total = 46, boot = -1, init = 46, finish = 1
+2019-06-23 00:55:01 INFO  Executor:54 - Finished task 3.0 in stage 21.0 (TID 163). 5114 bytes result sent to driver
+2019-06-23 00:55:01 INFO  MemoryStore:54 - Block input-0-1561218901000 stored as bytes in memory (estimated size 7.6 KB, free 366.1 MB)
+2019-06-23 00:55:01 INFO  MemoryStore:54 - Block input-0-1561218901200 stored as bytes in memory (estimated size 4.8 KB, free 366.1 MB)
+2019-06-23 00:55:01 INFO  BlockManager:54 - Removing RDD 49
+2019-06-23 00:55:01 INFO  BlockManager:54 - Removing RDD 48
+2019-06-23 00:55:01 INFO  MemoryStore:54 - Block input-0-1561218901600 stored as bytes in memory (estimated size 5.7 KB, free 366.1 MB)
+2019-06-23 00:55:02 INFO  MemoryStore:54 - Block input-0-1561218901800 stored as bytes in memory (estimated size 8.5 KB, free 366.1 MB)
+2019-06-23 00:55:02 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 166
+2019-06-23 00:55:02 INFO  Executor:54 - Running task 0.0 in stage 22.0 (TID 166)
+2019-06-23 00:55:02 INFO  TorrentBroadcast:54 - Started reading broadcast variable 22
+2019-06-23 00:55:02 INFO  MemoryStore:54 - Block broadcast_22_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.1 MB)
+2019-06-23 00:55:02 INFO  TorrentBroadcast:54 - Reading broadcast variable 22 took 5 ms
+2019-06-23 00:55:02 INFO  MemoryStore:54 - Block broadcast_22 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 00:55:02 INFO  BlockManager:54 - Found block input-0-1561218900800 locally
+2019-06-23 00:55:02 INFO  PythonRunner:54 - Times: total = 45, boot = -897, init = 941, finish = 1
+2019-06-23 00:55:02 INFO  Executor:54 - Finished task 0.0 in stage 22.0 (TID 166). 6959 bytes result sent to driver
+2019-06-23 00:55:02 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 167
+2019-06-23 00:55:02 INFO  Executor:54 - Running task 1.0 in stage 22.0 (TID 167)
+2019-06-23 00:55:02 INFO  BlockManager:54 - Found block input-0-1561218901000 locally
+2019-06-23 00:55:02 INFO  PythonRunner:54 - Times: total = 46, boot = -5, init = 50, finish = 1
+2019-06-23 00:55:02 INFO  Executor:54 - Finished task 1.0 in stage 22.0 (TID 167). 7509 bytes result sent to driver
+2019-06-23 00:55:02 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 168
+2019-06-23 00:55:02 INFO  Executor:54 - Running task 2.0 in stage 22.0 (TID 168)
+2019-06-23 00:55:02 INFO  BlockManager:54 - Found block input-0-1561218901200 locally
+2019-06-23 00:55:02 INFO  PythonRunner:54 - Times: total = 43, boot = -1, init = 43, finish = 1
+2019-06-23 00:55:02 INFO  Executor:54 - Finished task 2.0 in stage 22.0 (TID 168). 5295 bytes result sent to driver
+2019-06-23 00:55:02 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 169
+2019-06-23 00:55:02 INFO  Executor:54 - Running task 4.0 in stage 22.0 (TID 169)
+2019-06-23 00:55:02 INFO  BlockManager:54 - Found block input-0-1561218901600 locally
+2019-06-23 00:55:02 INFO  MemoryStore:54 - Block input-0-1561218902000 stored as bytes in memory (estimated size 7.3 KB, free 366.1 MB)
+2019-06-23 00:55:02 INFO  PythonRunner:54 - Times: total = 44, boot = 0, init = 43, finish = 1
+2019-06-23 00:55:02 INFO  Executor:54 - Finished task 4.0 in stage 22.0 (TID 169). 6019 bytes result sent to driver
+2019-06-23 00:55:02 INFO  MemoryStore:54 - Block input-0-1561218902400 stored as bytes in memory (estimated size 5.1 KB, free 366.1 MB)
+2019-06-23 00:55:02 INFO  MemoryStore:54 - Block input-0-1561218902600 stored as bytes in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 00:55:02 INFO  BlockManager:54 - Removing RDD 51
+2019-06-23 00:55:02 INFO  BlockManager:54 - Removing RDD 50
+2019-06-23 00:55:03 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 170
+2019-06-23 00:55:03 INFO  Executor:54 - Running task 0.0 in stage 23.0 (TID 170)
+2019-06-23 00:55:03 INFO  TorrentBroadcast:54 - Started reading broadcast variable 23
+2019-06-23 00:55:03 INFO  MemoryStore:54 - Block broadcast_23_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.1 MB)
+2019-06-23 00:55:03 INFO  TorrentBroadcast:54 - Reading broadcast variable 23 took 24 ms
+2019-06-23 00:55:03 INFO  MemoryStore:54 - Block broadcast_23 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 00:55:03 INFO  BlockManager:54 - Found block input-0-1561218901800 locally
+2019-06-23 00:55:03 INFO  PythonRunner:54 - Times: total = 62, boot = -827, init = 887, finish = 2
+2019-06-23 00:55:03 INFO  Executor:54 - Finished task 0.0 in stage 23.0 (TID 170). 8232 bytes result sent to driver
+2019-06-23 00:55:03 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 172
+2019-06-23 00:55:03 INFO  Executor:54 - Running task 1.0 in stage 23.0 (TID 172)
+2019-06-23 00:55:03 INFO  BlockManager:54 - Found block input-0-1561218902000 locally
+2019-06-23 00:55:03 INFO  PythonRunner:54 - Times: total = 47, boot = -4, init = 49, finish = 2
+2019-06-23 00:55:03 INFO  Executor:54 - Finished task 1.0 in stage 23.0 (TID 172). 7290 bytes result sent to driver
+2019-06-23 00:55:03 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 173
+2019-06-23 00:55:03 INFO  Executor:54 - Running task 3.0 in stage 23.0 (TID 173)
+2019-06-23 00:55:03 INFO  BlockManager:54 - Found block input-0-1561218902400 locally
+2019-06-23 00:55:03 INFO  MemoryStore:54 - Block input-0-1561218903000 stored as bytes in memory (estimated size 5.2 KB, free 366.2 MB)
+2019-06-23 00:55:03 INFO  PythonRunner:54 - Times: total = 44, boot = -1, init = 43, finish = 2
+2019-06-23 00:55:03 INFO  Executor:54 - Finished task 3.0 in stage 23.0 (TID 173). 5511 bytes result sent to driver
+2019-06-23 00:55:03 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 174
+2019-06-23 00:55:03 INFO  Executor:54 - Running task 4.0 in stage 23.0 (TID 174)
+2019-06-23 00:55:03 INFO  BlockManager:54 - Found block input-0-1561218902600 locally
+2019-06-23 00:55:03 INFO  PythonRunner:54 - Times: total = 47, boot = -2, init = 48, finish = 1
+2019-06-23 00:55:03 INFO  Executor:54 - Finished task 4.0 in stage 23.0 (TID 174). 5175 bytes result sent to driver
+2019-06-23 00:55:03 INFO  MemoryStore:54 - Block input-0-1561218903200 stored as bytes in memory (estimated size 5.9 KB, free 366.2 MB)
+2019-06-23 00:55:03 INFO  MemoryStore:54 - Block input-0-1561218903400 stored as bytes in memory (estimated size 4.2 KB, free 366.2 MB)
+2019-06-23 00:55:04 INFO  MemoryStore:54 - Block input-0-1561218903800 stored as bytes in memory (estimated size 4.0 KB, free 366.2 MB)
+2019-06-23 00:55:04 INFO  BlockManager:54 - Removing RDD 53
+2019-06-23 00:55:04 INFO  BlockManager:54 - Removing RDD 52
+2019-06-23 00:55:04 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 176
+2019-06-23 00:55:04 INFO  Executor:54 - Running task 1.0 in stage 24.0 (TID 176)
+2019-06-23 00:55:04 INFO  TorrentBroadcast:54 - Started reading broadcast variable 24
+2019-06-23 00:55:04 INFO  MemoryStore:54 - Block broadcast_24_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:04 INFO  TorrentBroadcast:54 - Reading broadcast variable 24 took 7 ms
+2019-06-23 00:55:04 INFO  MemoryStore:54 - Block broadcast_24 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:04 INFO  BlockManager:54 - Found block input-0-1561218903000 locally
+2019-06-23 00:55:04 INFO  PythonRunner:54 - Times: total = 45, boot = -876, init = 919, finish = 2
+2019-06-23 00:55:04 INFO  Executor:54 - Finished task 1.0 in stage 24.0 (TID 176). 5613 bytes result sent to driver
+2019-06-23 00:55:04 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 177
+2019-06-23 00:55:04 INFO  Executor:54 - Running task 2.0 in stage 24.0 (TID 177)
+2019-06-23 00:55:04 INFO  BlockManager:54 - Found block input-0-1561218903200 locally
+2019-06-23 00:55:04 INFO  PythonRunner:54 - Times: total = 44, boot = 2, init = 41, finish = 1
+2019-06-23 00:55:04 INFO  Executor:54 - Finished task 2.0 in stage 24.0 (TID 177). 6143 bytes result sent to driver
+2019-06-23 00:55:04 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 179
+2019-06-23 00:55:04 INFO  Executor:54 - Running task 3.0 in stage 24.0 (TID 179)
+2019-06-23 00:55:04 INFO  BlockManager:54 - Found block input-0-1561218903400 locally
+2019-06-23 00:55:04 INFO  PythonRunner:54 - Times: total = 45, boot = -1, init = 45, finish = 1
+2019-06-23 00:55:04 INFO  Executor:54 - Finished task 3.0 in stage 24.0 (TID 179). 4806 bytes result sent to driver
+2019-06-23 00:55:04 INFO  MemoryStore:54 - Block input-0-1561218904200 stored as bytes in memory (estimated size 6.0 KB, free 366.2 MB)
+2019-06-23 00:55:04 INFO  MemoryStore:54 - Block input-0-1561218904600 stored as bytes in memory (estimated size 4.6 KB, free 366.2 MB)
+2019-06-23 00:55:04 INFO  BlockManager:54 - Removing RDD 55
+2019-06-23 00:55:04 INFO  BlockManager:54 - Removing RDD 54
+2019-06-23 00:55:05 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 181
+2019-06-23 00:55:05 INFO  Executor:54 - Running task 0.0 in stage 25.0 (TID 181)
+2019-06-23 00:55:05 INFO  TorrentBroadcast:54 - Started reading broadcast variable 25
+2019-06-23 00:55:05 INFO  MemoryStore:54 - Block broadcast_25_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:55:05 INFO  TorrentBroadcast:54 - Reading broadcast variable 25 took 5 ms
+2019-06-23 00:55:05 INFO  MemoryStore:54 - Block broadcast_25 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:05 INFO  BlockManager:54 - Found block input-0-1561218903800 locally
+2019-06-23 00:55:05 INFO  PythonRunner:54 - Times: total = 44, boot = -713, init = 756, finish = 1
+2019-06-23 00:55:05 INFO  Executor:54 - Finished task 0.0 in stage 25.0 (TID 181). 4631 bytes result sent to driver
+2019-06-23 00:55:05 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 182
+2019-06-23 00:55:05 INFO  Executor:54 - Running task 2.0 in stage 25.0 (TID 182)
+2019-06-23 00:55:05 INFO  BlockManager:54 - Found block input-0-1561218904200 locally
+2019-06-23 00:55:05 INFO  PythonRunner:54 - Times: total = 42, boot = 1, init = 40, finish = 1
+2019-06-23 00:55:05 INFO  Executor:54 - Finished task 2.0 in stage 25.0 (TID 182). 6288 bytes result sent to driver
+2019-06-23 00:55:05 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 184
+2019-06-23 00:55:05 INFO  Executor:54 - Running task 4.0 in stage 25.0 (TID 184)
+2019-06-23 00:55:05 INFO  BlockManager:54 - Found block input-0-1561218904600 locally
+2019-06-23 00:55:05 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:05 INFO  Executor:54 - Finished task 4.0 in stage 25.0 (TID 184). 5136 bytes result sent to driver
+2019-06-23 00:55:05 INFO  BlockManager:54 - Removing RDD 57
+2019-06-23 00:55:05 INFO  BlockManager:54 - Removing RDD 56
+2019-06-23 00:55:06 INFO  MemoryStore:54 - Block input-0-1561218906000 stored as bytes in memory (estimated size 8.3 KB, free 366.3 MB)
+2019-06-23 00:55:06 INFO  MemoryStore:54 - Block input-0-1561218906200 stored as bytes in memory (estimated size 6.0 KB, free 366.2 MB)
+2019-06-23 00:55:06 INFO  BlockManager:54 - Removing RDD 59
+2019-06-23 00:55:06 INFO  BlockManager:54 - Removing RDD 58
+2019-06-23 00:55:07 INFO  MemoryStore:54 - Block input-0-1561218906800 stored as bytes in memory (estimated size 4.1 KB, free 366.3 MB)
+2019-06-23 00:55:07 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 191
+2019-06-23 00:55:07 INFO  Executor:54 - Running task 1.0 in stage 27.0 (TID 191)
+2019-06-23 00:55:07 INFO  TorrentBroadcast:54 - Started reading broadcast variable 27
+2019-06-23 00:55:07 INFO  MemoryStore:54 - Block broadcast_27_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:55:07 INFO  TorrentBroadcast:54 - Reading broadcast variable 27 took 5 ms
+2019-06-23 00:55:07 INFO  MemoryStore:54 - Block broadcast_27 stored as values in memory (estimated size 4.7 KB, free 366.3 MB)
+2019-06-23 00:55:07 INFO  BlockManager:54 - Found block input-0-1561218906000 locally
+2019-06-23 00:55:07 INFO  PythonRunner:54 - Times: total = 46, boot = -1872, init = 1916, finish = 2
+2019-06-23 00:55:07 INFO  Executor:54 - Finished task 1.0 in stage 27.0 (TID 191). 8030 bytes result sent to driver
+2019-06-23 00:55:07 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 192
+2019-06-23 00:55:07 INFO  Executor:54 - Running task 2.0 in stage 27.0 (TID 192)
+2019-06-23 00:55:07 INFO  BlockManager:54 - Found block input-0-1561218906200 locally
+2019-06-23 00:55:07 INFO  PythonRunner:54 - Times: total = 45, boot = 0, init = 44, finish = 1
+2019-06-23 00:55:07 INFO  Executor:54 - Finished task 2.0 in stage 27.0 (TID 192). 6261 bytes result sent to driver
+2019-06-23 00:55:07 INFO  MemoryStore:54 - Block input-0-1561218907200 stored as bytes in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:07 INFO  MemoryStore:54 - Block input-0-1561218907400 stored as bytes in memory (estimated size 4.3 KB, free 366.2 MB)
+2019-06-23 00:55:07 INFO  BlockManager:54 - Removing RDD 61
+2019-06-23 00:55:07 INFO  BlockManager:54 - Removing RDD 60
+2019-06-23 00:55:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 195
+2019-06-23 00:55:08 INFO  Executor:54 - Running task 0.0 in stage 28.0 (TID 195)
+2019-06-23 00:55:08 INFO  TorrentBroadcast:54 - Started reading broadcast variable 28
+2019-06-23 00:55:08 INFO  MemoryStore:54 - Block broadcast_28_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:08 INFO  TorrentBroadcast:54 - Reading broadcast variable 28 took 5 ms
+2019-06-23 00:55:08 INFO  MemoryStore:54 - Block broadcast_28 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:08 INFO  BlockManager:54 - Found block input-0-1561218906800 locally
+2019-06-23 00:55:08 INFO  PythonRunner:54 - Times: total = 48, boot = -898, init = 945, finish = 1
+2019-06-23 00:55:08 INFO  Executor:54 - Finished task 0.0 in stage 28.0 (TID 195). 4697 bytes result sent to driver
+2019-06-23 00:55:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 198
+2019-06-23 00:55:08 INFO  Executor:54 - Running task 2.0 in stage 28.0 (TID 198)
+2019-06-23 00:55:08 INFO  BlockManager:54 - Found block input-0-1561218907200 locally
+2019-06-23 00:55:08 INFO  PythonRunner:54 - Times: total = 44, boot = -3, init = 46, finish = 1
+2019-06-23 00:55:08 INFO  Executor:54 - Finished task 2.0 in stage 28.0 (TID 198). 5214 bytes result sent to driver
+2019-06-23 00:55:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 199
+2019-06-23 00:55:08 INFO  Executor:54 - Running task 3.0 in stage 28.0 (TID 199)
+2019-06-23 00:55:08 INFO  BlockManager:54 - Found block input-0-1561218907400 locally
+2019-06-23 00:55:08 INFO  MemoryStore:54 - Block input-0-1561218908000 stored as bytes in memory (estimated size 6.7 KB, free 366.2 MB)
+2019-06-23 00:55:08 INFO  PythonRunner:54 - Times: total = 45, boot = -2, init = 46, finish = 1
+2019-06-23 00:55:08 INFO  Executor:54 - Finished task 3.0 in stage 28.0 (TID 199). 4857 bytes result sent to driver
+2019-06-23 00:55:08 INFO  BlockManager:54 - Removing RDD 63
+2019-06-23 00:55:08 INFO  BlockManager:54 - Removing RDD 62
+2019-06-23 00:55:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 200
+2019-06-23 00:55:09 INFO  Executor:54 - Running task 1.0 in stage 29.0 (TID 200)
+2019-06-23 00:55:09 INFO  TorrentBroadcast:54 - Started reading broadcast variable 29
+2019-06-23 00:55:09 INFO  MemoryStore:54 - Block broadcast_29_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:09 INFO  TorrentBroadcast:54 - Reading broadcast variable 29 took 5 ms
+2019-06-23 00:55:09 INFO  MemoryStore:54 - Block broadcast_29 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:09 INFO  BlockManager:54 - Found block input-0-1561218908000 locally
+2019-06-23 00:55:09 INFO  PythonRunner:54 - Times: total = 48, boot = -822, init = 869, finish = 1
+2019-06-23 00:55:09 INFO  Executor:54 - Finished task 1.0 in stage 29.0 (TID 200). 6842 bytes result sent to driver
+2019-06-23 00:55:09 INFO  MemoryStore:54 - Block input-0-1561218909000 stored as bytes in memory (estimated size 7.9 KB, free 366.2 MB)
+2019-06-23 00:55:09 INFO  BlockManager:54 - Removing RDD 65
+2019-06-23 00:55:09 INFO  BlockManager:54 - Removing RDD 64
+2019-06-23 00:55:10 INFO  MemoryStore:54 - Block input-0-1561218909800 stored as bytes in memory (estimated size 7.1 KB, free 366.2 MB)
+2019-06-23 00:55:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 205
+2019-06-23 00:55:10 INFO  Executor:54 - Running task 1.0 in stage 30.0 (TID 205)
+2019-06-23 00:55:10 INFO  TorrentBroadcast:54 - Started reading broadcast variable 30
+2019-06-23 00:55:10 INFO  MemoryStore:54 - Block broadcast_30_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:10 INFO  TorrentBroadcast:54 - Reading broadcast variable 30 took 4 ms
+2019-06-23 00:55:10 INFO  MemoryStore:54 - Block broadcast_30 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:10 INFO  BlockManager:54 - Found block input-0-1561218909000 locally
+2019-06-23 00:55:10 INFO  PythonRunner:54 - Times: total = 41, boot = -951, init = 991, finish = 1
+2019-06-23 00:55:10 INFO  Executor:54 - Finished task 1.0 in stage 30.0 (TID 205). 7756 bytes result sent to driver
+2019-06-23 00:55:10 INFO  MemoryStore:54 - Block input-0-1561218910000 stored as bytes in memory (estimated size 7.8 KB, free 366.2 MB)
+2019-06-23 00:55:10 INFO  BlockManager:54 - Removing RDD 67
+2019-06-23 00:55:10 INFO  BlockManager:54 - Removing RDD 66
+2019-06-23 00:55:11 INFO  MemoryStore:54 - Block input-0-1561218910800 stored as bytes in memory (estimated size 5.8 KB, free 366.2 MB)
+2019-06-23 00:55:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 211
+2019-06-23 00:55:11 INFO  Executor:54 - Running task 0.0 in stage 31.0 (TID 211)
+2019-06-23 00:55:11 INFO  TorrentBroadcast:54 - Started reading broadcast variable 31
+2019-06-23 00:55:11 INFO  MemoryStore:54 - Block broadcast_31_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:11 INFO  TorrentBroadcast:54 - Reading broadcast variable 31 took 4 ms
+2019-06-23 00:55:11 INFO  MemoryStore:54 - Block broadcast_31 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:11 INFO  BlockManager:54 - Found block input-0-1561218909800 locally
+2019-06-23 00:55:11 INFO  PythonRunner:54 - Times: total = 45, boot = -954, init = 998, finish = 1
+2019-06-23 00:55:11 INFO  Executor:54 - Finished task 0.0 in stage 31.0 (TID 211). 7152 bytes result sent to driver
+2019-06-23 00:55:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 213
+2019-06-23 00:55:11 INFO  Executor:54 - Running task 1.0 in stage 31.0 (TID 213)
+2019-06-23 00:55:11 INFO  BlockManager:54 - Found block input-0-1561218910000 locally
+2019-06-23 00:55:11 INFO  PythonRunner:54 - Times: total = 41, boot = -1, init = 41, finish = 1
+2019-06-23 00:55:11 INFO  Executor:54 - Finished task 1.0 in stage 31.0 (TID 213). 7581 bytes result sent to driver
+2019-06-23 00:55:11 INFO  MemoryStore:54 - Block input-0-1561218911200 stored as bytes in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:11 INFO  MemoryStore:54 - Block input-0-1561218911600 stored as bytes in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:11 INFO  BlockManager:54 - Removing RDD 69
+2019-06-23 00:55:11 INFO  BlockManager:54 - Removing RDD 68
+2019-06-23 00:55:12 INFO  MemoryStore:54 - Block input-0-1561218911800 stored as bytes in memory (estimated size 6.1 KB, free 366.2 MB)
+2019-06-23 00:55:12 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 216
+2019-06-23 00:55:12 INFO  Executor:54 - Running task 0.0 in stage 32.0 (TID 216)
+2019-06-23 00:55:12 INFO  TorrentBroadcast:54 - Started reading broadcast variable 32
+2019-06-23 00:55:12 INFO  MemoryStore:54 - Block broadcast_32_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:12 INFO  TorrentBroadcast:54 - Reading broadcast variable 32 took 5 ms
+2019-06-23 00:55:12 INFO  MemoryStore:54 - Block broadcast_32 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:12 INFO  BlockManager:54 - Found block input-0-1561218910800 locally
+2019-06-23 00:55:12 INFO  PythonRunner:54 - Times: total = 43, boot = -899, init = 941, finish = 1
+2019-06-23 00:55:12 INFO  Executor:54 - Finished task 0.0 in stage 32.0 (TID 216). 6106 bytes result sent to driver
+2019-06-23 00:55:12 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 217
+2019-06-23 00:55:12 INFO  Executor:54 - Running task 2.0 in stage 32.0 (TID 217)
+2019-06-23 00:55:12 INFO  BlockManager:54 - Found block input-0-1561218911200 locally
+2019-06-23 00:55:12 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:12 INFO  Executor:54 - Finished task 2.0 in stage 32.0 (TID 217). 5147 bytes result sent to driver
+2019-06-23 00:55:12 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 219
+2019-06-23 00:55:12 INFO  Executor:54 - Running task 4.0 in stage 32.0 (TID 219)
+2019-06-23 00:55:12 INFO  BlockManager:54 - Found block input-0-1561218911600 locally
+2019-06-23 00:55:12 INFO  PythonRunner:54 - Times: total = 43, boot = -1, init = 43, finish = 1
+2019-06-23 00:55:12 INFO  Executor:54 - Finished task 4.0 in stage 32.0 (TID 219). 5217 bytes result sent to driver
+2019-06-23 00:55:12 INFO  BlockManager:54 - Removing RDD 71
+2019-06-23 00:55:12 INFO  BlockManager:54 - Removing RDD 70
+2019-06-23 00:55:12 INFO  MemoryStore:54 - Block input-0-1561218912600 stored as bytes in memory (estimated size 4.5 KB, free 366.2 MB)
+2019-06-23 00:55:13 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 221
+2019-06-23 00:55:13 INFO  Executor:54 - Running task 0.0 in stage 33.0 (TID 221)
+2019-06-23 00:55:13 INFO  TorrentBroadcast:54 - Started reading broadcast variable 33
+2019-06-23 00:55:13 INFO  MemoryStore:54 - Block broadcast_33_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:13 INFO  TorrentBroadcast:54 - Reading broadcast variable 33 took 4 ms
+2019-06-23 00:55:13 INFO  MemoryStore:54 - Block broadcast_33 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:13 INFO  BlockManager:54 - Found block input-0-1561218911800 locally
+2019-06-23 00:55:13 INFO  PythonRunner:54 - Times: total = 43, boot = -857, init = 899, finish = 1
+2019-06-23 00:55:13 INFO  Executor:54 - Finished task 0.0 in stage 33.0 (TID 221). 6343 bytes result sent to driver
+2019-06-23 00:55:13 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 222
+2019-06-23 00:55:13 INFO  Executor:54 - Running task 4.0 in stage 33.0 (TID 222)
+2019-06-23 00:55:13 INFO  BlockManager:54 - Found block input-0-1561218912600 locally
+2019-06-23 00:55:13 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:13 INFO  Executor:54 - Finished task 4.0 in stage 33.0 (TID 222). 5086 bytes result sent to driver
+2019-06-23 00:55:13 INFO  MemoryStore:54 - Block input-0-1561218913600 stored as bytes in memory (estimated size 4.3 KB, free 366.2 MB)
+2019-06-23 00:55:13 INFO  BlockManager:54 - Removing RDD 73
+2019-06-23 00:55:13 INFO  BlockManager:54 - Removing RDD 72
+2019-06-23 00:55:14 INFO  MemoryStore:54 - Block input-0-1561218913800 stored as bytes in memory (estimated size 7.0 KB, free 366.2 MB)
+2019-06-23 00:55:14 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 225
+2019-06-23 00:55:14 INFO  Executor:54 - Running task 4.0 in stage 34.0 (TID 225)
+2019-06-23 00:55:14 INFO  TorrentBroadcast:54 - Started reading broadcast variable 34
+2019-06-23 00:55:14 INFO  MemoryStore:54 - Block broadcast_34_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:14 INFO  TorrentBroadcast:54 - Reading broadcast variable 34 took 5 ms
+2019-06-23 00:55:14 INFO  MemoryStore:54 - Block broadcast_34 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:14 INFO  BlockManager:54 - Found block input-0-1561218913600 locally
+2019-06-23 00:55:14 INFO  PythonRunner:54 - Times: total = 45, boot = -907, init = 951, finish = 1
+2019-06-23 00:55:14 INFO  Executor:54 - Finished task 4.0 in stage 34.0 (TID 225). 4876 bytes result sent to driver
+2019-06-23 00:55:14 INFO  MemoryStore:54 - Block input-0-1561218914000 stored as bytes in memory (estimated size 7.1 KB, free 366.2 MB)
+2019-06-23 00:55:14 INFO  MemoryStore:54 - Block input-0-1561218914400 stored as bytes in memory (estimated size 4.4 KB, free 366.2 MB)
+2019-06-23 00:55:14 INFO  BlockManager:54 - Removing RDD 75
+2019-06-23 00:55:14 INFO  BlockManager:54 - Removing RDD 74
+2019-06-23 00:55:15 INFO  MemoryStore:54 - Block input-0-1561218914800 stored as bytes in memory (estimated size 3.3 KB, free 366.2 MB)
+2019-06-23 00:55:15 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 231
+2019-06-23 00:55:15 INFO  Executor:54 - Running task 0.0 in stage 35.0 (TID 231)
+2019-06-23 00:55:15 INFO  TorrentBroadcast:54 - Started reading broadcast variable 35
+2019-06-23 00:55:15 INFO  MemoryStore:54 - Block broadcast_35_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:15 INFO  TorrentBroadcast:54 - Reading broadcast variable 35 took 8 ms
+2019-06-23 00:55:15 INFO  MemoryStore:54 - Block broadcast_35 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:15 INFO  BlockManager:54 - Found block input-0-1561218913800 locally
+2019-06-23 00:55:15 INFO  PythonRunner:54 - Times: total = 55, boot = -965, init = 1019, finish = 1
+2019-06-23 00:55:15 INFO  Executor:54 - Finished task 0.0 in stage 35.0 (TID 231). 7067 bytes result sent to driver
+2019-06-23 00:55:15 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 233
+2019-06-23 00:55:15 INFO  Executor:54 - Running task 1.0 in stage 35.0 (TID 233)
+2019-06-23 00:55:15 INFO  BlockManager:54 - Found block input-0-1561218914000 locally
+2019-06-23 00:55:15 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:15 INFO  Executor:54 - Finished task 1.0 in stage 35.0 (TID 233). 7182 bytes result sent to driver
+2019-06-23 00:55:15 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 234
+2019-06-23 00:55:15 INFO  Executor:54 - Running task 3.0 in stage 35.0 (TID 234)
+2019-06-23 00:55:15 INFO  BlockManager:54 - Found block input-0-1561218914400 locally
+2019-06-23 00:55:15 INFO  PythonRunner:54 - Times: total = 43, boot = -1, init = 43, finish = 1
+2019-06-23 00:55:15 INFO  Executor:54 - Finished task 3.0 in stage 35.0 (TID 234). 4946 bytes result sent to driver
+2019-06-23 00:55:15 INFO  MemoryStore:54 - Block input-0-1561218915200 stored as bytes in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:15 INFO  MemoryStore:54 - Block input-0-1561218915400 stored as bytes in memory (estimated size 4.5 KB, free 366.2 MB)
+2019-06-23 00:55:15 INFO  BlockManager:54 - Removing RDD 77
+2019-06-23 00:55:15 INFO  BlockManager:54 - Removing RDD 76
+2019-06-23 00:55:15 INFO  MemoryStore:54 - Block input-0-1561218915600 stored as bytes in memory (estimated size 3.8 KB, free 366.2 MB)
+2019-06-23 00:55:16 INFO  MemoryStore:54 - Block input-0-1561218915800 stored as bytes in memory (estimated size 5.7 KB, free 366.2 MB)
+2019-06-23 00:55:16 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 236
+2019-06-23 00:55:16 INFO  Executor:54 - Running task 0.0 in stage 36.0 (TID 236)
+2019-06-23 00:55:16 INFO  TorrentBroadcast:54 - Started reading broadcast variable 36
+2019-06-23 00:55:16 INFO  MemoryStore:54 - Block broadcast_36_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:16 INFO  TorrentBroadcast:54 - Reading broadcast variable 36 took 6 ms
+2019-06-23 00:55:16 INFO  MemoryStore:54 - Block broadcast_36 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:16 INFO  BlockManager:54 - Found block input-0-1561218914800 locally
+2019-06-23 00:55:16 INFO  PythonRunner:54 - Times: total = 46, boot = -858, init = 903, finish = 1
+2019-06-23 00:55:16 INFO  Executor:54 - Finished task 0.0 in stage 36.0 (TID 236). 4146 bytes result sent to driver
+2019-06-23 00:55:16 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 237
+2019-06-23 00:55:16 INFO  Executor:54 - Running task 2.0 in stage 36.0 (TID 237)
+2019-06-23 00:55:16 INFO  BlockManager:54 - Found block input-0-1561218915200 locally
+2019-06-23 00:55:16 INFO  PythonRunner:54 - Times: total = 46, boot = -1, init = 45, finish = 2
+2019-06-23 00:55:16 INFO  Executor:54 - Finished task 2.0 in stage 36.0 (TID 237). 5223 bytes result sent to driver
+2019-06-23 00:55:16 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 238
+2019-06-23 00:55:16 INFO  Executor:54 - Running task 3.0 in stage 36.0 (TID 238)
+2019-06-23 00:55:16 INFO  BlockManager:54 - Found block input-0-1561218915400 locally
+2019-06-23 00:55:16 INFO  PythonRunner:54 - Times: total = 44, boot = -9, init = 52, finish = 1
+2019-06-23 00:55:16 INFO  Executor:54 - Finished task 3.0 in stage 36.0 (TID 238). 5016 bytes result sent to driver
+2019-06-23 00:55:16 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 239
+2019-06-23 00:55:16 INFO  Executor:54 - Running task 4.0 in stage 36.0 (TID 239)
+2019-06-23 00:55:16 INFO  BlockManager:54 - Found block input-0-1561218915600 locally
+2019-06-23 00:55:16 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:16 INFO  Executor:54 - Finished task 4.0 in stage 36.0 (TID 239). 4466 bytes result sent to driver
+2019-06-23 00:55:16 INFO  MemoryStore:54 - Block input-0-1561218916200 stored as bytes in memory (estimated size 5.8 KB, free 366.2 MB)
+2019-06-23 00:55:16 INFO  MemoryStore:54 - Block input-0-1561218916600 stored as bytes in memory (estimated size 3.5 KB, free 366.2 MB)
+2019-06-23 00:55:16 INFO  BlockManager:54 - Removing RDD 79
+2019-06-23 00:55:16 INFO  BlockManager:54 - Removing RDD 78
+2019-06-23 00:55:17 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 241
+2019-06-23 00:55:17 INFO  Executor:54 - Running task 0.0 in stage 37.0 (TID 241)
+2019-06-23 00:55:17 INFO  TorrentBroadcast:54 - Started reading broadcast variable 37
+2019-06-23 00:55:17 INFO  MemoryStore:54 - Block broadcast_37_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:17 INFO  TorrentBroadcast:54 - Reading broadcast variable 37 took 6 ms
+2019-06-23 00:55:17 INFO  MemoryStore:54 - Block broadcast_37 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:17 INFO  BlockManager:54 - Found block input-0-1561218915800 locally
+2019-06-23 00:55:17 INFO  PythonRunner:54 - Times: total = 43, boot = -782, init = 823, finish = 2
+2019-06-23 00:55:17 INFO  Executor:54 - Finished task 0.0 in stage 37.0 (TID 241). 6024 bytes result sent to driver
+2019-06-23 00:55:17 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 243
+2019-06-23 00:55:17 INFO  Executor:54 - Running task 2.0 in stage 37.0 (TID 243)
+2019-06-23 00:55:17 INFO  BlockManager:54 - Found block input-0-1561218916200 locally
+2019-06-23 00:55:17 INFO  PythonRunner:54 - Times: total = 45, boot = -1, init = 45, finish = 1
+2019-06-23 00:55:17 INFO  Executor:54 - Finished task 2.0 in stage 37.0 (TID 243). 6140 bytes result sent to driver
+2019-06-23 00:55:17 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 244
+2019-06-23 00:55:17 INFO  Executor:54 - Running task 4.0 in stage 37.0 (TID 244)
+2019-06-23 00:55:17 INFO  BlockManager:54 - Found block input-0-1561218916600 locally
+2019-06-23 00:55:17 INFO  PythonRunner:54 - Times: total = 45, boot = -2, init = 46, finish = 1
+2019-06-23 00:55:17 INFO  Executor:54 - Finished task 4.0 in stage 37.0 (TID 244). 4212 bytes result sent to driver
+2019-06-23 00:55:17 INFO  BlockManager:54 - Removing RDD 81
+2019-06-23 00:55:17 INFO  BlockManager:54 - Removing RDD 80
+2019-06-23 00:55:18 INFO  MemoryStore:54 - Block input-0-1561218917800 stored as bytes in memory (estimated size 8.1 KB, free 366.2 MB)
+2019-06-23 00:55:18 INFO  MemoryStore:54 - Block input-0-1561218918000 stored as bytes in memory (estimated size 6.7 KB, free 366.3 MB)
+2019-06-23 00:55:18 INFO  MemoryStore:54 - Block input-0-1561218918200 stored as bytes in memory (estimated size 6.7 KB, free 366.3 MB)
+2019-06-23 00:55:18 INFO  MemoryStore:54 - Block input-0-1561218918600 stored as bytes in memory (estimated size 4.7 KB, free 366.3 MB)
+2019-06-23 00:55:18 INFO  BlockManager:54 - Removing RDD 83
+2019-06-23 00:55:18 INFO  BlockManager:54 - Removing RDD 82
+2019-06-23 00:55:19 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 251
+2019-06-23 00:55:19 INFO  Executor:54 - Running task 0.0 in stage 39.0 (TID 251)
+2019-06-23 00:55:19 INFO  TorrentBroadcast:54 - Started reading broadcast variable 39
+2019-06-23 00:55:19 INFO  MemoryStore:54 - Block broadcast_39_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:55:19 INFO  TorrentBroadcast:54 - Reading broadcast variable 39 took 4 ms
+2019-06-23 00:55:19 INFO  MemoryStore:54 - Block broadcast_39 stored as values in memory (estimated size 4.7 KB, free 366.3 MB)
+2019-06-23 00:55:19 INFO  BlockManager:54 - Found block input-0-1561218917800 locally
+2019-06-23 00:55:19 INFO  PythonRunner:54 - Times: total = 45, boot = -1831, init = 1875, finish = 1
+2019-06-23 00:55:19 INFO  Executor:54 - Finished task 0.0 in stage 39.0 (TID 251). 7906 bytes result sent to driver
+2019-06-23 00:55:19 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 252
+2019-06-23 00:55:19 INFO  Executor:54 - Running task 1.0 in stage 39.0 (TID 252)
+2019-06-23 00:55:19 INFO  BlockManager:54 - Found block input-0-1561218918000 locally
+2019-06-23 00:55:19 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:19 INFO  Executor:54 - Finished task 1.0 in stage 39.0 (TID 252). 6821 bytes result sent to driver
+2019-06-23 00:55:19 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 253
+2019-06-23 00:55:19 INFO  Executor:54 - Running task 2.0 in stage 39.0 (TID 253)
+2019-06-23 00:55:19 INFO  BlockManager:54 - Found block input-0-1561218918200 locally
+2019-06-23 00:55:19 INFO  PythonRunner:54 - Times: total = 44, boot = 0, init = 43, finish = 1
+2019-06-23 00:55:19 INFO  Executor:54 - Finished task 2.0 in stage 39.0 (TID 253). 6796 bytes result sent to driver
+2019-06-23 00:55:19 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 254
+2019-06-23 00:55:19 INFO  Executor:54 - Running task 4.0 in stage 39.0 (TID 254)
+2019-06-23 00:55:19 INFO  BlockManager:54 - Found block input-0-1561218918600 locally
+2019-06-23 00:55:19 INFO  PythonRunner:54 - Times: total = 55, boot = -1, init = 55, finish = 1
+2019-06-23 00:55:19 INFO  Executor:54 - Finished task 4.0 in stage 39.0 (TID 254). 5233 bytes result sent to driver
+2019-06-23 00:55:19 INFO  MemoryStore:54 - Block input-0-1561218919200 stored as bytes in memory (estimated size 5.5 KB, free 366.3 MB)
+2019-06-23 00:55:19 INFO  MemoryStore:54 - Block input-0-1561218919600 stored as bytes in memory (estimated size 4.9 KB, free 366.3 MB)
+2019-06-23 00:55:19 INFO  BlockManager:54 - Removing RDD 85
+2019-06-23 00:55:19 INFO  BlockManager:54 - Removing RDD 84
+2019-06-23 00:55:20 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 256
+2019-06-23 00:55:20 INFO  Executor:54 - Running task 2.0 in stage 40.0 (TID 256)
+2019-06-23 00:55:20 INFO  TorrentBroadcast:54 - Started reading broadcast variable 40
+2019-06-23 00:55:20 INFO  MemoryStore:54 - Block broadcast_40_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:55:20 INFO  TorrentBroadcast:54 - Reading broadcast variable 40 took 4 ms
+2019-06-23 00:55:20 INFO  MemoryStore:54 - Block broadcast_40 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:20 INFO  BlockManager:54 - Found block input-0-1561218919200 locally
+2019-06-23 00:55:20 INFO  PythonRunner:54 - Times: total = 45, boot = -796, init = 840, finish = 1
+2019-06-23 00:55:20 INFO  Executor:54 - Finished task 2.0 in stage 40.0 (TID 256). 5822 bytes result sent to driver
+2019-06-23 00:55:20 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 258
+2019-06-23 00:55:20 INFO  Executor:54 - Running task 4.0 in stage 40.0 (TID 258)
+2019-06-23 00:55:20 INFO  BlockManager:54 - Found block input-0-1561218919600 locally
+2019-06-23 00:55:20 INFO  PythonRunner:54 - Times: total = 45, boot = -5, init = 49, finish = 1
+2019-06-23 00:55:20 INFO  Executor:54 - Finished task 4.0 in stage 40.0 (TID 258). 5331 bytes result sent to driver
+2019-06-23 00:55:20 INFO  BlockManager:54 - Removing RDD 87
+2019-06-23 00:55:20 INFO  BlockManager:54 - Removing RDD 86
+2019-06-23 00:55:20 INFO  MemoryStore:54 - Block input-0-1561218920600 stored as bytes in memory (estimated size 5.0 KB, free 366.3 MB)
+2019-06-23 00:55:21 INFO  MemoryStore:54 - Block input-0-1561218920800 stored as bytes in memory (estimated size 8.0 KB, free 366.3 MB)
+2019-06-23 00:55:21 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 261
+2019-06-23 00:55:21 INFO  Executor:54 - Running task 4.0 in stage 41.0 (TID 261)
+2019-06-23 00:55:21 INFO  TorrentBroadcast:54 - Started reading broadcast variable 41
+2019-06-23 00:55:21 INFO  MemoryStore:54 - Block broadcast_41_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:55:21 INFO  TorrentBroadcast:54 - Reading broadcast variable 41 took 4 ms
+2019-06-23 00:55:21 INFO  MemoryStore:54 - Block broadcast_41 stored as values in memory (estimated size 4.7 KB, free 366.3 MB)
+2019-06-23 00:55:21 INFO  BlockManager:54 - Found block input-0-1561218920600 locally
+2019-06-23 00:55:21 INFO  PythonRunner:54 - Times: total = 42, boot = -891, init = 932, finish = 1
+2019-06-23 00:55:21 INFO  Executor:54 - Finished task 4.0 in stage 41.0 (TID 261). 5475 bytes result sent to driver
+2019-06-23 00:55:21 INFO  MemoryStore:54 - Block input-0-1561218921000 stored as bytes in memory (estimated size 8.1 KB, free 366.2 MB)
+2019-06-23 00:55:21 INFO  MemoryStore:54 - Block input-0-1561218921200 stored as bytes in memory (estimated size 5.3 KB, free 366.2 MB)
+2019-06-23 00:55:21 INFO  MemoryStore:54 - Block input-0-1561218921600 stored as bytes in memory (estimated size 3.8 KB, free 366.2 MB)
+2019-06-23 00:55:21 INFO  BlockManager:54 - Removing RDD 89
+2019-06-23 00:55:21 INFO  BlockManager:54 - Removing RDD 88
+2019-06-23 00:55:22 INFO  MemoryStore:54 - Block input-0-1561218921800 stored as bytes in memory (estimated size 5.7 KB, free 366.2 MB)
+2019-06-23 00:55:22 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 266
+2019-06-23 00:55:22 INFO  Executor:54 - Running task 0.0 in stage 42.0 (TID 266)
+2019-06-23 00:55:22 INFO  TorrentBroadcast:54 - Started reading broadcast variable 42
+2019-06-23 00:55:22 INFO  MemoryStore:54 - Block broadcast_42_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:22 INFO  TorrentBroadcast:54 - Reading broadcast variable 42 took 5 ms
+2019-06-23 00:55:22 INFO  MemoryStore:54 - Block broadcast_42 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:22 INFO  BlockManager:54 - Found block input-0-1561218920800 locally
+2019-06-23 00:55:22 INFO  PythonRunner:54 - Times: total = 45, boot = -967, init = 1010, finish = 2
+2019-06-23 00:55:22 INFO  Executor:54 - Finished task 0.0 in stage 42.0 (TID 266). 7827 bytes result sent to driver
+2019-06-23 00:55:22 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 267
+2019-06-23 00:55:22 INFO  Executor:54 - Running task 1.0 in stage 42.0 (TID 267)
+2019-06-23 00:55:22 INFO  BlockManager:54 - Found block input-0-1561218921000 locally
+2019-06-23 00:55:22 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 41, finish = 2
+2019-06-23 00:55:22 INFO  Executor:54 - Finished task 1.0 in stage 42.0 (TID 267). 7833 bytes result sent to driver
+2019-06-23 00:55:22 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 268
+2019-06-23 00:55:22 INFO  Executor:54 - Running task 2.0 in stage 42.0 (TID 268)
+2019-06-23 00:55:22 INFO  BlockManager:54 - Found block input-0-1561218921200 locally
+2019-06-23 00:55:22 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:22 INFO  Executor:54 - Finished task 2.0 in stage 42.0 (TID 268). 5632 bytes result sent to driver
+2019-06-23 00:55:22 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 269
+2019-06-23 00:55:22 INFO  Executor:54 - Running task 4.0 in stage 42.0 (TID 269)
+2019-06-23 00:55:22 INFO  BlockManager:54 - Found block input-0-1561218921600 locally
+2019-06-23 00:55:22 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:22 INFO  Executor:54 - Finished task 4.0 in stage 42.0 (TID 269). 4417 bytes result sent to driver
+2019-06-23 00:55:22 INFO  MemoryStore:54 - Block input-0-1561218922200 stored as bytes in memory (estimated size 5.0 KB, free 366.2 MB)
+2019-06-23 00:55:22 INFO  MemoryStore:54 - Block input-0-1561218922600 stored as bytes in memory (estimated size 4.4 KB, free 366.2 MB)
+2019-06-23 00:55:22 INFO  BlockManager:54 - Removing RDD 91
+2019-06-23 00:55:22 INFO  BlockManager:54 - Removing RDD 90
+2019-06-23 00:55:23 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 271
+2019-06-23 00:55:23 INFO  Executor:54 - Running task 0.0 in stage 43.0 (TID 271)
+2019-06-23 00:55:23 INFO  TorrentBroadcast:54 - Started reading broadcast variable 43
+2019-06-23 00:55:23 INFO  MemoryStore:54 - Block broadcast_43_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:23 INFO  TorrentBroadcast:54 - Reading broadcast variable 43 took 4 ms
+2019-06-23 00:55:23 INFO  MemoryStore:54 - Block broadcast_43 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:23 INFO  BlockManager:54 - Found block input-0-1561218921800 locally
+2019-06-23 00:55:23 INFO  PythonRunner:54 - Times: total = 45, boot = -807, init = 850, finish = 2
+2019-06-23 00:55:23 INFO  Executor:54 - Finished task 0.0 in stage 43.0 (TID 271). 6060 bytes result sent to driver
+2019-06-23 00:55:23 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 272
+2019-06-23 00:55:23 INFO  Executor:54 - Running task 2.0 in stage 43.0 (TID 272)
+2019-06-23 00:55:23 INFO  BlockManager:54 - Found block input-0-1561218922200 locally
+2019-06-23 00:55:23 INFO  PythonRunner:54 - Times: total = 51, boot = 2, init = 47, finish = 2
+2019-06-23 00:55:23 INFO  Executor:54 - Finished task 2.0 in stage 43.0 (TID 272). 5398 bytes result sent to driver
+2019-06-23 00:55:23 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 274
+2019-06-23 00:55:23 INFO  Executor:54 - Running task 4.0 in stage 43.0 (TID 274)
+2019-06-23 00:55:23 INFO  BlockManager:54 - Found block input-0-1561218922600 locally
+2019-06-23 00:55:23 INFO  PythonRunner:54 - Times: total = 42, boot = 1, init = 40, finish = 1
+2019-06-23 00:55:23 INFO  Executor:54 - Finished task 4.0 in stage 43.0 (TID 274). 4953 bytes result sent to driver
+2019-06-23 00:55:23 INFO  MemoryStore:54 - Block input-0-1561218923000 stored as bytes in memory (estimated size 5.8 KB, free 366.2 MB)
+2019-06-23 00:55:23 INFO  MemoryStore:54 - Block input-0-1561218923200 stored as bytes in memory (estimated size 4.8 KB, free 366.2 MB)
+2019-06-23 00:55:23 INFO  MemoryStore:54 - Block input-0-1561218923400 stored as bytes in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:23 INFO  BlockManager:54 - Removing RDD 93
+2019-06-23 00:55:23 INFO  BlockManager:54 - Removing RDD 92
+2019-06-23 00:55:24 INFO  MemoryStore:54 - Block input-0-1561218923800 stored as bytes in memory (estimated size 8.2 KB, free 366.2 MB)
+2019-06-23 00:55:24 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 276
+2019-06-23 00:55:24 INFO  Executor:54 - Running task 1.0 in stage 44.0 (TID 276)
+2019-06-23 00:55:24 INFO  TorrentBroadcast:54 - Started reading broadcast variable 44
+2019-06-23 00:55:24 INFO  MemoryStore:54 - Block broadcast_44_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:24 INFO  TorrentBroadcast:54 - Reading broadcast variable 44 took 4 ms
+2019-06-23 00:55:24 INFO  MemoryStore:54 - Block broadcast_44 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:24 INFO  BlockManager:54 - Found block input-0-1561218923000 locally
+2019-06-23 00:55:24 INFO  PythonRunner:54 - Times: total = 42, boot = -832, init = 873, finish = 1
+2019-06-23 00:55:24 INFO  Executor:54 - Finished task 1.0 in stage 44.0 (TID 276). 6141 bytes result sent to driver
+2019-06-23 00:55:24 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 278
+2019-06-23 00:55:24 INFO  Executor:54 - Running task 2.0 in stage 44.0 (TID 278)
+2019-06-23 00:55:24 INFO  BlockManager:54 - Found block input-0-1561218923200 locally
+2019-06-23 00:55:24 INFO  PythonRunner:54 - Times: total = 43, boot = 1, init = 41, finish = 1
+2019-06-23 00:55:24 INFO  Executor:54 - Finished task 2.0 in stage 44.0 (TID 278). 5268 bytes result sent to driver
+2019-06-23 00:55:24 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 279
+2019-06-23 00:55:24 INFO  Executor:54 - Running task 3.0 in stage 44.0 (TID 279)
+2019-06-23 00:55:24 INFO  BlockManager:54 - Found block input-0-1561218923400 locally
+2019-06-23 00:55:24 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:24 INFO  Executor:54 - Finished task 3.0 in stage 44.0 (TID 279). 5161 bytes result sent to driver
+2019-06-23 00:55:24 INFO  MemoryStore:54 - Block input-0-1561218924400 stored as bytes in memory (estimated size 4.8 KB, free 366.2 MB)
+2019-06-23 00:55:24 INFO  BlockManager:54 - Removing RDD 95
+2019-06-23 00:55:24 INFO  BlockManager:54 - Removing RDD 94
+2019-06-23 00:55:24 INFO  MemoryStore:54 - Block input-0-1561218924600 stored as bytes in memory (estimated size 6.7 KB, free 366.2 MB)
+2019-06-23 00:55:25 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 280
+2019-06-23 00:55:25 INFO  Executor:54 - Running task 0.0 in stage 45.0 (TID 280)
+2019-06-23 00:55:25 INFO  TorrentBroadcast:54 - Started reading broadcast variable 45
+2019-06-23 00:55:25 INFO  MemoryStore:54 - Block broadcast_45_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:25 INFO  TorrentBroadcast:54 - Reading broadcast variable 45 took 3 ms
+2019-06-23 00:55:25 INFO  MemoryStore:54 - Block broadcast_45 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:25 INFO  BlockManager:54 - Found block input-0-1561218923800 locally
+2019-06-23 00:55:25 INFO  PythonRunner:54 - Times: total = 45, boot = -856, init = 899, finish = 2
+2019-06-23 00:55:25 INFO  Executor:54 - Finished task 0.0 in stage 45.0 (TID 280). 8001 bytes result sent to driver
+2019-06-23 00:55:25 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 283
+2019-06-23 00:55:25 INFO  Executor:54 - Running task 3.0 in stage 45.0 (TID 283)
+2019-06-23 00:55:25 INFO  BlockManager:54 - Found block input-0-1561218924400 locally
+2019-06-23 00:55:25 INFO  PythonRunner:54 - Times: total = 42, boot = 0, init = 41, finish = 1
+2019-06-23 00:55:25 INFO  Executor:54 - Finished task 3.0 in stage 45.0 (TID 283). 5317 bytes result sent to driver
+2019-06-23 00:55:25 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 284
+2019-06-23 00:55:25 INFO  Executor:54 - Running task 4.0 in stage 45.0 (TID 284)
+2019-06-23 00:55:25 INFO  BlockManager:54 - Found block input-0-1561218924600 locally
+2019-06-23 00:55:25 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:25 INFO  Executor:54 - Finished task 4.0 in stage 45.0 (TID 284). 6842 bytes result sent to driver
+2019-06-23 00:55:25 INFO  MemoryStore:54 - Block input-0-1561218925000 stored as bytes in memory (estimated size 7.6 KB, free 366.2 MB)
+2019-06-23 00:55:25 INFO  MemoryStore:54 - Block input-0-1561218925400 stored as bytes in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:25 INFO  MemoryStore:54 - Block input-0-1561218925600 stored as bytes in memory (estimated size 4.8 KB, free 366.2 MB)
+2019-06-23 00:55:25 INFO  BlockManager:54 - Removing RDD 97
+2019-06-23 00:55:25 INFO  BlockManager:54 - Removing RDD 96
+2019-06-23 00:55:26 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 285
+2019-06-23 00:55:26 INFO  Executor:54 - Running task 1.0 in stage 46.0 (TID 285)
+2019-06-23 00:55:26 INFO  TorrentBroadcast:54 - Started reading broadcast variable 46
+2019-06-23 00:55:26 INFO  MemoryStore:54 - Block broadcast_46_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:26 INFO  TorrentBroadcast:54 - Reading broadcast variable 46 took 3 ms
+2019-06-23 00:55:26 INFO  MemoryStore:54 - Block broadcast_46 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:26 INFO  BlockManager:54 - Found block input-0-1561218925000 locally
+2019-06-23 00:55:26 INFO  PythonRunner:54 - Times: total = 43, boot = -857, init = 899, finish = 1
+2019-06-23 00:55:26 INFO  Executor:54 - Finished task 1.0 in stage 46.0 (TID 285). 7528 bytes result sent to driver
+2019-06-23 00:55:26 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 288
+2019-06-23 00:55:26 INFO  Executor:54 - Running task 3.0 in stage 46.0 (TID 288)
+2019-06-23 00:55:26 INFO  BlockManager:54 - Found block input-0-1561218925400 locally
+2019-06-23 00:55:26 INFO  PythonRunner:54 - Times: total = 42, boot = 0, init = 41, finish = 1
+2019-06-23 00:55:26 INFO  Executor:54 - Finished task 3.0 in stage 46.0 (TID 288). 5183 bytes result sent to driver
+2019-06-23 00:55:26 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 289
+2019-06-23 00:55:26 INFO  Executor:54 - Running task 4.0 in stage 46.0 (TID 289)
+2019-06-23 00:55:26 INFO  BlockManager:54 - Found block input-0-1561218925600 locally
+2019-06-23 00:55:26 INFO  PythonRunner:54 - Times: total = 44, boot = 1, init = 42, finish = 1
+2019-06-23 00:55:26 INFO  Executor:54 - Finished task 4.0 in stage 46.0 (TID 289). 5247 bytes result sent to driver
+2019-06-23 00:55:26 INFO  MemoryStore:54 - Block input-0-1561218926000 stored as bytes in memory (estimated size 7.8 KB, free 366.2 MB)
+2019-06-23 00:55:26 INFO  MemoryStore:54 - Block input-0-1561218926400 stored as bytes in memory (estimated size 4.8 KB, free 366.2 MB)
+2019-06-23 00:55:26 INFO  MemoryStore:54 - Block input-0-1561218926600 stored as bytes in memory (estimated size 3.5 KB, free 366.2 MB)
+2019-06-23 00:55:26 INFO  BlockManager:54 - Removing RDD 99
+2019-06-23 00:55:26 INFO  BlockManager:54 - Removing RDD 98
+2019-06-23 00:55:27 INFO  MemoryStore:54 - Block input-0-1561218926800 stored as bytes in memory (estimated size 5.1 KB, free 366.2 MB)
+2019-06-23 00:55:27 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 290
+2019-06-23 00:55:27 INFO  Executor:54 - Running task 1.0 in stage 47.0 (TID 290)
+2019-06-23 00:55:27 INFO  TorrentBroadcast:54 - Started reading broadcast variable 47
+2019-06-23 00:55:27 INFO  MemoryStore:54 - Block broadcast_47_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:27 INFO  TorrentBroadcast:54 - Reading broadcast variable 47 took 4 ms
+2019-06-23 00:55:27 INFO  MemoryStore:54 - Block broadcast_47 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:27 INFO  BlockManager:54 - Found block input-0-1561218926000 locally
+2019-06-23 00:55:27 INFO  PythonRunner:54 - Times: total = 45, boot = -864, init = 908, finish = 1
+2019-06-23 00:55:27 INFO  Executor:54 - Finished task 1.0 in stage 47.0 (TID 290). 7661 bytes result sent to driver
+2019-06-23 00:55:27 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 292
+2019-06-23 00:55:27 INFO  Executor:54 - Running task 3.0 in stage 47.0 (TID 292)
+2019-06-23 00:55:27 INFO  BlockManager:54 - Found block input-0-1561218926400 locally
+2019-06-23 00:55:27 INFO  PythonRunner:54 - Times: total = 44, boot = -3, init = 46, finish = 1
+2019-06-23 00:55:27 INFO  Executor:54 - Finished task 3.0 in stage 47.0 (TID 292). 5280 bytes result sent to driver
+2019-06-23 00:55:27 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 294
+2019-06-23 00:55:27 INFO  Executor:54 - Running task 4.0 in stage 47.0 (TID 294)
+2019-06-23 00:55:27 INFO  BlockManager:54 - Found block input-0-1561218926600 locally
+2019-06-23 00:55:27 INFO  PythonRunner:54 - Times: total = 44, boot = 1, init = 42, finish = 1
+2019-06-23 00:55:27 INFO  Executor:54 - Finished task 4.0 in stage 47.0 (TID 294). 4233 bytes result sent to driver
+2019-06-23 00:55:27 INFO  MemoryStore:54 - Block input-0-1561218927000 stored as bytes in memory (estimated size 7.0 KB, free 366.2 MB)
+2019-06-23 00:55:27 INFO  MemoryStore:54 - Block input-0-1561218927400 stored as bytes in memory (estimated size 4.2 KB, free 366.2 MB)
+2019-06-23 00:55:27 INFO  BlockManager:54 - Removing RDD 101
+2019-06-23 00:55:27 INFO  BlockManager:54 - Removing RDD 100
+2019-06-23 00:55:27 INFO  MemoryStore:54 - Block input-0-1561218927600 stored as bytes in memory (estimated size 4.5 KB, free 366.2 MB)
+2019-06-23 00:55:28 INFO  MemoryStore:54 - Block input-0-1561218927800 stored as bytes in memory (estimated size 7.7 KB, free 366.2 MB)
+2019-06-23 00:55:28 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 295
+2019-06-23 00:55:28 INFO  Executor:54 - Running task 0.0 in stage 48.0 (TID 295)
+2019-06-23 00:55:28 INFO  TorrentBroadcast:54 - Started reading broadcast variable 48
+2019-06-23 00:55:28 INFO  MemoryStore:54 - Block broadcast_48_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:28 INFO  TorrentBroadcast:54 - Reading broadcast variable 48 took 4 ms
+2019-06-23 00:55:28 INFO  MemoryStore:54 - Block broadcast_48 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:28 INFO  BlockManager:54 - Found block input-0-1561218926800 locally
+2019-06-23 00:55:28 INFO  PythonRunner:54 - Times: total = 44, boot = -848, init = 891, finish = 1
+2019-06-23 00:55:28 INFO  Executor:54 - Finished task 0.0 in stage 48.0 (TID 295). 5509 bytes result sent to driver
+2019-06-23 00:55:28 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 297
+2019-06-23 00:55:28 INFO  Executor:54 - Running task 1.0 in stage 48.0 (TID 297)
+2019-06-23 00:55:28 INFO  BlockManager:54 - Found block input-0-1561218927000 locally
+2019-06-23 00:55:28 INFO  PythonRunner:54 - Times: total = 44, boot = 1, init = 42, finish = 1
+2019-06-23 00:55:28 INFO  Executor:54 - Finished task 1.0 in stage 48.0 (TID 297). 7054 bytes result sent to driver
+2019-06-23 00:55:28 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 298
+2019-06-23 00:55:28 INFO  Executor:54 - Running task 3.0 in stage 48.0 (TID 298)
+2019-06-23 00:55:28 INFO  BlockManager:54 - Found block input-0-1561218927400 locally
+2019-06-23 00:55:28 INFO  PythonRunner:54 - Times: total = 44, boot = 0, init = 43, finish = 1
+2019-06-23 00:55:28 INFO  Executor:54 - Finished task 3.0 in stage 48.0 (TID 298). 4817 bytes result sent to driver
+2019-06-23 00:55:28 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 299
+2019-06-23 00:55:28 INFO  Executor:54 - Running task 4.0 in stage 48.0 (TID 299)
+2019-06-23 00:55:28 INFO  BlockManager:54 - Found block input-0-1561218927600 locally
+2019-06-23 00:55:28 INFO  PythonRunner:54 - Times: total = 45, boot = 1, init = 43, finish = 1
+2019-06-23 00:55:28 INFO  Executor:54 - Finished task 4.0 in stage 48.0 (TID 299). 5016 bytes result sent to driver
+2019-06-23 00:55:28 INFO  MemoryStore:54 - Block input-0-1561218928400 stored as bytes in memory (estimated size 4.5 KB, free 366.2 MB)
+2019-06-23 00:55:28 INFO  BlockManager:54 - Removing RDD 103
+2019-06-23 00:55:28 INFO  BlockManager:54 - Removing RDD 102
+2019-06-23 00:55:28 INFO  MemoryStore:54 - Block input-0-1561218928600 stored as bytes in memory (estimated size 4.8 KB, free 366.2 MB)
+2019-06-23 00:55:29 INFO  MemoryStore:54 - Block input-0-1561218928800 stored as bytes in memory (estimated size 8.2 KB, free 366.2 MB)
+2019-06-23 00:55:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 301
+2019-06-23 00:55:29 INFO  Executor:54 - Running task 0.0 in stage 49.0 (TID 301)
+2019-06-23 00:55:29 INFO  TorrentBroadcast:54 - Started reading broadcast variable 49
+2019-06-23 00:55:29 INFO  MemoryStore:54 - Block broadcast_49_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:29 INFO  TorrentBroadcast:54 - Reading broadcast variable 49 took 3 ms
+2019-06-23 00:55:29 INFO  MemoryStore:54 - Block broadcast_49 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:29 INFO  BlockManager:54 - Found block input-0-1561218927800 locally
+2019-06-23 00:55:29 INFO  PythonRunner:54 - Times: total = 43, boot = -805, init = 847, finish = 1
+2019-06-23 00:55:29 INFO  Executor:54 - Finished task 0.0 in stage 49.0 (TID 301). 7570 bytes result sent to driver
+2019-06-23 00:55:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 303
+2019-06-23 00:55:29 INFO  Executor:54 - Running task 3.0 in stage 49.0 (TID 303)
+2019-06-23 00:55:29 INFO  BlockManager:54 - Found block input-0-1561218928400 locally
+2019-06-23 00:55:29 INFO  PythonRunner:54 - Times: total = 43, boot = 2, init = 40, finish = 1
+2019-06-23 00:55:29 INFO  Executor:54 - Finished task 3.0 in stage 49.0 (TID 303). 5016 bytes result sent to driver
+2019-06-23 00:55:29 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 304
+2019-06-23 00:55:29 INFO  Executor:54 - Running task 4.0 in stage 49.0 (TID 304)
+2019-06-23 00:55:29 INFO  BlockManager:54 - Found block input-0-1561218928600 locally
+2019-06-23 00:55:29 INFO  PythonRunner:54 - Times: total = 44, boot = 1, init = 42, finish = 1
+2019-06-23 00:55:29 INFO  Executor:54 - Finished task 4.0 in stage 49.0 (TID 304). 5260 bytes result sent to driver
+2019-06-23 00:55:29 INFO  MemoryStore:54 - Block input-0-1561218929000 stored as bytes in memory (estimated size 7.5 KB, free 366.2 MB)
+2019-06-23 00:55:29 INFO  MemoryStore:54 - Block input-0-1561218929400 stored as bytes in memory (estimated size 4.9 KB, free 366.2 MB)
+2019-06-23 00:55:29 INFO  BlockManager:54 - Removing RDD 105
+2019-06-23 00:55:29 INFO  BlockManager:54 - Removing RDD 104
+2019-06-23 00:55:30 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 305
+2019-06-23 00:55:30 INFO  Executor:54 - Running task 0.0 in stage 50.0 (TID 305)
+2019-06-23 00:55:30 INFO  TorrentBroadcast:54 - Started reading broadcast variable 50
+2019-06-23 00:55:30 INFO  MemoryStore:54 - Block broadcast_50_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:30 INFO  TorrentBroadcast:54 - Reading broadcast variable 50 took 3 ms
+2019-06-23 00:55:30 INFO  MemoryStore:54 - Block broadcast_50 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:30 INFO  BlockManager:54 - Found block input-0-1561218928800 locally
+2019-06-23 00:55:30 INFO  PythonRunner:54 - Times: total = 45, boot = -856, init = 900, finish = 1
+2019-06-23 00:55:30 INFO  Executor:54 - Finished task 0.0 in stage 50.0 (TID 305). 8005 bytes result sent to driver
+2019-06-23 00:55:30 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 307
+2019-06-23 00:55:30 INFO  Executor:54 - Running task 1.0 in stage 50.0 (TID 307)
+2019-06-23 00:55:30 INFO  BlockManager:54 - Found block input-0-1561218929000 locally
+2019-06-23 00:55:30 INFO  PythonRunner:54 - Times: total = 45, boot = -2, init = 46, finish = 1
+2019-06-23 00:55:30 INFO  Executor:54 - Finished task 1.0 in stage 50.0 (TID 307). 7373 bytes result sent to driver
+2019-06-23 00:55:30 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 309
+2019-06-23 00:55:30 INFO  Executor:54 - Running task 3.0 in stage 50.0 (TID 309)
+2019-06-23 00:55:30 INFO  BlockManager:54 - Found block input-0-1561218929400 locally
+2019-06-23 00:55:30 INFO  PythonRunner:54 - Times: total = 44, boot = 1, init = 42, finish = 1
+2019-06-23 00:55:30 INFO  Executor:54 - Finished task 3.0 in stage 50.0 (TID 309). 5354 bytes result sent to driver
+2019-06-23 00:55:30 INFO  MemoryStore:54 - Block input-0-1561218930000 stored as bytes in memory (estimated size 7.8 KB, free 366.2 MB)
+2019-06-23 00:55:30 INFO  BlockManager:54 - Removing RDD 107
+2019-06-23 00:55:30 INFO  BlockManager:54 - Removing RDD 106
+2019-06-23 00:55:31 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 311
+2019-06-23 00:55:31 INFO  Executor:54 - Running task 1.0 in stage 51.0 (TID 311)
+2019-06-23 00:55:31 INFO  TorrentBroadcast:54 - Started reading broadcast variable 51
+2019-06-23 00:55:31 INFO  MemoryStore:54 - Block broadcast_51_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:31 INFO  TorrentBroadcast:54 - Reading broadcast variable 51 took 3 ms
+2019-06-23 00:55:31 INFO  MemoryStore:54 - Block broadcast_51 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:31 INFO  BlockManager:54 - Found block input-0-1561218930000 locally
+2019-06-23 00:55:31 INFO  PythonRunner:54 - Times: total = 46, boot = -855, init = 900, finish = 1
+2019-06-23 00:55:31 INFO  Executor:54 - Finished task 1.0 in stage 51.0 (TID 311). 7616 bytes result sent to driver
+2019-06-23 00:55:31 INFO  MemoryStore:54 - Block input-0-1561218931000 stored as bytes in memory (estimated size 8.4 KB, free 366.2 MB)
+2019-06-23 00:55:31 INFO  MemoryStore:54 - Block input-0-1561218931600 stored as bytes in memory (estimated size 4.4 KB, free 366.2 MB)
+2019-06-23 00:55:31 INFO  BlockManager:54 - Removing RDD 109
+2019-06-23 00:55:31 INFO  BlockManager:54 - Removing RDD 108
+2019-06-23 00:55:32 INFO  MemoryStore:54 - Block input-0-1561218931800 stored as bytes in memory (estimated size 7.8 KB, free 366.2 MB)
+2019-06-23 00:55:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 316
+2019-06-23 00:55:32 INFO  Executor:54 - Running task 1.0 in stage 52.0 (TID 316)
+2019-06-23 00:55:32 INFO  TorrentBroadcast:54 - Started reading broadcast variable 52
+2019-06-23 00:55:32 INFO  MemoryStore:54 - Block broadcast_52_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:32 INFO  TorrentBroadcast:54 - Reading broadcast variable 52 took 3 ms
+2019-06-23 00:55:32 INFO  MemoryStore:54 - Block broadcast_52 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:32 INFO  BlockManager:54 - Found block input-0-1561218931000 locally
+2019-06-23 00:55:32 INFO  PythonRunner:54 - Times: total = 45, boot = -951, init = 995, finish = 1
+2019-06-23 00:55:32 INFO  Executor:54 - Finished task 1.0 in stage 52.0 (TID 316). 8114 bytes result sent to driver
+2019-06-23 00:55:32 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 317
+2019-06-23 00:55:32 INFO  Executor:54 - Running task 4.0 in stage 52.0 (TID 317)
+2019-06-23 00:55:32 INFO  BlockManager:54 - Found block input-0-1561218931600 locally
+2019-06-23 00:55:32 INFO  PythonRunner:54 - Times: total = 45, boot = 1, init = 43, finish = 1
+2019-06-23 00:55:32 INFO  Executor:54 - Finished task 4.0 in stage 52.0 (TID 317). 4989 bytes result sent to driver
+2019-06-23 00:55:32 INFO  MemoryStore:54 - Block input-0-1561218932000 stored as bytes in memory (estimated size 7.6 KB, free 366.2 MB)
+2019-06-23 00:55:32 INFO  MemoryStore:54 - Block input-0-1561218932400 stored as bytes in memory (estimated size 4.6 KB, free 366.2 MB)
+2019-06-23 00:55:32 INFO  MemoryStore:54 - Block input-0-1561218932600 stored as bytes in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 00:55:32 INFO  BlockManager:54 - Removing RDD 111
+2019-06-23 00:55:32 INFO  BlockManager:54 - Removing RDD 110
+2019-06-23 00:55:33 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 321
+2019-06-23 00:55:33 INFO  Executor:54 - Running task 0.0 in stage 53.0 (TID 321)
+2019-06-23 00:55:33 INFO  TorrentBroadcast:54 - Started reading broadcast variable 53
+2019-06-23 00:55:33 INFO  MemoryStore:54 - Block broadcast_53_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:33 INFO  TorrentBroadcast:54 - Reading broadcast variable 53 took 4 ms
+2019-06-23 00:55:33 INFO  MemoryStore:54 - Block broadcast_53 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:33 INFO  BlockManager:54 - Found block input-0-1561218931800 locally
+2019-06-23 00:55:33 INFO  PythonRunner:54 - Times: total = 46, boot = -912, init = 956, finish = 2
+2019-06-23 00:55:33 INFO  Executor:54 - Finished task 0.0 in stage 53.0 (TID 321). 7620 bytes result sent to driver
+2019-06-23 00:55:33 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 322
+2019-06-23 00:55:33 INFO  Executor:54 - Running task 1.0 in stage 53.0 (TID 322)
+2019-06-23 00:55:33 INFO  BlockManager:54 - Found block input-0-1561218932000 locally
+2019-06-23 00:55:33 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 41, finish = 2
+2019-06-23 00:55:33 INFO  Executor:54 - Finished task 1.0 in stage 53.0 (TID 322). 7512 bytes result sent to driver
+2019-06-23 00:55:33 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 323
+2019-06-23 00:55:33 INFO  Executor:54 - Running task 3.0 in stage 53.0 (TID 323)
+2019-06-23 00:55:33 INFO  BlockManager:54 - Found block input-0-1561218932400 locally
+2019-06-23 00:55:33 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:33 INFO  Executor:54 - Finished task 3.0 in stage 53.0 (TID 323). 5077 bytes result sent to driver
+2019-06-23 00:55:33 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 324
+2019-06-23 00:55:33 INFO  Executor:54 - Running task 4.0 in stage 53.0 (TID 324)
+2019-06-23 00:55:33 INFO  BlockManager:54 - Found block input-0-1561218932600 locally
+2019-06-23 00:55:33 INFO  MemoryStore:54 - Block input-0-1561218933000 stored as bytes in memory (estimated size 6.6 KB, free 366.2 MB)
+2019-06-23 00:55:33 INFO  PythonRunner:54 - Times: total = 43, boot = 0, init = 42, finish = 1
+2019-06-23 00:55:33 INFO  Executor:54 - Finished task 4.0 in stage 53.0 (TID 324). 5127 bytes result sent to driver
+2019-06-23 00:55:33 INFO  MemoryStore:54 - Block input-0-1561218933600 stored as bytes in memory (estimated size 4.4 KB, free 366.2 MB)
+2019-06-23 00:55:33 INFO  BlockManager:54 - Removing RDD 113
+2019-06-23 00:55:33 INFO  BlockManager:54 - Removing RDD 112
+2019-06-23 00:55:34 INFO  MemoryStore:54 - Block input-0-1561218933800 stored as bytes in memory (estimated size 5.5 KB, free 366.3 MB)
+2019-06-23 00:55:34 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 326
+2019-06-23 00:55:34 INFO  Executor:54 - Running task 1.0 in stage 54.0 (TID 326)
+2019-06-23 00:55:34 INFO  TorrentBroadcast:54 - Started reading broadcast variable 54
+2019-06-23 00:55:34 INFO  MemoryStore:54 - Block broadcast_54_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.2 MB)
+2019-06-23 00:55:34 INFO  TorrentBroadcast:54 - Reading broadcast variable 54 took 5 ms
+2019-06-23 00:55:34 INFO  MemoryStore:54 - Block broadcast_54 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:34 INFO  BlockManager:54 - Found block input-0-1561218933000 locally
+2019-06-23 00:55:34 INFO  PythonRunner:54 - Times: total = 45, boot = -804, init = 847, finish = 2
+2019-06-23 00:55:34 INFO  Executor:54 - Finished task 1.0 in stage 54.0 (TID 326). 6746 bytes result sent to driver
+2019-06-23 00:55:34 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 327
+2019-06-23 00:55:34 INFO  Executor:54 - Running task 4.0 in stage 54.0 (TID 327)
+2019-06-23 00:55:34 INFO  BlockManager:54 - Found block input-0-1561218933600 locally
+2019-06-23 00:55:34 INFO  PythonRunner:54 - Times: total = 44, boot = -2, init = 45, finish = 1
+2019-06-23 00:55:34 INFO  Executor:54 - Finished task 4.0 in stage 54.0 (TID 327). 4938 bytes result sent to driver
+2019-06-23 00:55:34 INFO  MemoryStore:54 - Block input-0-1561218934000 stored as bytes in memory (estimated size 7.1 KB, free 366.2 MB)
+2019-06-23 00:55:34 INFO  MemoryStore:54 - Block input-0-1561218934600 stored as bytes in memory (estimated size 4.3 KB, free 366.2 MB)
+2019-06-23 00:55:34 INFO  BlockManager:54 - Removing RDD 115
+2019-06-23 00:55:34 INFO  BlockManager:54 - Removing RDD 114
+2019-06-23 00:55:35 INFO  MemoryStore:54 - Block input-0-1561218934800 stored as bytes in memory (estimated size 3.8 KB, free 366.3 MB)
+2019-06-23 00:55:35 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 331
+2019-06-23 00:55:35 INFO  Executor:54 - Running task 0.0 in stage 55.0 (TID 331)
+2019-06-23 00:55:35 INFO  TorrentBroadcast:54 - Started reading broadcast variable 55
+2019-06-23 00:55:35 INFO  MemoryStore:54 - Block broadcast_55_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:55:35 INFO  TorrentBroadcast:54 - Reading broadcast variable 55 took 3 ms
+2019-06-23 00:55:35 INFO  MemoryStore:54 - Block broadcast_55 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:35 INFO  BlockManager:54 - Found block input-0-1561218933800 locally
+2019-06-23 00:55:35 INFO  PythonRunner:54 - Times: total = 45, boot = -894, init = 938, finish = 1
+2019-06-23 00:55:35 INFO  Executor:54 - Finished task 0.0 in stage 55.0 (TID 331). 5878 bytes result sent to driver
+2019-06-23 00:55:35 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 333
+2019-06-23 00:55:35 INFO  Executor:54 - Running task 1.0 in stage 55.0 (TID 333)
+2019-06-23 00:55:35 INFO  BlockManager:54 - Found block input-0-1561218934000 locally
+2019-06-23 00:55:35 INFO  PythonRunner:54 - Times: total = 46, boot = 1, init = 43, finish = 2
+2019-06-23 00:55:35 INFO  Executor:54 - Finished task 1.0 in stage 55.0 (TID 333). 7123 bytes result sent to driver
+2019-06-23 00:55:35 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 334
+2019-06-23 00:55:35 INFO  Executor:54 - Running task 4.0 in stage 55.0 (TID 334)
+2019-06-23 00:55:35 INFO  BlockManager:54 - Found block input-0-1561218934600 locally
+2019-06-23 00:55:35 INFO  PythonRunner:54 - Times: total = 46, boot = 1, init = 44, finish = 1
+2019-06-23 00:55:35 INFO  Executor:54 - Finished task 4.0 in stage 55.0 (TID 334). 4847 bytes result sent to driver
+2019-06-23 00:55:35 INFO  MemoryStore:54 - Block input-0-1561218935000 stored as bytes in memory (estimated size 1651.0 B, free 366.2 MB)
+2019-06-23 00:55:35 INFO  BlockManager:54 - Removing RDD 117
+2019-06-23 00:55:35 INFO  BlockManager:54 - Removing RDD 116
+2019-06-23 00:55:36 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 335
+2019-06-23 00:55:36 INFO  Executor:54 - Running task 0.0 in stage 56.0 (TID 335)
+2019-06-23 00:55:36 INFO  TorrentBroadcast:54 - Started reading broadcast variable 56
+2019-06-23 00:55:36 INFO  MemoryStore:54 - Block broadcast_56_piece0 stored as bytes in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 00:55:36 INFO  TorrentBroadcast:54 - Reading broadcast variable 56 took 3 ms
+2019-06-23 00:55:36 INFO  MemoryStore:54 - Block broadcast_56 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 00:55:36 INFO  BlockManager:54 - Found block input-0-1561218934800 locally
+2019-06-23 00:55:36 INFO  PythonRunner:54 - Times: total = 46, boot = -881, init = 926, finish = 1
+2019-06-23 00:55:36 INFO  Executor:54 - Finished task 0.0 in stage 56.0 (TID 335). 4432 bytes result sent to driver
+2019-06-23 00:55:36 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 336
+2019-06-23 00:55:36 INFO  Executor:54 - Running task 1.0 in stage 56.0 (TID 336)
+2019-06-23 00:55:36 INFO  BlockManager:54 - Found block input-0-1561218935000 locally
+2019-06-23 00:55:36 INFO  PythonRunner:54 - Times: total = 44, boot = 0, init = 43, finish = 1
+2019-06-23 00:55:36 INFO  Executor:54 - Finished task 1.0 in stage 56.0 (TID 336). 2729 bytes result sent to driver
+2019-06-23 00:55:36 INFO  BlockManager:54 - Removing RDD 119
+2019-06-23 00:55:36 INFO  BlockManager:54 - Removing RDD 118
+2019-06-23 00:55:37 INFO  BlockManager:54 - Removing RDD 121
+2019-06-23 00:55:37 INFO  BlockManager:54 - Removing RDD 120
+2019-06-23 00:55:38 INFO  BlockManager:54 - Removing RDD 123
+2019-06-23 00:55:38 INFO  BlockManager:54 - Removing RDD 122
+2019-06-23 00:55:39 INFO  BlockManager:54 - Removing RDD 125
+2019-06-23 00:55:39 INFO  BlockManager:54 - Removing RDD 124
+2019-06-23 00:55:40 INFO  BlockManager:54 - Removing RDD 127
+2019-06-23 00:55:40 INFO  BlockManager:54 - Removing RDD 126
+2019-06-23 00:55:41 INFO  BlockManager:54 - Removing RDD 129
+2019-06-23 00:55:41 INFO  BlockManager:54 - Removing RDD 128
+2019-06-23 00:55:42 INFO  BlockManager:54 - Removing RDD 131
+2019-06-23 00:55:42 INFO  BlockManager:54 - Removing RDD 130
+2019-06-23 00:55:43 INFO  BlockManager:54 - Removing RDD 133
+2019-06-23 00:55:43 INFO  BlockManager:54 - Removing RDD 132
+2019-06-23 00:55:44 INFO  BlockManager:54 - Removing RDD 135
+2019-06-23 00:55:44 INFO  BlockManager:54 - Removing RDD 134
+2019-06-23 00:55:45 INFO  BlockManager:54 - Removing RDD 136
+2019-06-23 00:55:45 INFO  BlockManager:54 - Removing RDD 137
+2019-06-23 00:55:46 INFO  BlockManager:54 - Removing RDD 139
+2019-06-23 00:55:46 INFO  BlockManager:54 - Removing RDD 138
+2019-06-23 00:55:47 INFO  BlockManager:54 - Removing RDD 141
+2019-06-23 00:55:47 INFO  BlockManager:54 - Removing RDD 140
+2019-06-23 00:55:48 INFO  BlockManager:54 - Removing RDD 143
+2019-06-23 00:55:48 INFO  BlockManager:54 - Removing RDD 142
+2019-06-23 00:55:49 INFO  BlockManager:54 - Removing RDD 145
+2019-06-23 00:55:49 INFO  BlockManager:54 - Removing RDD 144
+2019-06-23 00:55:50 INFO  BlockManager:54 - Removing RDD 147
+2019-06-23 00:55:50 INFO  BlockManager:54 - Removing RDD 146
+2019-06-23 00:55:51 INFO  BlockManager:54 - Removing RDD 149
+2019-06-23 00:55:51 INFO  BlockManager:54 - Removing RDD 148
+2019-06-23 00:55:52 INFO  BlockManager:54 - Removing RDD 151
+2019-06-23 00:55:52 INFO  BlockManager:54 - Removing RDD 150
+2019-06-23 00:55:52 INFO  CoarseGrainedExecutorBackend:54 - Driver commanded a shutdown
+2019-06-23 00:55:52 ERROR CoarseGrainedExecutorBackend:43 - RECEIVED SIGNAL TERM
+utdown

@@ -1,0 +1,5 @@
+[2019-01-23 20:05:08,153] INFO Accepted socket connection from /127.0.0.1:58312 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-01-23 20:05:08,155] INFO Client attempting to establish new session at /127.0.0.1:58312 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-01-23 20:05:08,168] INFO Established session 0x100003fcbb80008 with negotiated timeout 6000 for client /127.0.0.1:58312 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-01-23 20:05:26,652] INFO Processed session termination for sessionid: 0x100003fcbb80008 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-01-23 20:05:26,659] INFO Closed socket connection for client /127.0.0.1:58312 which had sessionid 0x100003fcbb80008 (org.apache.zookeeper.server.NIOServerCnxn)

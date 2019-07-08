@@ -1,0 +1,3 @@
+[2019-02-12 19:06:32,394] INFO Accepted socket connection from /127.0.0.1:39620 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-02-12 19:06:32,394] WARN Exception causing close of session 0x0: Unreasonable length = 1919902837 (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-02-12 19:06:32,394] INFO Closed socket connection for client /127.0.0.1:39620 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)

@@ -1,0 +1,1065 @@
+2019-06-23 02:05:07 INFO  CoarseGrainedExecutorBackend:2566 - Started daemon with process name: 28636@ice-PMBSB09A-Samsung-DeskTop
+2019-06-23 02:05:07 INFO  SignalUtils:54 - Registered signal handler for TERM
+2019-06-23 02:05:07 INFO  SignalUtils:54 - Registered signal handler for HUP
+2019-06-23 02:05:07 INFO  SignalUtils:54 - Registered signal handler for INT
+2019-06-23 02:05:07 WARN  Utils:66 - Your hostname, ice-PMBSB09A-Samsung-DeskTop resolves to a loopback address: 127.0.1.1; using 192.168.0.76 instead (on interface enp4s0)
+2019-06-23 02:05:07 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2019-06-23 02:05:07 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-23 02:05:08 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 02:05:08 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 02:05:08 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 02:05:08 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 02:05:08 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 02:05:08 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:35965 after 104 ms (0 ms spent in bootstraps)
+2019-06-23 02:05:08 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 02:05:08 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 02:05:08 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 02:05:08 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 02:05:08 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 02:05:08 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:35965 after 6 ms (0 ms spent in bootstraps)
+2019-06-23 02:05:08 INFO  DiskBlockManager:54 - Created local directory at /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/blockmgr-84be4e7b-dbce-438f-8d56-f06dc0699268
+2019-06-23 02:05:09 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2019-06-23 02:05:09 INFO  CoarseGrainedExecutorBackend:54 - Connecting to driver: spark://CoarseGrainedScheduler@192.168.0.76:35965
+2019-06-23 02:05:09 INFO  WorkerWatcher:54 - Connecting to worker spark://Worker@192.168.0.76:36693
+2019-06-23 02:05:09 INFO  CoarseGrainedExecutorBackend:54 - Successfully registered with driver
+2019-06-23 02:05:09 INFO  Executor:54 - Starting executor ID 2 on host 192.168.0.76
+2019-06-23 02:05:09 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:36693 after 36 ms (0 ms spent in bootstraps)
+2019-06-23 02:05:09 INFO  WorkerWatcher:54 - Successfully connected to spark://Worker@192.168.0.76:36693
+2019-06-23 02:05:09 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36917.
+2019-06-23 02:05:09 INFO  NettyBlockTransferService:54 - Server created on 192.168.0.76:36917
+2019-06-23 02:05:09 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-06-23 02:05:09 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(2, 192.168.0.76, 36917, None)
+2019-06-23 02:05:09 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(2, 192.168.0.76, 36917, None)
+2019-06-23 02:05:09 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(2, 192.168.0.76, 36917, None)
+2019-06-23 02:05:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 1
+2019-06-23 02:05:09 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
+2019-06-23 02:05:09 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1561223105618
+2019-06-23 02:05:09 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:35965 after 24 ms (0 ms spent in bootstraps)
+2019-06-23 02:05:09 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp1032012238605578157.tmp
+2019-06-23 02:05:09 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-1587633331561223105618_cache to /home/ice/spark/work/app-20190623020505-0000/2/./org.slf4j_slf4j-api-1.7.16.jar
+2019-06-23 02:05:09 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/org.apache.kafka_kafka-clients-0.8.2.1.jar with timestamp 1561223105616
+2019-06-23 02:05:09 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/org.apache.kafka_kafka-clients-0.8.2.1.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp1732606730604014473.tmp
+2019-06-23 02:05:09 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-5404637711561223105616_cache to /home/ice/spark/work/app-20190623020505-0000/2/./org.apache.kafka_kafka-clients-0.8.2.1.jar
+2019-06-23 02:05:09 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/org.apache.kafka_kafka_2.11-0.8.2.1.jar with timestamp 1561223105600
+2019-06-23 02:05:09 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/org.apache.kafka_kafka_2.11-0.8.2.1.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp6885217982414557757.tmp
+2019-06-23 02:05:09 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/14254913151561223105600_cache to /home/ice/spark/work/app-20190623020505-0000/2/./org.apache.kafka_kafka_2.11-0.8.2.1.jar
+2019-06-23 02:05:09 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/com.yammer.metrics_metrics-core-2.2.0.jar with timestamp 1561223105610
+2019-06-23 02:05:09 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/com.yammer.metrics_metrics-core-2.2.0.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp2541136562421371726.tmp
+2019-06-23 02:05:09 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-6146617691561223105610_cache to /home/ice/spark/work/app-20190623020505-0000/2/./com.yammer.metrics_metrics-core-2.2.0.jar
+2019-06-23 02:05:09 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/log4j_log4j-1.2.17.jar with timestamp 1561223105620
+2019-06-23 02:05:09 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/log4j_log4j-1.2.17.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp8759900502540947822.tmp
+2019-06-23 02:05:09 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/11458815581561223105620_cache to /home/ice/spark/work/app-20190623020505-0000/2/./log4j_log4j-1.2.17.jar
+2019-06-23 02:05:09 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/com.101tec_zkclient-0.3.jar with timestamp 1561223105614
+2019-06-23 02:05:09 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/com.101tec_zkclient-0.3.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp940091313272100805.tmp
+2019-06-23 02:05:09 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/2064526251561223105614_cache to /home/ice/spark/work/app-20190623020505-0000/2/./com.101tec_zkclient-0.3.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar with timestamp 1561223105591
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp1609159883066131640.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-16707450221561223105591_cache to /home/ice/spark/work/app-20190623020505-0000/2/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar with timestamp 1561223105612
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp4447749054600079016.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-14516994121561223105612_cache to /home/ice/spark/work/app-20190623020505-0000/2/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar with timestamp 1561223105607
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp5915547195541486663.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-4627724571561223105607_cache to /home/ice/spark/work/app-20190623020505-0000/2/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/org.xerial.snappy_snappy-java-1.1.7.1.jar with timestamp 1561223105624
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/org.xerial.snappy_snappy-java-1.1.7.1.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp7540432162557262078.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-18647430531561223105624_cache to /home/ice/spark/work/app-20190623020505-0000/2/./org.xerial.snappy_snappy-java-1.1.7.1.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/org.spark-project.spark_unused-1.0.0.jar with timestamp 1561223105605
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/org.spark-project.spark_unused-1.0.0.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp6824989456101249684.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/15442003981561223105605_cache to /home/ice/spark/work/app-20190623020505-0000/2/./org.spark-project.spark_unused-1.0.0.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/files/net.jpountz.lz4_lz4-1.2.0.jar with timestamp 1561223105622
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/files/net.jpountz.lz4_lz4-1.2.0.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp5017863509880129670.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - Copying /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/14511559311561223105622_cache to /home/ice/spark/work/app-20190623020505-0000/2/./net.jpountz.lz4_lz4-1.2.0.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar with timestamp 1561223105576
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp2558612599102645756.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-13592161051561223105576_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./org.scala-lang.modules_scala-parser-combinators_2.11-1.1.0.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar with timestamp 1561223105576
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp5697400281533914451.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-3841148041561223105576_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./org.scala-lang.modules_scala-xml_2.11-1.0.2.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/com.yammer.metrics_metrics-core-2.2.0.jar with timestamp 1561223105576
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/com.yammer.metrics_metrics-core-2.2.0.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp8247900348396257025.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-7228647241561223105576_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./com.yammer.metrics_metrics-core-2.2.0.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./com.yammer.metrics_metrics-core-2.2.0.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar with timestamp 1561223105575
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp4777902932256390376.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-17326165851561223105575_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./org.apache.spark_spark-streaming-kafka-0-8_2.11-2.4.0.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/org.spark-project.spark_unused-1.0.0.jar with timestamp 1561223105575
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/org.spark-project.spark_unused-1.0.0.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp5290216083236251750.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-17844259911561223105575_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./org.spark-project.spark_unused-1.0.0.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./org.spark-project.spark_unused-1.0.0.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/com.101tec_zkclient-0.3.jar with timestamp 1561223105576
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/com.101tec_zkclient-0.3.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp7959219817297728416.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-18304541381561223105576_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./com.101tec_zkclient-0.3.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./com.101tec_zkclient-0.3.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/org.apache.kafka_kafka_2.11-0.8.2.1.jar with timestamp 1561223105575
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/org.apache.kafka_kafka_2.11-0.8.2.1.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp3156183658191093313.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-10371883761561223105575_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./org.apache.kafka_kafka_2.11-0.8.2.1.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./org.apache.kafka_kafka_2.11-0.8.2.1.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/net.jpountz.lz4_lz4-1.2.0.jar with timestamp 1561223105577
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/net.jpountz.lz4_lz4-1.2.0.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp3013404126812027740.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-18061236321561223105577_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./net.jpountz.lz4_lz4-1.2.0.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./net.jpountz.lz4_lz4-1.2.0.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/log4j_log4j-1.2.17.jar with timestamp 1561223105576
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/log4j_log4j-1.2.17.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp6528776790420832250.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-17384423031561223105576_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./log4j_log4j-1.2.17.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./log4j_log4j-1.2.17.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/org.apache.kafka_kafka-clients-0.8.2.1.jar with timestamp 1561223105576
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/org.apache.kafka_kafka-clients-0.8.2.1.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp18508032602386749.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/4002119201561223105576_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./org.apache.kafka_kafka-clients-0.8.2.1.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./org.apache.kafka_kafka-clients-0.8.2.1.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/org.xerial.snappy_snappy-java-1.1.7.1.jar with timestamp 1561223105577
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/org.xerial.snappy_snappy-java-1.1.7.1.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp1312646234702979773.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/-19729460081561223105577_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./org.xerial.snappy_snappy-java-1.1.7.1.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./org.xerial.snappy_snappy-java-1.1.7.1.jar to class loader
+2019-06-23 02:05:10 INFO  Executor:54 - Fetching spark://192.168.0.76:35965/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1561223105576
+2019-06-23 02:05:10 INFO  Utils:54 - Fetching spark://192.168.0.76:35965/jars/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/fetchFileTemp1662058564963229859.tmp
+2019-06-23 02:05:10 INFO  Utils:54 - /tmp/spark-365cc633-c929-4a57-b1bd-1ec525d42880/executor-bc0f257f-5540-45d6-8718-4206a371623c/spark-753d10e9-ebac-4d20-911b-c3252e239c43/19447853181561223105576_cache has been previously copied to /home/ice/spark/work/app-20190623020505-0000/2/./org.slf4j_slf4j-api-1.7.16.jar
+2019-06-23 02:05:10 INFO  Executor:54 - Adding file:/home/ice/spark/work/app-20190623020505-0000/2/./org.slf4j_slf4j-api-1.7.16.jar to class loader
+2019-06-23 02:05:10 INFO  TorrentBroadcast:54 - Started reading broadcast variable 0
+2019-06-23 02:05:10 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:35559 after 4 ms (0 ms spent in bootstraps)
+2019-06-23 02:05:10 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 2.0 KB, free 366.3 MB)
+2019-06-23 02:05:10 INFO  TorrentBroadcast:54 - Reading broadcast variable 0 took 214 ms
+2019-06-23 02:05:10 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1124 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 6
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 6.0 in stage 0.0 (TID 6)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 6.0 in stage 0.0 (TID 6). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 11
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 11.0 in stage 0.0 (TID 11)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 11.0 in stage 0.0 (TID 11). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 15
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 15.0 in stage 0.0 (TID 15)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 15.0 in stage 0.0 (TID 15). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 18
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 18.0 in stage 0.0 (TID 18)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 18.0 in stage 0.0 (TID 18). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 21
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 21.0 in stage 0.0 (TID 21)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 21.0 in stage 0.0 (TID 21). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 22
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 22.0 in stage 0.0 (TID 22)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 22.0 in stage 0.0 (TID 22). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 26
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 26.0 in stage 0.0 (TID 26)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 26.0 in stage 0.0 (TID 26). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 29
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 29.0 in stage 0.0 (TID 29)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 29.0 in stage 0.0 (TID 29). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 31
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 31.0 in stage 0.0 (TID 31)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 31.0 in stage 0.0 (TID 31). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 35
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 35.0 in stage 0.0 (TID 35)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 35.0 in stage 0.0 (TID 35). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 38
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 38.0 in stage 0.0 (TID 38)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 38.0 in stage 0.0 (TID 38). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 42
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 42.0 in stage 0.0 (TID 42)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 42.0 in stage 0.0 (TID 42). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 43
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 43.0 in stage 0.0 (TID 43)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 43.0 in stage 0.0 (TID 43). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 46
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 46.0 in stage 0.0 (TID 46)
+2019-06-23 02:05:11 INFO  Executor:54 - Finished task 46.0 in stage 0.0 (TID 46). 1038 bytes result sent to driver
+2019-06-23 02:05:11 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 52
+2019-06-23 02:05:11 INFO  Executor:54 - Running task 2.0 in stage 1.0 (TID 52)
+2019-06-23 02:05:11 INFO  MapOutputTrackerWorker:54 - Updating epoch to 1 and clearing cache
+2019-06-23 02:05:11 INFO  TorrentBroadcast:54 - Started reading broadcast variable 1
+2019-06-23 02:05:11 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 2027.0 B, free 366.3 MB)
+2019-06-23 02:05:11 INFO  TorrentBroadcast:54 - Reading broadcast variable 1 took 13 ms
+2019-06-23 02:05:11 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 3.2 KB, free 366.3 MB)
+2019-06-23 02:05:12 INFO  MapOutputTrackerWorker:54 - Don't have map outputs for shuffle 0, fetching them
+2019-06-23 02:05:12 INFO  MapOutputTrackerWorker:54 - Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@192.168.0.76:35965)
+2019-06-23 02:05:12 INFO  MapOutputTrackerWorker:54 - Got the output locations
+2019-06-23 02:05:12 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 2 local blocks and 1 remote blocks
+2019-06-23 02:05:12 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:34617 after 1 ms (0 ms spent in bootstraps)
+2019-06-23 02:05:12 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 24 ms
+2019-06-23 02:05:12 INFO  Executor:54 - Finished task 2.0 in stage 1.0 (TID 52). 1371 bytes result sent to driver
+2019-06-23 02:05:12 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 60
+2019-06-23 02:05:12 INFO  Executor:54 - Running task 10.0 in stage 1.0 (TID 60)
+2019-06-23 02:05:12 INFO  ShuffleBlockFetcherIterator:54 - Getting 3 non-empty blocks including 1 local blocks and 2 remote blocks
+2019-06-23 02:05:12 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:34165 after 1 ms (0 ms spent in bootstraps)
+2019-06-23 02:05:12 INFO  ShuffleBlockFetcherIterator:54 - Started 1 remote fetches in 3 ms
+2019-06-23 02:05:12 INFO  Executor:54 - Finished task 10.0 in stage 1.0 (TID 60). 1328 bytes result sent to driver
+2019-06-23 02:05:12 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 62
+2019-06-23 02:05:12 INFO  Executor:54 - Running task 12.0 in stage 1.0 (TID 62)
+2019-06-23 02:05:12 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-06-23 02:05:12 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-06-23 02:05:12 INFO  Executor:54 - Finished task 12.0 in stage 1.0 (TID 62). 1307 bytes result sent to driver
+2019-06-23 02:05:12 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 65
+2019-06-23 02:05:12 INFO  Executor:54 - Running task 15.0 in stage 1.0 (TID 65)
+2019-06-23 02:05:12 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 0 local blocks and 2 remote blocks
+2019-06-23 02:05:12 INFO  ShuffleBlockFetcherIterator:54 - Started 2 remote fetches in 8 ms
+2019-06-23 02:05:12 INFO  Executor:54 - Finished task 15.0 in stage 1.0 (TID 65). 1307 bytes result sent to driver
+2019-06-23 02:05:12 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 70
+2019-06-23 02:05:12 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 70)
+2019-06-23 02:05:12 INFO  TorrentBroadcast:54 - Started reading broadcast variable 2
+2019-06-23 02:05:12 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 24.1 KB, free 366.3 MB)
+2019-06-23 02:05:12 INFO  TorrentBroadcast:54 - Reading broadcast variable 2 took 5 ms
+2019-06-23 02:05:12 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 68.8 KB, free 366.2 MB)
+2019-06-23 02:05:12 INFO  RecurringTimer:54 - Started timer for BlockGenerator at time 1561223112400
+2019-06-23 02:05:12 INFO  BlockGenerator:54 - Started BlockGenerator
+2019-06-23 02:05:12 INFO  BlockGenerator:54 - Started block pushing thread
+2019-06-23 02:05:12 INFO  ReceiverSupervisorImpl:54 - Starting receiver 0
+2019-06-23 02:05:12 INFO  KafkaReceiver:54 - Starting Kafka Consumer Stream with group: spark-streaming-consumer1
+2019-06-23 02:05:12 INFO  KafkaReceiver:54 - Connecting to Zookeeper: localhost:2181
+2019-06-23 02:05:12 INFO  VerifiableProperties:68 - Verifying properties
+2019-06-23 02:05:12 INFO  VerifiableProperties:68 - Property group.id is overridden to spark-streaming-consumer1
+2019-06-23 02:05:12 INFO  VerifiableProperties:68 - Property zookeeper.connect is overridden to localhost:2181
+2019-06-23 02:05:12 INFO  VerifiableProperties:68 - Property zookeeper.connection.timeout.ms is overridden to 10000
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], Connecting to zookeeper instance at localhost:2181
+2019-06-23 02:05:12 INFO  ZkEventThread:64 - Starting ZkClient event thread.
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:host.name=ice-PMBSB09A-Samsung-DeskTop
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:java.version=1.8.0_201
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:java.vendor=Oracle Corporation
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:java.class.path=/home/ice/spark/conf/:/home/ice/spark/jars/apache-log4j-extras-1.2.17.jar:/home/ice/spark/jars/hadoop-hdfs-2.7.3.jar:/home/ice/spark/jars/javassist-3.18.1-GA.jar:/home/ice/spark/jars/hadoop-client-2.7.3.jar:/home/ice/spark/jars/hadoop-annotations-2.7.3.jar:/home/ice/spark/jars/spark-tags_2.11-2.4.0.jar:/home/ice/spark/jars/jsr305-1.3.9.jar:/home/ice/spark/jars/antlr-2.7.7.jar:/home/ice/spark/jars/opencsv-2.3.jar:/home/ice/spark/jars/jtransforms-2.4.0.jar:/home/ice/spark/jars/commons-crypto-1.0.0.jar:/home/ice/spark/jars/parquet-column-1.10.0.jar:/home/ice/spark/jars/httpclient-4.5.6.jar:/home/ice/spark/jars/guice-servlet-3.0.jar:/home/ice/spark/jars/commons-cli-1.2.jar:/home/ice/spark/jars/jersey-container-servlet-core-2.22.2.jar:/home/ice/spark/jars/commons-configuration-1.6.jar:/home/ice/spark/jars/calcite-core-1.2.0-incubating.jar:/home/ice/spark/jars/jackson-core-asl-1.9.13.jar:/home/ice/spark/jars/spark-launcher_2.11-2.4.0.jar:/home/ice/spark/jars/avro-1.8.2.jar:/home/ice/spark/jars/jta-1.1.jar:/home/ice/spark/jars/commons-math3-3.4.1.jar:/home/ice/spark/jars/jodd-core-3.5.2.jar:/home/ice/spark/jars/machinist_2.11-0.6.1.jar:/home/ice/spark/jars/calcite-linq4j-1.2.0-incubating.jar:/home/ice/spark/jars/xercesImpl-2.9.1.jar:/home/ice/spark/jars/aopalliance-repackaged-2.4.0-b34.jar:/home/ice/spark/jars/commons-beanutils-core-1.8.0.jar:/home/ice/spark/jars/spark-hive-thriftserver_2.11-2.4.0.jar:/home/ice/spark/jars/avro-mapred-1.8.2-hadoop2.jar:/home/ice/spark/jars/libthrift-0.9.3.jar:/home/ice/spark/jars/stringtemplate-3.2.1.jar:/home/ice/spark/jars/breeze-macros_2.11-0.13.2.jar:/home/ice/spark/jars/jersey-media-jaxb-2.22.2.jar:/home/ice/spark/jars/antlr4-runtime-4.7.jar:/home/ice/spark/jars/avro-ipc-1.8.2.jar:/home/ice/spark/jars/arrow-vector-0.10.0.jar:/home/ice/spark/jars/httpcore-4.4.10.jar:/home/ice/spark/jars/logging-interceptor-3.8.1.jar:/home/ice/spark/jars/core-1.1.2.jar:/home/ice/spark/jars/log4j-1.2.17.jar:/home/ice/spark/jars/snakeyaml-1.15.jar:/home/ice/spark/jars/kryo-shaded-4.0.2.jar:/home/ice/spark/jars/jackson-module-jaxb-annotations-2.6.7.jar:/home/ice/spark/jars/flatbuffers-1.2.0-3f79e055.jar:/home/ice/spark/jars/xmlenc-0.52.jar:/home/ice/spark/jars/jpam-1.1.jar:/home/ice/spark/jars/mesos-1.4.0-shaded-protobuf.jar:/home/ice/spark/jars/spark-yarn_2.11-2.4.0.jar:/home/ice/spark/jars/commons-httpclient-3.1.jar:/home/ice/spark/jars/json4s-jackson_2.11-3.5.3.jar:/home/ice/spark/jars/commons-net-3.1.jar:/home/ice/spark/jars/hadoop-mapreduce-client-jobclient-2.7.3.jar:/home/ice/spark/jars/json4s-core_2.11-3.5.3.jar:/home/ice/spark/jars/zjsonpatch-0.3.0.jar:/home/ice/spark/jars/curator-client-2.7.1.jar:/home/ice/spark/jars/apacheds-i18n-2.0.0-M15.jar:/home/ice/spark/jars/commons-lang3-3.5.jar:/home/ice/spark/jars/joda-time-2.9.3.jar:/home/ice/spark/jars/validation-api-1.1.0.Final.jar:/home/ice/spark/jars/py4j-0.10.7.jar:/home/ice/spark/jars/JavaEWAH-0.3.2.jar:/home/ice/spark/jars/curator-recipes-2.7.1.jar:/home/ice/spark/jars/activation-1.1.1.jar:/home/ice/spark/jars/scala-reflect-2.11.12.jar:/home/ice/spark/jars/pyrolite-4.13.jar:/home/ice/spark/jars/xbean-asm6-shaded-4.8.jar:/home/ice/spark/jars/metrics-jvm-3.1.5.jar:/home/ice/spark/jars/spark-repl_2.11-2.4.0.jar:/home/ice/spark/jars/apacheds-kerberos-codec-2.0.0-M15.jar:/home/ice/spark/jars/hk2-api-2.4.0-b34.jar:/home/ice/spark/jars/commons-io-2.4.jar:/home/ice/spark/jars/metrics-graphite-3.1.5.jar:/home/ice/spark/jars/parquet-hadoop-1.10.0.jar:/home/ice/spark/jars/jcl-over-slf4j-1.7.16.jar:/home/ice/spark/jars/commons-lang-2.6.jar:/home/ice/spark/jars/spark-mllib-local_2.11-2.4.0.jar:/home/ice/spark/jars/scala-library-2.11.12.jar:/home/ice/spark/jars/jackson-annotations-2.6.7.jar:/home/ice/spark/jars/guice-3.0.jar:/home/ice/spark/jars/jackson-xc-1.9.13.jar:/home/ice/spark/jars/jetty-util-6.1.26.jar:/home/ice/spark/jars/scala-xml_2.11-1.0.5.jar:/home/ice/spark/jars/datanucleus-api-jdo-3.2.6.jar:/home/ice/spark/jars/hadoop-mapreduce-client-core-2.7.3.jar:/home/ice/spark/jars/javax.ws.rs-api-2.0.1.jar:/home/ice/spark/jars/gson-2.2.4.jar:/home/ice/spark/jars/kubernetes-client-3.0.0.jar:/home/ice/spark/jars/jackson-mapper-asl-1.9.13.jar:/home/ice/spark/jars/hadoop-yarn-common-2.7.3.jar:/home/ice/spark/jars/zstd-jni-1.3.2-2.jar:/home/ice/spark/jars/htrace-core-3.1.0-incubating.jar:/home/ice/spark/jars/jsp-api-2.1.jar:/home/ice/spark/jars/automaton-1.11-8.jar:/home/ice/spark/jars/spark-network-shuffle_2.11-2.4.0.jar:/home/ice/spark/jars/ST4-4.0.4.jar:/home/ice/spark/jars/parquet-encoding-1.10.0.jar:/home/ice/spark/jars/slf4j-api-1.7.16.jar:/home/ice/spark/jars/stream-2.7.0.jar:/home/ice/spark/jars/minlog-1.3.0.jar:/home/ice/spark/jars/jackson-module-scala_2.11-2.6.7.1.jar:/home/ice/spark/jars/super-csv-2.2.0.jar:/home/ice/spark/jars/leveldbjni-all-1.8.jar:/home/ice/spark/jars/hive-cli-1.2.1.spark2.jar:/home/ice/spark/jars/orc-mapreduce-1.5.2-nohive.jar:/home/ice/spark/jars/jaxb-api-2.2.2.jar:/home/ice/spark/jars/datanucleus-core-3.2.10.jar:/home/ice/spark/jars/spire_2.11-0.13.0.jar:/home/ice/spark/jars/spark-core_2.11-2.4.0.jar:/home/ice/spark/jars/hadoop-auth-2.7.3.jar:/home/ice/spark/jars/libfb303-0.9.3.jar:/home/ice/spark/jars/jackson-databind-2.6.7.1.jar:/home/ice/spark/jars/orc-core-1.5.2-nohive.jar:/home/ice/spark/jars/eigenbase-properties-1.1.5.jar:/home/ice/spark/jars/hadoop-mapreduce-client-shuffle-2.7.3.jar:/home/ice/spark/jars/ivy-2.4.0.jar:/home/ice/spark/jars/commons-compiler-3.0.9.jar:/home/ice/spark/jars/breeze_2.11-0.13.2.jar:/home/ice/spark/jars/jackson-jaxrs-1.9.13.jar:/home/ice/spark/jars/stax-api-1.0.1.jar:/home/ice/spark/jars/hk2-utils-2.4.0-b34.jar:/home/ice/spark/jars/jetty-6.1.26.jar:/home/ice/spark/jars/jline-2.14.6.jar:/home/ice/spark/jars/parquet-jackson-1.10.0.jar:/home/ice/spark/jars/commons-logging-1.1.3.jar:/home/ice/spark/jars/hive-metastore-1.2.1.spark2.jar:/home/ice/spark/jars/jackson-module-paranamer-2.7.9.jar:/home/ice/spark/jars/metrics-core-3.1.5.jar:/home/ice/spark/jars/kubernetes-model-2.0.0.jar:/home/ice/spark/jars/bonecp-0.8.0.RELEASE.jar:/home/ice/spark/jars/arpack_combined_all-0.1.jar:/home/ice/spark/jars/janino-3.0.9.jar:/home/ice/spark/jars/aopalliance-1.0.jar:/home/ice/spark/jars/api-asn1-api-1.0.0-M20.jar:/home/ice/spark/jars/hadoop-common-2.7.3.jar:/home/ice/spark/jars/hk2-locator-2.4.0-b34.jar:/home/ice/spark/jars/generex-1.0.1.jar:/home/ice/spark/jars/spark-streaming_2.11-2.4.0.jar:/home/ice/spark/jars/jersey-container-servlet-2.22.2.jar:/home/ice/spark/jars/netty-all-4.1.17.Final.jar:/home/ice/spark/jars/antlr-runtime-3.4.jar:/home/ice/spark/jars/scala-compiler-2.11.12.jar:/home/ice/spark/jars/spark-kubernetes_2.11-2.4.0.jar:/home/ice/spark/jars/chill_2.11-0.9.3.jar:/home/ice/spark/jars/spark-hive_2.11-2.4.0.jar:/home/ice/spark/jars/javax.inject-2.4.0-b34.jar:/home/ice/spark/jars/hive-jdbc-1.2.1.spark2.jar:/home/ice/spark/jars/slf4j-log4j12-1.7.16.jar:/home/ice/spark/jars/objenesis-2.5.1.jar:/home/ice/spark/jars/netty-3.9.9.Final.jar:/home/ice/spark/jars/spark-network-common_2.11-2.4.0.jar:/home/ice/spark/jars/commons-pool-1.5.4.jar:/home/ice/spark/jars/hadoop-yarn-server-web-proxy-2.7.3.jar:/home/ice/spark/jars/curator-framework-2.7.1.jar:/home/ice/spark/jars/xz-1.5.jar:/home/ice/spark/jars/parquet-hadoop-bundle-1.6.0.jar:/home/ice/spark/jars/spire-macros_2.11-0.13.0.jar:/home/ice/spark/jars/protobuf-java-2.5.0.jar:/home/ice/spark/jars/api-util-1.0.0-M20.jar:/home/ice/spark/jars/shapeless_2.11-2.3.2.jar:/home/ice/spark/jars/scala-parser-combinators_2.11-1.1.0.jar:/home/ice/spark/jars/datanucleus-rdbms-3.2.9.jar:/home/ice/spark/jars/zookeeper-3.4.6.jar:/home/ice/spark/jars/univocity-parsers-2.7.3.jar:/home/ice/spark/jars/spark-tags_2.11-2.4.0-tests.jar:/home/ice/spark/jars/okio-1.13.0.jar:/home/ice/spark/jars/spark-unsafe_2.11-2.4.0.jar:/home/ice/spark/jars/jersey-common-2.22.2.jar:/home/ice/spark/jars/hadoop-mapreduce-client-app-2.7.3.jar:/home/ice/spark/jars/aircompressor-0.10.jar:/home/ice/spark/jars/osgi-resource-locator-1.0.1.jar:/home/ice/spark/jars/spark-graphx_2.11-2.4.0.jar:/home/ice/spark/jars/compress-lzf-1.0.3.jar:/home/ice/spark/jars/okhttp-3.8.1.jar:/home/ice/spark/jars/spark-mesos_2.11-2.4.0.jar:/home/ice/spark/jars/arrow-format-0.10.0.jar:/home/ice/spark/jars/hive-exec-1.2.1.spark2.jar:/home/ice/spark/jars/spark-kvstore_2.11-2.4.0.jar:/home/ice/spark/jars/hadoop-mapreduce-client-common-2.7.3.jar:/home/ice/spark/jars/spark-mllib_2.11-2.4.0.jar:/home/ice/spark/jars/jackson-dataformat-yaml-2.6.7.jar:/home/ice/spark/jars/paranamer-2.8.jar:/home/ice/spark/jars/commons-digester-1.8.jar:/home/ice/spark/jars/stax-api-1.0-2.jar:/home/ice/spark/jars/lz4-java-1.4.0.jar:/home/ice/spark/jars/snappy-java-1.1.7.1.jar:/home/ice/spark/jars/oro-2.0.8.jar:/home/ice/spark/jars/hadoop-yarn-client-2.7.3.jar:/home/ice/spark/jars/calcite-avatica-1.2.0-incubating.jar:/home/ice/spark/jars/snappy-0.2.jar:/home/ice/spark/jars/javax.annotation-api-1.2.jar:/home/ice/spark/jars/RoaringBitmap-0.5.11.jar:/home/ice/spark/jars/metrics-json-3.1.5.jar:/home/ice/spark/jars/commons-compress-1.8.1.jar:/home/ice/spark/jars/javolution-5.5.1.jar:/home/ice/spark/jars/hadoop-yarn-server-common-2.7.3.jar:/home/ice/spark/jars/commons-beanutils-1.7.0.jar:/home/ice/spark/jars/arrow-memory-0.10.0.jar:/home/ice/spark/jars/derby-10.12.1.1.jar:/home/ice/spark/jars/javax.inject-1.jar:/home/ice/spark/jars/chill-java-0.9.3.jar:/home/ice/spark/jars/json4s-ast_2.11-3.5.3.jar:/home/ice/spark/jars/parquet-common-1.10.0.jar:/home/ice/spark/jars/spark-sql_2.11-2.4.0.jar:/home/ice/spark/jars/javax.servlet-api-3.1.0.jar:/home/ice/spark/jars/hppc-0.7.2.jar:/home/ice/spark/jars/jul-to-slf4j-1.7.16.jar:/home/ice/spark/jars/commons-dbcp-1.4.jar:/home/ice/spark/jars/spark-sketch_2.11-2.4.0.jar:/home/ice/spark/jars/parquet-format-2.4.0.jar:/home/ice/spark/jars/jersey-server-2.22.2.jar:/home/ice/spark/jars/jdo-api-3.0.1.jar:/home/ice/spark/jars/json4s-scalap_2.11-3.5.3.jar:/home/ice/spark/jars/guava-14.0.1.jar:/home/ice/spark/jars/commons-codec-1.10.jar:/home/ice/spark/jars/spark-catalyst_2.11-2.4.0.jar:/home/ice/spark/jars/orc-shims-1.5.2.jar:/home/ice/spark/jars/jackson-core-2.6.7.jar:/home/ice/spark/jars/commons-collections-3.2.2.jar:/home/ice/spark/jars/hadoop-yarn-api-2.7.3.jar:/home/ice/spark/jars/jersey-client-2.22.2.jar:/home/ice/spark/jars/macro-compat_2.11-1.1.1.jar:/home/ice/spark/jars/hive-beeline-1.2.1.spark2.jar:/home/ice/spark/jars/jersey-guava-2.22.2.jar
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:java.io.tmpdir=/tmp
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:java.compiler=<NA>
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:os.name=Linux
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:os.arch=amd64
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:os.version=4.15.0-52-generic
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:user.name=ice
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:user.home=/home/ice
+2019-06-23 02:05:12 INFO  ZooKeeper:100 - Client environment:user.dir=/home/ice/spark/work/app-20190623020505-0000/2
+2019-06-23 02:05:12 INFO  ZooKeeper:438 - Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@7c3d4127
+2019-06-23 02:05:12 INFO  ClientCnxn:975 - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-06-23 02:05:12 INFO  ClientCnxn:852 - Socket connection established to localhost/127.0.0.1:2181, initiating session
+2019-06-23 02:05:12 INFO  ClientCnxn:1235 - Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100001cddd10043, negotiated timeout = 6000
+2019-06-23 02:05:12 INFO  ZkClient:449 - zookeeper state changed (SyncConnected)
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], starting auto committer every 60000 ms
+2019-06-23 02:05:12 INFO  KafkaReceiver:54 - Connected to localhost:2181
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], begin registering consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa in ZK
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], end registering consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa in ZK
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], starting watcher executor thread for consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], begin rebalancing consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa try #0
+2019-06-23 02:05:12 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1561223112412] Stopping leader finder thread
+2019-06-23 02:05:12 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1561223112412] Stopping all fetchers
+2019-06-23 02:05:12 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1561223112412] All connections stopped
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], Cleared all relevant queues for this fetcher
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], Cleared the data chunks in all the consumer message iterators
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], Committing all offsets after clearing the fetcher queues
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], Releasing partition ownership
+2019-06-23 02:05:12 INFO  RangeAssignor:68 - Consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa rebalancing the following partitions: ArrayBuffer(0) for topic WDData with consumers: List(spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa-0, spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa-1)
+2019-06-23 02:05:12 WARN  RangeAssignor:83 - No broker partitions consumed by consumer thread spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa-1 for topic WDData
+2019-06-23 02:05:12 INFO  RangeAssignor:68 - spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa-0 attempting to claim partition 0
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa-0 successfully owned partition 0 for topic WDData
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], Consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa selected partitions : WDData:0: fetched offset = 689043: consumed offset = 689043
+2019-06-23 02:05:12 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa-leader-finder-thread], Starting 
+2019-06-23 02:05:12 INFO  ZookeeperConsumerConnector:68 - [spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa], end rebalancing consumer spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa try #0
+2019-06-23 02:05:12 INFO  KafkaReceiver:54 - Starting MessageHandler.
+2019-06-23 02:05:12 INFO  KafkaReceiver:54 - Starting MessageHandler.
+2019-06-23 02:05:12 INFO  ReceiverSupervisorImpl:54 - Called receiver 0 onStart
+2019-06-23 02:05:12 INFO  ReceiverSupervisorImpl:54 - Waiting for receiver to be stopped
+2019-06-23 02:05:12 INFO  VerifiableProperties:68 - Verifying properties
+2019-06-23 02:05:12 INFO  VerifiableProperties:68 - Property client.id is overridden to spark-streaming-consumer1
+2019-06-23 02:05:12 INFO  VerifiableProperties:68 - Property metadata.broker.list is overridden to 220.67.124.122:9092
+2019-06-23 02:05:12 INFO  VerifiableProperties:68 - Property request.timeout.ms is overridden to 30000
+2019-06-23 02:05:12 INFO  ClientUtils$:68 - Fetching metadata from broker id:0,host:220.67.124.122,port:9092 with correlation id 0 for 1 topic(s) Set(WDData)
+2019-06-23 02:05:12 INFO  SyncProducer:68 - Connected to 220.67.124.122:9092 for producing
+2019-06-23 02:05:12 INFO  SyncProducer:68 - Disconnecting from 220.67.124.122:9092
+2019-06-23 02:05:12 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-spark-streaming-consumer1_ice-PMBSB09A-Samsung-DeskTop-1561223112342-b18686aa-0-0], Starting 
+2019-06-23 02:05:12 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1561223112412] Added fetcher for partitions ArrayBuffer([[WDData,0], initOffset 689043 to broker id:0,host:220.67.124.122,port:9092] )
+2019-06-23 02:05:14 INFO  BlockManager:54 - Removing RDD 5
+2019-06-23 02:05:14 INFO  BlockManager:54 - Removing RDD 4
+2019-06-23 02:05:15 INFO  BlockManager:54 - Removing RDD 7
+2019-06-23 02:05:15 INFO  BlockManager:54 - Removing RDD 6
+2019-06-23 02:05:16 INFO  BlockManager:54 - Removing RDD 9
+2019-06-23 02:05:16 INFO  BlockManager:54 - Removing RDD 8
+2019-06-23 02:05:17 INFO  BlockManager:54 - Removing RDD 11
+2019-06-23 02:05:17 INFO  BlockManager:54 - Removing RDD 10
+2019-06-23 02:05:18 INFO  BlockManager:54 - Removing RDD 13
+2019-06-23 02:05:18 INFO  BlockManager:54 - Removing RDD 12
+2019-06-23 02:05:19 INFO  BlockManager:54 - Removing RDD 14
+2019-06-23 02:05:19 INFO  BlockManager:54 - Removing RDD 15
+2019-06-23 02:05:20 INFO  BlockManager:54 - Removing RDD 17
+2019-06-23 02:05:20 INFO  BlockManager:54 - Removing RDD 16
+2019-06-23 02:05:21 INFO  BlockManager:54 - Removing RDD 19
+2019-06-23 02:05:21 INFO  BlockManager:54 - Removing RDD 18
+2019-06-23 02:05:22 INFO  BlockManager:54 - Removing RDD 21
+2019-06-23 02:05:22 INFO  BlockManager:54 - Removing RDD 20
+2019-06-23 02:05:23 INFO  BlockManager:54 - Removing RDD 23
+2019-06-23 02:05:23 INFO  BlockManager:54 - Removing RDD 22
+2019-06-23 02:05:24 INFO  BlockManager:54 - Removing RDD 25
+2019-06-23 02:05:24 INFO  BlockManager:54 - Removing RDD 24
+2019-06-23 02:05:25 INFO  BlockManager:54 - Removing RDD 27
+2019-06-23 02:05:25 INFO  BlockManager:54 - Removing RDD 26
+2019-06-23 02:05:26 INFO  BlockManager:54 - Removing RDD 29
+2019-06-23 02:05:26 INFO  BlockManager:54 - Removing RDD 28
+2019-06-23 02:05:27 INFO  BlockManager:54 - Removing RDD 31
+2019-06-23 02:05:27 INFO  BlockManager:54 - Removing RDD 30
+2019-06-23 02:05:28 INFO  BlockManager:54 - Removing RDD 33
+2019-06-23 02:05:28 INFO  BlockManager:54 - Removing RDD 32
+2019-06-23 02:05:29 INFO  BlockManager:54 - Removing RDD 35
+2019-06-23 02:05:29 INFO  BlockManager:54 - Removing RDD 34
+2019-06-23 02:05:30 INFO  BlockManager:54 - Removing RDD 37
+2019-06-23 02:05:30 INFO  BlockManager:54 - Removing RDD 36
+2019-06-23 02:05:31 INFO  BlockManager:54 - Removing RDD 39
+2019-06-23 02:05:31 INFO  BlockManager:54 - Removing RDD 38
+2019-06-23 02:05:32 INFO  BlockManager:54 - Removing RDD 41
+2019-06-23 02:05:32 INFO  BlockManager:54 - Removing RDD 40
+2019-06-23 02:05:33 INFO  BlockManager:54 - Removing RDD 43
+2019-06-23 02:05:33 INFO  BlockManager:54 - Removing RDD 42
+2019-06-23 02:05:33 INFO  MemoryStore:54 - Block input-0-1561223133400 stored as values in memory (estimated size 4.8 KB, free 366.2 MB)
+2019-06-23 02:05:33 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.76:34129 after 0 ms (0 ms spent in bootstraps)
+2019-06-23 02:05:33 INFO  BlockGenerator:54 - Pushed block input-0-1561223133400
+2019-06-23 02:05:33 INFO  MemoryStore:54 - Block input-0-1561223133600 stored as values in memory (estimated size 6.2 KB, free 366.2 MB)
+2019-06-23 02:05:33 INFO  BlockGenerator:54 - Pushed block input-0-1561223133600
+2019-06-23 02:05:34 INFO  MemoryStore:54 - Block input-0-1561223133800 stored as values in memory (estimated size 8.2 KB, free 366.2 MB)
+2019-06-23 02:05:34 INFO  BlockGenerator:54 - Pushed block input-0-1561223133800
+2019-06-23 02:05:34 INFO  MemoryStore:54 - Block input-0-1561223134000 stored as values in memory (estimated size 6.4 KB, free 366.2 MB)
+2019-06-23 02:05:34 INFO  BlockGenerator:54 - Pushed block input-0-1561223134000
+2019-06-23 02:05:34 INFO  MemoryStore:54 - Block input-0-1561223134200 stored as values in memory (estimated size 6.5 KB, free 366.2 MB)
+2019-06-23 02:05:34 INFO  BlockGenerator:54 - Pushed block input-0-1561223134200
+2019-06-23 02:05:34 INFO  BlockManager:54 - Removing RDD 45
+2019-06-23 02:05:34 INFO  BlockManager:54 - Removing RDD 44
+2019-06-23 02:05:34 INFO  MemoryStore:54 - Block input-0-1561223134400 stored as values in memory (estimated size 7.5 KB, free 366.2 MB)
+2019-06-23 02:05:34 INFO  BlockGenerator:54 - Pushed block input-0-1561223134400
+2019-06-23 02:05:34 INFO  MemoryStore:54 - Block input-0-1561223134600 stored as values in memory (estimated size 8.6 KB, free 366.2 MB)
+2019-06-23 02:05:34 INFO  BlockGenerator:54 - Pushed block input-0-1561223134600
+2019-06-23 02:05:35 INFO  MemoryStore:54 - Block input-0-1561223134800 stored as values in memory (estimated size 8.9 KB, free 366.1 MB)
+2019-06-23 02:05:35 INFO  BlockGenerator:54 - Pushed block input-0-1561223134800
+2019-06-23 02:05:35 INFO  MemoryStore:54 - Block input-0-1561223135000 stored as values in memory (estimated size 5.7 KB, free 366.1 MB)
+2019-06-23 02:05:35 INFO  BlockGenerator:54 - Pushed block input-0-1561223135000
+2019-06-23 02:05:35 INFO  MemoryStore:54 - Block input-0-1561223135200 stored as values in memory (estimated size 5.4 KB, free 366.1 MB)
+2019-06-23 02:05:35 INFO  BlockGenerator:54 - Pushed block input-0-1561223135200
+2019-06-23 02:05:35 INFO  MemoryStore:54 - Block input-0-1561223135400 stored as values in memory (estimated size 5.6 KB, free 366.1 MB)
+2019-06-23 02:05:35 INFO  BlockGenerator:54 - Pushed block input-0-1561223135400
+2019-06-23 02:05:35 INFO  MemoryStore:54 - Block input-0-1561223135600 stored as values in memory (estimated size 5.5 KB, free 366.1 MB)
+2019-06-23 02:05:35 INFO  BlockGenerator:54 - Pushed block input-0-1561223135600
+2019-06-23 02:05:36 INFO  MemoryStore:54 - Block input-0-1561223135800 stored as values in memory (estimated size 5.6 KB, free 366.1 MB)
+2019-06-23 02:05:36 INFO  BlockGenerator:54 - Pushed block input-0-1561223135800
+2019-06-23 02:05:36 INFO  BlockManager:54 - Removing RDD 47
+2019-06-23 02:05:36 INFO  BlockManager:54 - Removing RDD 46
+2019-06-23 02:05:36 INFO  MemoryStore:54 - Block input-0-1561223136000 stored as values in memory (estimated size 5.7 KB, free 366.1 MB)
+2019-06-23 02:05:36 INFO  BlockGenerator:54 - Pushed block input-0-1561223136000
+2019-06-23 02:05:36 INFO  MemoryStore:54 - Block input-0-1561223136200 stored as values in memory (estimated size 5.7 KB, free 366.1 MB)
+2019-06-23 02:05:36 INFO  BlockGenerator:54 - Pushed block input-0-1561223136200
+2019-06-23 02:05:36 INFO  MemoryStore:54 - Block input-0-1561223136400 stored as values in memory (estimated size 5.8 KB, free 366.1 MB)
+2019-06-23 02:05:36 INFO  BlockGenerator:54 - Pushed block input-0-1561223136400
+2019-06-23 02:05:36 INFO  BlockManager:54 - Removing RDD 49
+2019-06-23 02:05:36 INFO  BlockManager:54 - Removing RDD 48
+2019-06-23 02:05:36 INFO  MemoryStore:54 - Block input-0-1561223136600 stored as values in memory (estimated size 5.7 KB, free 366.1 MB)
+2019-06-23 02:05:36 INFO  BlockGenerator:54 - Pushed block input-0-1561223136600
+2019-06-23 02:05:37 INFO  MemoryStore:54 - Block input-0-1561223136800 stored as values in memory (estimated size 8.2 KB, free 366.1 MB)
+2019-06-23 02:05:37 INFO  BlockGenerator:54 - Pushed block input-0-1561223136800
+2019-06-23 02:05:37 INFO  MemoryStore:54 - Block input-0-1561223137000 stored as values in memory (estimated size 6.7 KB, free 366.1 MB)
+2019-06-23 02:05:37 INFO  BlockGenerator:54 - Pushed block input-0-1561223137000
+2019-06-23 02:05:37 INFO  MemoryStore:54 - Block input-0-1561223137200 stored as values in memory (estimated size 5.8 KB, free 366.1 MB)
+2019-06-23 02:05:37 INFO  BlockGenerator:54 - Pushed block input-0-1561223137200
+2019-06-23 02:05:37 INFO  MemoryStore:54 - Block input-0-1561223137400 stored as values in memory (estimated size 5.6 KB, free 366.1 MB)
+2019-06-23 02:05:37 INFO  BlockGenerator:54 - Pushed block input-0-1561223137400
+2019-06-23 02:05:37 INFO  BlockManager:54 - Removing RDD 51
+2019-06-23 02:05:37 INFO  BlockManager:54 - Removing RDD 50
+2019-06-23 02:05:37 INFO  MemoryStore:54 - Block input-0-1561223137600 stored as values in memory (estimated size 6.1 KB, free 366.1 MB)
+2019-06-23 02:05:37 INFO  BlockGenerator:54 - Pushed block input-0-1561223137600
+2019-06-23 02:05:38 INFO  MemoryStore:54 - Block input-0-1561223137800 stored as values in memory (estimated size 8.3 KB, free 366.1 MB)
+2019-06-23 02:05:38 INFO  BlockGenerator:54 - Pushed block input-0-1561223137800
+2019-06-23 02:05:38 INFO  MemoryStore:54 - Block input-0-1561223138000 stored as values in memory (estimated size 7.0 KB, free 366.1 MB)
+2019-06-23 02:05:38 INFO  BlockGenerator:54 - Pushed block input-0-1561223138000
+2019-06-23 02:05:38 INFO  MemoryStore:54 - Block input-0-1561223138200 stored as values in memory (estimated size 5.9 KB, free 366.1 MB)
+2019-06-23 02:05:38 INFO  BlockGenerator:54 - Pushed block input-0-1561223138200
+2019-06-23 02:05:38 INFO  MemoryStore:54 - Block input-0-1561223138400 stored as values in memory (estimated size 5.6 KB, free 366.1 MB)
+2019-06-23 02:05:38 INFO  BlockGenerator:54 - Pushed block input-0-1561223138400
+2019-06-23 02:05:38 INFO  MemoryStore:54 - Block input-0-1561223138600 stored as values in memory (estimated size 5.6 KB, free 366.1 MB)
+2019-06-23 02:05:38 INFO  BlockGenerator:54 - Pushed block input-0-1561223138600
+2019-06-23 02:05:38 INFO  BlockManager:54 - Removing RDD 53
+2019-06-23 02:05:38 INFO  BlockManager:54 - Removing RDD 52
+2019-06-23 02:05:39 INFO  MemoryStore:54 - Block input-0-1561223138800 stored as values in memory (estimated size 8.0 KB, free 366.1 MB)
+2019-06-23 02:05:39 INFO  BlockGenerator:54 - Pushed block input-0-1561223138800
+2019-06-23 02:05:39 INFO  MemoryStore:54 - Block input-0-1561223139000 stored as values in memory (estimated size 7.2 KB, free 366.1 MB)
+2019-06-23 02:05:39 INFO  BlockGenerator:54 - Pushed block input-0-1561223139000
+2019-06-23 02:05:39 INFO  MemoryStore:54 - Block input-0-1561223139200 stored as values in memory (estimated size 5.6 KB, free 366.1 MB)
+2019-06-23 02:05:39 INFO  BlockGenerator:54 - Pushed block input-0-1561223139200
+2019-06-23 02:05:39 INFO  MemoryStore:54 - Block input-0-1561223139400 stored as values in memory (estimated size 5.6 KB, free 366.1 MB)
+2019-06-23 02:05:39 INFO  BlockGenerator:54 - Pushed block input-0-1561223139400
+2019-06-23 02:05:39 INFO  BlockManager:54 - Removing RDD 55
+2019-06-23 02:05:39 INFO  BlockManager:54 - Removing RDD 54
+2019-06-23 02:05:39 INFO  MemoryStore:54 - Block input-0-1561223139600 stored as values in memory (estimated size 7.0 KB, free 366.1 MB)
+2019-06-23 02:05:39 INFO  BlockGenerator:54 - Pushed block input-0-1561223139600
+2019-06-23 02:05:40 INFO  MemoryStore:54 - Block input-0-1561223139800 stored as values in memory (estimated size 9.1 KB, free 366.1 MB)
+2019-06-23 02:05:40 INFO  BlockGenerator:54 - Pushed block input-0-1561223139800
+2019-06-23 02:05:40 INFO  MemoryStore:54 - Block input-0-1561223140000 stored as values in memory (estimated size 6.2 KB, free 366.1 MB)
+2019-06-23 02:05:40 INFO  BlockGenerator:54 - Pushed block input-0-1561223140000
+2019-06-23 02:05:40 INFO  MemoryStore:54 - Block input-0-1561223140200 stored as values in memory (estimated size 5.5 KB, free 366.1 MB)
+2019-06-23 02:05:40 INFO  BlockGenerator:54 - Pushed block input-0-1561223140200
+2019-06-23 02:05:40 INFO  MemoryStore:54 - Block input-0-1561223140400 stored as values in memory (estimated size 5.6 KB, free 366.1 MB)
+2019-06-23 02:05:40 INFO  BlockGenerator:54 - Pushed block input-0-1561223140400
+2019-06-23 02:05:40 INFO  BlockManager:54 - Removing RDD 57
+2019-06-23 02:05:40 INFO  BlockManager:54 - Removing RDD 56
+2019-06-23 02:05:40 INFO  MemoryStore:54 - Block input-0-1561223140600 stored as values in memory (estimated size 6.4 KB, free 366.1 MB)
+2019-06-23 02:05:40 INFO  BlockGenerator:54 - Pushed block input-0-1561223140600
+2019-06-23 02:05:41 INFO  MemoryStore:54 - Block input-0-1561223140800 stored as values in memory (estimated size 8.2 KB, free 366.1 MB)
+2019-06-23 02:05:41 INFO  BlockGenerator:54 - Pushed block input-0-1561223140800
+2019-06-23 02:05:41 INFO  MemoryStore:54 - Block input-0-1561223141000 stored as values in memory (estimated size 7.2 KB, free 366.1 MB)
+2019-06-23 02:05:41 INFO  BlockGenerator:54 - Pushed block input-0-1561223141000
+2019-06-23 02:05:41 INFO  MemoryStore:54 - Block input-0-1561223141200 stored as values in memory (estimated size 5.2 KB, free 366.1 MB)
+2019-06-23 02:05:41 INFO  BlockGenerator:54 - Pushed block input-0-1561223141200
+2019-06-23 02:05:41 INFO  MemoryStore:54 - Block input-0-1561223141400 stored as values in memory (estimated size 5.2 KB, free 366.1 MB)
+2019-06-23 02:05:41 INFO  BlockGenerator:54 - Pushed block input-0-1561223141400
+2019-06-23 02:05:41 INFO  MemoryStore:54 - Block input-0-1561223141600 stored as values in memory (estimated size 5.0 KB, free 366.1 MB)
+2019-06-23 02:05:41 INFO  BlockGenerator:54 - Pushed block input-0-1561223141600
+2019-06-23 02:05:41 INFO  BlockManager:54 - Removing RDD 59
+2019-06-23 02:05:41 INFO  BlockManager:54 - Removing RDD 58
+2019-06-23 02:05:42 INFO  MemoryStore:54 - Block input-0-1561223141800 stored as values in memory (estimated size 7.0 KB, free 366.1 MB)
+2019-06-23 02:05:42 INFO  BlockGenerator:54 - Pushed block input-0-1561223141800
+2019-06-23 02:05:42 INFO  MemoryStore:54 - Block input-0-1561223142000 stored as values in memory (estimated size 7.2 KB, free 366.1 MB)
+2019-06-23 02:05:42 INFO  BlockGenerator:54 - Pushed block input-0-1561223142000
+2019-06-23 02:05:42 INFO  MemoryStore:54 - Block input-0-1561223142200 stored as values in memory (estimated size 6.0 KB, free 366.1 MB)
+2019-06-23 02:05:42 INFO  BlockGenerator:54 - Pushed block input-0-1561223142200
+2019-06-23 02:05:42 INFO  MemoryStore:54 - Block input-0-1561223142400 stored as values in memory (estimated size 5.7 KB, free 366.1 MB)
+2019-06-23 02:05:42 INFO  BlockGenerator:54 - Pushed block input-0-1561223142400
+2019-06-23 02:05:42 INFO  MemoryStore:54 - Block input-0-1561223142600 stored as values in memory (estimated size 5.7 KB, free 366.1 MB)
+2019-06-23 02:05:42 INFO  BlockGenerator:54 - Pushed block input-0-1561223142600
+2019-06-23 02:05:42 INFO  BlockManager:54 - Removing RDD 61
+2019-06-23 02:05:42 INFO  BlockManager:54 - Removing RDD 60
+2019-06-23 02:05:43 INFO  MemoryStore:54 - Block input-0-1561223142800 stored as values in memory (estimated size 6.4 KB, free 366.1 MB)
+2019-06-23 02:05:43 INFO  BlockGenerator:54 - Pushed block input-0-1561223142800
+2019-06-23 02:05:43 INFO  MemoryStore:54 - Block input-0-1561223143000 stored as values in memory (estimated size 6.9 KB, free 366.1 MB)
+2019-06-23 02:05:43 INFO  BlockGenerator:54 - Pushed block input-0-1561223143000
+2019-06-23 02:05:43 INFO  MemoryStore:54 - Block input-0-1561223143200 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:05:43 INFO  BlockGenerator:54 - Pushed block input-0-1561223143200
+2019-06-23 02:05:43 INFO  MemoryStore:54 - Block input-0-1561223143400 stored as values in memory (estimated size 3.9 KB, free 366.1 MB)
+2019-06-23 02:05:43 INFO  BlockGenerator:54 - Pushed block input-0-1561223143400
+2019-06-23 02:05:43 INFO  MemoryStore:54 - Block input-0-1561223143600 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:05:43 INFO  BlockGenerator:54 - Pushed block input-0-1561223143600
+2019-06-23 02:05:43 INFO  BlockManager:54 - Removing RDD 62
+2019-06-23 02:05:43 INFO  BlockManager:54 - Removing RDD 63
+2019-06-23 02:05:44 INFO  MemoryStore:54 - Block input-0-1561223143800 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:05:44 INFO  BlockGenerator:54 - Pushed block input-0-1561223143800
+2019-06-23 02:05:44 INFO  MemoryStore:54 - Block input-0-1561223144000 stored as values in memory (estimated size 6.5 KB, free 366.1 MB)
+2019-06-23 02:05:44 INFO  BlockGenerator:54 - Pushed block input-0-1561223144000
+2019-06-23 02:05:44 INFO  MemoryStore:54 - Block input-0-1561223144200 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 02:05:44 INFO  BlockGenerator:54 - Pushed block input-0-1561223144200
+2019-06-23 02:05:44 INFO  BlockManager:54 - Removing RDD 65
+2019-06-23 02:05:44 INFO  BlockManager:54 - Removing RDD 64
+2019-06-23 02:05:44 INFO  MemoryStore:54 - Block input-0-1561223144400 stored as values in memory (estimated size 4.5 KB, free 366.2 MB)
+2019-06-23 02:05:44 INFO  BlockGenerator:54 - Pushed block input-0-1561223144400
+2019-06-23 02:05:44 INFO  MemoryStore:54 - Block input-0-1561223144600 stored as values in memory (estimated size 7.7 KB, free 366.2 MB)
+2019-06-23 02:05:44 INFO  BlockGenerator:54 - Pushed block input-0-1561223144600
+2019-06-23 02:05:45 INFO  MemoryStore:54 - Block input-0-1561223144800 stored as values in memory (estimated size 8.8 KB, free 366.1 MB)
+2019-06-23 02:05:45 INFO  BlockGenerator:54 - Pushed block input-0-1561223144800
+2019-06-23 02:05:45 INFO  MemoryStore:54 - Block input-0-1561223145000 stored as values in memory (estimated size 5.5 KB, free 366.1 MB)
+2019-06-23 02:05:45 INFO  BlockGenerator:54 - Pushed block input-0-1561223145000
+2019-06-23 02:05:45 INFO  MemoryStore:54 - Block input-0-1561223145200 stored as values in memory (estimated size 5.3 KB, free 366.1 MB)
+2019-06-23 02:05:45 INFO  BlockGenerator:54 - Pushed block input-0-1561223145200
+2019-06-23 02:05:45 INFO  MemoryStore:54 - Block input-0-1561223145400 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:05:45 INFO  BlockGenerator:54 - Pushed block input-0-1561223145400
+2019-06-23 02:05:45 INFO  BlockManager:54 - Removing RDD 67
+2019-06-23 02:05:45 INFO  BlockManager:54 - Removing RDD 66
+2019-06-23 02:05:45 INFO  MemoryStore:54 - Block input-0-1561223145600 stored as values in memory (estimated size 5.2 KB, free 366.1 MB)
+2019-06-23 02:05:45 INFO  BlockGenerator:54 - Pushed block input-0-1561223145600
+2019-06-23 02:05:46 INFO  MemoryStore:54 - Block input-0-1561223145800 stored as values in memory (estimated size 8.1 KB, free 366.1 MB)
+2019-06-23 02:05:46 INFO  BlockGenerator:54 - Pushed block input-0-1561223145800
+2019-06-23 02:05:46 INFO  MemoryStore:54 - Block input-0-1561223146000 stored as values in memory (estimated size 6.4 KB, free 366.1 MB)
+2019-06-23 02:05:46 INFO  BlockGenerator:54 - Pushed block input-0-1561223146000
+2019-06-23 02:05:46 INFO  MemoryStore:54 - Block input-0-1561223146200 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:05:46 INFO  BlockGenerator:54 - Pushed block input-0-1561223146200
+2019-06-23 02:05:46 INFO  BlockManager:54 - Removing RDD 69
+2019-06-23 02:05:46 INFO  BlockManager:54 - Removing RDD 68
+2019-06-23 02:05:46 INFO  MemoryStore:54 - Block input-0-1561223146400 stored as values in memory (estimated size 4.6 KB, free 366.2 MB)
+2019-06-23 02:05:46 INFO  BlockGenerator:54 - Pushed block input-0-1561223146400
+2019-06-23 02:05:46 INFO  MemoryStore:54 - Block input-0-1561223146600 stored as values in memory (estimated size 7.6 KB, free 366.1 MB)
+2019-06-23 02:05:46 INFO  BlockGenerator:54 - Pushed block input-0-1561223146600
+2019-06-23 02:05:47 INFO  MemoryStore:54 - Block input-0-1561223146800 stored as values in memory (estimated size 8.0 KB, free 366.1 MB)
+2019-06-23 02:05:47 INFO  BlockGenerator:54 - Pushed block input-0-1561223146800
+2019-06-23 02:05:47 INFO  MemoryStore:54 - Block input-0-1561223147000 stored as values in memory (estimated size 6.1 KB, free 366.1 MB)
+2019-06-23 02:05:47 INFO  BlockGenerator:54 - Pushed block input-0-1561223147000
+2019-06-23 02:05:47 INFO  MemoryStore:54 - Block input-0-1561223147200 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 02:05:47 INFO  BlockGenerator:54 - Pushed block input-0-1561223147200
+2019-06-23 02:05:47 INFO  MemoryStore:54 - Block input-0-1561223147400 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:05:47 INFO  BlockGenerator:54 - Pushed block input-0-1561223147400
+2019-06-23 02:05:47 INFO  BlockManager:54 - Removing RDD 71
+2019-06-23 02:05:47 INFO  BlockManager:54 - Removing RDD 70
+2019-06-23 02:05:47 INFO  MemoryStore:54 - Block input-0-1561223147600 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:05:47 INFO  BlockGenerator:54 - Pushed block input-0-1561223147600
+2019-06-23 02:05:48 INFO  MemoryStore:54 - Block input-0-1561223147800 stored as values in memory (estimated size 7.6 KB, free 366.1 MB)
+2019-06-23 02:05:48 INFO  BlockGenerator:54 - Pushed block input-0-1561223147800
+2019-06-23 02:05:48 INFO  MemoryStore:54 - Block input-0-1561223148000 stored as values in memory (estimated size 7.2 KB, free 366.1 MB)
+2019-06-23 02:05:48 INFO  BlockGenerator:54 - Pushed block input-0-1561223148000
+2019-06-23 02:05:48 INFO  MemoryStore:54 - Block input-0-1561223148200 stored as values in memory (estimated size 4.9 KB, free 366.1 MB)
+2019-06-23 02:05:48 INFO  BlockGenerator:54 - Pushed block input-0-1561223148200
+2019-06-23 02:05:48 INFO  MemoryStore:54 - Block input-0-1561223148400 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:05:48 INFO  BlockGenerator:54 - Pushed block input-0-1561223148400
+2019-06-23 02:05:48 INFO  MemoryStore:54 - Block input-0-1561223148600 stored as values in memory (estimated size 3.6 KB, free 366.1 MB)
+2019-06-23 02:05:48 INFO  BlockGenerator:54 - Pushed block input-0-1561223148600
+2019-06-23 02:05:48 INFO  BlockManager:54 - Removing RDD 73
+2019-06-23 02:05:48 INFO  BlockManager:54 - Removing RDD 72
+2019-06-23 02:05:49 INFO  MemoryStore:54 - Block input-0-1561223148800 stored as values in memory (estimated size 5.4 KB, free 366.1 MB)
+2019-06-23 02:05:49 INFO  BlockGenerator:54 - Pushed block input-0-1561223148800
+2019-06-23 02:05:49 INFO  MemoryStore:54 - Block input-0-1561223149000 stored as values in memory (estimated size 6.5 KB, free 366.1 MB)
+2019-06-23 02:05:49 INFO  BlockGenerator:54 - Pushed block input-0-1561223149000
+2019-06-23 02:05:49 INFO  MemoryStore:54 - Block input-0-1561223149200 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:05:49 INFO  BlockGenerator:54 - Pushed block input-0-1561223149200
+2019-06-23 02:05:49 INFO  MemoryStore:54 - Block input-0-1561223149400 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:05:49 INFO  BlockGenerator:54 - Pushed block input-0-1561223149400
+2019-06-23 02:05:49 INFO  BlockManager:54 - Removing RDD 75
+2019-06-23 02:05:49 INFO  BlockManager:54 - Removing RDD 74
+2019-06-23 02:05:49 INFO  MemoryStore:54 - Block input-0-1561223149600 stored as values in memory (estimated size 5.0 KB, free 366.2 MB)
+2019-06-23 02:05:49 INFO  BlockGenerator:54 - Pushed block input-0-1561223149600
+2019-06-23 02:05:50 INFO  MemoryStore:54 - Block input-0-1561223149800 stored as values in memory (estimated size 8.5 KB, free 366.1 MB)
+2019-06-23 02:05:50 INFO  BlockGenerator:54 - Pushed block input-0-1561223149800
+2019-06-23 02:05:50 INFO  MemoryStore:54 - Block input-0-1561223150000 stored as values in memory (estimated size 6.4 KB, free 366.1 MB)
+2019-06-23 02:05:50 INFO  BlockGenerator:54 - Pushed block input-0-1561223150000
+2019-06-23 02:05:50 INFO  MemoryStore:54 - Block input-0-1561223150200 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:05:50 INFO  BlockGenerator:54 - Pushed block input-0-1561223150200
+2019-06-23 02:05:50 INFO  BlockManager:54 - Removing RDD 77
+2019-06-23 02:05:50 INFO  BlockManager:54 - Removing RDD 76
+2019-06-23 02:05:50 INFO  MemoryStore:54 - Block input-0-1561223150400 stored as values in memory (estimated size 4.5 KB, free 366.2 MB)
+2019-06-23 02:05:50 INFO  BlockGenerator:54 - Pushed block input-0-1561223150400
+2019-06-23 02:05:50 INFO  MemoryStore:54 - Block input-0-1561223150600 stored as values in memory (estimated size 7.8 KB, free 366.1 MB)
+2019-06-23 02:05:50 INFO  BlockGenerator:54 - Pushed block input-0-1561223150600
+2019-06-23 02:05:51 INFO  MemoryStore:54 - Block input-0-1561223150800 stored as values in memory (estimated size 8.6 KB, free 366.1 MB)
+2019-06-23 02:05:51 INFO  BlockGenerator:54 - Pushed block input-0-1561223150800
+2019-06-23 02:05:51 INFO  MemoryStore:54 - Block input-0-1561223151000 stored as values in memory (estimated size 6.2 KB, free 366.1 MB)
+2019-06-23 02:05:51 INFO  BlockGenerator:54 - Pushed block input-0-1561223151000
+2019-06-23 02:05:51 INFO  MemoryStore:54 - Block input-0-1561223151200 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:05:51 INFO  BlockGenerator:54 - Pushed block input-0-1561223151200
+2019-06-23 02:05:51 INFO  MemoryStore:54 - Block input-0-1561223151400 stored as values in memory (estimated size 5.1 KB, free 366.1 MB)
+2019-06-23 02:05:51 INFO  BlockGenerator:54 - Pushed block input-0-1561223151400
+2019-06-23 02:05:51 INFO  BlockManager:54 - Removing RDD 79
+2019-06-23 02:05:51 INFO  BlockManager:54 - Removing RDD 78
+2019-06-23 02:05:51 INFO  MemoryStore:54 - Block input-0-1561223151600 stored as values in memory (estimated size 5.4 KB, free 366.1 MB)
+2019-06-23 02:05:51 INFO  BlockGenerator:54 - Pushed block input-0-1561223151600
+2019-06-23 02:05:52 INFO  MemoryStore:54 - Block input-0-1561223151800 stored as values in memory (estimated size 8.6 KB, free 366.1 MB)
+2019-06-23 02:05:52 INFO  BlockGenerator:54 - Pushed block input-0-1561223151800
+2019-06-23 02:05:52 INFO  MemoryStore:54 - Block input-0-1561223152000 stored as values in memory (estimated size 6.5 KB, free 366.1 MB)
+2019-06-23 02:05:52 INFO  BlockGenerator:54 - Pushed block input-0-1561223152000
+2019-06-23 02:05:52 INFO  MemoryStore:54 - Block input-0-1561223152200 stored as values in memory (estimated size 4.9 KB, free 366.1 MB)
+2019-06-23 02:05:52 INFO  BlockGenerator:54 - Pushed block input-0-1561223152200
+2019-06-23 02:05:52 INFO  MemoryStore:54 - Block input-0-1561223152400 stored as values in memory (estimated size 5.0 KB, free 366.1 MB)
+2019-06-23 02:05:52 INFO  BlockGenerator:54 - Pushed block input-0-1561223152400
+2019-06-23 02:05:52 INFO  BlockManager:54 - Removing RDD 81
+2019-06-23 02:05:52 INFO  BlockManager:54 - Removing RDD 80
+2019-06-23 02:05:52 INFO  MemoryStore:54 - Block input-0-1561223152600 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:05:52 INFO  BlockGenerator:54 - Pushed block input-0-1561223152600
+2019-06-23 02:05:53 INFO  MemoryStore:54 - Block input-0-1561223152800 stored as values in memory (estimated size 7.9 KB, free 366.1 MB)
+2019-06-23 02:05:53 INFO  BlockGenerator:54 - Pushed block input-0-1561223152800
+2019-06-23 02:05:53 INFO  MemoryStore:54 - Block input-0-1561223153000 stored as values in memory (estimated size 7.6 KB, free 366.1 MB)
+2019-06-23 02:05:53 INFO  BlockGenerator:54 - Pushed block input-0-1561223153000
+2019-06-23 02:05:53 INFO  MemoryStore:54 - Block input-0-1561223153200 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 02:05:53 INFO  BlockGenerator:54 - Pushed block input-0-1561223153200
+2019-06-23 02:05:53 INFO  MemoryStore:54 - Block input-0-1561223153400 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:05:53 INFO  BlockGenerator:54 - Pushed block input-0-1561223153400
+2019-06-23 02:05:53 INFO  BlockManager:54 - Removing RDD 83
+2019-06-23 02:05:53 INFO  BlockManager:54 - Removing RDD 82
+2019-06-23 02:05:53 INFO  MemoryStore:54 - Block input-0-1561223153600 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:05:53 INFO  BlockGenerator:54 - Pushed block input-0-1561223153600
+2019-06-23 02:05:54 INFO  MemoryStore:54 - Block input-0-1561223153800 stored as values in memory (estimated size 7.0 KB, free 366.1 MB)
+2019-06-23 02:05:54 INFO  BlockGenerator:54 - Pushed block input-0-1561223153800
+2019-06-23 02:05:54 INFO  MemoryStore:54 - Block input-0-1561223154000 stored as values in memory (estimated size 5.6 KB, free 366.1 MB)
+2019-06-23 02:05:54 INFO  BlockGenerator:54 - Pushed block input-0-1561223154000
+2019-06-23 02:05:54 INFO  MemoryStore:54 - Block input-0-1561223154200 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:05:54 INFO  BlockGenerator:54 - Pushed block input-0-1561223154200
+2019-06-23 02:05:54 INFO  MemoryStore:54 - Block input-0-1561223154400 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:05:54 INFO  BlockGenerator:54 - Pushed block input-0-1561223154400
+2019-06-23 02:05:54 INFO  BlockManager:54 - Removing RDD 85
+2019-06-23 02:05:54 INFO  BlockManager:54 - Removing RDD 84
+2019-06-23 02:05:54 INFO  MemoryStore:54 - Block input-0-1561223154600 stored as values in memory (estimated size 4.5 KB, free 366.2 MB)
+2019-06-23 02:05:54 INFO  BlockGenerator:54 - Pushed block input-0-1561223154600
+2019-06-23 02:05:55 INFO  MemoryStore:54 - Block input-0-1561223154800 stored as values in memory (estimated size 7.2 KB, free 366.1 MB)
+2019-06-23 02:05:55 INFO  BlockGenerator:54 - Pushed block input-0-1561223154800
+2019-06-23 02:05:55 INFO  MemoryStore:54 - Block input-0-1561223155000 stored as values in memory (estimated size 6.2 KB, free 366.1 MB)
+2019-06-23 02:05:55 INFO  BlockGenerator:54 - Pushed block input-0-1561223155000
+2019-06-23 02:05:55 INFO  MemoryStore:54 - Block input-0-1561223155200 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:05:55 INFO  BlockGenerator:54 - Pushed block input-0-1561223155200
+2019-06-23 02:05:55 INFO  MemoryStore:54 - Block input-0-1561223155400 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:05:55 INFO  BlockGenerator:54 - Pushed block input-0-1561223155400
+2019-06-23 02:05:55 INFO  BlockManager:54 - Removing RDD 87
+2019-06-23 02:05:55 INFO  BlockManager:54 - Removing RDD 86
+2019-06-23 02:05:55 INFO  MemoryStore:54 - Block input-0-1561223155600 stored as values in memory (estimated size 4.8 KB, free 366.2 MB)
+2019-06-23 02:05:55 INFO  BlockGenerator:54 - Pushed block input-0-1561223155600
+2019-06-23 02:05:56 INFO  MemoryStore:54 - Block input-0-1561223155800 stored as values in memory (estimated size 7.7 KB, free 366.1 MB)
+2019-06-23 02:05:56 INFO  BlockGenerator:54 - Pushed block input-0-1561223155800
+2019-06-23 02:05:56 INFO  MemoryStore:54 - Block input-0-1561223156000 stored as values in memory (estimated size 7.1 KB, free 366.1 MB)
+2019-06-23 02:05:56 INFO  BlockGenerator:54 - Pushed block input-0-1561223156000
+2019-06-23 02:05:56 INFO  MemoryStore:54 - Block input-0-1561223156200 stored as values in memory (estimated size 4.8 KB, free 366.1 MB)
+2019-06-23 02:05:56 INFO  BlockGenerator:54 - Pushed block input-0-1561223156200
+2019-06-23 02:05:56 INFO  MemoryStore:54 - Block input-0-1561223156400 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:05:56 INFO  BlockGenerator:54 - Pushed block input-0-1561223156400
+2019-06-23 02:05:56 INFO  BlockManager:54 - Removing RDD 89
+2019-06-23 02:05:56 INFO  BlockManager:54 - Removing RDD 88
+2019-06-23 02:05:56 INFO  MemoryStore:54 - Block input-0-1561223156600 stored as values in memory (estimated size 4.9 KB, free 366.1 MB)
+2019-06-23 02:05:56 INFO  BlockGenerator:54 - Pushed block input-0-1561223156600
+2019-06-23 02:05:57 INFO  MemoryStore:54 - Block input-0-1561223156800 stored as values in memory (estimated size 7.9 KB, free 366.1 MB)
+2019-06-23 02:05:57 INFO  BlockGenerator:54 - Pushed block input-0-1561223156800
+2019-06-23 02:05:57 INFO  MemoryStore:54 - Block input-0-1561223157000 stored as values in memory (estimated size 6.5 KB, free 366.1 MB)
+2019-06-23 02:05:57 INFO  BlockGenerator:54 - Pushed block input-0-1561223157000
+2019-06-23 02:05:57 INFO  MemoryStore:54 - Block input-0-1561223157200 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:05:57 INFO  BlockGenerator:54 - Pushed block input-0-1561223157200
+2019-06-23 02:05:57 INFO  MemoryStore:54 - Block input-0-1561223157400 stored as values in memory (estimated size 4.8 KB, free 366.1 MB)
+2019-06-23 02:05:57 INFO  BlockGenerator:54 - Pushed block input-0-1561223157400
+2019-06-23 02:05:57 INFO  MemoryStore:54 - Block input-0-1561223157600 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:05:57 INFO  BlockManager:54 - Removing RDD 91
+2019-06-23 02:05:57 INFO  BlockManager:54 - Removing RDD 90
+2019-06-23 02:05:57 INFO  BlockGenerator:54 - Pushed block input-0-1561223157600
+2019-06-23 02:05:58 INFO  MemoryStore:54 - Block input-0-1561223157800 stored as values in memory (estimated size 6.8 KB, free 366.1 MB)
+2019-06-23 02:05:58 INFO  BlockGenerator:54 - Pushed block input-0-1561223157800
+2019-06-23 02:05:58 INFO  MemoryStore:54 - Block input-0-1561223158000 stored as values in memory (estimated size 6.5 KB, free 366.1 MB)
+2019-06-23 02:05:58 INFO  BlockGenerator:54 - Pushed block input-0-1561223158000
+2019-06-23 02:05:58 INFO  MemoryStore:54 - Block input-0-1561223158200 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:05:58 INFO  BlockGenerator:54 - Pushed block input-0-1561223158200
+2019-06-23 02:05:58 INFO  MemoryStore:54 - Block input-0-1561223158400 stored as values in memory (estimated size 4.1 KB, free 366.1 MB)
+2019-06-23 02:05:58 INFO  BlockGenerator:54 - Pushed block input-0-1561223158400
+2019-06-23 02:05:58 INFO  BlockManager:54 - Removing RDD 93
+2019-06-23 02:05:58 INFO  BlockManager:54 - Removing RDD 92
+2019-06-23 02:05:58 INFO  MemoryStore:54 - Block input-0-1561223158600 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 02:05:58 INFO  BlockGenerator:54 - Pushed block input-0-1561223158600
+2019-06-23 02:05:59 INFO  MemoryStore:54 - Block input-0-1561223158800 stored as values in memory (estimated size 7.6 KB, free 366.1 MB)
+2019-06-23 02:05:59 INFO  BlockGenerator:54 - Pushed block input-0-1561223158800
+2019-06-23 02:05:59 INFO  MemoryStore:54 - Block input-0-1561223159000 stored as values in memory (estimated size 7.5 KB, free 366.1 MB)
+2019-06-23 02:05:59 INFO  BlockGenerator:54 - Pushed block input-0-1561223159000
+2019-06-23 02:05:59 INFO  MemoryStore:54 - Block input-0-1561223159200 stored as values in memory (estimated size 5.4 KB, free 366.1 MB)
+2019-06-23 02:05:59 INFO  BlockGenerator:54 - Pushed block input-0-1561223159200
+2019-06-23 02:05:59 INFO  MemoryStore:54 - Block input-0-1561223159400 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:05:59 INFO  BlockGenerator:54 - Pushed block input-0-1561223159400
+2019-06-23 02:05:59 INFO  BlockManager:54 - Removing RDD 95
+2019-06-23 02:05:59 INFO  BlockManager:54 - Removing RDD 94
+2019-06-23 02:05:59 INFO  MemoryStore:54 - Block input-0-1561223159600 stored as values in memory (estimated size 3.9 KB, free 366.2 MB)
+2019-06-23 02:05:59 INFO  BlockGenerator:54 - Pushed block input-0-1561223159600
+2019-06-23 02:06:00 INFO  MemoryStore:54 - Block input-0-1561223159800 stored as values in memory (estimated size 6.4 KB, free 366.1 MB)
+2019-06-23 02:06:00 INFO  BlockGenerator:54 - Pushed block input-0-1561223159800
+2019-06-23 02:06:00 INFO  MemoryStore:54 - Block input-0-1561223160000 stored as values in memory (estimated size 6.0 KB, free 366.1 MB)
+2019-06-23 02:06:00 INFO  BlockGenerator:54 - Pushed block input-0-1561223160000
+2019-06-23 02:06:00 INFO  MemoryStore:54 - Block input-0-1561223160200 stored as values in memory (estimated size 5.4 KB, free 366.1 MB)
+2019-06-23 02:06:00 INFO  BlockGenerator:54 - Pushed block input-0-1561223160200
+2019-06-23 02:06:00 INFO  MemoryStore:54 - Block input-0-1561223160400 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 02:06:00 INFO  BlockGenerator:54 - Pushed block input-0-1561223160400
+2019-06-23 02:06:00 INFO  BlockManager:54 - Removing RDD 97
+2019-06-23 02:06:00 INFO  BlockManager:54 - Removing RDD 96
+2019-06-23 02:06:00 INFO  MemoryStore:54 - Block input-0-1561223160600 stored as values in memory (estimated size 5.4 KB, free 366.1 MB)
+2019-06-23 02:06:00 INFO  BlockGenerator:54 - Pushed block input-0-1561223160600
+2019-06-23 02:06:01 INFO  MemoryStore:54 - Block input-0-1561223160800 stored as values in memory (estimated size 8.4 KB, free 366.1 MB)
+2019-06-23 02:06:01 INFO  BlockGenerator:54 - Pushed block input-0-1561223160800
+2019-06-23 02:06:01 INFO  MemoryStore:54 - Block input-0-1561223161000 stored as values in memory (estimated size 6.8 KB, free 366.1 MB)
+2019-06-23 02:06:01 INFO  BlockGenerator:54 - Pushed block input-0-1561223161000
+2019-06-23 02:06:01 INFO  MemoryStore:54 - Block input-0-1561223161200 stored as values in memory (estimated size 4.8 KB, free 366.1 MB)
+2019-06-23 02:06:01 INFO  BlockGenerator:54 - Pushed block input-0-1561223161200
+2019-06-23 02:06:01 INFO  BlockManager:54 - Removing RDD 99
+2019-06-23 02:06:01 INFO  BlockManager:54 - Removing RDD 98
+2019-06-23 02:06:01 INFO  MemoryStore:54 - Block input-0-1561223161400 stored as values in memory (estimated size 4.7 KB, free 366.2 MB)
+2019-06-23 02:06:01 INFO  BlockGenerator:54 - Pushed block input-0-1561223161400
+2019-06-23 02:06:01 INFO  MemoryStore:54 - Block input-0-1561223161600 stored as values in memory (estimated size 7.3 KB, free 366.1 MB)
+2019-06-23 02:06:01 INFO  BlockGenerator:54 - Pushed block input-0-1561223161600
+2019-06-23 02:06:02 INFO  MemoryStore:54 - Block input-0-1561223161800 stored as values in memory (estimated size 8.2 KB, free 366.1 MB)
+2019-06-23 02:06:02 INFO  BlockGenerator:54 - Pushed block input-0-1561223161800
+2019-06-23 02:06:02 INFO  MemoryStore:54 - Block input-0-1561223162000 stored as values in memory (estimated size 6.8 KB, free 366.1 MB)
+2019-06-23 02:06:02 INFO  BlockGenerator:54 - Pushed block input-0-1561223162000
+2019-06-23 02:06:02 INFO  MemoryStore:54 - Block input-0-1561223162200 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:02 INFO  BlockGenerator:54 - Pushed block input-0-1561223162200
+2019-06-23 02:06:02 INFO  MemoryStore:54 - Block input-0-1561223162400 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:06:02 INFO  BlockGenerator:54 - Pushed block input-0-1561223162400
+2019-06-23 02:06:02 INFO  BlockManager:54 - Removing RDD 101
+2019-06-23 02:06:02 INFO  BlockManager:54 - Removing RDD 100
+2019-06-23 02:06:02 INFO  MemoryStore:54 - Block input-0-1561223162600 stored as values in memory (estimated size 7.6 KB, free 366.1 MB)
+2019-06-23 02:06:02 INFO  BlockGenerator:54 - Pushed block input-0-1561223162600
+2019-06-23 02:06:03 INFO  MemoryStore:54 - Block input-0-1561223162800 stored as values in memory (estimated size 9.1 KB, free 366.1 MB)
+2019-06-23 02:06:03 INFO  BlockGenerator:54 - Pushed block input-0-1561223162800
+2019-06-23 02:06:03 INFO  MemoryStore:54 - Block input-0-1561223163000 stored as values in memory (estimated size 7.2 KB, free 366.1 MB)
+2019-06-23 02:06:03 INFO  BlockGenerator:54 - Pushed block input-0-1561223163000
+2019-06-23 02:06:03 INFO  MemoryStore:54 - Block input-0-1561223163200 stored as values in memory (estimated size 4.8 KB, free 366.1 MB)
+2019-06-23 02:06:03 INFO  BlockGenerator:54 - Pushed block input-0-1561223163200
+2019-06-23 02:06:03 INFO  MemoryStore:54 - Block input-0-1561223163400 stored as values in memory (estimated size 3.5 KB, free 366.1 MB)
+2019-06-23 02:06:03 INFO  BlockGenerator:54 - Pushed block input-0-1561223163400
+2019-06-23 02:06:03 INFO  MemoryStore:54 - Block input-0-1561223163600 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 02:06:03 INFO  BlockGenerator:54 - Pushed block input-0-1561223163600
+2019-06-23 02:06:03 INFO  BlockManager:54 - Removing RDD 103
+2019-06-23 02:06:03 INFO  BlockManager:54 - Removing RDD 102
+2019-06-23 02:06:04 INFO  MemoryStore:54 - Block input-0-1561223163800 stored as values in memory (estimated size 5.2 KB, free 366.1 MB)
+2019-06-23 02:06:04 INFO  BlockGenerator:54 - Pushed block input-0-1561223163800
+2019-06-23 02:06:04 INFO  MemoryStore:54 - Block input-0-1561223164000 stored as values in memory (estimated size 6.9 KB, free 366.1 MB)
+2019-06-23 02:06:04 INFO  BlockGenerator:54 - Pushed block input-0-1561223164000
+2019-06-23 02:06:04 INFO  MemoryStore:54 - Block input-0-1561223164200 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 02:06:04 INFO  BlockGenerator:54 - Pushed block input-0-1561223164200
+2019-06-23 02:06:04 INFO  MemoryStore:54 - Block input-0-1561223164400 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:06:04 INFO  BlockGenerator:54 - Pushed block input-0-1561223164400
+2019-06-23 02:06:04 INFO  MemoryStore:54 - Block input-0-1561223164600 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:04 INFO  BlockGenerator:54 - Pushed block input-0-1561223164600
+2019-06-23 02:06:04 INFO  BlockManager:54 - Removing RDD 105
+2019-06-23 02:06:04 INFO  BlockManager:54 - Removing RDD 104
+2019-06-23 02:06:05 INFO  MemoryStore:54 - Block input-0-1561223164800 stored as values in memory (estimated size 5.3 KB, free 366.1 MB)
+2019-06-23 02:06:05 INFO  BlockGenerator:54 - Pushed block input-0-1561223164800
+2019-06-23 02:06:05 INFO  MemoryStore:54 - Block input-0-1561223165000 stored as values in memory (estimated size 7.0 KB, free 366.1 MB)
+2019-06-23 02:06:05 INFO  BlockGenerator:54 - Pushed block input-0-1561223165000
+2019-06-23 02:06:05 INFO  MemoryStore:54 - Block input-0-1561223165200 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:05 INFO  BlockGenerator:54 - Pushed block input-0-1561223165200
+2019-06-23 02:06:05 INFO  MemoryStore:54 - Block input-0-1561223165400 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:06:05 INFO  BlockGenerator:54 - Pushed block input-0-1561223165400
+2019-06-23 02:06:05 INFO  BlockManager:54 - Removing RDD 107
+2019-06-23 02:06:05 INFO  BlockManager:54 - Removing RDD 106
+2019-06-23 02:06:05 INFO  MemoryStore:54 - Block input-0-1561223165600 stored as values in memory (estimated size 6.2 KB, free 366.2 MB)
+2019-06-23 02:06:05 INFO  BlockGenerator:54 - Pushed block input-0-1561223165600
+2019-06-23 02:06:06 INFO  MemoryStore:54 - Block input-0-1561223165800 stored as values in memory (estimated size 8.0 KB, free 366.1 MB)
+2019-06-23 02:06:06 INFO  BlockGenerator:54 - Pushed block input-0-1561223165800
+2019-06-23 02:06:06 INFO  MemoryStore:54 - Block input-0-1561223166000 stored as values in memory (estimated size 6.9 KB, free 366.1 MB)
+2019-06-23 02:06:06 INFO  BlockGenerator:54 - Pushed block input-0-1561223166000
+2019-06-23 02:06:06 INFO  MemoryStore:54 - Block input-0-1561223166200 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:06:06 INFO  BlockGenerator:54 - Pushed block input-0-1561223166200
+2019-06-23 02:06:06 INFO  BlockManager:54 - Removing RDD 109
+2019-06-23 02:06:06 INFO  BlockManager:54 - Removing RDD 108
+2019-06-23 02:06:06 INFO  MemoryStore:54 - Block input-0-1561223166400 stored as values in memory (estimated size 5.0 KB, free 366.2 MB)
+2019-06-23 02:06:06 INFO  BlockGenerator:54 - Pushed block input-0-1561223166400
+2019-06-23 02:06:06 INFO  MemoryStore:54 - Block input-0-1561223166600 stored as values in memory (estimated size 8.8 KB, free 366.1 MB)
+2019-06-23 02:06:06 INFO  BlockGenerator:54 - Pushed block input-0-1561223166600
+2019-06-23 02:06:07 INFO  MemoryStore:54 - Block input-0-1561223166800 stored as values in memory (estimated size 8.8 KB, free 366.1 MB)
+2019-06-23 02:06:07 INFO  BlockGenerator:54 - Pushed block input-0-1561223166800
+2019-06-23 02:06:07 INFO  MemoryStore:54 - Block input-0-1561223167000 stored as values in memory (estimated size 6.2 KB, free 366.1 MB)
+2019-06-23 02:06:07 INFO  BlockGenerator:54 - Pushed block input-0-1561223167000
+2019-06-23 02:06:07 INFO  MemoryStore:54 - Block input-0-1561223167200 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:06:07 INFO  BlockGenerator:54 - Pushed block input-0-1561223167200
+2019-06-23 02:06:07 INFO  MemoryStore:54 - Block input-0-1561223167400 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:06:07 INFO  BlockGenerator:54 - Pushed block input-0-1561223167400
+2019-06-23 02:06:07 INFO  BlockManager:54 - Removing RDD 111
+2019-06-23 02:06:07 INFO  BlockManager:54 - Removing RDD 110
+2019-06-23 02:06:07 INFO  MemoryStore:54 - Block input-0-1561223167600 stored as values in memory (estimated size 5.5 KB, free 366.1 MB)
+2019-06-23 02:06:07 INFO  BlockGenerator:54 - Pushed block input-0-1561223167600
+2019-06-23 02:06:08 INFO  MemoryStore:54 - Block input-0-1561223167800 stored as values in memory (estimated size 8.4 KB, free 366.1 MB)
+2019-06-23 02:06:08 INFO  BlockGenerator:54 - Pushed block input-0-1561223167800
+2019-06-23 02:06:08 INFO  MemoryStore:54 - Block input-0-1561223168000 stored as values in memory (estimated size 6.3 KB, free 366.1 MB)
+2019-06-23 02:06:08 INFO  BlockGenerator:54 - Pushed block input-0-1561223168000
+2019-06-23 02:06:08 INFO  MemoryStore:54 - Block input-0-1561223168200 stored as values in memory (estimated size 5.0 KB, free 366.1 MB)
+2019-06-23 02:06:08 INFO  BlockGenerator:54 - Pushed block input-0-1561223168200
+2019-06-23 02:06:08 INFO  MemoryStore:54 - Block input-0-1561223168400 stored as values in memory (estimated size 4.8 KB, free 366.1 MB)
+2019-06-23 02:06:08 INFO  BlockGenerator:54 - Pushed block input-0-1561223168400
+2019-06-23 02:06:08 INFO  BlockManager:54 - Removing RDD 113
+2019-06-23 02:06:08 INFO  BlockManager:54 - Removing RDD 112
+2019-06-23 02:06:08 INFO  MemoryStore:54 - Block input-0-1561223168600 stored as values in memory (estimated size 5.1 KB, free 366.1 MB)
+2019-06-23 02:06:08 INFO  BlockGenerator:54 - Pushed block input-0-1561223168600
+2019-06-23 02:06:09 INFO  MemoryStore:54 - Block input-0-1561223168800 stored as values in memory (estimated size 8.1 KB, free 366.1 MB)
+2019-06-23 02:06:09 INFO  BlockGenerator:54 - Pushed block input-0-1561223168800
+2019-06-23 02:06:09 INFO  MemoryStore:54 - Block input-0-1561223169000 stored as values in memory (estimated size 6.7 KB, free 366.1 MB)
+2019-06-23 02:06:09 INFO  BlockGenerator:54 - Pushed block input-0-1561223169000
+2019-06-23 02:06:09 INFO  MemoryStore:54 - Block input-0-1561223169200 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:06:09 INFO  BlockGenerator:54 - Pushed block input-0-1561223169200
+2019-06-23 02:06:09 INFO  MemoryStore:54 - Block input-0-1561223169400 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:06:09 INFO  BlockGenerator:54 - Pushed block input-0-1561223169400
+2019-06-23 02:06:09 INFO  MemoryStore:54 - Block input-0-1561223169600 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:06:09 INFO  BlockManager:54 - Removing RDD 115
+2019-06-23 02:06:09 INFO  BlockManager:54 - Removing RDD 114
+2019-06-23 02:06:09 INFO  BlockGenerator:54 - Pushed block input-0-1561223169600
+2019-06-23 02:06:10 INFO  MemoryStore:54 - Block input-0-1561223169800 stored as values in memory (estimated size 7.3 KB, free 366.1 MB)
+2019-06-23 02:06:10 INFO  BlockGenerator:54 - Pushed block input-0-1561223169800
+2019-06-23 02:06:10 INFO  MemoryStore:54 - Block input-0-1561223170000 stored as values in memory (estimated size 6.5 KB, free 366.1 MB)
+2019-06-23 02:06:10 INFO  BlockGenerator:54 - Pushed block input-0-1561223170000
+2019-06-23 02:06:10 INFO  MemoryStore:54 - Block input-0-1561223170200 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:06:10 INFO  BlockGenerator:54 - Pushed block input-0-1561223170200
+2019-06-23 02:06:10 INFO  MemoryStore:54 - Block input-0-1561223170400 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:06:10 INFO  BlockGenerator:54 - Pushed block input-0-1561223170400
+2019-06-23 02:06:10 INFO  MemoryStore:54 - Block input-0-1561223170600 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:10 INFO  BlockGenerator:54 - Pushed block input-0-1561223170600
+2019-06-23 02:06:10 INFO  BlockManager:54 - Removing RDD 117
+2019-06-23 02:06:10 INFO  BlockManager:54 - Removing RDD 116
+2019-06-23 02:06:11 INFO  MemoryStore:54 - Block input-0-1561223170800 stored as values in memory (estimated size 6.4 KB, free 366.1 MB)
+2019-06-23 02:06:11 INFO  BlockGenerator:54 - Pushed block input-0-1561223170800
+2019-06-23 02:06:11 INFO  MemoryStore:54 - Block input-0-1561223171000 stored as values in memory (estimated size 7.1 KB, free 366.1 MB)
+2019-06-23 02:06:11 INFO  BlockGenerator:54 - Pushed block input-0-1561223171000
+2019-06-23 02:06:11 INFO  MemoryStore:54 - Block input-0-1561223171200 stored as values in memory (estimated size 4.8 KB, free 366.1 MB)
+2019-06-23 02:06:11 INFO  BlockGenerator:54 - Pushed block input-0-1561223171200
+2019-06-23 02:06:11 INFO  MemoryStore:54 - Block input-0-1561223171400 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:06:11 INFO  BlockGenerator:54 - Pushed block input-0-1561223171400
+2019-06-23 02:06:11 INFO  BlockManager:54 - Removing RDD 119
+2019-06-23 02:06:11 INFO  BlockManager:54 - Removing RDD 118
+2019-06-23 02:06:11 INFO  MemoryStore:54 - Block input-0-1561223171600 stored as values in memory (estimated size 5.2 KB, free 366.2 MB)
+2019-06-23 02:06:11 INFO  BlockGenerator:54 - Pushed block input-0-1561223171600
+2019-06-23 02:06:12 INFO  MemoryStore:54 - Block input-0-1561223171800 stored as values in memory (estimated size 7.8 KB, free 366.1 MB)
+2019-06-23 02:06:12 INFO  BlockGenerator:54 - Pushed block input-0-1561223171800
+2019-06-23 02:06:12 INFO  MemoryStore:54 - Block input-0-1561223172000 stored as values in memory (estimated size 7.7 KB, free 366.1 MB)
+2019-06-23 02:06:12 INFO  BlockGenerator:54 - Pushed block input-0-1561223172000
+2019-06-23 02:06:12 INFO  MemoryStore:54 - Block input-0-1561223172200 stored as values in memory (estimated size 4.9 KB, free 366.1 MB)
+2019-06-23 02:06:12 INFO  BlockGenerator:54 - Pushed block input-0-1561223172200
+2019-06-23 02:06:12 INFO  MemoryStore:54 - Block input-0-1561223172400 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:06:12 INFO  BlockGenerator:54 - Pushed block input-0-1561223172400
+2019-06-23 02:06:12 INFO  BlockManager:54 - Removing RDD 121
+2019-06-23 02:06:12 INFO  BlockManager:54 - Removing RDD 120
+2019-06-23 02:06:12 INFO  MemoryStore:54 - Block input-0-1561223172600 stored as values in memory (estimated size 6.6 KB, free 366.1 MB)
+2019-06-23 02:06:12 INFO  BlockGenerator:54 - Pushed block input-0-1561223172600
+2019-06-23 02:06:13 INFO  MemoryStore:54 - Block input-0-1561223172800 stored as values in memory (estimated size 8.7 KB, free 366.1 MB)
+2019-06-23 02:06:13 INFO  BlockGenerator:54 - Pushed block input-0-1561223172800
+2019-06-23 02:06:13 INFO  MemoryStore:54 - Block input-0-1561223173000 stored as values in memory (estimated size 6.3 KB, free 366.1 MB)
+2019-06-23 02:06:13 INFO  BlockGenerator:54 - Pushed block input-0-1561223173000
+2019-06-23 02:06:13 INFO  MemoryStore:54 - Block input-0-1561223173200 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:06:13 INFO  BlockGenerator:54 - Pushed block input-0-1561223173200
+2019-06-23 02:06:13 INFO  MemoryStore:54 - Block input-0-1561223173400 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:13 INFO  BlockGenerator:54 - Pushed block input-0-1561223173400
+2019-06-23 02:06:13 INFO  BlockManager:54 - Removing RDD 123
+2019-06-23 02:06:13 INFO  BlockManager:54 - Removing RDD 122
+2019-06-23 02:06:13 INFO  MemoryStore:54 - Block input-0-1561223173600 stored as values in memory (estimated size 6.1 KB, free 366.1 MB)
+2019-06-23 02:06:13 INFO  BlockGenerator:54 - Pushed block input-0-1561223173600
+2019-06-23 02:06:14 INFO  MemoryStore:54 - Block input-0-1561223173800 stored as values in memory (estimated size 7.8 KB, free 366.1 MB)
+2019-06-23 02:06:14 INFO  BlockGenerator:54 - Pushed block input-0-1561223173800
+2019-06-23 02:06:14 INFO  MemoryStore:54 - Block input-0-1561223174000 stored as values in memory (estimated size 7.3 KB, free 366.1 MB)
+2019-06-23 02:06:14 INFO  BlockGenerator:54 - Pushed block input-0-1561223174000
+2019-06-23 02:06:14 INFO  MemoryStore:54 - Block input-0-1561223174200 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:06:14 INFO  BlockGenerator:54 - Pushed block input-0-1561223174200
+2019-06-23 02:06:14 INFO  MemoryStore:54 - Block input-0-1561223174400 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:06:14 INFO  BlockGenerator:54 - Pushed block input-0-1561223174400
+2019-06-23 02:06:14 INFO  BlockManager:54 - Removing RDD 125
+2019-06-23 02:06:14 INFO  BlockManager:54 - Removing RDD 124
+2019-06-23 02:06:14 INFO  MemoryStore:54 - Block input-0-1561223174600 stored as values in memory (estimated size 6.6 KB, free 366.1 MB)
+2019-06-23 02:06:14 INFO  BlockGenerator:54 - Pushed block input-0-1561223174600
+2019-06-23 02:06:15 INFO  MemoryStore:54 - Block input-0-1561223174800 stored as values in memory (estimated size 8.1 KB, free 366.1 MB)
+2019-06-23 02:06:15 INFO  BlockGenerator:54 - Pushed block input-0-1561223174800
+2019-06-23 02:06:15 INFO  MemoryStore:54 - Block input-0-1561223175000 stored as values in memory (estimated size 6.6 KB, free 366.1 MB)
+2019-06-23 02:06:15 INFO  BlockGenerator:54 - Pushed block input-0-1561223175000
+2019-06-23 02:06:15 INFO  MemoryStore:54 - Block input-0-1561223175200 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:06:15 INFO  BlockGenerator:54 - Pushed block input-0-1561223175200
+2019-06-23 02:06:15 INFO  MemoryStore:54 - Block input-0-1561223175400 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:15 INFO  BlockGenerator:54 - Pushed block input-0-1561223175400
+2019-06-23 02:06:15 INFO  BlockManager:54 - Removing RDD 127
+2019-06-23 02:06:15 INFO  BlockManager:54 - Removing RDD 126
+2019-06-23 02:06:15 INFO  MemoryStore:54 - Block input-0-1561223175600 stored as values in memory (estimated size 6.5 KB, free 366.1 MB)
+2019-06-23 02:06:15 INFO  BlockGenerator:54 - Pushed block input-0-1561223175600
+2019-06-23 02:06:16 INFO  MemoryStore:54 - Block input-0-1561223175800 stored as values in memory (estimated size 9.0 KB, free 366.1 MB)
+2019-06-23 02:06:16 INFO  BlockGenerator:54 - Pushed block input-0-1561223175800
+2019-06-23 02:06:16 INFO  MemoryStore:54 - Block input-0-1561223176000 stored as values in memory (estimated size 6.8 KB, free 366.1 MB)
+2019-06-23 02:06:16 INFO  BlockGenerator:54 - Pushed block input-0-1561223176000
+2019-06-23 02:06:16 INFO  MemoryStore:54 - Block input-0-1561223176200 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:16 INFO  BlockGenerator:54 - Pushed block input-0-1561223176200
+2019-06-23 02:06:16 INFO  MemoryStore:54 - Block input-0-1561223176400 stored as values in memory (estimated size 3.7 KB, free 366.1 MB)
+2019-06-23 02:06:16 INFO  BlockGenerator:54 - Pushed block input-0-1561223176400
+2019-06-23 02:06:16 INFO  BlockManager:54 - Removing RDD 129
+2019-06-23 02:06:16 INFO  BlockManager:54 - Removing RDD 128
+2019-06-23 02:06:16 INFO  MemoryStore:54 - Block input-0-1561223176600 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:06:16 INFO  BlockGenerator:54 - Pushed block input-0-1561223176600
+2019-06-23 02:06:17 INFO  MemoryStore:54 - Block input-0-1561223176800 stored as values in memory (estimated size 6.7 KB, free 366.1 MB)
+2019-06-23 02:06:17 INFO  BlockGenerator:54 - Pushed block input-0-1561223176800
+2019-06-23 02:06:17 INFO  MemoryStore:54 - Block input-0-1561223177000 stored as values in memory (estimated size 5.9 KB, free 366.1 MB)
+2019-06-23 02:06:17 INFO  BlockGenerator:54 - Pushed block input-0-1561223177000
+2019-06-23 02:06:17 INFO  MemoryStore:54 - Block input-0-1561223177200 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:06:17 INFO  BlockGenerator:54 - Pushed block input-0-1561223177200
+2019-06-23 02:06:17 INFO  MemoryStore:54 - Block input-0-1561223177400 stored as values in memory (estimated size 4.6 KB, free 366.1 MB)
+2019-06-23 02:06:17 INFO  BlockGenerator:54 - Pushed block input-0-1561223177400
+2019-06-23 02:06:17 INFO  MemoryStore:54 - Block input-0-1561223177600 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:17 INFO  BlockGenerator:54 - Pushed block input-0-1561223177600
+2019-06-23 02:06:17 INFO  BlockManager:54 - Removing RDD 130
+2019-06-23 02:06:17 INFO  BlockManager:54 - Removing RDD 131
+2019-06-23 02:06:18 INFO  MemoryStore:54 - Block input-0-1561223177800 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 02:06:18 INFO  BlockGenerator:54 - Pushed block input-0-1561223177800
+2019-06-23 02:06:18 INFO  MemoryStore:54 - Block input-0-1561223178000 stored as values in memory (estimated size 7.0 KB, free 366.1 MB)
+2019-06-23 02:06:18 INFO  BlockGenerator:54 - Pushed block input-0-1561223178000
+2019-06-23 02:06:18 INFO  MemoryStore:54 - Block input-0-1561223178200 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 02:06:18 INFO  BlockGenerator:54 - Pushed block input-0-1561223178200
+2019-06-23 02:06:18 INFO  MemoryStore:54 - Block input-0-1561223178400 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:06:18 INFO  BlockGenerator:54 - Pushed block input-0-1561223178400
+2019-06-23 02:06:18 INFO  BlockManager:54 - Removing RDD 133
+2019-06-23 02:06:18 INFO  BlockManager:54 - Removing RDD 132
+2019-06-23 02:06:18 INFO  MemoryStore:54 - Block input-0-1561223178600 stored as values in memory (estimated size 4.3 KB, free 366.2 MB)
+2019-06-23 02:06:18 INFO  BlockGenerator:54 - Pushed block input-0-1561223178600
+2019-06-23 02:06:19 INFO  MemoryStore:54 - Block input-0-1561223178800 stored as values in memory (estimated size 7.7 KB, free 366.1 MB)
+2019-06-23 02:06:19 INFO  BlockGenerator:54 - Pushed block input-0-1561223178800
+2019-06-23 02:06:19 INFO  MemoryStore:54 - Block input-0-1561223179000 stored as values in memory (estimated size 6.6 KB, free 366.1 MB)
+2019-06-23 02:06:19 INFO  BlockGenerator:54 - Pushed block input-0-1561223179000
+2019-06-23 02:06:19 INFO  MemoryStore:54 - Block input-0-1561223179200 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:06:19 INFO  BlockGenerator:54 - Pushed block input-0-1561223179200
+2019-06-23 02:06:19 INFO  MemoryStore:54 - Block input-0-1561223179400 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:19 INFO  BlockGenerator:54 - Pushed block input-0-1561223179400
+2019-06-23 02:06:19 INFO  BlockManager:54 - Removing RDD 135
+2019-06-23 02:06:19 INFO  BlockManager:54 - Removing RDD 134
+2019-06-23 02:06:19 INFO  MemoryStore:54 - Block input-0-1561223179600 stored as values in memory (estimated size 6.4 KB, free 366.2 MB)
+2019-06-23 02:06:19 INFO  BlockGenerator:54 - Pushed block input-0-1561223179600
+2019-06-23 02:06:20 INFO  MemoryStore:54 - Block input-0-1561223179800 stored as values in memory (estimated size 7.6 KB, free 366.1 MB)
+2019-06-23 02:06:20 INFO  BlockGenerator:54 - Pushed block input-0-1561223179800
+2019-06-23 02:06:20 INFO  MemoryStore:54 - Block input-0-1561223180000 stored as values in memory (estimated size 7.8 KB, free 366.1 MB)
+2019-06-23 02:06:20 INFO  BlockGenerator:54 - Pushed block input-0-1561223180000
+2019-06-23 02:06:20 INFO  MemoryStore:54 - Block input-0-1561223180200 stored as values in memory (estimated size 5.4 KB, free 366.1 MB)
+2019-06-23 02:06:20 INFO  BlockGenerator:54 - Pushed block input-0-1561223180200
+2019-06-23 02:06:20 INFO  MemoryStore:54 - Block input-0-1561223180400 stored as values in memory (estimated size 4.7 KB, free 366.1 MB)
+2019-06-23 02:06:20 INFO  BlockGenerator:54 - Pushed block input-0-1561223180400
+2019-06-23 02:06:20 INFO  MemoryStore:54 - Block input-0-1561223180600 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:20 INFO  BlockGenerator:54 - Pushed block input-0-1561223180600
+2019-06-23 02:06:20 INFO  BlockManager:54 - Removing RDD 137
+2019-06-23 02:06:20 INFO  BlockManager:54 - Removing RDD 136
+2019-06-23 02:06:21 INFO  MemoryStore:54 - Block input-0-1561223180800 stored as values in memory (estimated size 6.1 KB, free 366.1 MB)
+2019-06-23 02:06:21 INFO  BlockGenerator:54 - Pushed block input-0-1561223180800
+2019-06-23 02:06:21 INFO  MemoryStore:54 - Block input-0-1561223181000 stored as values in memory (estimated size 6.8 KB, free 366.1 MB)
+2019-06-23 02:06:21 INFO  BlockGenerator:54 - Pushed block input-0-1561223181000
+2019-06-23 02:06:21 INFO  MemoryStore:54 - Block input-0-1561223181200 stored as values in memory (estimated size 4.4 KB, free 366.1 MB)
+2019-06-23 02:06:21 INFO  BlockGenerator:54 - Pushed block input-0-1561223181200
+2019-06-23 02:06:21 INFO  MemoryStore:54 - Block input-0-1561223181400 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:06:21 INFO  BlockGenerator:54 - Pushed block input-0-1561223181400
+2019-06-23 02:06:21 INFO  MemoryStore:54 - Block input-0-1561223181600 stored as values in memory (estimated size 4.5 KB, free 366.1 MB)
+2019-06-23 02:06:21 INFO  BlockGenerator:54 - Pushed block input-0-1561223181600
+2019-06-23 02:06:21 INFO  BlockManager:54 - Removing RDD 139
+2019-06-23 02:06:21 INFO  BlockManager:54 - Removing RDD 138
+2019-06-23 02:06:22 INFO  MemoryStore:54 - Block input-0-1561223181800 stored as values in memory (estimated size 6.8 KB, free 366.1 MB)
+2019-06-23 02:06:22 INFO  BlockGenerator:54 - Pushed block input-0-1561223181800
+2019-06-23 02:06:22 INFO  MemoryStore:54 - Block input-0-1561223182000 stored as values in memory (estimated size 7.7 KB, free 366.1 MB)
+2019-06-23 02:06:22 INFO  BlockGenerator:54 - Pushed block input-0-1561223182000
+2019-06-23 02:06:22 INFO  MemoryStore:54 - Block input-0-1561223182200 stored as values in memory (estimated size 5.5 KB, free 366.1 MB)
+2019-06-23 02:06:22 INFO  BlockGenerator:54 - Pushed block input-0-1561223182200
+2019-06-23 02:06:22 INFO  MemoryStore:54 - Block input-0-1561223182400 stored as values in memory (estimated size 4.8 KB, free 366.1 MB)
+2019-06-23 02:06:22 INFO  BlockGenerator:54 - Pushed block input-0-1561223182400
+2019-06-23 02:06:22 INFO  BlockManager:54 - Removing RDD 141
+2019-06-23 02:06:22 INFO  BlockManager:54 - Removing RDD 140
+2019-06-23 02:06:22 INFO  MemoryStore:54 - Block input-0-1561223182600 stored as values in memory (estimated size 6.9 KB, free 366.1 MB)
+2019-06-23 02:06:22 INFO  BlockGenerator:54 - Pushed block input-0-1561223182600
+2019-06-23 02:06:23 INFO  MemoryStore:54 - Block input-0-1561223182800 stored as values in memory (estimated size 8.8 KB, free 366.1 MB)
+2019-06-23 02:06:23 INFO  BlockGenerator:54 - Pushed block input-0-1561223182800
+2019-06-23 02:06:23 INFO  MemoryStore:54 - Block input-0-1561223183000 stored as values in memory (estimated size 6.3 KB, free 366.1 MB)
+2019-06-23 02:06:23 INFO  BlockGenerator:54 - Pushed block input-0-1561223183000
+2019-06-23 02:06:23 INFO  MemoryStore:54 - Block input-0-1561223183200 stored as values in memory (estimated size 5.1 KB, free 366.1 MB)
+2019-06-23 02:06:23 INFO  BlockGenerator:54 - Pushed block input-0-1561223183200
+2019-06-23 02:06:23 INFO  MemoryStore:54 - Block input-0-1561223183400 stored as values in memory (estimated size 4.3 KB, free 366.1 MB)
+2019-06-23 02:06:23 INFO  BlockGenerator:54 - Pushed block input-0-1561223183400
+2019-06-23 02:06:23 INFO  BlockManager:54 - Removing RDD 143
+2019-06-23 02:06:23 INFO  BlockManager:54 - Removing RDD 142
+2019-06-23 02:06:23 INFO  MemoryStore:54 - Block input-0-1561223183600 stored as values in memory (estimated size 6.0 KB, free 366.1 MB)
+2019-06-23 02:06:23 INFO  BlockGenerator:54 - Pushed block input-0-1561223183600
+2019-06-23 02:06:24 INFO  MemoryStore:54 - Block input-0-1561223183800 stored as values in memory (estimated size 1766.0 B, free 366.1 MB)
+2019-06-23 02:06:24 INFO  BlockGenerator:54 - Pushed block input-0-1561223183800
+2019-06-23 02:06:24 INFO  BlockManager:54 - Removing RDD 145
+2019-06-23 02:06:24 INFO  BlockManager:54 - Removing RDD 144
+2019-06-23 02:06:25 INFO  BlockManager:54 - Removing RDD 147
+2019-06-23 02:06:25 INFO  BlockManager:54 - Removing RDD 146
+2019-06-23 02:06:26 INFO  BlockManager:54 - Removing RDD 149
+2019-06-23 02:06:26 INFO  BlockManager:54 - Removing RDD 148
+2019-06-23 02:06:27 INFO  BlockManager:54 - Removing RDD 151
+2019-06-23 02:06:27 INFO  BlockManager:54 - Removing RDD 150
+2019-06-23 02:06:28 INFO  BlockManager:54 - Removing RDD 153
+2019-06-23 02:06:28 INFO  BlockManager:54 - Removing RDD 152
+2019-06-23 02:06:29 INFO  BlockManager:54 - Removing RDD 154
+2019-06-23 02:06:29 INFO  BlockManager:54 - Removing RDD 155
+2019-06-23 02:06:30 INFO  BlockManager:54 - Removing RDD 157
+2019-06-23 02:06:30 INFO  BlockManager:54 - Removing RDD 156
+2019-06-23 02:06:31 INFO  BlockManager:54 - Removing RDD 159
+2019-06-23 02:06:31 INFO  BlockManager:54 - Removing RDD 158
+2019-06-23 02:06:32 INFO  BlockManager:54 - Removing RDD 161
+2019-06-23 02:06:32 INFO  BlockManager:54 - Removing RDD 160
+2019-06-23 02:06:33 INFO  BlockManager:54 - Removing RDD 163
+2019-06-23 02:06:33 INFO  BlockManager:54 - Removing RDD 162
+2019-06-23 02:06:34 INFO  BlockManager:54 - Removing RDD 165
+2019-06-23 02:06:34 INFO  BlockManager:54 - Removing RDD 164
+2019-06-23 02:06:35 INFO  BlockManager:54 - Removing RDD 167
+2019-06-23 02:06:35 INFO  BlockManager:54 - Removing RDD 166
+2019-06-23 02:06:36 INFO  BlockManager:54 - Removing RDD 169
+2019-06-23 02:06:36 INFO  BlockManager:54 - Removing RDD 168
+2019-06-23 02:06:37 INFO  BlockManager:54 - Removing RDD 171
+2019-06-23 02:06:37 INFO  BlockManager:54 - Removing RDD 170
+2019-06-23 02:06:38 INFO  BlockManager:54 - Removing RDD 173
+2019-06-23 02:06:38 INFO  BlockManager:54 - Removing RDD 172
+2019-06-23 02:06:39 INFO  BlockManager:54 - Removing RDD 175
+2019-06-23 02:06:39 INFO  BlockManager:54 - Removing RDD 174
+2019-06-23 02:06:40 INFO  BlockManager:54 - Removing RDD 177
+2019-06-23 02:06:40 INFO  BlockManager:54 - Removing RDD 176
+2019-06-23 02:06:41 INFO  BlockManager:54 - Removing RDD 179
+2019-06-23 02:06:41 INFO  BlockManager:54 - Removing RDD 178
+2019-06-23 02:06:42 INFO  BlockManager:54 - Removing RDD 181
+2019-06-23 02:06:42 INFO  BlockManager:54 - Removing RDD 180
+2019-06-23 02:06:43 INFO  BlockManager:54 - Removing RDD 183
+2019-06-23 02:06:43 INFO  BlockManager:54 - Removing RDD 182
+2019-06-23 02:06:44 INFO  BlockManager:54 - Removing RDD 185
+2019-06-23 02:06:44 INFO  BlockManager:54 - Removing RDD 184
+2019-06-23 02:06:45 INFO  BlockManager:54 - Removing RDD 187
+2019-06-23 02:06:45 INFO  BlockManager:54 - Removing RDD 186
+2019-06-23 02:06:46 INFO  BlockManager:54 - Removing RDD 189
+2019-06-23 02:06:46 INFO  BlockManager:54 - Removing RDD 188
+2019-06-23 02:06:47 INFO  BlockManager:54 - Removing RDD 191
+2019-06-23 02:06:47 INFO  BlockManager:54 - Removing RDD 190
+2019-06-23 02:06:48 INFO  BlockManager:54 - Removing RDD 193
+2019-06-23 02:06:48 INFO  BlockManager:54 - Removing RDD 192
+2019-06-23 02:06:49 INFO  BlockManager:54 - Removing RDD 195
+2019-06-23 02:06:49 INFO  BlockManager:54 - Removing RDD 194
+2019-06-23 02:06:50 INFO  BlockManager:54 - Removing RDD 197
+2019-06-23 02:06:50 INFO  BlockManager:54 - Removing RDD 196
+2019-06-23 02:06:51 INFO  BlockManager:54 - Removing RDD 199
+2019-06-23 02:06:51 INFO  BlockManager:54 - Removing RDD 198
+2019-06-23 02:06:52 INFO  BlockManager:54 - Removing RDD 201
+2019-06-23 02:06:52 INFO  BlockManager:54 - Removing RDD 200
+2019-06-23 02:06:53 INFO  BlockManager:54 - Removing RDD 203
+2019-06-23 02:06:53 INFO  BlockManager:54 - Removing RDD 202
+2019-06-23 02:06:54 INFO  BlockManager:54 - Removing RDD 205
+2019-06-23 02:06:54 INFO  BlockManager:54 - Removing RDD 204
+2019-06-23 02:06:55 INFO  BlockManager:54 - Removing RDD 207
+2019-06-23 02:06:55 INFO  BlockManager:54 - Removing RDD 206
+2019-06-23 02:06:56 INFO  BlockManager:54 - Removing RDD 209
+2019-06-23 02:06:56 INFO  BlockManager:54 - Removing RDD 208
+2019-06-23 02:06:57 INFO  BlockManager:54 - Removing RDD 211
+2019-06-23 02:06:57 INFO  BlockManager:54 - Removing RDD 210
+2019-06-23 02:06:58 INFO  BlockManager:54 - Removing RDD 213
+2019-06-23 02:06:58 INFO  BlockManager:54 - Removing RDD 212
+2019-06-23 02:06:59 INFO  BlockManager:54 - Removing RDD 215
+2019-06-23 02:06:59 INFO  BlockManager:54 - Removing RDD 214
+2019-06-23 02:07:00 INFO  BlockManager:54 - Removing RDD 217
+2019-06-23 02:07:00 INFO  BlockManager:54 - Removing RDD 216
+2019-06-23 02:07:01 INFO  BlockManager:54 - Removing RDD 219
+2019-06-23 02:07:01 INFO  BlockManager:54 - Removing RDD 218
+2019-06-23 02:07:02 INFO  BlockManager:54 - Removing RDD 221
+2019-06-23 02:07:02 INFO  BlockManager:54 - Removing RDD 220
+2019-06-23 02:07:03 INFO  BlockManager:54 - Removing RDD 223
+2019-06-23 02:07:03 INFO  BlockManager:54 - Removing RDD 222
+2019-06-23 02:07:04 INFO  BlockManager:54 - Removing RDD 225
+2019-06-23 02:07:04 INFO  BlockManager:54 - Removing RDD 224
+2019-06-23 02:07:05 INFO  BlockManager:54 - Removing RDD 227
+2019-06-23 02:07:05 INFO  BlockManager:54 - Removing RDD 226
+2019-06-23 02:07:06 INFO  BlockManager:54 - Removing RDD 229
+2019-06-23 02:07:06 INFO  BlockManager:54 - Removing RDD 228
+2019-06-23 02:07:07 INFO  BlockManager:54 - Removing RDD 231
+2019-06-23 02:07:07 INFO  BlockManager:54 - Removing RDD 230
+2019-06-23 02:07:08 INFO  BlockManager:54 - Removing RDD 233
+2019-06-23 02:07:08 INFO  BlockManager:54 - Removing RDD 232
+2019-06-23 02:07:09 INFO  BlockManager:54 - Removing RDD 234
+2019-06-23 02:07:09 INFO  BlockManager:54 - Removing RDD 235
+2019-06-23 02:07:10 INFO  BlockManager:54 - Removing RDD 237
+2019-06-23 02:07:10 INFO  BlockManager:54 - Removing RDD 236
+2019-06-23 02:07:11 INFO  BlockManager:54 - Removing RDD 239
+2019-06-23 02:07:11 INFO  BlockManager:54 - Removing RDD 238
+2019-06-23 02:07:12 INFO  BlockManager:54 - Removing RDD 240
+2019-06-23 02:07:12 INFO  BlockManager:54 - Removing RDD 241
+2019-06-23 02:07:13 INFO  BlockManager:54 - Removing RDD 243
+2019-06-23 02:07:13 INFO  BlockManager:54 - Removing RDD 242
+2019-06-23 02:07:14 INFO  BlockManager:54 - Removing RDD 245
+2019-06-23 02:07:14 INFO  BlockManager:54 - Removing RDD 244
+2019-06-23 02:07:15 INFO  BlockManager:54 - Removing RDD 247
+2019-06-23 02:07:15 INFO  BlockManager:54 - Removing RDD 246
+2019-06-23 02:07:16 INFO  BlockManager:54 - Removing RDD 249
+2019-06-23 02:07:16 INFO  BlockManager:54 - Removing RDD 248
+2019-06-23 02:07:17 INFO  BlockManager:54 - Removing RDD 251
+2019-06-23 02:07:17 INFO  BlockManager:54 - Removing RDD 250
+2019-06-23 02:07:18 INFO  BlockManager:54 - Removing RDD 253
+2019-06-23 02:07:18 INFO  BlockManager:54 - Removing RDD 252
+2019-06-23 02:07:19 INFO  BlockManager:54 - Removing RDD 254
+2019-06-23 02:07:19 INFO  BlockManager:54 - Removing RDD 255
+2019-06-23 02:07:20 INFO  BlockManager:54 - Removing RDD 257
+2019-06-23 02:07:20 INFO  BlockManager:54 - Removing RDD 256
+2019-06-23 02:07:21 INFO  BlockManager:54 - Removing RDD 259
+2019-06-23 02:07:21 INFO  BlockManager:54 - Removing RDD 258
+2019-06-23 02:07:22 INFO  BlockManager:54 - Removing RDD 261
+2019-06-23 02:07:22 INFO  BlockManager:54 - Removing RDD 260
+2019-06-23 02:07:23 INFO  BlockManager:54 - Removing RDD 263
+2019-06-23 02:07:23 INFO  BlockManager:54 - Removing RDD 262
+2019-06-23 02:07:24 INFO  BlockManager:54 - Removing RDD 265
+2019-06-23 02:07:24 INFO  BlockManager:54 - Removing RDD 264
+2019-06-23 02:07:25 INFO  BlockManager:54 - Removing RDD 267
+2019-06-23 02:07:25 INFO  BlockManager:54 - Removing RDD 266
+2019-06-23 02:07:26 INFO  BlockManager:54 - Removing RDD 269
+2019-06-23 02:07:26 INFO  BlockManager:54 - Removing RDD 268
+2019-06-23 02:07:27 INFO  BlockManager:54 - Removing RDD 271
+2019-06-23 02:07:27 INFO  BlockManager:54 - Removing RDD 270
+2019-06-23 02:07:28 INFO  BlockManager:54 - Removing RDD 273
+2019-06-23 02:07:28 INFO  BlockManager:54 - Removing RDD 272
+2019-06-23 02:07:29 INFO  BlockManager:54 - Removing RDD 275
+2019-06-23 02:07:29 INFO  BlockManager:54 - Removing RDD 274
+2019-06-23 02:07:30 INFO  BlockManager:54 - Removing RDD 277
+2019-06-23 02:07:30 INFO  BlockManager:54 - Removing RDD 276
+2019-06-23 02:07:31 INFO  BlockManager:54 - Removing RDD 279
+2019-06-23 02:07:31 INFO  BlockManager:54 - Removing RDD 278
+2019-06-23 02:07:32 INFO  BlockManager:54 - Removing RDD 281
+2019-06-23 02:07:32 INFO  BlockManager:54 - Removing RDD 280
+2019-06-23 02:07:33 INFO  BlockManager:54 - Removing RDD 282
+2019-06-23 02:07:33 INFO  BlockManager:54 - Removing RDD 283
+2019-06-23 02:07:34 INFO  BlockManager:54 - Removing RDD 285
+2019-06-23 02:07:34 INFO  BlockManager:54 - Removing RDD 284
+2019-06-23 02:07:35 INFO  BlockManager:54 - Removing RDD 286
+2019-06-23 02:07:35 INFO  BlockManager:54 - Removing RDD 287
+2019-06-23 02:07:36 INFO  BlockManager:54 - Removing RDD 289
+2019-06-23 02:07:36 INFO  BlockManager:54 - Removing RDD 288
+2019-06-23 02:07:37 INFO  BlockManager:54 - Removing RDD 291
+2019-06-23 02:07:37 INFO  BlockManager:54 - Removing RDD 290
+2019-06-23 02:07:37 ERROR CoarseGrainedExecutorBackend:43 - R

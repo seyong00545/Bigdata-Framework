@@ -1,0 +1,66 @@
+Spark Command: /usr/lib/jvm/java-8-oracle//bin/java -cp /home/ice/spark/conf/:/home/ice/spark/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host ice-PMBSB09A-Samsung-DeskTop --port 7077 --webui-port 8080
+========================================
+2019-06-23 19:03:15 INFO  Master:2566 - Started daemon with process name: 27779@ice-PMBSB09A-Samsung-DeskTop
+2019-06-23 19:03:15 INFO  SignalUtils:54 - Registered signal handler for TERM
+2019-06-23 19:03:15 INFO  SignalUtils:54 - Registered signal handler for HUP
+2019-06-23 19:03:15 INFO  SignalUtils:54 - Registered signal handler for INT
+2019-06-23 19:03:15 WARN  Utils:66 - Your hostname, ice-PMBSB09A-Samsung-DeskTop resolves to a loopback address: 127.0.1.1; using 192.168.0.76 instead (on interface enp4s0)
+2019-06-23 19:03:15 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2019-06-23 19:03:16 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-06-23 19:03:16 INFO  SecurityManager:54 - Changing view acls to: ice
+2019-06-23 19:03:16 INFO  SecurityManager:54 - Changing modify acls to: ice
+2019-06-23 19:03:16 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-06-23 19:03:16 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-06-23 19:03:16 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ice); groups with view permissions: Set(); users  with modify permissions: Set(ice); groups with modify permissions: Set()
+2019-06-23 19:03:16 INFO  Utils:54 - Successfully started service 'sparkMaster' on port 7077.
+2019-06-23 19:03:16 INFO  Master:54 - Starting Spark master at spark://ice-PMBSB09A-Samsung-DeskTop:7077
+2019-06-23 19:03:16 INFO  Master:54 - Running Spark version 2.4.0
+2019-06-23 19:03:16 INFO  log:192 - Logging initialized @928ms
+2019-06-23 19:03:16 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-06-23 19:03:16 INFO  Server:419 - Started @964ms
+2019-06-23 19:03:16 INFO  AbstractConnector:278 - Started ServerConnector@215bd337{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-06-23 19:03:16 INFO  Utils:54 - Successfully started service 'MasterUI' on port 8080.
+2019-06-23 19:03:16 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@77c164d3{/app,null,AVAILABLE,@Spark}
+2019-06-23 19:03:16 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65069f65{/app/json,null,AVAILABLE,@Spark}
+2019-06-23 19:03:16 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2e3f6d20{/,null,AVAILABLE,@Spark}
+2019-06-23 19:03:16 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@56fbc4d7{/json,null,AVAILABLE,@Spark}
+2019-06-23 19:03:16 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@75794da{/static,null,AVAILABLE,@Spark}
+2019-06-23 19:03:16 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@73b9db9d{/app/kill,null,AVAILABLE,@Spark}
+2019-06-23 19:03:16 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7c4e4cc4{/driver/kill,null,AVAILABLE,@Spark}
+2019-06-23 19:03:16 INFO  MasterWebUI:54 - Bound MasterWebUI to 0.0.0.0, and started at http://192.168.0.76:8080
+2019-06-23 19:03:16 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@25d8594e{/metrics/master/json,null,AVAILABLE,@Spark}
+2019-06-23 19:03:16 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@11952d0c{/metrics/applications/json,null,AVAILABLE,@Spark}
+2019-06-23 19:03:16 INFO  Master:54 - I have been elected leader! New state: ALIVE
+2019-06-23 19:04:35 INFO  Master:54 - Registering worker 192.168.0.76:44821 with 1 cores, 1024.0 MB RAM
+2019-06-23 19:04:37 INFO  Master:54 - Registering worker 192.168.0.76:44525 with 1 cores, 1024.0 MB RAM
+2019-06-23 19:05:16 INFO  Master:54 - Registering app Data Fusion edge side
+2019-06-23 19:05:16 INFO  Master:54 - Registered app Data Fusion edge side with ID app-20190623190516-0000
+2019-06-23 19:05:16 INFO  Master:54 - Launching executor app-20190623190516-0000/0 on worker worker-20190623190434-192.168.0.76-44821
+2019-06-23 19:05:16 INFO  Master:54 - Launching executor app-20190623190516-0000/1 on worker worker-20190623190437-192.168.0.76-44525
+2019-06-23 19:14:23 INFO  Master:54 - Received unregister request from application app-20190623190516-0000
+2019-06-23 19:14:23 INFO  Master:54 - Removing app app-20190623190516-0000
+2019-06-23 19:14:23 INFO  Master:54 - 127.0.0.1:44148 got disassociated, removing it.
+2019-06-23 19:14:23 INFO  Master:54 - 192.168.0.76:42401 got disassociated, removing it.
+2019-06-23 19:14:23 WARN  Master:66 - Got status update for unknown executor app-20190623190516-0000/0
+2019-06-23 19:14:23 WARN  Master:66 - Got status update for unknown executor app-20190623190516-0000/1
+2019-06-23 19:14:28 INFO  Master:54 - Registering app Data Fusion edge side
+2019-06-23 19:14:28 INFO  Master:54 - Registered app Data Fusion edge side with ID app-20190623191428-0001
+2019-06-23 19:14:28 INFO  Master:54 - Launching executor app-20190623191428-0001/0 on worker worker-20190623190434-192.168.0.76-44821
+2019-06-23 19:14:28 INFO  Master:54 - Launching executor app-20190623191428-0001/1 on worker worker-20190623190437-192.168.0.76-44525
+2019-06-23 19:24:11 INFO  Master:54 - Received unregister request from application app-20190623191428-0001
+2019-06-23 19:24:11 INFO  Master:54 - Removing app app-20190623191428-0001
+2019-06-23 19:24:11 INFO  Master:54 - 127.0.0.1:45298 got disassociated, removing it.
+2019-06-23 19:24:11 INFO  Master:54 - 192.168.0.76:34365 got disassociated, removing it.
+2019-06-23 19:24:12 WARN  Master:66 - Got status update for unknown executor app-20190623191428-0001/1
+2019-06-23 19:24:12 WARN  Master:66 - Got status update for unknown executor app-20190623191428-0001/0
+2019-06-23 19:24:18 INFO  Master:54 - Registering app Data Fusion edge side
+2019-06-23 19:24:18 INFO  Master:54 - Registered app Data Fusion edge side with ID app-20190623192418-0002
+2019-06-23 19:24:18 INFO  Master:54 - Launching executor app-20190623192418-0002/0 on worker worker-20190623190434-192.168.0.76-44821
+2019-06-23 19:24:18 INFO  Master:54 - Launching executor app-20190623192418-0002/1 on worker worker-20190623190437-192.168.0.76-44525
+2019-06-23 19:33:28 INFO  Master:54 - Received unregister request from application app-20190623192418-0002
+2019-06-23 19:33:28 INFO  Master:54 - Removing app app-20190623192418-0002
+2019-06-23 19:33:28 INFO  Master:54 - 127.0.0.1:46512 got disassociated, removing it.
+2019-06-23 19:33:28 INFO  Master:54 - 192.168.0.76:39569 got disassociated, removing it.
+2019-06-23 19:33:28 WARN  Master:66 - Got status update for unknown executor app-20190623192418-0002/0
+2019-06-23 19:33:28 WARN  Master:66 - Got status update for unknown executor app-20190623192418-0002/1
+2019-06-23 19:33:38 ERROR Master:43 - RECEIVED SIGNAL TERM
