@@ -78,7 +78,7 @@ class ConnectionWithCloud():
 			self.setReceiver()
 		
 if __name__ == '__main__': 
-	host = '220.67.124.122'
+	host = 'your host'
 	port = 20000
 	answer = ""
 
