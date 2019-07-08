@@ -2,11 +2,11 @@
 
 
 
-# Edge Computing 환경에서의 빅데이터 처리 프레임워크 설계 및 구현
+## Edge Computing 환경에서의 빅데이터 처리 프레임워크 설계 및 구현
 Developing a big data processing framework in edge computing environment
    * 본 문서는 Edge computing 환경에서 Apache spark, kafka, cassandra를 사용하여 빅데이터 처리 프레임워크를 설계하고 스마트 무인 마켓에 적용하여 프레임워크의 성능에 대해 연구한 논문이다.
 
-#### 소개
+### 소개
 
 현재 IoT 산업의 발전, 인공지능의 발전 등으로 인해 다양한 분야에서 점점 더 많은 양의 데이터 처리가 요구되고 있다. 이에 따라 모든 데이터를 클라우드 서버에서 처리하는 기존의 클라우드 시스템 구조는 네트워크 병목현상, 처리 지연, 네트워크 장애로 인한 기능 중단 등의 한계점에 부딪히고 있다. 
 
