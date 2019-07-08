@@ -1,9 +1,9 @@
-# Bigdata-Framework
+
+
+
+
+# Edge Computing 환경에서의 빅데이터 처리 프레임워크 설계 및 구현
 Developing a big data processing framework in edge computing environment
-
-
-# **Edge Computing 환경에서의 빅데이터 처리 프레임워크 설계 및 구현**
-
    * 본 문서는 Edge computing 환경에서 Apache spark, kafka, cassandra를 사용하여 빅데이터 처리 프레임워크를 설계하고 스마트 무인 마켓에 적용하여 프레임워크의 성능에 대해 연구한 논문이다.
 
 #### 소개
